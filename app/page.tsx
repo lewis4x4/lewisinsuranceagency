@@ -69,18 +69,12 @@ export default function HomePage() {
             <div className="hidden lg:block relative">
               <div className="relative">
                 {/* Main Image Card */}
-                <div className="rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-100 to-gray-200 aspect-[4/3] flex items-center justify-center">
-                  {/* Placeholder for hero image */}
-                  <div className="text-center p-8">
-                    <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-lewis-blue/10 flex items-center justify-center">
-                      <Shield className="h-12 w-12 text-lewis-blue" />
-                    </div>
-                    <p className="text-lewis-body text-sm">
-                      Hero image placeholder
-                      <br />
-                      <span className="text-xs">(Florida family/home imagery)</span>
-                    </p>
-                  </div>
+                <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
+                  <img
+                    src="/images/lewis-office-hero.jpg"
+                    alt="Lewis Insurance Agency Office in Lake City, Florida"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* Floating Trust Chip */}
