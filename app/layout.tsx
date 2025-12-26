@@ -5,6 +5,7 @@ import { Header, Footer, MobileCTA } from "@/components/layout"
 import { LiveChatWidget } from "@/components/sections"
 import { Toaster } from "@/components/ui/sonner"
 import { siteConfig } from "@/config/site"
+import { organizationSchema } from "@/lib/schema"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -62,37 +63,6 @@ export const metadata: Metadata = {
   },
 }
 
-// JSON-LD Structured Data
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "InsuranceAgency",
-  name: siteConfig.name,
-  description: siteConfig.seo.defaultDescription,
-  url: `https://${siteConfig.domain}`,
-  telephone: siteConfig.contact.phone.main,
-  email: siteConfig.contact.email.info,
-  areaServed: siteConfig.serviceAreas.map(city => ({
-    "@type": "City",
-    name: city,
-    containedInPlace: {
-      "@type": "State",
-      name: "Florida",
-    },
-  })),
-  sameAs: [
-    siteConfig.social.facebook,
-    siteConfig.social.linkedin,
-    siteConfig.social.google,
-  ],
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "17:00",
-    },
-  ],
-}
 
 export default function RootLayout({
   children,

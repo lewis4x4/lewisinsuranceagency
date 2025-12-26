@@ -394,6 +394,423 @@ When you first purchase insurance, after any roof work, when switching insurers,
         tags: ["wind mitigation", "discounts", "homeowners insurance", "florida"],
         featured: false,
     },
+    {
+        slug: "understanding-flood-insurance-florida",
+        title: "Understanding Flood Insurance in Florida: Complete Guide",
+        description: "Everything Florida homeowners need to know about flood insurance. NFIP vs private flood, coverage limits, costs, and why you need it even outside flood zones.",
+        excerpt: "Florida experiences more flooding than any other state. Learn why your homeowners insurance doesn't cover floods and how to protect your property.",
+        content: `
+## Why Florida Homeowners Need Flood Insurance
+
+Here's the most important thing to understand: **Standard homeowners insurance policies exclude flood damage entirely.** No exceptions.
+
+When your home floods from storm surge, rising rivers, heavy rainfall, or overflowing drainage systems—your homeowners policy pays nothing. Every dollar of damage comes out of your pocket unless you have flood insurance.
+
+### Florida's Flood Statistics
+
+The numbers make the case clear:
+
+- Florida accounts for over 35% of all National Flood Insurance Program (NFIP) policies
+- The state has experienced $17+ billion in flood insurance claims since 1978
+- Average flood claim payouts exceed $50,000
+- Just one inch of floodwater causes approximately $25,000 in damage
+- **25% of flood claims come from properties outside high-risk flood zones**
+
+### Flooding Happens Outside Flood Zones
+
+Many Florida homeowners assume they're safe because they're not in a designated flood zone. This is a dangerous misconception. If it can rain, it can flood.
+
+---
+
+## NFIP vs. Private Flood Insurance
+
+### National Flood Insurance Program (NFIP)
+
+The federal government created the NFIP because private insurers wouldn't cover flood risk.
+
+**NFIP Coverage Limits**:
+- Building coverage: Up to $250,000 (residential)
+- Contents coverage: Up to $100,000 (residential)
+- 30-day waiting period before coverage takes effect
+
+### Private Flood Insurance
+
+Private flood insurers offer alternatives that may provide:
+- Higher coverage limits (above NFIP caps)
+- Replacement cost coverage for contents
+- Shorter waiting periods (10-14 days)
+- Additional living expenses coverage
+- Lower premiums for some properties
+
+---
+
+## What Flood Insurance Covers
+
+### Building Coverage
+- Foundation and walls
+- Electrical and plumbing systems
+- HVAC equipment
+- Built-in appliances
+- Permanently installed carpeting
+
+### Contents Coverage
+- Furniture and electronics
+- Clothing and appliances
+- Washer and dryer
+- Artwork and jewelry (limited)
+
+**Important**: Contents coverage must be purchased separately from building coverage.
+
+### What's NOT Covered
+- Vehicles (covered by auto insurance)
+- Landscaping, pools, fences, patios
+- Temporary housing (NFIP)
+- Currency and precious metals
+- Basement improvements (NFIP)
+
+---
+
+## Florida Flood Zones Explained
+
+### High-Risk Zones (Special Flood Hazard Areas)
+
+**Zone AE**: Most common high-risk zone in Florida. 1% annual flood risk with base flood elevations determined.
+
+**Zone VE**: Coastal areas with additional storm wave hazards. Highest-risk designation.
+
+**Mandatory Purchase Requirement**: If you have a federally-backed mortgage in zones A or V, flood insurance is required.
+
+### Moderate-to-Low Risk Zones
+
+**Zone X**: Less than 1% annual flood risk. No requirement, but still at risk—remember, 25% of claims come from these zones.
+
+---
+
+## How Much Does Flood Insurance Cost?
+
+**Average NFIP Premiums in Florida**:
+- Low-risk zones: $400-$800/year
+- Moderate-risk zones: $700-$1,500/year
+- High-risk zones: $1,500-$4,000+/year
+
+Factors affecting your premium include flood zone, elevation, building type, coverage amount, and deductible choice.
+
+### The 30-Day Waiting Period
+
+NFIP policies have a 30-day waiting period before coverage takes effect. **Don't wait until hurricane season**—buying in June won't protect you from a July storm.
+
+---
+
+## Frequently Asked Questions
+
+### Is flood insurance required in Florida?
+
+Required if you have a federally-backed mortgage in a high-risk zone. Even without a requirement, every Florida homeowner should consider flood coverage.
+
+### Does flood insurance cover hurricane damage?
+
+Flood insurance covers water damage from flooding, including storm surge. Wind damage is covered by homeowners insurance. You need both for complete protection.
+
+### Can I get flood insurance if I've flooded before?
+
+Yes, though properties with repetitive losses may face higher premiums. The NFIP cannot deny coverage based on flood history.
+
+---
+
+*Need help understanding your flood insurance options? Lewis Insurance quotes both NFIP and private flood carriers to find the right coverage for your property.*
+        `,
+        author: {
+            name: "Lewis Insurance Team",
+            title: "Licensed Florida Insurance Agents",
+        },
+        publishedAt: "2024-12-20",
+        updatedAt: "2024-12-20",
+        category: "guides",
+        tags: ["flood insurance", "NFIP", "florida", "hurricane"],
+        featured: true,
+    },
+    {
+        slug: "florida-auto-insurance-requirements",
+        title: "Florida Auto Insurance Requirements: What You Need to Know",
+        description: "Understand Florida's unique no-fault auto insurance system, minimum requirements, and recommended coverage levels to protect yourself on the road.",
+        excerpt: "Florida's no-fault insurance system differs from most states. Learn what coverage you're required to carry and what you should add for real protection.",
+        content: `
+## Florida Auto Insurance: The Basics
+
+Florida operates under a "no-fault" auto insurance system. After an accident, your own insurance pays for your injuries regardless of who caused the crash—up to your policy limits.
+
+This creates specific insurance requirements that differ from most other states.
+
+---
+
+## Florida's Minimum Requirements
+
+### Personal Injury Protection (PIP) — $10,000 Required
+
+PIP, or "no-fault" coverage, pays for your medical expenses and lost wages regardless of fault.
+
+**What PIP Covers**:
+- 80% of medical expenses up to $10,000
+- 60% of lost wages
+- Death benefits up to $5,000
+
+**Important Rules**:
+- You must seek medical treatment within 14 days of the accident
+- Non-emergency conditions may be limited to $2,500 coverage
+- Emergency Medical Conditions receive the full $10,000
+
+### Property Damage Liability (PDL) — $10,000 Required
+
+Covers damage you cause to other people's property—their vehicles, fences, buildings.
+
+**$10,000 Is Often Not Enough**: The average new car costs over $48,000. If you cause an accident, $10,000 won't cover most vehicle repairs. You're personally responsible for the remainder.
+
+---
+
+## What Florida Does NOT Require (But You Should Have)
+
+### Bodily Injury Liability (BI)
+
+Florida doesn't require BI coverage until after certain violations. But if you injure someone seriously without BI coverage, you're personally liable for their medical bills, lost wages, and pain and suffering.
+
+**Recommended minimum**: $100,000 per person / $300,000 per accident
+
+### Collision Coverage
+
+If you cause an accident, nothing in Florida's required coverages pays to repair your car. Collision coverage fills this gap.
+
+### Comprehensive Coverage
+
+Covers non-collision events: theft, vandalism, fire, flood, hurricane wind, hail, and animal strikes. Essential for Florida's hurricane exposure.
+
+### Uninsured/Underinsured Motorist (UM/UIM)
+
+Florida has one of the highest uninsured motorist rates—approximately 20% of drivers. UM coverage protects you when hit by uninsured or underinsured drivers.
+
+---
+
+## Recommended Coverage Levels
+
+| Coverage | FL Minimum | Recommended |
+|----------|-----------|-------------|
+| PIP | $10,000 | $10,000 (max) |
+| PDL | $10,000 | $50,000-100,000 |
+| Bodily Injury | Not required | $100,000/$300,000 |
+| UM/UIM | Not required | Match BI limits |
+| Collision | Not required | Based on vehicle value |
+| Comprehensive | Not required | Based on vehicle value |
+
+---
+
+## Florida Auto Insurance Discounts
+
+### Driver-Based Discounts
+- Good driver (clean record)
+- Defensive driving course
+- Good student (B average)
+- Low mileage
+
+### Policy-Based Discounts
+- Multi-policy bundling (home + auto)
+- Multi-vehicle
+- Pay-in-full
+- Paperless/autopay
+
+### Usage-Based Programs
+
+Many insurers offer telematics programs monitoring your driving. Safe drivers can save 10-30%.
+
+---
+
+## SR-22 Insurance in Florida
+
+An SR-22 is a certificate proving you carry required insurance. Florida requires it for:
+- Driving without insurance violations
+- DUI/DWI convictions
+- Excessive points on license
+
+You must maintain continuous coverage for typically 3 years. If coverage lapses, your license is suspended.
+
+---
+
+## Frequently Asked Questions
+
+### What happens if I drive without insurance?
+
+First offense: License and registration suspended for up to 3 years. Reinstatement requires proof of insurance and fees ($150-500).
+
+### Does Florida require bodily injury liability?
+
+Not initially, but it's required after certain violations. Smart drivers carry it from the start.
+
+### How does PIP work if someone else hits me?
+
+You still file with your own PIP for medical expenses—that's the no-fault system.
+
+### What is stacked vs. non-stacked UM coverage?
+
+Stacked UM multiplies your coverage by vehicles on your policy. More protection but higher cost.
+
+---
+
+*Florida's minimal requirements leave dangerous gaps. Work with Lewis Insurance to compare quotes and build a policy that truly protects you.*
+        `,
+        author: {
+            name: "Lewis Insurance Team",
+            title: "Licensed Florida Insurance Agents",
+        },
+        publishedAt: "2024-12-15",
+        updatedAt: "2024-12-15",
+        category: "guides",
+        tags: ["auto insurance", "florida", "PIP", "no-fault"],
+        featured: false,
+    },
+    {
+        slug: "business-insurance-101-florida",
+        title: "Business Insurance 101: Essential Coverage for Florida Business Owners",
+        description: "A complete guide to business insurance for Florida companies. Learn about general liability, workers comp requirements, commercial property, and more.",
+        excerpt: "Every Florida business faces risks that could threaten survival. Learn what coverage you need to protect your company, employees, and livelihood.",
+        content: `
+## Why Business Insurance Matters
+
+Consider these scenarios:
+
+- A customer slips on your wet floor—medical bills and lawsuit could exceed $100,000
+- A fire destroys your inventory—without coverage, you absorb the entire loss
+- An employee is injured on the job—Florida law requires you to cover their costs
+- You make an error that costs a client money—they sue for damages
+
+Any of these events could force an uninsured business to close.
+
+### Business Insurance vs. Personal Insurance
+
+Your personal policies do NOT cover business activities:
+- Homeowners insurance excludes home-based business operations
+- Personal auto excludes business use of vehicles
+- Personal umbrella policies typically exclude business liability
+
+---
+
+## Essential Types of Business Insurance
+
+### General Liability Insurance
+
+The foundation of business insurance. Protects against:
+
+**Bodily Injury**: Someone injured on your premises or by your operations
+**Property Damage**: You damage someone else's property
+**Personal/Advertising Injury**: Libel, slander, copyright infringement
+
+**Who Needs It**: Every business. Required by most leases and contracts.
+
+### Commercial Property Insurance
+
+Protects your business property:
+- Building (if owned)
+- Furniture and fixtures
+- Equipment and inventory
+- Computers and signage
+
+**Florida Note**: Ensure wind/hurricane coverage is included—some policies exclude it.
+
+### Business Owner's Policy (BOP)
+
+Bundles general liability and commercial property into one cost-effective package. Best for small to mid-sized businesses.
+
+### Professional Liability (E&O)
+
+Protects against claims of negligence, errors, or failure to perform professional duties.
+
+**Who Needs It**: Consultants, accountants, attorneys, IT professionals, real estate agents, any service-based business.
+
+### Workers' Compensation Insurance
+
+Covers employees injured on the job.
+
+**Florida Requirements**:
+| Industry | Employee Threshold |
+|----------|-------------------|
+| Construction | 1+ employees |
+| Non-construction | 4+ employees |
+
+**Penalties for Non-Compliance**: Stop-work orders, fines of $1,000+/day, personal liability for all medical costs.
+
+### Commercial Auto Insurance
+
+Covers vehicles used for business. Personal auto doesn't cover business use—if an employee causes an accident while working, your personal policy won't pay.
+
+### Cyber Liability Insurance
+
+Protects against data breaches and cyberattacks. Any business that stores customer data, processes credit cards, or relies on computer systems needs this coverage.
+
+---
+
+## Florida-Specific Considerations
+
+### Hurricane Coverage
+
+Ensure your property coverage includes:
+- Windstorm and hurricane coverage
+- Understand your hurricane deductible (often 2-5%)
+- Business interruption for hurricane-related closure
+
+### Flood Insurance for Businesses
+
+Standard property policies exclude flood. Consider:
+- NFIP commercial flood (up to $500,000 building + $500,000 contents)
+- Private flood for higher limits
+
+### Workers' Compensation
+
+Florida strictly enforces requirements with severe penalties for non-compliance.
+
+---
+
+## How Much Coverage Do You Need?
+
+| Coverage Type | Recommended Minimum |
+|---------------|---------------------|
+| General Liability | $1M per occurrence |
+| Property | Full replacement cost |
+| Professional Liability | $1M per claim |
+| Commercial Auto | $1M combined single limit |
+| Cyber | $1M |
+| Umbrella | $1M-$2M |
+
+---
+
+## Frequently Asked Questions
+
+### Do I need business insurance if I work from home?
+
+Yes. Homeowners insurance excludes business activities. You need at least general liability coverage.
+
+### What's the difference between general and professional liability?
+
+General liability covers physical injuries and property damage. Professional liability covers financial losses from errors in professional services.
+
+### How much does business insurance cost?
+
+Small businesses might pay $500-$3,000 annually for basic coverage. Costs vary by industry, size, and needs.
+
+### Can I get coverage with bad credit?
+
+Yes, though it may affect pricing. Work with an independent agent to find flexible carriers.
+
+---
+
+*Protect your Florida business. Contact Lewis Insurance to compare options and build comprehensive coverage for your company.*
+        `,
+        author: {
+            name: "Lewis Insurance Team",
+            title: "Licensed Florida Insurance Agents",
+        },
+        publishedAt: "2024-12-10",
+        updatedAt: "2024-12-10",
+        category: "guides",
+        tags: ["business insurance", "florida", "workers comp", "liability"],
+        featured: false,
+    },
 ]
 
 export function getAllPosts(): BlogPost[] {

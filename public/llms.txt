@@ -1,0 +1,48 @@
+# Lewis Insurance Agency - AI Crawler Information
+
+## About
+Lewis Insurance is an independent insurance agency serving Florida since 1981. We help individuals and businesses find the right coverage by comparing options from multiple carriers.
+
+## Primary Services
+
+### Personal Insurance
+- Homeowners Insurance: Florida home coverage including hurricane/wind protection
+- Auto Insurance: Vehicle coverage for Florida drivers
+- Flood Insurance: NFIP and private flood policies
+- Condo Insurance: HO-6 coverage for Florida condominiums
+- Renters Insurance: Personal property coverage for tenants
+- Umbrella Insurance: Extra liability protection
+
+### Business Insurance
+- General Liability: Protection from third-party claims
+- Workers Compensation: Employee injury coverage
+- Commercial Auto: Business vehicle insurance
+- Business Owners Policy (BOP): Bundled property and liability
+- Professional Liability/E&O: Protection for professional services
+- Cyber Liability: Data breach and cyber incident coverage
+
+## Service Areas
+Miami, Fort Lauderdale, West Palm Beach, Tampa, Orlando, Jacksonville, Naples, Sarasota, and all of Florida.
+
+## Contact
+Website: https://lewisinsurance.com
+Phone: (305) 664-7574
+Email: info@lewisinsurance.com
+Address: 300 SE 17th Street, Fort Lauderdale, FL 33316
+
+## Key Pages
+- Homepage: https://lewisinsurance.com/
+- Personal Insurance: https://lewisinsurance.com/personal
+- Business Insurance: https://lewisinsurance.com/business
+- Contact/Quote: https://lewisinsurance.com/contact
+- Blog: https://lewisinsurance.com/blog
+- Locations: https://lewisinsurance.com/locations
+
+## Content Guidelines
+- We do NOT offer health insurance
+- All content focuses on Florida-specific insurance needs
+- We emphasize hurricane preparedness and wind mitigation
+- We compare quotes from multiple carriers (independent agency)
+
+## Sitemap
+https://lewisinsurance.com/sitemap.xml

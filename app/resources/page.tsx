@@ -17,34 +17,38 @@ export const metadata: Metadata = {
 
 const resourceCategories = [
     {
-        title: "Insurance Guides",
-        description: "In-depth guides to help you understand your coverage options.",
+        title: "Personal Insurance Guides",
+        description: "In-depth guides for homeowners, drivers, and families.",
         icon: BookOpen,
         items: [
-            { title: "Florida Homeowners Insurance Guide 2025", href: "/blog/florida-homeowners-insurance-guide-2025", comingSoon: false },
-            { title: "Hurricane Season Insurance Checklist", href: "/blog/hurricane-season-insurance-checklist", comingSoon: false },
+            { title: "Florida Homeowners Insurance Guide", href: "/blog/florida-homeowners-insurance-guide-2025", comingSoon: false },
+            { title: "Understanding Flood Insurance in Florida", href: "/blog/understanding-flood-insurance-florida", comingSoon: false },
+            { title: "Florida Auto Insurance Requirements", href: "/blog/florida-auto-insurance-requirements", comingSoon: false },
+            { title: "Hurricane Season Checklist", href: "/blog/hurricane-season-insurance-checklist", comingSoon: false },
             { title: "Wind Mitigation Inspection Guide", href: "/blog/wind-mitigation-inspection-guide", comingSoon: false },
-            { title: "View All Articles", href: "/blog", comingSoon: false },
         ],
     },
     {
-        title: "Helpful Tools",
-        description: "Calculators and tools to help you plan your coverage.",
+        title: "Business Insurance Guides",
+        description: "Essential resources for Florida business owners.",
+        icon: FileText,
+        items: [
+            { title: "Business Insurance 101", href: "/blog/business-insurance-101-florida", comingSoon: false },
+            { title: "General Liability Insurance", href: "/business/general-liability-florida", comingSoon: false },
+            { title: "Workers' Compensation", href: "/business/workers-compensation-florida", comingSoon: false },
+            { title: "Cyber Liability Insurance", href: "/business/cyber-liability-florida", comingSoon: false },
+            { title: "View All Business Coverage", href: "/business", comingSoon: false },
+        ],
+    },
+    {
+        title: "Tools & Forms",
+        description: "Calculators and forms to help you manage your coverage.",
         icon: Calculator,
         items: [
             { title: "Coverage Needs Calculator", href: "#", comingSoon: true },
             { title: "Home Inventory Checklist", href: "#", comingSoon: true },
-            { title: "Hurricane Prep Checklist", href: "#", comingSoon: true },
-        ],
-    },
-    {
-        title: "Forms & Documents",
-        description: "Common forms you may need for your policies.",
-        icon: FileText,
-        items: [
             { title: "Claim Report Form", href: "#", comingSoon: true },
             { title: "Policy Change Request", href: "#", comingSoon: true },
-            { title: "Certificate of Insurance Request", href: "#", comingSoon: true },
         ],
     },
 ]

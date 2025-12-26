@@ -139,7 +139,18 @@ export const navigation = {
             { name: "Contact", href: "/contact" },
             { name: "Carriers", href: "/carriers" },
             { name: "Reviews", href: "/reviews" },
+            { name: "Blog", href: "/blog" },
             { name: "Client Portal", href: "/portal" },
+        ],
+        locations: [
+            { name: "Miami", href: "/locations/miami-fl" },
+            { name: "Fort Lauderdale", href: "/locations/fort-lauderdale-fl" },
+            { name: "West Palm Beach", href: "/locations/west-palm-beach-fl" },
+            { name: "Tampa", href: "/locations/tampa-fl" },
+            { name: "Jacksonville", href: "/locations/jacksonville-fl" },
+            { name: "Orlando", href: "/locations/orlando-fl" },
+            { name: "Naples", href: "/locations/naples-fl" },
+            { name: "Sarasota", href: "/locations/sarasota-fl" },
         ],
         legal: [
             { name: "Privacy Policy", href: "/privacy-policy" },

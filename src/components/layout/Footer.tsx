@@ -12,7 +12,7 @@ export function Footer() {
         <footer className="bg-lewis-ink text-white" role="contentinfo">
             <div className="container-lg section-wrapper">
                 {/* Main Footer Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
                     {/* Company Info */}
                     <div className="lg:col-span-2 space-y-6">
                         <div className="flex items-center gap-2">
@@ -133,6 +133,23 @@ export function Footer() {
                                 Client Portal
                             </Link>
                         </div>
+                    </div>
+
+                    {/* Locations */}
+                    <div className="space-y-4">
+                        <h3 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">Locations</h3>
+                        <ul className="space-y-2.5">
+                            {navigation.footer.locations.map((link) => (
+                                <li key={link.href}>
+                                    <Link
+                                        href={link.href}
+                                        className="text-sm text-gray-300 hover:text-white transition-colors"
+                                    >
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
 
