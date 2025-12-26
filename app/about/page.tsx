@@ -68,10 +68,10 @@ export default function AboutPage() {
                             <h2 className="text-lewis-ink mb-6">Our Story</h2>
                             <div className="space-y-4 text-lewis-body">
                                 <p>
-                                    Lewis Insurance was founded with a simple mission: to provide Florida residents and
-                                    businesses with honest, personalized insurance guidance. As an independent agency,
-                                    we're not tied to any single insurance company—which means we can truly shop the
-                                    market on your behalf.
+                                    Founded in 1981, Lewis Insurance has been serving Florida families and
+                                    businesses for over 44 years with honest, personalized insurance guidance.
+                                    As an independent agency, we're not tied to any single insurance company—which
+                                    means we can truly shop the market on your behalf.
                                 </p>
                                 <p>
                                     We understand that insurance can be confusing and frustrating. That's why we take

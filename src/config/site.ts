@@ -54,7 +54,8 @@ export const siteConfig = {
 
     // Trust indicators
     trust: {
-        yearsInBusiness: "XX", // PLACEHOLDER
+        yearsInBusiness: "44",
+        foundedYear: 1981,
         reviewCount: "XXX", // PLACEHOLDER
         averageRating: "4.9",
         carrierCount: "20+",
