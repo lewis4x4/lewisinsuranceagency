@@ -47,11 +47,11 @@ export function Header() {
                         <NavigationMenu>
                             <NavigationMenuList>
                                 <NavigationMenuItem>
-                                    <Link href="/" legacyBehavior passHref>
-                                        <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
                                             Home
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 {/* Personal Dropdown */}
@@ -101,27 +101,27 @@ export function Header() {
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/resources" legacyBehavior passHref>
-                                        <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/resources" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
                                             Resources
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/about" legacyBehavior passHref>
-                                        <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/about" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
                                             About
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/contact" legacyBehavior passHref>
-                                        <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/contact" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-lewis-ink transition-colors hover:bg-gray-100 hover:text-lewis-blue focus:bg-gray-100 focus:outline-none">
                                             Contact
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
                         </NavigationMenu>
