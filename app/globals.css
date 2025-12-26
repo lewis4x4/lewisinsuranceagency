@@ -1,0 +1,303 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Lewis Insurance Design Tokens */
+@theme inline {
+  /* Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* Core shadcn colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* Lewis Insurance brand colors */
+  --color-lewis-blue: #1C71E2;
+  --color-lewis-blue-dark: #1558b8;
+  --color-lewis-blue-light: #4a90e8;
+  --color-lewis-orange: #FF7A00;
+  --color-lewis-orange-dark: #e06c00;
+  --color-lewis-orange-light: #ff9433;
+  --color-lewis-ink: #111827;
+  --color-lewis-body: #4B5563;
+  --color-lewis-border: #E5E7EB;
+  --color-lewis-card: #FFFFFF;
+  --color-lewis-page: #F6F7FB;
+  --color-lewis-gradient-start: #EAF2FF;
+  --color-lewis-gradient-end: #FFE9E1;
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Lewis Insurance themed shadcn variables */
+  --background: #F6F7FB;
+  --foreground: #111827;
+  --card: #FFFFFF;
+  --card-foreground: #111827;
+  --popover: #FFFFFF;
+  --popover-foreground: #111827;
+  --primary: #1C71E2;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F3F4F6;
+  --secondary-foreground: #111827;
+  --muted: #F3F4F6;
+  --muted-foreground: #6B7280;
+  --accent: #FF7A00;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #1C71E2;
+
+  /* Charts */
+  --chart-1: #1C71E2;
+  --chart-2: #FF7A00;
+  --chart-3: #10B981;
+  --chart-4: #8B5CF6;
+  --chart-5: #F59E0B;
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #111827;
+  --sidebar-primary: #1C71E2;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F3F4F6;
+  --sidebar-accent-foreground: #111827;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: #1C71E2;
+}
+
+.dark {
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  --card: #1E293B;
+  --card-foreground: #F8FAFC;
+  --popover: #1E293B;
+  --popover-foreground: #F8FAFC;
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
+  --secondary: #334155;
+  --secondary-foreground: #F8FAFC;
+  --muted: #334155;
+  --muted-foreground: #94A3B8;
+  --accent: #FF7A00;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --border: #334155;
+  --input: #334155;
+  --ring: #3B82F6;
+
+  --chart-1: #3B82F6;
+  --chart-2: #FF7A00;
+  --chart-3: #34D399;
+  --chart-4: #A78BFA;
+  --chart-5: #FBBF24;
+
+  --sidebar: #1E293B;
+  --sidebar-foreground: #F8FAFC;
+  --sidebar-primary: #3B82F6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #334155;
+  --sidebar-accent-foreground: #F8FAFC;
+  --sidebar-border: #334155;
+  --sidebar-ring: #3B82F6;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold text-lewis-ink;
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  p {
+    @apply text-lewis-body leading-relaxed;
+  }
+
+  /* Focus states */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+
+  /* Skip link */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-lg;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-lewis-blue/20 text-lewis-ink;
+  }
+}
+
+@layer components {
+
+  /* Hero gradient background */
+  .hero-gradient {
+    background: linear-gradient(135deg, var(--color-lewis-gradient-start) 0%, var(--color-lewis-gradient-end) 100%);
+  }
+
+  /* Glass card effect */
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-lg;
+  }
+
+  /* Trust badge style */
+  .trust-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-lewis-ink shadow-md;
+  }
+
+  /* Pill button base styles */
+  .btn-pill {
+    @apply rounded-full px-6 py-3 font-semibold transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply rounded-full px-6 py-3 font-semibold transition-all duration-200 bg-lewis-blue text-white hover:bg-lewis-blue-dark shadow-md hover:shadow-lg;
+  }
+
+  .btn-accent {
+    @apply rounded-full px-6 py-3 font-semibold transition-all duration-200 bg-lewis-orange text-white hover:bg-lewis-orange-dark shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply rounded-full px-6 py-3 font-semibold transition-all duration-200 bg-white text-lewis-ink border border-lewis-border hover:bg-gray-50;
+  }
+
+  /* Coverage selector pill */
+  .coverage-pill {
+    @apply inline-flex items-center gap-1 rounded-full bg-white shadow-lg border border-lewis-border/50 p-1.5;
+  }
+
+  .coverage-pill-item {
+    @apply px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer;
+  }
+
+  .coverage-pill-item-active {
+    @apply bg-lewis-blue text-white shadow-md;
+  }
+
+  .coverage-pill-item-inactive {
+    @apply text-lewis-body hover:bg-gray-100;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  /* Section wrapper */
+  .section-wrapper {
+    @apply py-16 md:py-24;
+  }
+
+  /* Container */
+  .container-lg {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Sticky mobile CTA */
+  .sticky-mobile-cta {
+    @apply fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-lewis-border shadow-2xl md:hidden z-50;
+  }
+}
+
+@layer utilities {
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Text balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Min touch target */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+}
