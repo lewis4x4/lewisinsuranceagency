@@ -3,10 +3,7 @@ import {
     BookOpen,
     Calculator,
     FileText,
-    HelpCircle,
     ArrowRight,
-    Download,
-    ExternalLink,
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -24,10 +21,10 @@ const resourceCategories = [
         description: "In-depth guides to help you understand your coverage options.",
         icon: BookOpen,
         items: [
-            { title: "Florida Homeowners Insurance Guide", href: "#", comingSoon: true },
-            { title: "Understanding Flood Insurance in Florida", href: "#", comingSoon: true },
-            { title: "Auto Insurance Requirements in FL", href: "#", comingSoon: true },
-            { title: "Business Insurance 101", href: "#", comingSoon: true },
+            { title: "Florida Homeowners Insurance Guide 2025", href: "/blog/florida-homeowners-insurance-guide-2025", comingSoon: false },
+            { title: "Hurricane Season Insurance Checklist", href: "/blog/hurricane-season-insurance-checklist", comingSoon: false },
+            { title: "Wind Mitigation Inspection Guide", href: "/blog/wind-mitigation-inspection-guide", comingSoon: false },
+            { title: "View All Articles", href: "/blog", comingSoon: false },
         ],
     },
     {
@@ -138,19 +135,20 @@ export default function ResourcesPage() {
                 </div>
             </section>
 
-            {/* Blog Placeholder */}
+            {/* Blog CTA */}
             <section className="section-wrapper bg-lewis-page">
                 <div className="container-lg">
                     <div className="text-center max-w-2xl mx-auto">
-                        <HelpCircle className="h-12 w-12 text-lewis-blue/50 mx-auto mb-6" />
-                        <h2 className="text-lewis-ink mb-4">Blog Coming Soon</h2>
+                        <BookOpen className="h-12 w-12 text-lewis-blue mx-auto mb-6" />
+                        <h2 className="text-lewis-ink mb-4">Insurance Blog</h2>
                         <p className="text-lewis-body mb-6">
-                            We're working on helpful articles about insurance in Florida.
-                            Check back soon for tips, guides, and industry news.
+                            Read our latest articles about Florida insurance, hurricane preparedness,
+                            coverage tips, and more from our team of licensed agents.
                         </p>
-                        <Button asChild variant="outline" className="rounded-full">
-                            <Link href="/contact">
-                                Have a Question? Ask Us
+                        <Button asChild className="btn-primary rounded-full">
+                            <Link href="/blog">
+                                Visit Our Blog
+                                <ArrowRight className="h-4 w-4 ml-2" />
                             </Link>
                         </Button>
                     </div>
