@@ -42,13 +42,13 @@ const resourceCategories = [
     },
     {
         title: "Tools & Forms",
-        description: "Calculators and forms to help you manage your coverage.",
+        description: "Calculators and checklists to help you manage your coverage.",
         icon: Calculator,
         items: [
-            { title: "Coverage Needs Calculator", href: "#", comingSoon: true },
-            { title: "Home Inventory Checklist", href: "#", comingSoon: true },
-            { title: "Claim Report Form", href: "#", comingSoon: true },
-            { title: "Policy Change Request", href: "#", comingSoon: true },
+            { title: "Coverage Needs Calculator", href: "/tools/coverage-calculator", comingSoon: false },
+            { title: "Home Inventory Checklist", href: "/tools/home-inventory", comingSoon: false },
+            { title: "Hurricane Prep Checklist", href: "/tools/hurricane-prep", comingSoon: false },
+            { title: "View All Tools", href: "/tools", comingSoon: false },
         ],
     },
 ]
