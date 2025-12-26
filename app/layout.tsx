@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter, Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 import { Header, Footer, MobileCTA } from "@/components/layout"
+import { LiveChatWidget } from "@/components/sections"
 import { Toaster } from "@/components/ui/sonner"
 import { siteConfig } from "@/config/site"
 
@@ -123,6 +124,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <MobileCTA />
+        <LiveChatWidget />
         <Toaster position="top-center" richColors />
       </body>
     </html>

@@ -6,6 +6,7 @@ import {
   CoverageGrid,
   WhyLewis,
   Testimonials,
+  MeetTheTeam,
   FAQSection,
   CTABand,
 } from "@/components/sections"
@@ -113,6 +114,9 @@ export default function HomePage() {
 
       {/* Testimonials */}
       <Testimonials />
+
+      {/* Meet the Team */}
+      <MeetTheTeam />
 
       {/* FAQ Section */}
       <FAQSection />

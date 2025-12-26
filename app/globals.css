@@ -261,6 +261,71 @@
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
 
+  /* Enhanced card hover with scale */
+  .card-hover-scale {
+    @apply transition-all duration-300 ease-out hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02];
+  }
+
+  /* Subtle card lift */
+  .card-lift {
+    @apply transition-all duration-200 ease-out hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  /* Button hover glow effect */
+  .btn-glow {
+    @apply relative overflow-hidden;
+  }
+
+  .btn-glow::after {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+  }
+
+  .btn-glow:hover::after {
+    @apply opacity-100;
+  }
+
+  /* Avatar hover effect */
+  .avatar-hover {
+    @apply transition-transform duration-300 ease-out hover:scale-110;
+  }
+
+  /* Floating animation for chat widget */
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  /* Pulse animation for chat button */
+  .pulse-ring {
+    @apply absolute inset-0 rounded-full bg-lewis-blue/30;
+    animation: pulse-ring 2s ease-out infinite;
+  }
+
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+
   /* Section wrapper */
   .section-wrapper {
     @apply py-16 md:py-24;
