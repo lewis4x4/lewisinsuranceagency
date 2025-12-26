@@ -132,9 +132,9 @@ export function Header() {
                         {/* Phone */}
                         <a
                             href={`tel:${siteConfig.contact.phone.main.replace(/[^0-9]/g, "")}`}
-                            className="flex items-center gap-2 text-sm text-lewis-body hover:text-lewis-blue transition-colors"
+                            className="flex items-center gap-2 text-sm text-lewis-body hover:text-lewis-blue transition-colors whitespace-nowrap"
                         >
-                            <Phone className="h-4 w-4" />
+                            <Phone className="h-4 w-4 flex-shrink-0" />
                             <span>{siteConfig.contact.phone.main}</span>
                         </a>
 
