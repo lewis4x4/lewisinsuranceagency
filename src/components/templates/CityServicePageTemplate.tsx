@@ -1,10 +1,5 @@
 import Link from "next/link"
-import {
-    CheckCircle,
-    ArrowRight,
-    AlertTriangle,
-    HelpCircle,
-} from "lucide-react"
+import { MapPin, CheckCircle, Phone, ArrowRight, AlertTriangle } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -17,35 +12,45 @@ import {
 import { HeroForm } from "@/components/forms"
 import { CTABand } from "@/components/sections"
 import { CanopyConnectSection } from "@/components/canopy"
-import { cn } from "@/lib/utils"
+import { siteConfig } from "@/config/site"
 import {
-    generateServiceSchema,
+    generateCityServiceSchema,
     generateFAQSchema,
     generateBreadcrumbSchema,
     SchemaScripts,
 } from "@/lib/schema"
-import { siteConfig } from "@/config/site"
 
-export interface ServicePageData {
+export interface CityServicePageData {
+    // Location Info
+    city: string
+    state: string
+    citySlug: string
+
+    // Service Info
+    serviceName: string
+    serviceSlug: string
+
     // SEO
     title: string
     description: string
 
-    // Hero
-    badge: string
+    // Content
     headline: string
     subheadline: string
-
-    // Content
     overview: string[]
-    coverageIncludes: {
-        title: string
-        description: string
-    }[]
-    commonExclusions?: string[]
-    floridaSpecific?: {
+
+    // Local-specific content
+    whyNeeded: {
         title: string
         content: string
+    }[]
+
+    localConsiderations?: string[]
+
+    // Coverage info (optional - for some services)
+    coverageHighlights?: {
+        title: string
+        description: string
     }[]
 
     // FAQ
@@ -55,41 +60,37 @@ export interface ServicePageData {
     }[]
 
     // Related
-    relatedCoverage: {
+    relatedServices: {
         title: string
         href: string
         description: string
     }[]
-
-    // Page info
-    slug: string
-    category: "personal" | "business"
 }
 
-interface ServicePageTemplateProps {
-    data: ServicePageData
+interface CityServicePageTemplateProps {
+    data: CityServicePageData
 }
 
-export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
+export function CityServicePageTemplate({ data }: CityServicePageTemplateProps) {
     const baseUrl = `https://${siteConfig.domain}`
 
-    // Generate schemas for this service page
-    const serviceSchema = generateServiceSchema({
-        name: data.title,
+    // Generate schemas
+    const serviceSchema = generateCityServiceSchema({
+        city: data.city,
+        state: data.state,
+        serviceName: data.serviceName,
+        serviceSlug: data.serviceSlug,
+        citySlug: data.citySlug,
         description: data.description,
-        slug: data.slug,
-        category: data.category,
     })
 
     const faqSchema = generateFAQSchema(data.faqs)
 
     const breadcrumbSchema = generateBreadcrumbSchema([
         { name: "Home", url: baseUrl },
-        {
-            name: data.category === "personal" ? "Personal Insurance" : "Business Insurance",
-            url: `${baseUrl}/${data.category}`,
-        },
-        { name: data.title, url: `${baseUrl}/${data.category}/${data.slug}` },
+        { name: "Locations", url: `${baseUrl}/locations` },
+        { name: `${data.city}, FL`, url: `${baseUrl}/locations/${data.citySlug}` },
+        { name: data.serviceName, url: `${baseUrl}/locations/${data.citySlug}/${data.serviceSlug}` },
     ])
 
     return (
@@ -100,7 +101,7 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
             {/* Breadcrumbs */}
             <nav className="bg-white border-b border-lewis-border" aria-label="Breadcrumb">
                 <div className="container-lg py-3">
-                    <ol className="flex items-center gap-2 text-sm">
+                    <ol className="flex items-center gap-2 text-sm flex-wrap">
                         <li>
                             <Link href="/" className="text-lewis-body hover:text-lewis-blue">
                                 Home
@@ -108,15 +109,21 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                         </li>
                         <li className="text-lewis-border">/</li>
                         <li>
-                            <Link
-                                href={data.category === "personal" ? "/personal" : "/business"}
-                                className="text-lewis-body hover:text-lewis-blue"
-                            >
-                                {data.category === "personal" ? "Personal" : "Business"}
+                            <Link href="/locations" className="text-lewis-body hover:text-lewis-blue">
+                                Locations
                             </Link>
                         </li>
                         <li className="text-lewis-border">/</li>
-                        <li className="text-lewis-blue font-medium">{data.title}</li>
+                        <li>
+                            <Link
+                                href={`/locations/${data.citySlug}`}
+                                className="text-lewis-body hover:text-lewis-blue"
+                            >
+                                {data.city}
+                            </Link>
+                        </li>
+                        <li className="text-lewis-border">/</li>
+                        <li className="text-lewis-blue font-medium">{data.serviceName}</li>
                     </ol>
                 </div>
             </nav>
@@ -128,7 +135,8 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                         {/* Content */}
                         <div>
                             <Badge className="mb-4 bg-lewis-blue/10 text-lewis-blue border-lewis-blue/20">
-                                {data.badge}
+                                <MapPin className="h-3 w-3 mr-1" />
+                                {data.serviceName} in {data.city}
                             </Badge>
                             <h1 className="text-lewis-ink mb-4">{data.headline}</h1>
                             <p className="text-xl text-lewis-body mb-6">{data.subheadline}</p>
@@ -137,7 +145,7 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                             <div className="flex flex-wrap gap-3 mb-6">
                                 <Badge variant="secondary" className="bg-green-50 text-green-700 border-green-200">
                                     <CheckCircle className="h-3 w-3 mr-1" />
-                                    Free Quotes
+                                    Local {data.city} Experts
                                 </Badge>
                                 <Badge variant="secondary" className="bg-green-50 text-green-700 border-green-200">
                                     <CheckCircle className="h-3 w-3 mr-1" />
@@ -145,17 +153,31 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                                 </Badge>
                                 <Badge variant="secondary" className="bg-green-50 text-green-700 border-green-200">
                                     <CheckCircle className="h-3 w-3 mr-1" />
-                                    Local Experts
+                                    Free Quotes
                                 </Badge>
+                            </div>
+
+                            {/* Phone CTA */}
+                            <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm inline-flex">
+                                <Phone className="h-5 w-5 text-lewis-blue" />
+                                <div>
+                                    <p className="text-sm text-lewis-body">Call for a {data.city} quote:</p>
+                                    <a
+                                        href={`tel:${siteConfig.contact.phone.main.replace(/[^0-9]/g, "")}`}
+                                        className="font-semibold text-lewis-ink hover:text-lewis-blue"
+                                    >
+                                        {siteConfig.contact.phone.main}
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
                         {/* Form */}
                         <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
                             <h2 className="text-lg font-semibold text-lewis-ink mb-4">
-                                Get Your Free Quote
+                                Get {data.serviceName} Quotes in {data.city}
                             </h2>
-                            <HeroForm source={`service-${data.slug}`} />
+                            <HeroForm source={`city-service-${data.citySlug}-${data.serviceSlug}`} />
                         </div>
                     </div>
                 </div>
@@ -169,7 +191,9 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                         <div className="lg:col-span-2 space-y-12">
                             {/* Overview */}
                             <div>
-                                <h2 className="text-lewis-ink mb-6">Overview</h2>
+                                <h2 className="text-lewis-ink mb-6">
+                                    {data.serviceName} in {data.city}, Florida
+                                </h2>
                                 <div className="prose prose-lg max-w-none">
                                     {data.overview.map((paragraph, index) => (
                                         <p key={index} className="text-lewis-body">
@@ -179,70 +203,65 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                                 </div>
                             </div>
 
-                            {/* What's Covered */}
+                            {/* Why Needed Section */}
                             <div>
-                                <h2 className="text-lewis-ink mb-6">What's Typically Covered</h2>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    {data.coverageIncludes.map((item, index) => (
+                                <h2 className="text-lewis-ink mb-6">
+                                    Why {data.city} Residents Need {data.serviceName}
+                                </h2>
+                                <div className="space-y-4">
+                                    {data.whyNeeded.map((item, index) => (
                                         <Card key={index}>
-                                            <CardContent className="p-4">
-                                                <div className="flex items-start gap-3">
-                                                    <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
-                                                    <div>
-                                                        <h3 className="font-medium text-lewis-ink text-sm">
-                                                            {item.title}
-                                                        </h3>
-                                                        <p className="text-xs text-lewis-body mt-1">
-                                                            {item.description}
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <CardContent className="p-6">
+                                                <h3 className="font-semibold text-lewis-ink mb-2">
+                                                    {item.title}
+                                                </h3>
+                                                <p className="text-sm text-lewis-body">{item.content}</p>
                                             </CardContent>
                                         </Card>
                                     ))}
                                 </div>
                             </div>
 
-                            {/* Exclusions */}
-                            {data.commonExclusions && data.commonExclusions.length > 0 && (
+                            {/* Local Considerations */}
+                            {data.localConsiderations && data.localConsiderations.length > 0 && (
                                 <div>
-                                    <h2 className="text-lewis-ink mb-6">Common Exclusions</h2>
+                                    <h2 className="text-lewis-ink mb-6">
+                                        {data.city} {data.serviceName} Considerations
+                                    </h2>
                                     <Card>
                                         <CardContent className="p-6">
-                                            <div className="flex items-start gap-4">
-                                                <AlertTriangle className="h-6 w-6 text-amber-500 flex-shrink-0" />
-                                                <div>
-                                                    <p className="text-sm text-lewis-body mb-4">
-                                                        These items are typically not covered by standard policies.
-                                                        Ask us about additional coverage options.
-                                                    </p>
-                                                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                                                        {data.commonExclusions.map((item, index) => (
-                                                            <li key={index} className="text-sm text-lewis-body flex items-center gap-2">
-                                                                <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
-                                                                {item}
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <ul className="space-y-3">
+                                                {data.localConsiderations.map((item, index) => (
+                                                    <li key={index} className="flex items-start gap-3">
+                                                        <CheckCircle className="h-5 w-5 text-lewis-blue flex-shrink-0 mt-0.5" />
+                                                        <span className="text-lewis-body">{item}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
                                         </CardContent>
                                     </Card>
                                 </div>
                             )}
 
-                            {/* Florida-Specific */}
-                            {data.floridaSpecific && data.floridaSpecific.length > 0 && (
+                            {/* Coverage Highlights */}
+                            {data.coverageHighlights && data.coverageHighlights.length > 0 && (
                                 <div>
-                                    <h2 className="text-lewis-ink mb-6">Florida-Specific Considerations</h2>
-                                    <div className="space-y-4">
-                                        {data.floridaSpecific.map((item, index) => (
+                                    <h2 className="text-lewis-ink mb-6">Coverage Highlights</h2>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        {data.coverageHighlights.map((item, index) => (
                                             <Card key={index}>
-                                                <CardContent className="p-6">
-                                                    <h3 className="font-semibold text-lewis-ink mb-2">
-                                                        {item.title}
-                                                    </h3>
-                                                    <p className="text-sm text-lewis-body">{item.content}</p>
+                                                <CardContent className="p-4">
+                                                    <div className="flex items-start gap-3">
+                                                        <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
+                                                        <div>
+                                                            <h3 className="font-medium text-lewis-ink text-sm">
+                                                                {item.title}
+                                                            </h3>
+                                                            <p className="text-xs text-lewis-body mt-1">
+                                                                {item.description}
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </CardContent>
                                             </Card>
                                         ))}
@@ -252,7 +271,9 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
 
                             {/* FAQ */}
                             <div>
-                                <h2 className="text-lewis-ink mb-6">Frequently Asked Questions</h2>
+                                <h2 className="text-lewis-ink mb-6">
+                                    {data.serviceName} FAQ for {data.city}
+                                </h2>
                                 <Accordion type="single" collapsible className="space-y-4">
                                     {data.faqs.map((faq, index) => (
                                         <AccordionItem
@@ -274,14 +295,14 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
 
                         {/* Sidebar */}
                         <div className="space-y-6">
-                            {/* Related Coverage */}
+                            {/* Related Services */}
                             <Card>
                                 <CardContent className="p-6">
                                     <h3 className="font-semibold text-lewis-ink mb-4">
-                                        Related Coverage
+                                        Other Coverage in {data.city}
                                     </h3>
                                     <div className="space-y-3">
-                                        {data.relatedCoverage.map((item) => (
+                                        {data.relatedServices.map((item) => (
                                             <Link
                                                 key={item.href}
                                                 href={item.href}
@@ -300,18 +321,38 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                                 </CardContent>
                             </Card>
 
-                            {/* Help Card */}
+                            {/* Contact Card */}
                             <Card className="bg-lewis-blue text-white">
                                 <CardContent className="p-6">
-                                    <HelpCircle className="h-8 w-8 mb-4 text-white/80" />
+                                    <MapPin className="h-8 w-8 mb-4 text-white/80" />
                                     <h3 className="font-semibold text-white mb-2">
-                                        Need Help Deciding?
+                                        Serving {data.city}
                                     </h3>
                                     <p className="text-sm text-white/80 mb-4">
-                                        Not sure what coverage you need? Our team can help you understand your options.
+                                        Local expertise for {data.city} {data.serviceName.toLowerCase()}.
+                                        Get personalized service and competitive quotes.
                                     </p>
                                     <Button asChild variant="secondary" className="w-full rounded-full">
-                                        <Link href="/contact">Talk to an Agent</Link>
+                                        <a href={`tel:${siteConfig.contact.phone.main.replace(/[^0-9]/g, "")}`}>
+                                            Call {siteConfig.contact.phone.main}
+                                        </a>
+                                    </Button>
+                                </CardContent>
+                            </Card>
+
+                            {/* Back to City */}
+                            <Card>
+                                <CardContent className="p-6">
+                                    <h3 className="font-semibold text-lewis-ink mb-2">
+                                        All {data.city} Insurance
+                                    </h3>
+                                    <p className="text-sm text-lewis-body mb-4">
+                                        View all insurance options available in {data.city}.
+                                    </p>
+                                    <Button asChild variant="outline" className="w-full rounded-full">
+                                        <Link href={`/locations/${data.citySlug}`}>
+                                            View All Coverage
+                                        </Link>
                                     </Button>
                                 </CardContent>
                             </Card>
@@ -320,10 +361,10 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                 </div>
             </section>
 
-            {/* Canopy Connect - Already Have Coverage */}
+            {/* Canopy Connect */}
             <CanopyConnectSection
                 variant="compact"
-                insuranceType={data.title}
+                insuranceType={data.serviceName}
                 className="container-lg my-8"
             />
 

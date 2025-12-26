@@ -104,6 +104,9 @@ const pageData: CityPageData = {
 export const metadata: Metadata = {
     title: pageData.title,
     description: pageData.description,
+    alternates: {
+        canonical: `https://lewisinsurance.com/locations/${pageData.slug}`,
+    },
 }
 
 export default function FortLauderdalePage() {

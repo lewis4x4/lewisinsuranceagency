@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import { HeroForm } from "@/components/forms"
 import { CanopyConnectButton } from "@/components/canopy"
@@ -12,10 +13,42 @@ import {
   CTABand,
 } from "@/components/sections"
 import { Check, Shield, MapPin, Clock } from "lucide-react"
+import { websiteSchema } from "@/lib/schema"
+import { siteConfig } from "@/config/site"
+
+export const metadata: Metadata = {
+  title: "Florida Insurance Made Simple | Lewis Insurance",
+  description:
+    "Compare home, auto, flood, and business insurance quotes from multiple Florida carriers. Independent agency with 44+ years of local expertise. Free quotes in minutes.",
+  alternates: {
+    canonical: `https://${siteConfig.domain}`,
+  },
+  openGraph: {
+    title: "Florida Insurance Made Simple | Lewis Insurance",
+    description:
+      "Compare home, auto, flood, and business insurance quotes from multiple Florida carriers. Independent agency with 44+ years of local expertise.",
+    url: `https://${siteConfig.domain}`,
+    siteName: siteConfig.name,
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Florida Insurance Made Simple | Lewis Insurance",
+    description:
+      "Compare home, auto, flood, and business insurance quotes from multiple Florida carriers.",
+  },
+}
 
 export default function HomePage() {
   return (
     <>
+      {/* JSON-LD Schema Markup for Homepage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+
       {/* Hero Section */}
       <section className="hero-gradient relative overflow-hidden">
         <div className="container-lg py-12 md:py-20 lg:py-24">
@@ -63,15 +96,31 @@ export default function HomePage() {
                     Get Your Free Quote
                   </Badge>
                 </div>
-                <HeroForm source="homepage-hero" className="pt-2" />
 
-                {/* Canopy Connect Option */}
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  <div className="flex items-center justify-between gap-3">
-                    <p className="text-sm text-lewis-body">Already have coverage?</p>
-                    <CanopyConnectButton variant="ghost" size="sm" />
+                {/* Canopy Connect - Prominent CTA at Top */}
+                <div className="mb-6 pt-2">
+                  <CanopyConnectButton
+                    variant="default"
+                    size="lg"
+                    className="w-full rounded-xl bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold text-base py-4 shadow-lg hover:shadow-xl transition-all"
+                  >
+                    Already Have Coverage? Import Your Policy
+                  </CanopyConnectButton>
+                  <p className="text-xs text-center text-lewis-body mt-2">
+                    Instantly import your current policy for faster quotes
+                  </p>
+                </div>
+
+                <div className="relative">
+                  <div className="absolute inset-0 flex items-center">
+                    <div className="w-full border-t border-gray-200"></div>
+                  </div>
+                  <div className="relative flex justify-center text-xs uppercase">
+                    <span className="bg-white px-3 text-lewis-body font-medium">Or get a new quote</span>
                   </div>
                 </div>
+
+                <HeroForm source="homepage-hero" className="pt-4" />
               </div>
             </div>
 

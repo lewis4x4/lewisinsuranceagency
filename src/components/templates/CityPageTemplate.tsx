@@ -7,6 +7,12 @@ import { HeroForm } from "@/components/forms"
 import { FAQSection } from "@/components/sections"
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
+import {
+    generateLocalBusinessSchema,
+    generateFAQSchema,
+    generateBreadcrumbSchema,
+    SchemaScripts,
+} from "@/lib/schema"
 
 export interface CityPageData {
     // City Info
@@ -47,8 +53,29 @@ interface CityPageTemplateProps {
 }
 
 export function CityPageTemplate({ data }: CityPageTemplateProps) {
+    const baseUrl = `https://${siteConfig.domain}`
+
+    // Generate schemas for this city page
+    const localBusinessSchema = generateLocalBusinessSchema({
+        city: data.city,
+        state: data.state,
+        county: data.county,
+        slug: data.slug,
+    })
+
+    const faqSchema = generateFAQSchema(data.faqs)
+
+    const breadcrumbSchema = generateBreadcrumbSchema([
+        { name: "Home", url: baseUrl },
+        { name: "Locations", url: `${baseUrl}/locations` },
+        { name: `${data.city}, FL`, url: `${baseUrl}/locations/${data.slug}` },
+    ])
+
     return (
         <>
+            {/* JSON-LD Schema Markup */}
+            <SchemaScripts schemas={[localBusinessSchema, faqSchema, breadcrumbSchema]} />
+
             {/* Breadcrumbs */}
             <nav className="bg-white border-b border-lewis-border" aria-label="Breadcrumb">
                 <div className="container-lg py-3">
