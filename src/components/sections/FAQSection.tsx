@@ -6,6 +6,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { CanopyConnectButton } from "@/components/canopy"
 
 const faqs = [
     {
@@ -38,6 +39,12 @@ const faqs = [
         answer:
             "Homeowners insurance covers your home and belongings from many risks like fire, theft, and wind damage (including hurricanes). However, it specifically excludes flood damage. Flood insurance is a separate policy that covers water damage from flooding—rising water from storms, overflowing rivers, or storm surge. In Florida, most homeowners should have both policies for complete protection.",
     },
+    {
+        question: "Can I import my existing insurance information?",
+        answer:
+            "Yes! We use Canopy Connect to securely import your existing policy information. This helps us provide more accurate quotes and ensures we find coverage that truly meets your needs. Your data is encrypted and only shared with your permission.",
+        hasCanopyButton: true,
+    },
 ]
 
 interface FAQSectionProps {
@@ -68,7 +75,12 @@ export function FAQSection({ className, items = faqs }: FAQSectionProps) {
                                     {faq.question}
                                 </AccordionTrigger>
                                 <AccordionContent className="text-lewis-body pb-4">
-                                    {faq.answer}
+                                    <p>{faq.answer}</p>
+                                    {'hasCanopyButton' in faq && faq.hasCanopyButton && (
+                                        <div className="mt-4">
+                                            <CanopyConnectButton variant="outline" size="sm" />
+                                        </div>
+                                    )}
                                 </AccordionContent>
                             </AccordionItem>
                         ))}

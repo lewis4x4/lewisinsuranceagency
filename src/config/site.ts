@@ -60,6 +60,13 @@ export const siteConfig = {
         averageRating: "4.9",
         carrierCount: "20+",
     },
+
+    // Canopy Connect integration
+    canopy: {
+        linkSlug: "lewis-insurance",
+        fullUrl: "https://usecanopy.com/c/lewis-insurance",
+        scriptUrl: "https://cdn.usecanopy.com/connect/v2/connect.js",
+    },
 }
 
 // Insurance types for forms

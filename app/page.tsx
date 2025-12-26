@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge"
 import { HeroForm } from "@/components/forms"
+import { CanopyConnectButton } from "@/components/canopy"
 import {
   CoverageSelector,
   TrustBar,
@@ -63,6 +64,14 @@ export default function HomePage() {
                   </Badge>
                 </div>
                 <HeroForm source="homepage-hero" className="pt-2" />
+
+                {/* Canopy Connect Option */}
+                <div className="mt-4 pt-4 border-t border-gray-100">
+                  <div className="flex items-center justify-between gap-3">
+                    <p className="text-sm text-lewis-body">Already have coverage?</p>
+                    <CanopyConnectButton variant="ghost" size="sm" />
+                  </div>
+                </div>
               </div>
             </div>
 

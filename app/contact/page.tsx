@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { siteConfig, insuranceTypes } from "@/config/site"
+import { CanopyConnectSection } from "@/components/canopy"
 import { cn } from "@/lib/utils"
 
 // Contact form schema
@@ -104,6 +105,9 @@ export default function ContactPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         {/* Contact Info */}
                         <div className="space-y-6">
+                            {/* Canopy Connect Card */}
+                            <CanopyConnectSection variant="card" />
+
                             <Card>
                                 <CardContent className="p-6">
                                     <div className="flex items-start gap-4">

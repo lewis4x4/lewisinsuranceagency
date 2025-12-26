@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { MessageCircle, X, Phone, Send } from "lucide-react"
+import { MessageCircle, X, Phone, Send, Link2 } from "lucide-react"
 import { siteConfig } from "@/config/site"
 
 export function LiveChatWidget() {
@@ -72,6 +72,21 @@ export function LiveChatWidget() {
                                 <div>
                                     <p className="font-medium text-lewis-ink text-sm">Send a Message</p>
                                     <p className="text-xs text-lewis-body">Get a quote or ask a question</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href={siteConfig.canopy.fullUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 p-3 rounded-lg border border-lewis-border hover:border-green-500 hover:bg-green-50 transition-all group"
+                            >
+                                <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center group-hover:bg-green-200 transition-colors">
+                                    <Link2 className="h-5 w-5 text-green-600" />
+                                </div>
+                                <div>
+                                    <p className="font-medium text-lewis-ink text-sm">Import Your Policy</p>
+                                    <p className="text-xs text-lewis-body">Connect existing coverage</p>
                                 </div>
                             </a>
                         </div>

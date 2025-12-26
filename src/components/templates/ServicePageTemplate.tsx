@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/accordion"
 import { HeroForm } from "@/components/forms"
 import { CTABand } from "@/components/sections"
+import { CanopyConnectSection } from "@/components/canopy"
 import { cn } from "@/lib/utils"
 
 export interface ServicePageData {
@@ -287,6 +288,13 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                     </div>
                 </div>
             </section>
+
+            {/* Canopy Connect - Already Have Coverage */}
+            <CanopyConnectSection
+                variant="compact"
+                insuranceType={data.title}
+                className="container-lg my-8"
+            />
 
             {/* CTA */}
             <CTABand />
