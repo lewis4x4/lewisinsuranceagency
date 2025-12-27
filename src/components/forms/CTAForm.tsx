@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { cn } from "@/lib/utils"
+import { useCSRF } from "@/hooks/useCSRF"
 
 // CTA Band form schema
 export const ctaFormSchema = z.object({
@@ -35,6 +36,7 @@ interface CTAFormProps {
 export function CTAForm({ className, source = "homepage-cta", variant = "horizontal" }: CTAFormProps) {
     const router = useRouter()
     const [isSubmitting, setIsSubmitting] = useState(false)
+    const { csrfToken, refresh: refreshCSRF } = useCSRF()
 
     const {
         register,
@@ -55,6 +57,12 @@ export function CTAForm({ className, source = "homepage-cta", variant = "horizon
             return
         }
 
+        if (!csrfToken) {
+            toast.error("Security token expired. Please try again.")
+            await refreshCSRF()
+            return
+        }
+
         setIsSubmitting(true)
 
         try {
@@ -63,23 +71,29 @@ export function CTAForm({ className, source = "homepage-cta", variant = "horizon
                 headers: {
                     "Content-Type": "application/json",
                 },
+                credentials: "include",
                 body: JSON.stringify({
                     ...data,
                     source,
+                    csrfToken,
                 }),
             })
 
             const result = await response.json()
 
             if (!response.ok) {
+                if (response.status === 403) {
+                    await refreshCSRF()
+                }
                 throw new Error(result.error || "Something went wrong")
             }
 
             toast.success("Thanks — we got it! We'll be in touch soon.")
+            refreshCSRF()
             router.push(`/thank-you?id=${result.id}`)
         } catch (error) {
             console.error("Form submission error:", error)
-            toast.error("Something went wrong. Please try again.")
+            toast.error(error instanceof Error ? error.message : "Something went wrong. Please try again.")
         } finally {
             setIsSubmitting(false)
         }

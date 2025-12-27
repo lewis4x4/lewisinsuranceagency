@@ -87,6 +87,31 @@ function getUTMParams(request: NextRequest): Record<string, string | undefined> 
     }
 }
 
+// Validate CSRF token
+function validateCSRFToken(request: NextRequest, body: { csrfToken?: string }): boolean {
+    const cookieToken = request.cookies.get("csrf_token")?.value
+    const bodyToken = body.csrfToken
+
+    if (!cookieToken || !bodyToken) {
+        return false
+    }
+
+    // Check if token exists in store and hasn't expired
+    const storedEntry = csrfTokenStore.get(cookieToken)
+    if (!storedEntry) {
+        return false
+    }
+
+    // Check TTL
+    if (Date.now() - storedEntry.timestamp > CSRF_TOKEN_TTL) {
+        csrfTokenStore.delete(cookieToken)
+        return false
+    }
+
+    // Validate token matches
+    return cookieToken === bodyToken
+}
+
 export async function POST(request: NextRequest) {
     try {
         const clientIP = getClientIP(request)
@@ -100,6 +125,14 @@ export async function POST(request: NextRequest) {
         }
 
         const body = await request.json()
+
+        // CSRF validation
+        if (!validateCSRFToken(request, body)) {
+            return NextResponse.json(
+                { error: "Invalid or expired security token. Please refresh and try again." },
+                { status: 403 }
+            )
+        }
 
         // Honeypot check
         if (body.honeypot && body.honeypot.length > 0) {
@@ -235,9 +268,34 @@ async function sendToWebhook(lead: Record<string, unknown>) {
     }
 }
 
-// CSRF token generation (for future use)
+// CSRF token generation - sets cookie and returns token
 export async function GET() {
     const token = crypto.randomUUID()
 
-    return NextResponse.json({ csrfToken: token })
+    // Store token with timestamp for TTL validation
+    csrfTokenStore.set(token, { token, timestamp: Date.now() })
+
+    // Clean up old tokens periodically (simple cleanup every 100 requests)
+    if (csrfTokenStore.size > 100) {
+        const now = Date.now()
+        for (const [key, value] of csrfTokenStore.entries()) {
+            if (now - value.timestamp > CSRF_TOKEN_TTL) {
+                csrfTokenStore.delete(key)
+            }
+        }
+    }
+
+    // Create response with cookie
+    const response = NextResponse.json({ csrfToken: token })
+
+    // Set HTTP-only cookie for double-submit validation
+    response.cookies.set("csrf_token", token, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "strict",
+        maxAge: CSRF_TOKEN_TTL / 1000, // Convert to seconds
+        path: "/",
+    })
+
+    return response
 }
