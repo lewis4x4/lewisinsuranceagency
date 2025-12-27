@@ -1,0 +1,33 @@
+# Supabase Configuration for Lewis Insurance Portal
+
+[project]
+id = "lrqajzwcmdwahnjyidgv"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "https://www.lewisinsurance.com"
+additional_redirect_urls = ["http://localhost:3000/portal/callback", "https://www.lewisinsurance.com/portal/callback"]
+
+[auth.email]
+enable_signup = false
+double_confirm_changes = true
+enable_confirmations = true
+
+[storage]
+enabled = true
