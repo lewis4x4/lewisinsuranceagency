@@ -30,11 +30,11 @@ export const siteConfig = {
     },
 
     portal: {
-        login: "https://lewisinsurance.ai/login",
-        makePayment: "https://lewisinsurance.ai/payment",
-        fileClaim: "https://lewisinsurance.ai/claims",
-        viewPolicy: "https://lewisinsurance.ai/policies",
-        requestChange: "https://lewisinsurance.ai/changes",
+        login: "https://lewisinsurance.ai/portal/login",
+        makePayment: "https://lewisinsurance.ai/portal",
+        fileClaim: "https://lewisinsurance.ai/portal",
+        viewPolicy: "https://lewisinsurance.ai/portal",
+        requestChange: "https://lewisinsurance.ai/portal",
     },
 
     serviceAreas: [
