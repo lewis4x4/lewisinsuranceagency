@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 import { Loader2, CheckCircle, AlertCircle } from 'lucide-react'
@@ -15,8 +15,16 @@ export default function AuthCallbackPage() {
     const router = useRouter()
     const [state, setState] = useState<CallbackState>('processing')
     const [errorMessage, setErrorMessage] = useState('')
+    const isHandledRef = useRef(false)
 
     useEffect(() => {
+        // Prevent double handling in strict mode
+        if (isHandledRef.current) return
+        isHandledRef.current = true
+
+        let subscription: { unsubscribe: () => void } | null = null
+        let timeoutId: NodeJS.Timeout | null = null
+
         const handleCallback = async () => {
             if (!supabase) {
                 setState('error')
@@ -43,7 +51,7 @@ export default function AuthCallbackPage() {
                     }, 1500)
                 } else {
                     // Listen for auth state change (for magic link)
-                    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+                    const authListener = supabase.auth.onAuthStateChange(
                         (event, session) => {
                             if (event === 'SIGNED_IN' && session) {
                                 setState('success')
@@ -56,14 +64,17 @@ export default function AuthCallbackPage() {
                             }
                         }
                     )
+                    subscription = authListener.data.subscription
 
-                    // Set timeout for auth check
-                    setTimeout(() => {
-                        if (state === 'processing') {
-                            setState('error')
-                            setErrorMessage('Login link may have expired. Please request a new one.')
-                        }
-                        subscription.unsubscribe()
+                    // Set timeout for auth check - use callback to get current state
+                    timeoutId = setTimeout(() => {
+                        setState((currentState) => {
+                            if (currentState === 'processing') {
+                                setErrorMessage('Login link may have expired. Please request a new one.')
+                                return 'error'
+                            }
+                            return currentState
+                        })
                     }, 10000)
                 }
             } catch (err) {
@@ -74,7 +85,13 @@ export default function AuthCallbackPage() {
         }
 
         handleCallback()
-    }, [router, state])
+
+        // Cleanup function
+        return () => {
+            if (subscription) subscription.unsubscribe()
+            if (timeoutId) clearTimeout(timeoutId)
+        }
+    }, [router])
 
     return (
         <div className="min-h-screen bg-lewis-page flex items-center justify-center p-4">

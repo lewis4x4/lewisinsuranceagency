@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { MessageCircle, X, Phone, Send, Link2 } from "lucide-react"
 import { siteConfig } from "@/config/site"
 
@@ -9,10 +9,10 @@ export function LiveChatWidget() {
     const [showTooltip, setShowTooltip] = useState(true)
 
     // Hide tooltip after 5 seconds
-    useState(() => {
+    useEffect(() => {
         const timer = setTimeout(() => setShowTooltip(false), 5000)
         return () => clearTimeout(timer)
-    })
+    }, [])
 
     return (
         <>
