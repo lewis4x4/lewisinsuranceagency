@@ -63,9 +63,9 @@ export const siteConfig = {
 
     // Canopy Connect integration
     canopy: {
-        linkSlug: "lewis-insurance",
-        fullUrl: "https://usecanopy.com/c/lewis-insurance",
-        scriptUrl: "https://cdn.usecanopy.com/connect/v2/connect.js",
+        publicAlias: "lewis-insurance",
+        scriptUrl: "https://cdn.usecanopy.com/v2/embed.js",
+        successUrl: "https://www.lewisinsurance.com/thanks",
     },
 }
 

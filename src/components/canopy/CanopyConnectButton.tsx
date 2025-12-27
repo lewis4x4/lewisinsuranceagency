@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 declare global {
     interface Window {
         CanopyConnect?: {
-            init: (config: { linkSlug: string }) => void
+            init: (config: { publicAlias: string; successUrl?: string }) => void
             open: () => void
         }
     }
@@ -38,14 +38,16 @@ export function CanopyConnectButton({
             script.onload = () => {
                 if (window.CanopyConnect) {
                     window.CanopyConnect.init({
-                        linkSlug: siteConfig.canopy.linkSlug,
+                        publicAlias: siteConfig.canopy.publicAlias,
+                        successUrl: siteConfig.canopy.successUrl,
                     })
                 }
             }
             document.head.appendChild(script)
         } else if (window.CanopyConnect) {
             window.CanopyConnect.init({
-                linkSlug: siteConfig.canopy.linkSlug,
+                publicAlias: siteConfig.canopy.publicAlias,
+                successUrl: siteConfig.canopy.successUrl,
             })
         }
     }, [])
@@ -54,8 +56,8 @@ export function CanopyConnectButton({
         if (window.CanopyConnect) {
             window.CanopyConnect.open()
         } else {
-            // Fallback: open in new tab
-            window.open(siteConfig.canopy.fullUrl, "_blank")
+            // Fallback: open contact page
+            window.location.href = "/contact"
         }
     }, [])
 
