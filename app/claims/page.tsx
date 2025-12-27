@@ -2,8 +2,6 @@ import Link from "next/link"
 import {
     Phone,
     AlertTriangle,
-    FileCheck,
-    Clock,
     ArrowRight,
     Shield,
 } from "lucide-react"

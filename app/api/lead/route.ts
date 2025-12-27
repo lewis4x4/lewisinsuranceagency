@@ -3,7 +3,7 @@ import { z } from "zod"
 import crypto from "crypto"
 import fs from "fs/promises"
 import path from "path"
-import { cookies } from "next/headers"
+// cookies import removed - not currently used
 
 // CSRF token store (in-memory, use Redis in production for distributed systems)
 const csrfTokenStore = new Map<string, { token: string; timestamp: number }>()
@@ -27,7 +27,6 @@ const leadSchema = z.object({
     privacyConsent: z.boolean().optional(),
 })
 
-type LeadData = z.infer<typeof leadSchema>
 
 // Helper to hash IP
 function hashIP(ip: string): string {

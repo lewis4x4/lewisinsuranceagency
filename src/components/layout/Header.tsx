@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
-import { Menu, Phone, ChevronDown, LogIn, User } from "lucide-react"
+import { Menu, Phone, User } from "lucide-react"
 import { siteConfig, navigation } from "@/config/site"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
@@ -16,7 +16,7 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 import { Badge } from "@/components/ui/badge"
-import { cn } from "@/lib/utils"
+
 
 export function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

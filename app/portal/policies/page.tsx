@@ -2,13 +2,18 @@
 
 export const dynamic = 'force-dynamic'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import { FileText, ArrowRight, AlertCircle } from 'lucide-react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import { usePortalDashboard } from '@/hooks/usePortalDashboard'
+
+// Calculate once at module load time to avoid impure render calls
+const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000
 
 export default function PoliciesPage() {
     const { data, loading, error } = usePortalDashboard()
+    const [mountTime] = useState(() => Date.now())
 
     if (loading) {
         return (
@@ -58,7 +63,7 @@ export default function PoliciesPage() {
                 <div className="grid gap-4">
                     {policies.map((policy) => {
                         const isActive = policy.status === 'active'
-                        const isExpiringSoon = new Date(policy.expiration_date) < new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
+                        const isExpiringSoon = new Date(policy.expiration_date).getTime() < mountTime + THIRTY_DAYS_MS
 
                         return (
                             <Card key={policy.id} className="hover:border-lewis-blue transition-colors">

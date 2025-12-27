@@ -17,7 +17,7 @@ import {
 import { HeroForm } from "@/components/forms"
 import { CTABand } from "@/components/sections"
 import { CanopyConnectSection } from "@/components/canopy"
-import { cn } from "@/lib/utils"
+
 import {
     generateServiceSchema,
     generateFAQSchema,

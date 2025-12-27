@@ -4,7 +4,8 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 // Team members - placeholders until real photos are available
-const teamMembers = [
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _teamMembers = [
     {
         id: 1,
         name: "Your Name",

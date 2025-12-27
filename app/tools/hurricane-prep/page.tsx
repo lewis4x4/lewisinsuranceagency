@@ -140,22 +140,22 @@ const emergencyContacts = [
     { name: "Red Cross", number: "1-800-733-2767" },
 ]
 
-export default function HurricanePrepPage() {
-    const [categories, setCategories] = useState<Category[]>(initialCategories)
-    const [isLoaded, setIsLoaded] = useState(false)
-
-    // Load from localStorage on mount
-    useEffect(() => {
-        const saved = localStorage.getItem('hurricanePrep')
-        if (saved) {
-            try {
-                setCategories(JSON.parse(saved))
-            } catch {
-                // If parsing fails, use defaults
-            }
+function getInitialCategories(): Category[] {
+    if (typeof window === 'undefined') return initialCategories
+    const saved = localStorage.getItem('hurricanePrep')
+    if (saved) {
+        try {
+            return JSON.parse(saved)
+        } catch {
+            return initialCategories
         }
-        setIsLoaded(true)
-    }, [])
+    }
+    return initialCategories
+}
+
+export default function HurricanePrepPage() {
+    const [categories, setCategories] = useState<Category[]>(getInitialCategories)
+    const [isLoaded] = useState(true)
 
     // Save to localStorage whenever categories change
     useEffect(() => {

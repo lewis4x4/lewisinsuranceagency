@@ -12,7 +12,16 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Supabase edge functions (Deno runtime)
+    "supabase/**",
   ]),
+  // Custom rules
+  {
+    rules: {
+      // Allow common contractions in JSX text
+      "react/no-unescaped-entities": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Facebook, Linkedin, MapPin, Clock, Phone, Mail } from "lucide-react"
+import { Facebook, Linkedin, Clock, Phone, Mail } from "lucide-react"
 import { siteConfig, navigation } from "@/config/site"
 import { Separator } from "@/components/ui/separator"
 

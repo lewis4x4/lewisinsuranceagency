@@ -12,12 +12,12 @@ interface InvitationCheckResult {
 
 export function usePortalAuth() {
     const [user, setUser] = useState<User | null>(null)
-    const [loading, setLoading] = useState(true)
+    // Start with loading=false if supabase not configured
+    const [loading, setLoading] = useState(!!supabase)
 
     useEffect(() => {
         // Handle case where supabase is not configured
         if (!supabase) {
-            setLoading(false)
             return
         }
 

@@ -3,7 +3,6 @@
 export const dynamic = 'force-dynamic'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Send, Loader2, CheckCircle } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -17,7 +16,6 @@ import { usePortalDashboard } from '@/hooks/usePortalDashboard'
 type FormState = 'form' | 'submitting' | 'success' | 'error'
 
 export default function NewRequestPage() {
-    const router = useRouter()
     const { data } = usePortalDashboard()
     const [formState, setFormState] = useState<FormState>('form')
     const [errorMessage, setErrorMessage] = useState('')

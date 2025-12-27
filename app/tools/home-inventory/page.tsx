@@ -66,22 +66,22 @@ function formatCurrency(amount: number): string {
     }).format(amount)
 }
 
-export default function HomeInventoryPage() {
-    const [rooms, setRooms] = useState<Room[]>(defaultRooms)
-    const [isLoaded, setIsLoaded] = useState(false)
-
-    // Load from localStorage on mount
-    useEffect(() => {
-        const saved = localStorage.getItem('homeInventory')
-        if (saved) {
-            try {
-                setRooms(JSON.parse(saved))
-            } catch {
-                // If parsing fails, use defaults
-            }
+function getInitialRooms(): Room[] {
+    if (typeof window === 'undefined') return defaultRooms
+    const saved = localStorage.getItem('homeInventory')
+    if (saved) {
+        try {
+            return JSON.parse(saved)
+        } catch {
+            return defaultRooms
         }
-        setIsLoaded(true)
-    }, [])
+    }
+    return defaultRooms
+}
+
+export default function HomeInventoryPage() {
+    const [rooms, setRooms] = useState<Room[]>(getInitialRooms)
+    const [isLoaded] = useState(true)
 
     // Save to localStorage whenever rooms change
     useEffect(() => {
