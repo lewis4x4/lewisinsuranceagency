@@ -109,7 +109,17 @@ export const navigation = {
                 { name: "Cyber Liability", href: "/business/cyber-liability-florida" },
             ]
         },
-        { name: "Resources", href: "/resources" },
+        {
+            name: "Resources",
+            href: "/resources",
+            children: [
+                { name: "Insurance Guides", href: "/resources" },
+                { name: "Blog", href: "/blog" },
+                { name: "Tools", href: "/tools" },
+                { name: "Our Carriers", href: "/carriers" },
+                { name: "Reviews", href: "/reviews" },
+            ]
+        },
         { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" },
     ],
