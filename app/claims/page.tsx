@@ -62,9 +62,9 @@ export default function ClaimsPage() {
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Button asChild size="lg" className="btn-accent rounded-full">
-                                <a href={siteConfig.portal.fileClaim} target="_blank" rel="noopener noreferrer">
+                                <Link href="/portal/requests/new">
                                     File a Claim Online
-                                </a>
+                                </Link>
                             </Button>
                             <Button asChild size="lg" variant="outline" className="rounded-full">
                                 <a href={`tel:${siteConfig.contact.phone.claims.replace(/[^0-9]/g, "")}`}>
