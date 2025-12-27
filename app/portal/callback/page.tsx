@@ -16,6 +16,12 @@ export default function AuthCallbackPage() {
 
     useEffect(() => {
         const handleCallback = async () => {
+            if (!supabase) {
+                setState('error')
+                setErrorMessage('Portal is not configured. Please contact support.')
+                return
+            }
+
             try {
                 // Get session from URL hash (magic link auth)
                 const { data, error } = await supabase.auth.getSession()

@@ -59,6 +59,12 @@ export function usePortalDashboard() {
     const [error, setError] = useState<Error | null>(null)
 
     const fetchDashboard = useCallback(async () => {
+        if (!supabase) {
+            setError(new Error('Portal is not configured'))
+            setLoading(false)
+            return
+        }
+
         setLoading(true)
         setError(null)
 
@@ -97,9 +103,14 @@ export function usePortalPolicyDetails(policyId: string | null) {
     const [error, setError] = useState<Error | null>(null)
 
     useEffect(() => {
-        if (!policyId) return
+        if (!policyId || !supabase) return
 
         async function fetchPolicy() {
+            if (!supabase) {
+                setError(new Error('Portal is not configured'))
+                return
+            }
+
             setLoading(true)
             setError(null)
 

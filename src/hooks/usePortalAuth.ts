@@ -15,6 +15,12 @@ export function usePortalAuth() {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
+        // Handle case where supabase is not configured
+        if (!supabase) {
+            setLoading(false)
+            return
+        }
+
         // Get initial session
         supabase.auth.getSession().then(({ data: { session } }) => {
             setUser(session?.user ?? null)
@@ -32,6 +38,14 @@ export function usePortalAuth() {
     }, [])
 
     const checkInvitation = useCallback(async (email: string): Promise<InvitationCheckResult> => {
+        if (!supabase) {
+            return {
+                status: 'error',
+                message: 'Portal is not configured. Please contact support.',
+                can_proceed: false,
+            }
+        }
+
         try {
             const { data, error } = await supabase.functions.invoke('check-portal-access', {
                 body: { email },
@@ -56,6 +70,10 @@ export function usePortalAuth() {
     }, [])
 
     const signInWithMagicLink = useCallback(async (email: string): Promise<{ error: AuthError | null }> => {
+        if (!supabase) {
+            return { error: { message: 'Portal is not configured' } as AuthError }
+        }
+
         const { error } = await supabase.auth.signInWithOtp({
             email,
             options: {
@@ -67,6 +85,7 @@ export function usePortalAuth() {
     }, [])
 
     const signOut = useCallback(async () => {
+        if (!supabase) return
         await supabase.auth.signOut()
     }, [])
 

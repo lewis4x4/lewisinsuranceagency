@@ -36,6 +36,13 @@ export async function submitServiceRequest(
     details: Record<string, unknown>,
     policyId?: string
 ): Promise<ServiceRequestResponse> {
+    if (!supabase) {
+        return {
+            success: false,
+            error: 'Portal is not configured',
+        }
+    }
+
     try {
         const { data, error } = await supabase.functions.invoke('portal-submit-request', {
             body: {
@@ -67,6 +74,10 @@ export async function submitServiceRequest(
 }
 
 export async function getDocument(documentId: string): Promise<{ url: string | null; error: string | null }> {
+    if (!supabase) {
+        return { url: null, error: 'Portal is not configured' }
+    }
+
     try {
         const { data, error } = await supabase.functions.invoke('portal-get-document', {
             body: { document_id: documentId },
