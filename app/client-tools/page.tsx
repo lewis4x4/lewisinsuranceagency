@@ -6,9 +6,8 @@ import {
     Edit,
     User,
     ArrowRight,
-    ExternalLink,
 } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
@@ -20,39 +19,39 @@ export const metadata: Metadata = {
 
 const clientTools = [
     {
-        title: "Make a Payment",
-        description: "Pay your premium online quickly and securely.",
-        icon: CreditCard,
-        href: siteConfig.portal.makePayment,
-        external: true,
-    },
-    {
         title: "View Your Policies",
         description: "Access your policy documents and coverage details.",
         icon: FileText,
-        href: siteConfig.portal.viewPolicy,
-        external: true,
+        href: "/portal/policies",
+        external: false,
+    },
+    {
+        title: "View Documents",
+        description: "Download your policy documents, ID cards, and declarations.",
+        icon: CreditCard,
+        href: "/portal/documents",
+        external: false,
     },
     {
         title: "File a Claim",
         description: "Report a claim or check the status of an existing claim.",
         icon: AlertTriangle,
-        href: siteConfig.portal.fileClaim,
-        external: true,
+        href: "/claims",
+        external: false,
     },
     {
         title: "Request a Change",
         description: "Update your address, add a vehicle, or make other policy changes.",
         icon: Edit,
-        href: siteConfig.portal.requestChange,
-        external: true,
+        href: "/portal/requests/new",
+        external: false,
     },
     {
-        title: "Account Settings",
-        description: "Update your contact information and preferences.",
+        title: "Service Requests",
+        description: "View the status of your pending requests.",
         icon: User,
-        href: siteConfig.portal.login,
-        external: true,
+        href: "/portal/requests",
+        external: false,
     },
 ]
 
@@ -68,14 +67,10 @@ export default function ClientToolsPage() {
                             Manage your insurance policies, make payments, and access your documents—all in one place.
                         </p>
                         <Button asChild className="btn-accent rounded-full">
-                            <a
-                                href={siteConfig.portal.login}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <Link href="/portal">
                                 Log In to Your Portal
-                                <ExternalLink className="h-4 w-4 ml-2" />
-                            </a>
+                                <ArrowRight className="h-4 w-4 ml-2" />
+                            </Link>
                         </Button>
                     </div>
                 </div>
@@ -88,11 +83,9 @@ export default function ClientToolsPage() {
                         {clientTools.map((tool) => {
                             const Icon = tool.icon
                             return (
-                                <a
+                                <Link
                                     key={tool.title}
                                     href={tool.href}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
                                     className="group"
                                 >
                                     <Card className="h-full card-hover">
@@ -104,14 +97,14 @@ export default function ClientToolsPage() {
                                                 <div className="flex-1">
                                                     <h3 className="text-lg font-semibold text-lewis-ink mb-2 group-hover:text-lewis-blue transition-colors flex items-center gap-2">
                                                         {tool.title}
-                                                        {tool.external && <ExternalLink className="h-4 w-4" />}
+                                                        <ArrowRight className="h-4 w-4" />
                                                     </h3>
                                                     <p className="text-sm text-lewis-body">{tool.description}</p>
                                                 </div>
                                             </div>
                                         </CardContent>
                                     </Card>
-                                </a>
+                                </Link>
                             )
                         })}
                     </div>
