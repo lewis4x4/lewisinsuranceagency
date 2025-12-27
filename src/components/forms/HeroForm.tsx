@@ -53,9 +53,8 @@ export function HeroForm({ className, source = "homepage-hero" }: HeroFormProps)
     })
 
     const onSubmit = async (data: HeroFormData) => {
-        // Check honeypot
+        // Check honeypot - silently reject bot submissions
         if (data.honeypot) {
-            console.log("Bot detected")
             return
         }
 

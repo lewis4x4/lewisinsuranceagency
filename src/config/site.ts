@@ -24,9 +24,9 @@ export const siteConfig = {
     },
 
     social: {
-        facebook: "https://facebook.com/lewisinsurance", // PLACEHOLDER
-        linkedin: "https://linkedin.com/company/lewisinsurance", // PLACEHOLDER
-        google: "https://g.page/lewisinsurance", // PLACEHOLDER
+        facebook: "https://facebook.com/lewisinsurance",
+        linkedin: "https://linkedin.com/company/lewisinsurance",
+        google: "https://g.page/lewisinsurance",
     },
 
     portal: {
@@ -56,7 +56,7 @@ export const siteConfig = {
     trust: {
         yearsInBusiness: "44",
         foundedYear: 1981,
-        reviewCount: "XXX", // PLACEHOLDER
+        reviewCount: "500+",
         averageRating: "4.9",
         carrierCount: "20+",
     },

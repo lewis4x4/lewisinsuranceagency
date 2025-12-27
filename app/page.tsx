@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { HeroForm } from "@/components/forms"
 import { CanopyConnectButton } from "@/components/canopy"
@@ -128,11 +129,13 @@ export default function HomePage() {
             <div className="hidden lg:block relative">
               <div className="relative">
                 {/* Main Image Card */}
-                <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <img
+                <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] relative">
+                  <Image
                     src="/images/lewis-office-hero.jpg"
                     alt="Lewis Insurance Agency Office in Lake City, Florida"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    priority
                   />
                 </div>
 
