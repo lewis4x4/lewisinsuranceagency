@@ -76,7 +76,7 @@ export function LiveChatWidget() {
                             </a>
 
                             <a
-                                href="/contact?import=policy"
+                                href="/import-policy"
                                 className="flex items-center gap-3 p-3 rounded-lg border border-lewis-border hover:border-green-500 hover:bg-green-50 transition-all group"
                             >
                                 <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center group-hover:bg-green-200 transition-colors">
