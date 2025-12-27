@@ -1,14 +1,13 @@
 -- Portal Schema for Lewis Insurance Agency
 -- This migration creates all tables needed for the customer portal
 
--- Enable UUID extension
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+-- Use built-in gen_random_uuid() for UUID generation (PostgreSQL 13+)
 
 -- ============================================
 -- PORTAL CLIENTS (linked to auth.users)
 -- ============================================
 CREATE TABLE portal_clients (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     auth_user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
     email TEXT UNIQUE NOT NULL,
     first_name TEXT,
@@ -34,7 +33,7 @@ CREATE INDEX idx_portal_clients_auth_user ON portal_clients(auth_user_id);
 -- POLICIES
 -- ============================================
 CREATE TABLE policies (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     client_id UUID REFERENCES portal_clients(id) ON DELETE CASCADE,
     policy_number TEXT NOT NULL,
     policy_type TEXT NOT NULL, -- 'Homeowners', 'Auto', 'Flood', 'Commercial', etc.
@@ -59,7 +58,7 @@ CREATE INDEX idx_policies_expiration ON policies(expiration_date);
 -- DOCUMENTS
 -- ============================================
 CREATE TABLE documents (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     client_id UUID REFERENCES portal_clients(id) ON DELETE CASCADE,
     policy_id UUID REFERENCES policies(id) ON DELETE SET NULL,
     document_name TEXT NOT NULL,
@@ -78,7 +77,7 @@ CREATE INDEX idx_documents_policy ON documents(policy_id);
 -- SERVICE REQUESTS
 -- ============================================
 CREATE TABLE service_requests (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     client_id UUID REFERENCES portal_clients(id) ON DELETE CASCADE,
     policy_id UUID REFERENCES policies(id) ON DELETE SET NULL,
     request_type TEXT NOT NULL, -- 'add_vehicle', 'remove_vehicle', 'address_change', etc.
@@ -98,7 +97,7 @@ CREATE INDEX idx_requests_status ON service_requests(status);
 -- PORTAL INVITATIONS (for tracking invite links)
 -- ============================================
 CREATE TABLE portal_invitations (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     client_id UUID REFERENCES portal_clients(id) ON DELETE CASCADE,
     email TEXT NOT NULL,
     token TEXT UNIQUE NOT NULL,
