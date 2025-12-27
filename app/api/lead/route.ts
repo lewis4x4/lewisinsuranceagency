@@ -3,6 +3,11 @@ import { z } from "zod"
 import crypto from "crypto"
 import fs from "fs/promises"
 import path from "path"
+import { cookies } from "next/headers"
+
+// CSRF token store (in-memory, use Redis in production for distributed systems)
+const csrfTokenStore = new Map<string, { token: string; timestamp: number }>()
+const CSRF_TOKEN_TTL = 60 * 60 * 1000 // 1 hour
 
 // Rate limiting store (in-memory for simplicity, use Redis in production)
 const rateLimitStore = new Map<string, { count: number; timestamp: number }>()
