@@ -1,0 +1,80 @@
+name: Daily Florida Insurance Blog Post
+
+on:
+  schedule:
+    # Runs at 6 AM EST (11 AM UTC) Monday-Friday
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      topic_override:
+        description: 'Specific topic to write about (optional)'
+        required: false
+        type: string
+
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+jobs:
+  generate-blog-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          pip install anthropic requests beautifulsoup4
+
+      - name: Generate blog post
+        id: generate
+        run: |
+          python scripts/auto-blog-generator.py \
+            --output-dir content/blog \
+            --topic "${{ github.event.inputs.topic_override || 'auto' }}"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Run SEO check
+        run: |
+          python scripts/seo_analyzer.py content/blog/$(ls -t content/blog | head -1)
+        continue-on-error: true
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add content/blog/
+          git add public/images/blog/ 2>/dev/null || true
+
+          # Get the title from the new post
+          NEW_FILE=$(ls -t content/blog/*.md | head -1)
+          TITLE=$(grep -m1 "^title:" "$NEW_FILE" | sed 's/title: //' | tr -d '"')
+
+          git commit -m "feat(blog): Auto-publish - $TITLE" || echo "No changes to commit"
+          git push
+
+      - name: Notify on success
+        if: success()
+        run: |
+          echo "✅ Blog post published successfully"
+          # Add Slack/email notification here if desired
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Blog post generation failed"
+          # Add failure notification here
