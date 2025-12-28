@@ -142,5 +142,8 @@ export default function ToolsPage() {
             {/* CTA */}
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/tools`,
+    },
 }

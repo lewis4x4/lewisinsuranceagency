@@ -152,5 +152,8 @@ export default function ClaimsPage() {
                 </div>
             </section>
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/claims`,
+    },
 }

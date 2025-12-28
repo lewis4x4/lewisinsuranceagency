@@ -244,5 +244,8 @@ export default function ReviewsPage() {
 
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/reviews`,
+    },
 }

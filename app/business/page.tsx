@@ -62,5 +62,8 @@ export default function BusinessPage() {
             {/* CTA */}
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/business`,
+    },
 }

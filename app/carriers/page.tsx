@@ -237,5 +237,8 @@ export default function CarriersPage() {
 
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/carriers`,
+    },
 }

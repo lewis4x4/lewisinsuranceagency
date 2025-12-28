@@ -63,5 +63,8 @@ export default function PersonalPage() {
             {/* CTA */}
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/personal`,
+    },
 }

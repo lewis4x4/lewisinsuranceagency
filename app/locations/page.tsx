@@ -106,5 +106,8 @@ export default function LocationsPage() {
             {/* CTA */}
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/locations`,
+    },
 }

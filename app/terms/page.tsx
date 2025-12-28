@@ -4,6 +4,10 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Terms of Service",
     description: "Lewis Insurance terms of service. Review the terms and conditions for using our website and services.",
+
+    alternates: {
+        canonical: `https://lewisinsurance.com/terms`,
+    },
 }
 
 export default function TermsPage() {

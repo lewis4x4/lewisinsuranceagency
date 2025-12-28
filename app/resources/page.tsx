@@ -162,5 +162,8 @@ export default function ResourcesPage() {
             {/* CTA */}
             <CTABand />
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/resources`,
+    },
 }

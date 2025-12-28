@@ -142,5 +142,8 @@ export default function ClientToolsPage() {
                 </div>
             </section>
         </>
-    )
+    ),
+    alternates: {
+        canonical: `https://lewisinsurance.com/client-tools`,
+    },
 }
