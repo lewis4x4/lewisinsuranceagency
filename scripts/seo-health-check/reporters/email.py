@@ -11,7 +11,8 @@ class EmailReporter:
     def __init__(self):
         self.api_key = os.environ.get("SENDGRID_API_KEY")
         self.to_email = os.environ.get("NOTIFICATION_EMAIL")
-        self.from_email = "seo-bot@lewisinsurance.com"
+        # Use NOTIFICATION_EMAIL as sender too (must be verified in SendGrid)
+        self.from_email = os.environ.get("NOTIFICATION_EMAIL", "seo-bot@lewisinsurance.com")
 
     def send(self, report: Dict[str, Any]) -> bool:
         """Send email report"""
