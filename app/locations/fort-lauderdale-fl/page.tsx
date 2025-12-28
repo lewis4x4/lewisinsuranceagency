@@ -1,4 +1,5 @@
 import { CityPageTemplate, type CityPageData } from "@/components/templates"
+import { generateCityMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: CityPageData = {
@@ -101,13 +102,13 @@ const pageData: CityPageData = {
     ],
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = generateCityMetadata({
+    city: pageData.city,
+    state: pageData.state,
+    slug: pageData.slug,
     title: pageData.title,
     description: pageData.description,
-    alternates: {
-        canonical: `https://lewisinsurance.com/locations/${pageData.slug}`,
-    },
-}
+})
 
 export default function FortLauderdalePage() {
     return <CityPageTemplate data={pageData} />

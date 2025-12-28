@@ -345,3 +345,228 @@ Before committing any page:
 - [ ] Images have alt text
 - [ ] No TypeScript errors
 - [ ] No ESLint errors
+
+
+---
+name: ceo-code-copilot
+description: Expert code review and enhancement advisor for full-stack applications. Triggers on "Review My Code Base" or similar requests like "audit my repo", "find issues in my code", "how can I improve this app", "code review", "find bottlenecks". Performs comprehensive analysis of frontend (React/TypeScript), backend (Supabase, Edge Functions, APIs), and infrastructure (RLS policies, database schema, indexes). Delivers prioritized findings with actionable code fixes to elevate apps from basic to production-grade.
+---
+
+# CEO Code Copilot
+
+Expert code review system that identifies issues, bottlenecks, and enhancement opportunities across the full stack.
+
+## Review Workflow
+
+### Phase 1: Repository Discovery
+
+Scan the codebase structure to understand architecture:
+```bash
+# Get project structure
+find . -type f \( -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" -o -name "*.sql" -o -name "*.json" \) | head -100
+
+# Check for Supabase
+ls -la supabase/ 2>/dev/null || echo "No supabase directory"
+
+# Check package.json for dependencies
+cat package.json 2>/dev/null | head -50
+```
+
+Identify:
+- Framework (React, Next.js, Vite)
+- State management (Zustand, Redux, Context)
+- Database (Supabase, PostgreSQL)
+- Key dependencies and their versions
+
+### Phase 2: Systematic Review
+
+Review in priority order.
+
+**Priority 1: Performance**
+- Bundle size and code splitting
+- Re-render patterns in React components
+- Database query efficiency (N+1, missing indexes)
+- API call optimization (caching, batching)
+- Image and asset optimization
+
+**Priority 2: UI/UX Improvements**
+- Loading states and skeleton screens
+- Error boundaries and user feedback
+- Responsive design gaps
+- Accessibility issues
+- Animation and micro-interactions
+
+**Priority 3: Scalability**
+- Database schema design
+- Caching strategies
+- Connection pooling
+- Rate limiting
+- Horizontal scaling readiness
+
+**Priority 4: Security**
+- RLS policy coverage
+- Input validation
+- Auth flow vulnerabilities
+- API endpoint protection
+- Secrets management
+
+**Priority 5: Code Maintainability**
+- Type safety gaps
+- Component decomposition
+- Naming conventions
+- Dead code
+- Documentation gaps
+
+**Priority 6: Error Handling/Resilience**
+- Try-catch coverage
+- Graceful degradation
+- Retry logic
+- Logging and monitoring hooks
+
+### Phase 3: Enhancement Identification
+
+Look for opportunities to add:
+- Optimistic updates
+- Real-time subscriptions
+- Offline support
+- Progressive loading
+- Smart prefetching
+- Background sync
+
+### Phase 4: Supabase-Specific Review
+
+If Supabase detected, check:
+- RLS policies on all tables
+- Index coverage for common queries
+- Edge function efficiency
+- Realtime subscription optimization
+- Storage bucket policies
+
+## Output Format
+
+Structure findings as:
+```markdown
+# Code Review: [Project Name]
+
+## Executive Summary
+[2-3 sentence overview of codebase health and top priorities]
+
+## Critical Issues (Fix Immediately)
+### [Issue Title]
+**Impact**: [Performance/Security/etc] | **Effort**: [Low/Medium/High]
+**Location**: `path/to/file.ts:lineNumber`
+**Problem**: [Concise description]
+**Fix**:
+\`\`\`typescript
+// Before
+[problematic code]
+
+// After
+[fixed code]
+\`\`\`
+
+## High Priority Enhancements
+[Same format, ordered by impact]
+
+## Medium Priority Improvements
+[Same format]
+
+## Nice-to-Have Optimizations
+[Same format]
+
+## Architecture Recommendations
+[Bigger-picture suggestions for scaling]
+```
+
+## Review Commands
+
+Quick scans to run during review:
+```bash
+# Find large components (potential split candidates)
+wc -l $(find . -name "*.tsx" -o -name "*.ts") 2>/dev/null | sort -rn | head -20
+
+# Find TODO/FIXME comments
+grep -rn "TODO\|FIXME\|HACK\|XXX" --include="*.ts" --include="*.tsx" .
+
+# Check for console.log statements
+grep -rn "console.log" --include="*.ts" --include="*.tsx" . | wc -l
+
+# Find any usage patterns
+grep -rn "useEffect" --include="*.tsx" . | wc -l
+
+# Check for inline styles (should use Tailwind)
+grep -rn "style={{" --include="*.tsx" . | head -10
+
+# Find components without memo
+grep -rL "memo\|useMemo\|useCallback" --include="*.tsx" src/components/ 2>/dev/null | head -10
+```
+
+## Standards to Enforce
+
+### Naming Conventions
+- Components: PascalCase (`UserProfile.tsx`)
+- Hooks: camelCase with `use` prefix (`useAuth.ts`)
+- Utilities: camelCase (`formatDate.ts`)
+- Types: PascalCase with descriptive suffix (`UserProfileProps`, `ApiResponse`)
+- Constants: SCREAMING_SNAKE_CASE (`MAX_RETRY_COUNT`)
+- Database tables: snake_case (`user_profiles`)
+
+### File Structure
+```
+src/
+├── components/      # Reusable UI components
+│   ├── ui/          # Base components (Button, Input, etc.)
+│   └── features/    # Feature-specific components
+├── hooks/           # Custom React hooks
+├── lib/             # Utilities and helpers
+├── services/        # API calls and external integrations
+├── stores/          # State management
+├── types/           # TypeScript types/interfaces
+└── pages/           # Route components (if not using file-based routing)
+```
+
+### Error Handling Pattern
+```typescript
+// Service layer - throw typed errors
+export async function fetchUser(id: string): Promise<User> {
+  const { data, error } = await supabase
+    .from('users')
+    .select('*')
+    .eq('id', id)
+    .single();
+  
+  if (error) throw new DatabaseError('Failed to fetch user', { cause: error });
+  if (!data) throw new NotFoundError('User not found');
+  return data;
+}
+
+// Component layer - handle with error boundary or try-catch
+try {
+  const user = await fetchUser(id);
+} catch (err) {
+  if (err instanceof NotFoundError) {
+    // Handle 404
+  }
+  // Log and show generic error
+  console.error('fetchUser failed:', err);
+  toast.error('Something went wrong');
+}
+```
+
+### Logging Standard
+```typescript
+// Use structured logging
+logger.info('User action', { 
+  action: 'login',
+  userId: user.id,
+  timestamp: new Date().toISOString()
+});
+
+// Error logging with context
+logger.error('Operation failed', {
+  operation: 'createOrder',
+  input: { productId, quantity },
+  error: err.message,
+  stack: err.stack
+});
+```

@@ -1,4 +1,5 @@
 import { ServicePageTemplate, type ServicePageData } from "@/components/templates"
+import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
@@ -117,10 +118,12 @@ const pageData: ServicePageData = {
     category: "personal",
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = generateServiceMetadata({
     title: pageData.title,
     description: pageData.description,
-}
+    slug: pageData.slug,
+    category: pageData.category,
+})
 
 export default function RentersInsurancePage() {
     return <ServicePageTemplate data={pageData} />

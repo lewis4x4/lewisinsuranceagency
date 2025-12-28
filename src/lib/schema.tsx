@@ -255,3 +255,64 @@ export function SchemaScripts({ schemas }: { schemas: object[] }) {
         </>
     )
 }
+
+// Metadata generator for service pages
+export function generateServiceMetadata(data: {
+    title: string
+    description: string
+    slug: string
+    category: "personal" | "business"
+}) {
+    const url = `${baseUrl}/${data.category}/${data.slug}`
+    return {
+        title: data.title,
+        description: data.description,
+        alternates: {
+            canonical: url,
+        },
+        openGraph: {
+            title: `${data.title} | ${siteConfig.name}`,
+            description: data.description,
+            url: url,
+            siteName: siteConfig.name,
+            locale: "en_US",
+            type: "website" as const,
+        },
+        twitter: {
+            card: "summary_large_image" as const,
+            title: `${data.title} | ${siteConfig.name}`,
+            description: data.description,
+        },
+    }
+}
+
+// Metadata generator for city pages
+export function generateCityMetadata(data: {
+    city: string
+    state: string
+    slug: string
+    title: string
+    description: string
+}) {
+    const url = `${baseUrl}/locations/${data.slug}`
+    return {
+        title: data.title,
+        description: data.description,
+        alternates: {
+            canonical: url,
+        },
+        openGraph: {
+            title: `${data.title} | ${siteConfig.name}`,
+            description: data.description,
+            url: url,
+            siteName: siteConfig.name,
+            locale: "en_US",
+            type: "website" as const,
+        },
+        twitter: {
+            card: "summary_large_image" as const,
+            title: `${data.title} | ${siteConfig.name}`,
+            description: data.description,
+        },
+    }
+}
