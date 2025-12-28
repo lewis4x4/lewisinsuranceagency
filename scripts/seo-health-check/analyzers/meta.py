@@ -40,6 +40,18 @@ class MetaAnalyzer:
         except Exception:
             return issues
 
+        # Also check for layout.tsx in the same directory (metadata can be there too)
+        layout_content = ""
+        layout_path = file_path.parent / "layout.tsx"
+        if layout_path.exists():
+            try:
+                layout_content = layout_path.read_text(encoding="utf-8")
+            except Exception:
+                pass
+
+        # Combine content for metadata search (page + layout)
+        combined_content = content + "\n" + layout_content
+
         page_path = self._file_to_route(file_path)
 
         # Skip certain paths
@@ -47,7 +59,7 @@ class MetaAnalyzer:
         if any(pattern in page_path for pattern in skip_patterns):
             return issues
 
-        # Extract title - multiple patterns
+        # Extract title - multiple patterns (check both page and layout)
         title = None
         title_patterns = [
             r'title:\s*["\']([^"\']+)["\']',  # title: "..."
@@ -56,7 +68,7 @@ class MetaAnalyzer:
         ]
 
         for pattern in title_patterns:
-            title_match = re.search(pattern, content)
+            title_match = re.search(pattern, combined_content)
             if title_match:
                 title = title_match.group(1)
                 break
@@ -100,8 +112,8 @@ class MetaAnalyzer:
             else:
                 seen_titles[title] = page_path
         else:
-            # Check if using generateMetadata function (dynamic)
-            if "generateMetadata" not in content and "metadata" not in content.lower():
+            # Check if using generateMetadata function (dynamic) - check both page and layout
+            if "generateMetadata" not in combined_content and "metadata" not in combined_content.lower():
                 issues.append({
                     "type": "missing_title",
                     "severity": "critical",
@@ -111,7 +123,7 @@ class MetaAnalyzer:
                     "description": "Page missing title metadata",
                 })
 
-        # Extract description
+        # Extract description (check both page and layout)
         description = None
         desc_patterns = [
             r'description:\s*["\']([^"\']+)["\']',
@@ -120,7 +132,7 @@ class MetaAnalyzer:
         ]
 
         for pattern in desc_patterns:
-            desc_match = re.search(pattern, content)
+            desc_match = re.search(pattern, combined_content)
             if desc_match:
                 description = desc_match.group(1)
                 break
@@ -148,7 +160,8 @@ class MetaAnalyzer:
                     "description": f"Meta description long ({len(description)} chars, max {self.desc_max})",
                 })
         else:
-            if "generateMetadata" not in content:
+            # Check both page and layout for generateMetadata
+            if "generateMetadata" not in combined_content:
                 issues.append({
                     "type": "missing_description",
                     "severity": "critical",

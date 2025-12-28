@@ -35,6 +35,18 @@ class CanonicalAnalyzer:
         except Exception:
             return issues
 
+        # Also check for layout.tsx in the same directory (metadata can be there too)
+        layout_content = ""
+        layout_path = file_path.parent / "layout.tsx"
+        if layout_path.exists():
+            try:
+                layout_content = layout_path.read_text(encoding="utf-8")
+            except Exception:
+                pass
+
+        # Combine content for metadata search (page + layout)
+        combined_content = content + "\n" + layout_content
+
         page_path = self._file_to_route(file_path)
 
         # Skip certain paths
@@ -42,27 +54,27 @@ class CanonicalAnalyzer:
         if any(pattern in page_path for pattern in skip_patterns):
             return issues
 
-        # Check for canonical URL in metadata
+        # Check for canonical URL in metadata (in both page and layout)
         has_canonical = False
 
         # Pattern 1: alternates.canonical
-        if re.search(r'alternates:\s*\{[^}]*canonical', content, re.DOTALL):
+        if re.search(r'alternates:\s*\{[^}]*canonical', combined_content, re.DOTALL):
             has_canonical = True
 
         # Pattern 2: canonical in metadata object
-        if re.search(r'canonical:\s*["`\']', content):
+        if re.search(r'canonical:\s*["`\']', combined_content):
             has_canonical = True
 
         # Pattern 3: using generateMetadata function (likely has canonical)
-        if "generateMetadata" in content and "canonical" in content:
+        if "generateMetadata" in combined_content and "canonical" in combined_content:
             has_canonical = True
 
         if not has_canonical:
             # Check if this is a page that should have metadata
             # Skip if it's using a template that handles metadata
-            if "CityServicePageTemplate" in content or "ServicePageTemplate" in content:
+            if "CityServicePageTemplate" in combined_content or "ServicePageTemplate" in combined_content:
                 # These templates should include canonical
-                if "alternates" not in content:
+                if "alternates" not in combined_content:
                     issues.append({
                         "type": "missing_canonical",
                         "severity": "warning",
@@ -72,7 +84,7 @@ class CanonicalAnalyzer:
                         "auto_fixable": True,
                         "description": f"Page missing canonical URL",
                     })
-            elif "export const metadata" in content or "export async function generateMetadata" in content:
+            elif "export const metadata" in combined_content or "export async function generateMetadata" in combined_content:
                 issues.append({
                     "type": "missing_canonical",
                     "severity": "warning",
