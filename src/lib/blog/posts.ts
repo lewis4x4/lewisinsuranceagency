@@ -1,6 +1,8 @@
 import type { BlogPost } from "./types"
+import { loadAllMarkdownPosts } from "./markdown-loader"
 
-export const blogPosts: BlogPost[] = [
+// Hardcoded blog posts (original content)
+const hardcodedPosts: BlogPost[] = [
     {
         slug: "florida-homeowners-insurance-guide-2025",
         title: "Florida Homeowners Insurance Guide 2025",
@@ -813,31 +815,52 @@ Yes, though it may affect pricing. Work with an independent agent to find flexib
     },
 ]
 
+/**
+ * Get all blog posts from both hardcoded and markdown sources
+ * Markdown posts are loaded from content/blog/ directory
+ */
+function getAllBlogPosts(): BlogPost[] {
+    const markdownPosts = loadAllMarkdownPosts()
+    const allPosts = [...hardcodedPosts, ...markdownPosts]
+
+    // Dedupe by slug (prefer hardcoded over markdown if duplicate)
+    const seenSlugs = new Set<string>()
+    return allPosts.filter((post) => {
+        if (seenSlugs.has(post.slug)) return false
+        seenSlugs.add(post.slug)
+        return true
+    })
+}
+
+// Export for backward compatibility
+export const blogPosts = getAllBlogPosts()
+
 export function getAllPosts(): BlogPost[] {
-    return blogPosts.sort(
+    return getAllBlogPosts().sort(
         (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     )
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
-    return blogPosts.find((post) => post.slug === slug)
+    return getAllBlogPosts().find((post) => post.slug === slug)
 }
 
 export function getFeaturedPosts(): BlogPost[] {
-    return blogPosts.filter((post) => post.featured)
+    return getAllBlogPosts().filter((post) => post.featured)
 }
 
 export function getPostsByCategory(category: BlogPost["category"]): BlogPost[] {
-    return blogPosts
+    return getAllBlogPosts()
         .filter((post) => post.category === category)
         .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 }
 
 export function getRelatedPosts(currentSlug: string, limit = 3): BlogPost[] {
-    const current = getPostBySlug(currentSlug)
+    const allPosts = getAllBlogPosts()
+    const current = allPosts.find((post) => post.slug === currentSlug)
     if (!current) return []
 
-    return blogPosts
+    return allPosts
         .filter((post) => post.slug !== currentSlug)
         .filter((post) => post.tags.some((tag) => current.tags.includes(tag)))
         .slice(0, limit)
