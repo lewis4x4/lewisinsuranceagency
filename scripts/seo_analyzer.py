@@ -7,9 +7,10 @@ Validates frontmatter and basic SEO requirements
 import sys
 import re
 from pathlib import Path
+from typing import Tuple, List
 
 
-def analyze_post(filepath: str) -> tuple[bool, list[str]]:
+def analyze_post(filepath: str) -> Tuple[bool, List[str]]:
     """Analyze a blog post for SEO requirements"""
     errors = []
     warnings = []
