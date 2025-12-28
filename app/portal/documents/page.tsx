@@ -2,16 +2,27 @@
 
 export const dynamic = 'force-dynamic'
 
-import { FileText, Download, AlertCircle, Search } from 'lucide-react'
+import { FileText, Download, AlertCircle, Search, Loader2 } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { usePortalDashboard } from '@/hooks/usePortalDashboard'
+import { usePortalDashboard, useDocumentDownload } from '@/hooks/usePortalDashboard'
 import { useState } from 'react'
+import { toast } from 'sonner'
 
 export default function DocumentsPage() {
     const { data, loading, error } = usePortalDashboard()
+    const { downloadDocument, downloading } = useDocumentDownload()
     const [searchTerm, setSearchTerm] = useState('')
+
+    const handleDownload = async (docId: string, docName: string) => {
+        try {
+            await downloadDocument(docId)
+            toast.success(`Downloading ${docName}`)
+        } catch {
+            toast.error('Failed to download document. Please try again.')
+        }
+    }
 
     if (loading) {
         return (
@@ -115,13 +126,15 @@ export default function DocumentsPage() {
                                             <Button
                                                 variant="outline"
                                                 size="sm"
-                                                onClick={() => {
-                                                    // TODO: Implement document download
-                                                    alert('Document download coming soon')
-                                                }}
+                                                disabled={downloading === doc.id}
+                                                onClick={() => handleDownload(doc.id, doc.document_name)}
                                             >
-                                                <Download className="h-4 w-4 mr-1" />
-                                                Download
+                                                {downloading === doc.id ? (
+                                                    <Loader2 className="h-4 w-4 mr-1 animate-spin" />
+                                                ) : (
+                                                    <Download className="h-4 w-4 mr-1" />
+                                                )}
+                                                {downloading === doc.id ? 'Loading...' : 'Download'}
                                             </Button>
                                         </div>
                                     ))}

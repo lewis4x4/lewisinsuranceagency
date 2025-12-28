@@ -51,28 +51,35 @@ serve(async (req) => {
             )
         }
 
-        // Get policies
-        const { data: policies, error: policiesError } = await supabase
-            .from('policies')
-            .select('*')
-            .eq('client_id', clientData.id)
-            .order('expiration_date', { ascending: true })
+        // Fetch all data in parallel for better performance
+        const [policiesResult, documentsResult, requestsResult] = await Promise.all([
+            // Get policies
+            supabase
+                .from('policies')
+                .select('*')
+                .eq('client_id', clientData.id)
+                .order('expiration_date', { ascending: true }),
 
-        // Get recent documents
-        const { data: documents, error: docsError } = await supabase
-            .from('documents')
-            .select('*')
-            .eq('client_id', clientData.id)
-            .order('created_at', { ascending: false })
-            .limit(10)
+            // Get recent documents
+            supabase
+                .from('documents')
+                .select('*')
+                .eq('client_id', clientData.id)
+                .order('created_at', { ascending: false })
+                .limit(10),
 
-        // Get pending requests
-        const { data: pendingRequests, error: requestsError } = await supabase
-            .from('service_requests')
-            .select('*')
-            .eq('client_id', clientData.id)
-            .in('status', ['pending', 'in_progress'])
-            .order('created_at', { ascending: false })
+            // Get pending requests
+            supabase
+                .from('service_requests')
+                .select('*')
+                .eq('client_id', clientData.id)
+                .in('status', ['pending', 'in_progress'])
+                .order('created_at', { ascending: false })
+        ])
+
+        const policies = policiesResult.data
+        const documents = documentsResult.data
+        const pendingRequests = requestsResult.data
 
         return new Response(
             JSON.stringify({

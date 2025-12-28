@@ -137,3 +137,47 @@ export function usePortalPolicyDetails(policyId: string | null) {
 
     return { data, loading, error }
 }
+
+export function useDocumentDownload() {
+    const [downloading, setDownloading] = useState<string | null>(null)
+    const [error, setError] = useState<Error | null>(null)
+
+    const downloadDocument = useCallback(async (documentId: string) => {
+        if (!supabase) {
+            setError(new Error('Portal is not configured'))
+            return
+        }
+
+        setDownloading(documentId)
+        setError(null)
+
+        try {
+            const { data, error: fetchError } = await supabase.functions.invoke(
+                'portal-get-document',
+                { body: { document_id: documentId } }
+            )
+
+            if (fetchError) {
+                throw new Error(fetchError.message || 'Failed to get document')
+            }
+
+            if (data?.url) {
+                // Open the signed URL in a new tab to download
+                window.open(data.url, '_blank')
+            } else {
+                throw new Error('No download URL received')
+            }
+        } catch (err) {
+            setError(err as Error)
+            throw err
+        } finally {
+            setDownloading(null)
+        }
+    }, [])
+
+    return {
+        downloadDocument,
+        downloading,
+        error,
+    }
+}
