@@ -82,15 +82,29 @@ AGENCY INFO:
 OUTPUT FORMAT:
 Return ONLY the markdown content starting with --- for frontmatter. No explanations or preamble.
 
+IMPORTANT: All frontmatter string values MUST be wrapped in double quotes to ensure valid YAML parsing.
+
+Example frontmatter format:
+---
+title: "Your Title Here"
+description: "Your meta description here."
+date: 2025-01-15
+author: "Lewis Insurance Agency"
+category: "florida-auto-insurance"
+tags: ["tag1", "tag2", "tag3"]
+image: "/images/blog/post-image.jpg"
+imageAlt: "Image description here"
+---
+
 Frontmatter must include:
-- title
-- description (meta description)
-- date (today's date YYYY-MM-DD)
-- author
-- category
-- tags (array)
-- image (placeholder path)
-- imageAlt
+- title (in quotes)
+- description (meta description, in quotes)
+- date (today's date YYYY-MM-DD, no quotes)
+- author (in quotes)
+- category (in quotes)
+- tags (array with quoted strings)
+- image (placeholder path, in quotes)
+- imageAlt (in quotes)
 """
 
 

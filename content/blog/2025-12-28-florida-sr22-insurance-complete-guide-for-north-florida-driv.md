@@ -1,12 +1,12 @@
 ---
-title: Florida SR-22 Insurance: Complete Guide for North Florida Drivers
-description: Get affordable SR-22 insurance in Florida with our expert guide. Compare rates, understand requirements, and learn how to restore your driving privileges today.
+title: "Florida SR-22 Insurance: Complete Guide for North Florida Drivers"
+description: "Get affordable SR-22 insurance in Florida with our expert guide. Compare rates, understand requirements, and learn how to restore your driving privileges today."
 date: 2024-12-28
-author: Lewis Insurance Agency
-category: florida-auto-insurance
+author: "Lewis Insurance Agency"
+category: "florida-auto-insurance"
 tags: ["sr-22 insurance", "florida auto insurance", "high-risk drivers", "license reinstatement", "dui insurance"]
-image: /images/florida-sr22-insurance-guide.jpg
-imageAlt: Florida SR-22 insurance certificate with car keys and documents
+image: "/images/florida-sr22-insurance-guide.jpg"
+imageAlt: "Florida SR-22 insurance certificate with car keys and documents"
 ---
 
 # Florida SR-22 Insurance: Complete Guide for North Florida Drivers
