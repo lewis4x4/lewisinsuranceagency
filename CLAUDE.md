@@ -570,3 +570,347 @@ logger.error('Operation failed', {
   stack: err.stack
 });
 ```
+
+---
+name: seo-audit
+description: Comprehensive SEO audit for Next.js websites. Triggers on "SEO audit", "analyze SEO", "check SEO", "SEO issues", "improve SEO", "SEO review", "search engine optimization". Performs deep analysis of metadata, structured data, technical SEO, content optimization, and indexability. Delivers prioritized findings with specific file paths and code fixes.
+---
+
+# SEO Audit Skill
+
+Comprehensive SEO analysis system for Next.js applications. Identifies issues across technical SEO, on-page optimization, structured data, and indexability.
+
+## Audit Workflow
+
+### Phase 1: Technical SEO Foundation
+
+**1.1 Robots.txt & Sitemap**
+```bash
+# Check robots.txt configuration
+cat app/robots.ts 2>/dev/null || cat public/robots.txt 2>/dev/null
+
+# Check sitemap configuration
+cat next-sitemap.config.js 2>/dev/null
+cat app/sitemap.ts 2>/dev/null
+
+# Verify excluded routes match private pages
+grep -r "noindex\|disallow" app/ --include="*.ts" --include="*.tsx"
+```
+
+Verify:
+- All private routes excluded (portal, admin, thank-you, API)
+- Sitemap URL correctly configured
+- No important pages accidentally blocked
+
+**1.2 Canonical URLs**
+```bash
+# Find pages missing canonical URLs
+grep -rL "canonical\|alternates" app/**/page.tsx 2>/dev/null | head -20
+
+# Check for proper canonical implementation
+grep -rn "alternates" app/ --include="*.tsx" -A2
+```
+
+Verify:
+- Every public page has a canonical URL
+- Canonical URLs use absolute paths with domain
+- No duplicate content issues
+
+**1.3 Metadata Coverage**
+```bash
+# Find pages without metadata export
+for f in $(find app -name "page.tsx" -type f); do
+  if ! grep -q "export const metadata\|generateMetadata" "$f"; then
+    echo "Missing metadata: $f"
+  fi
+done
+
+# Check metadata completeness
+grep -rn "title:\|description:" app/ --include="*.tsx" | head -30
+```
+
+Required for every page:
+- `title` (50-60 characters)
+- `description` (150-160 characters)
+- `alternates.canonical`
+- `openGraph` (title, description, url, type, locale)
+- `twitter` (card, title, description)
+
+### Phase 2: Structured Data (JSON-LD)
+
+**2.1 Schema Coverage by Page Type**
+
+| Page Type | Required Schemas |
+|-----------|-----------------|
+| Homepage | Organization, WebSite, LocalBusiness |
+| Service pages | Service, FAQPage, BreadcrumbList |
+| Location pages | LocalBusiness (with serviceArea), BreadcrumbList |
+| Blog posts | Article, BreadcrumbList |
+| Contact page | LocalBusiness, ContactPage |
+| About page | Organization, AboutPage |
+
+```bash
+# Find schema implementation
+cat src/lib/schema.tsx 2>/dev/null | head -100
+
+# Check which pages use schemas
+grep -rn "SchemaScripts\|json-ld\|application/ld+json" app/ --include="*.tsx"
+
+# Verify Organization schema exists
+grep -rn "InsuranceAgency\|Organization\|LocalBusiness" src/lib/schema.tsx
+```
+
+**2.2 Schema Validation Checklist**
+- [ ] Organization schema has: name, url, logo, address, phone, email
+- [ ] LocalBusiness has: geo coordinates, openingHours, priceRange
+- [ ] Service schemas have: provider, areaServed, description
+- [ ] FAQ schemas have: question/answer pairs matching visible FAQs
+- [ ] BreadcrumbList matches visible breadcrumb navigation
+- [ ] Article schemas have: author, datePublished, dateModified
+
+### Phase 3: On-Page SEO
+
+**3.1 Heading Hierarchy**
+```bash
+# Check for multiple H1s or heading issues
+grep -rn "<h1\|<H1" app/ --include="*.tsx" | wc -l
+
+# Find components with headings
+grep -rn "className.*text-.*mb" app/ --include="*.tsx" | grep -i "h1\|h2\|h3"
+```
+
+Verify:
+- Single H1 per page
+- Logical hierarchy (H1 → H2 → H3, no skipping)
+- H1 contains primary keyword
+- H2s contain secondary keywords
+
+**3.2 Image Optimization**
+```bash
+# Find images without alt text
+grep -rn "<Image\|<img" app/ --include="*.tsx" | grep -v "alt="
+
+# Check for missing sizes attribute
+grep -rn "<Image" app/ --include="*.tsx" | grep -v "sizes="
+
+# Find large images that should be optimized
+find public -name "*.jpg" -o -name "*.png" | xargs ls -la 2>/dev/null | awk '$5 > 500000'
+```
+
+Requirements:
+- All images have descriptive `alt` text
+- Images use Next.js `<Image>` component
+- `sizes` attribute for responsive images
+- `priority` on above-fold images
+- WebP format preferred
+
+**3.3 Internal Linking**
+```bash
+# Find orphan pages (no internal links pointing to them)
+grep -roh 'href="[^"]*"' app/ --include="*.tsx" | sort | uniq -c | sort -rn
+
+# Check for broken internal links
+grep -rn 'href="/[^"]*"' app/ --include="*.tsx" | grep -v "http"
+```
+
+Verify:
+- Service pages link to 2-3 related services
+- Location pages link to relevant services
+- Breadcrumbs on all non-root pages
+- Footer contains links to all hub pages
+- No orphan pages
+
+### Phase 4: Indexability
+
+**4.1 Page Accessibility to Crawlers**
+```bash
+# Check for noindex on public pages (should NOT have)
+grep -rn "noindex\|nofollow" app/ --include="*.tsx" | grep -v "portal\|thank-you\|admin"
+
+# Check for client-only rendering issues
+grep -rn "'use client'" app/**/page.tsx | head -20
+```
+
+**4.2 Dynamic vs Static**
+```bash
+# Find pages with dynamic exports
+grep -rn "export const dynamic\|force-dynamic\|force-static" app/ --include="*.tsx"
+
+# Check generateStaticParams for dynamic routes
+grep -rn "generateStaticParams" app/ --include="*.tsx"
+```
+
+### Phase 5: Performance Impact on SEO
+
+**5.1 Core Web Vitals Factors**
+```bash
+# Check for layout shift causes (images without dimensions)
+grep -rn "<Image" app/ --include="*.tsx" | grep -v "width=\|height=\|fill"
+
+# Find render-blocking resources
+grep -rn "import.*css\|@import" app/ --include="*.tsx" --include="*.css"
+
+# Check font loading
+grep -rn "font-display\|preload.*font" app/ --include="*.tsx" --include="*.css"
+```
+
+**5.2 Mobile Optimization**
+```bash
+# Check viewport meta
+grep -rn "viewport" app/layout.tsx
+
+# Find touch target issues (buttons < 44px)
+grep -rn "h-8\|w-8\|p-1\|p-2" app/ --include="*.tsx" | grep -i "button\|link\|a "
+```
+
+### Phase 6: Content Quality Signals
+
+**6.1 Content Length by Page Type**
+| Page Type | Minimum Words |
+|-----------|--------------|
+| Service page | 800 |
+| City page | 500 |
+| City+service page | 600 |
+| Blog post | 1000 |
+
+**6.2 FAQ Coverage**
+```bash
+# Check FAQ sections exist
+grep -rn "AccordionItem\|faq\|FAQ" app/ --include="*.tsx" | wc -l
+
+# Verify FAQ schema matches visible FAQs
+grep -rn "generateFAQSchema" app/ --include="*.tsx"
+```
+
+## Output Format
+
+```markdown
+# SEO Audit Report: [Site Name]
+
+## Executive Summary
+[Health score: X/100]
+[Top 3 priorities with impact]
+
+## Critical Issues (Fix Immediately)
+### [Issue Title]
+**Category**: [Technical SEO/Metadata/Schema/Content]
+**Impact**: [High/Medium/Low] | **Pages Affected**: [count]
+**Location**: `path/to/file.tsx:lineNumber`
+**Problem**: [Description]
+**Fix**:
+\`\`\`typescript
+// Before
+[problematic code]
+
+// After
+[fixed code]
+\`\`\`
+
+## High Priority Issues
+[Same format]
+
+## Medium Priority Issues
+[Same format]
+
+## Opportunities
+[Enhancement suggestions for ranking improvement]
+
+## Passed Checks ✓
+[List of things done correctly]
+```
+
+## Quick Audit Commands
+
+```bash
+# Full metadata scan
+echo "=== Pages Missing Metadata ===" && \
+for f in $(find app -name "page.tsx" -type f 2>/dev/null); do \
+  grep -q "export const metadata\|generateMetadata" "$f" || echo "$f"; \
+done
+
+# Schema coverage
+echo "=== Schema Usage ===" && \
+grep -rn "SchemaScripts" app/ --include="*.tsx" 2>/dev/null | wc -l
+
+# Canonical URL coverage
+echo "=== Pages Missing Canonical ===" && \
+grep -rL "canonical\|alternates" app/**/page.tsx 2>/dev/null | wc -l
+
+# Image alt text
+echo "=== Images Missing Alt ===" && \
+grep -rn "<Image" app/ --include="*.tsx" 2>/dev/null | grep -v "alt=" | wc -l
+
+# OpenGraph coverage
+echo "=== Pages Missing OG Tags ===" && \
+grep -rL "openGraph" app/**/page.tsx 2>/dev/null | wc -l
+
+# Check robots exclusions
+echo "=== Robots.txt Disallow ===" && \
+grep -n "disallow" app/robots.ts 2>/dev/null
+```
+
+## SEO Metadata Template
+
+For pages missing proper metadata, use this pattern:
+
+```typescript
+import type { Metadata } from "next"
+import { siteConfig } from "@/config/site"
+
+const baseUrl = `https://${siteConfig.domain}`
+
+export const metadata: Metadata = {
+    title: "Page Title | Lewis Insurance",
+    description: "150-160 character description with primary keyword.",
+    alternates: {
+        canonical: `${baseUrl}/page-path`,
+    },
+    openGraph: {
+        title: "Page Title | Lewis Insurance",
+        description: "Description for social sharing.",
+        url: `${baseUrl}/page-path`,
+        siteName: siteConfig.name,
+        locale: "en_US",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Page Title | Lewis Insurance",
+        description: "Description for Twitter.",
+    },
+}
+```
+
+## Schema Template
+
+For pages missing structured data:
+
+```typescript
+import { SchemaScripts, generateServiceSchema, generateFAQSchema, generateBreadcrumbSchema } from "@/lib/schema"
+
+// In component
+<SchemaScripts schemas={[
+    generateServiceSchema({ name, description, slug, category }),
+    generateFAQSchema(faqs),
+    generateBreadcrumbSchema([
+        { name: "Home", url: baseUrl },
+        { name: "Category", url: `${baseUrl}/category` },
+        { name: "Page", url: `${baseUrl}/category/page` },
+    ]),
+]} />
+```
+
+## Priority Matrix
+
+| Issue Type | SEO Impact | Fix Effort | Priority |
+|------------|-----------|------------|----------|
+| Missing title/description | Critical | Low | P0 |
+| No canonical URL | High | Low | P0 |
+| Missing OG tags | Medium | Low | P1 |
+| No JSON-LD schema | High | Medium | P1 |
+| Multiple H1s | Medium | Low | P1 |
+| Images without alt | Medium | Low | P1 |
+| Missing Twitter cards | Low | Low | P2 |
+| Suboptimal title length | Low | Low | P2 |
+| Missing breadcrumbs | Low | Medium | P2 |
+| Content too short | Medium | High | P3 |
