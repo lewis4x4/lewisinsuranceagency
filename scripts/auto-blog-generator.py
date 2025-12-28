@@ -84,6 +84,8 @@ Return ONLY the markdown content starting with --- for frontmatter. No explanati
 
 IMPORTANT: All frontmatter string values MUST be wrapped in double quotes to ensure valid YAML parsing.
 
+CRITICAL: The date field MUST use the current year (2025), not 2024. Today's date will be provided in the prompt.
+
 Example frontmatter format:
 ---
 title: "Your Title Here"
@@ -141,9 +143,15 @@ def generate_blog_post(topic: str = None):
         search_topic = topic
         category = "florida-homeowners-insurance" if "home" in topic.lower() else "florida-auto-insurance"
 
+    today = datetime.now().strftime('%Y-%m-%d')
+    current_year = datetime.now().year
+
     user_prompt = f"""Research and write a blog post about: {search_topic}
 
-Today's date: {datetime.now().strftime('%Y-%m-%d')}
+Today's date: {today}
+Current year: {current_year}
+
+IMPORTANT: Use today's date ({today}) for the frontmatter date field. The year is {current_year}, NOT 2024.
 
 Instructions:
 1. First, search for the latest news and statistics about "{search_topic}" from the past 90 days

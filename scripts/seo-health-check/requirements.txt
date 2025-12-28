@@ -1,0 +1,11 @@
+# SEO Health Check Dependencies
+
+# HTTP requests for link checking
+requests>=2.28.0
+
+# Email sending via SendGrid
+sendgrid>=6.9.0
+
+# For parsing (optional, fallback if beautifulsoup needed)
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
