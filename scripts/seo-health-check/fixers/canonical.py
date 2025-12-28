@@ -60,9 +60,13 @@ class CanonicalFixer:
         if "alternates:" in content or "alternates :" in content:
             return content  # Don't modify if alternates exists
 
-        # Pattern to find metadata object closing
-        # Look for the pattern: export const metadata: Metadata = { ... }
-        metadata_pattern = r'(export const metadata:\s*Metadata\s*=\s*\{)(.*?)(\}[\s\n]*(?:export|$))'
+        # Find the metadata object - it should be near the top of the file
+        # and end with } followed by a newline and then const, function, export, or type declaration
+        # This pattern is more specific to avoid matching React component returns
+
+        # Pattern: export const metadata: Metadata = { ... }
+        # followed by another declaration (const, function, export, type, interface)
+        metadata_pattern = r'(export const metadata:\s*Metadata\s*=\s*\{)([\s\S]*?)(\}\s*\n\s*(?:const|function|export|type|interface|\/\/))'
 
         def add_alternates(match):
             start = match.group(1)
@@ -77,21 +81,22 @@ class CanonicalFixer:
             # Add alternates
             alternates = f'''
     alternates: {{
-        canonical: `{canonical_url}`,
+        canonical: "{canonical_url}",
     }},'''
 
             return start + body + alternates + '\n' + end
 
-        new_content = re.sub(metadata_pattern, add_alternates, content, flags=re.DOTALL)
+        new_content = re.sub(metadata_pattern, add_alternates, content)
 
-        # If that didn't work, try simpler pattern
+        # If the typed pattern didn't work, try without type annotation
         if new_content == content:
-            # Try to find just before the closing brace of metadata
-            simple_pattern = r'(export const metadata[^=]*=\s*\{[^}]+)(}\s*\n)'
+            # Pattern for: export const metadata = { ... }
+            simple_pattern = r'(export const metadata\s*=\s*\{)([\s\S]*?)(\}\s*\n\s*(?:const|function|export|type|interface|\/\/))'
 
             def simple_add(match):
-                body = match.group(1)
-                closing = match.group(2)
+                start = match.group(1)
+                body = match.group(2)
+                end = match.group(3)
 
                 if "alternates" in body:
                     return match.group(0)
@@ -100,11 +105,11 @@ class CanonicalFixer:
                 if not body_stripped.endswith(','):
                     body = body_stripped + ','
 
-                return body + f'''
+                return start + body + f'''
     alternates: {{
-        canonical: `{canonical_url}`,
+        canonical: "{canonical_url}",
     }},
-{closing}'''
+''' + end
 
             new_content = re.sub(simple_pattern, simple_add, content)
 

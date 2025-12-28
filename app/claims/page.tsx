@@ -13,6 +13,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "File a Claim",
     description: "Need to file an insurance claim? Lewis Insurance is here to help. We'll guide you through the claims process and advocate on your behalf.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/claims",
+    },
 }
 
 const claimSteps = [
@@ -152,8 +155,5 @@ export default function ClaimsPage() {
                 </div>
             </section>
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/claims`,
-    },
+    );
 }

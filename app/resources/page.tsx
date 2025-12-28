@@ -13,6 +13,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Insurance Resources",
     description: "Learn about insurance in Florida. Guides, articles, and tools to help you understand your coverage options and make informed decisions.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/resources",
+    },
 }
 
 const resourceCategories = [
@@ -162,8 +165,5 @@ export default function ResourcesPage() {
             {/* CTA */}
             <CTABand />
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/resources`,
-    },
+    );
 }

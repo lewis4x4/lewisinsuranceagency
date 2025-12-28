@@ -7,6 +7,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Personal Insurance",
     description: "Protect your Florida home, car, and family with personalized insurance coverage. Compare quotes for homeowners, auto, flood, condo, renters, and umbrella insurance.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/personal",
+    },
 }
 
 const personalFAQs = [
@@ -63,8 +66,5 @@ export default function PersonalPage() {
             {/* CTA */}
             <CTABand />
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/personal`,
-    },
+    );
 }

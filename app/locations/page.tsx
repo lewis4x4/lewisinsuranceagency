@@ -9,6 +9,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Service Areas",
     description: "Lewis Insurance serves all of Florida from our Lake City office. Find insurance agents near you in Jacksonville, Gainesville, Tampa, Orlando, and more.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/locations",
+    },
 }
 
 const majorCities = [
@@ -106,8 +109,5 @@ export default function LocationsPage() {
             {/* CTA */}
             <CTABand />
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/locations`,
-    },
+    );
 }

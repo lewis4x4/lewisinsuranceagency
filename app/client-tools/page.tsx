@@ -15,6 +15,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Client Tools & Service Center",
     description: "Access your insurance portal, make payments, file claims, and manage your policies online. Lewis Insurance self-service tools for Florida clients.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/client-tools",
+    },
 }
 
 const clientTools = [
@@ -142,8 +145,5 @@ export default function ClientToolsPage() {
                 </div>
             </section>
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/client-tools`,
-    },
+    );
 }

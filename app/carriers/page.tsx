@@ -9,6 +9,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Insurance Carriers | Lewis Insurance Agency",
     description: "Lewis Insurance partners with 20+ top-rated insurance carriers to find you the best coverage at competitive rates. Compare quotes from multiple companies.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/carriers",
+    },
 }
 
 const carrierCategories = [
@@ -237,8 +240,5 @@ export default function CarriersPage() {
 
             <CTABand />
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/carriers`,
-    },
+    );
 }

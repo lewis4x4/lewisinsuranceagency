@@ -10,6 +10,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Client Reviews | Lewis Insurance Agency",
     description: "Read reviews from Florida families and businesses who trust Lewis Insurance Agency for their homeowners, auto, flood, and business insurance needs.",
+    alternates: {
+        canonical: "https://lewisinsurance.com/reviews",
+    },
 }
 
 const testimonials = [
@@ -244,8 +247,5 @@ export default function ReviewsPage() {
 
             <CTABand />
         </>
-    ),
-    alternates: {
-        canonical: `https://lewisinsurance.com/reviews`,
-    },
+    );
 }
