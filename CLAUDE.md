@@ -914,3 +914,227 @@ import { SchemaScripts, generateServiceSchema, generateFAQSchema, generateBreadc
 | Suboptimal title length | Low | Low | P2 |
 | Missing breadcrumbs | Low | Medium | P2 |
 | Content too short | Medium | High | P3 |
+
+---
+name: florida-insurance-blog-publisher
+description: Automated blog post creation and publishing for Florida insurance content. Triggers on "write blog post", "publish insurance article", "create content about Florida insurance", or "research and publish". Performs web research on Florida personal auto and homeowners insurance trends, writes SEO-optimized content, publishes to website, and commits to GitHub.
+---
+
+# Florida Insurance Blog Publisher
+
+Automated workflow for researching, writing, and publishing SEO-optimized blog posts about Florida personal auto and homeowners insurance.
+
+## Trigger Phrases
+
+- "Write a new blog post"
+- "Publish insurance article"
+- "Research Florida insurance trends and publish"
+- "Create content about [topic]"
+- "What's trending in Florida insurance?"
+
+## Complete Workflow
+
+### Phase 1: Research Current Florida Insurance Trends
+
+**Step 1: Web Research**
+
+Search for recent news and trends (last 30-90 days):
+```
+# Research queries to execute via web search tool
+# Personal Auto:
+- "Florida auto insurance rates 2025"
+- "Florida PIP reform latest"
+- "Florida no-fault insurance changes"
+- "Florida uninsured motorist rates"
+- "Florida auto insurance crisis"
+
+# Homeowners:
+- "Florida homeowners insurance crisis 2025"
+- "Citizens Property Insurance Florida"
+- "Florida hurricane insurance rates"
+- "Florida roof age insurance requirements"
+- "Florida insurance company insolvencies"
+- "My Safe Florida Home program"
+```
+
+**Step 2: Source Prioritization**
+
+Prioritize these authoritative sources:
+1. Florida Office of Insurance Regulation (FLOIR)
+2. Insurance Information Institute (III)
+3. Florida Association of Insurance Agents (FAIA)
+4. AM Best ratings/reports
+5. Major carriers' Florida announcements
+6. Florida Legislature bill tracking
+7. Local news: Tampa Bay Times, Miami Herald, Orlando Sentinel, Sun Sentinel
+
+### Phase 2: Content Planning
+
+**Keyword Research Structure:**
+```
+[State] + [Insurance Type] + [Topic] + [Year/Modifier]
+
+Examples:
+- "Florida homeowners insurance rates 2025"
+- "Florida auto insurance reform"
+- "Florida hurricane deductible explained"
+- "Florida Citizens Insurance eligibility"
+```
+
+**Content Outline Template:**
+```markdown
+# [H1: Primary Keyword - Compelling Title Under 60 chars]
+
+Meta Description: [150-160 chars with primary keyword, benefit, CTA]
+
+## Introduction (100-150 words)
+- Hook with recent stat or news
+- State the problem/topic
+- Preview what reader will learn
+
+## [H2: What's Happening / The Current Situation]
+- Latest developments
+- Key statistics
+- Timeline of changes
+
+## [H2: How This Affects Florida Homeowners/Drivers]
+- Direct consumer impact
+- Cost implications
+- Coverage changes
+
+## [H2: What You Can Do About It]
+- Actionable steps
+- Shopping tips
+- Coverage recommendations
+
+## [H2: How Lewis Insurance Can Help]
+- Services offered
+- Local expertise
+- CTA to contact
+
+## Conclusion + CTA
+
+## FAQ Section (3-5 questions for schema)
+```
+
+### Phase 3: Write SEO-Optimized Content
+
+**Content Requirements:**
+
+| Element | Requirement |
+|---------|-------------|
+| Word Count | 1,200-2,000 words |
+| Title | Under 60 characters, primary keyword first |
+| Meta Description | 150-160 characters with keyword and CTA |
+| H1 | One per page, matches/relates to title |
+| H2s | 4-6 sections with keywords |
+| Keyword Density | 1-2% for primary, natural for secondary |
+| Internal Links | 2-3 to relevant service pages |
+| External Links | 1-2 to authoritative sources |
+| CTA | Clear call-to-action in intro and conclusion |
+
+**Writing Style:**
+- Write at 8th grade reading level
+- Use active voice
+- Short paragraphs (2-4 sentences)
+- Bullet points for lists of 3+ items
+- Bold key terms and statistics
+- Include local Florida references
+- Demonstrate E-E-A-T (Experience, Expertise, Authority, Trust)
+- Avoid insurance jargon or explain when used
+
+### Phase 4: Generate Blog Post Files
+
+**Detect Existing Blog Structure:**
+```bash
+# Check for blog posts location
+ls -la src/lib/blog/ 2>/dev/null
+cat src/lib/blog/posts.ts 2>/dev/null | head -50
+```
+
+**Add to Posts Array:**
+Add new post to `src/lib/blog/posts.ts` following existing format:
+```typescript
+{
+    slug: "[url-friendly-slug]",
+    title: "[Title Under 60 chars]",
+    description: "[150-160 char description]",
+    content: `[Full markdown content]`,
+    date: "[YYYY-MM-DD]",
+    author: "Lewis Insurance Team",
+    category: "florida-homeowners" | "florida-auto" | "insurance-tips",
+    featured: false,
+    tags: ["florida insurance", "[topic]"],
+}
+```
+
+### Phase 5: SEO Optimization Check
+
+Run before publishing:
+```bash
+npm run type-check
+npm run lint
+```
+
+**SEO Checklist:**
+- [ ] Title tag under 60 characters
+- [ ] Meta description 150-160 characters
+- [ ] Single H1 tag with primary keyword
+- [ ] Primary keyword in first 100 words
+- [ ] Internal links to 2-3 service pages
+- [ ] FAQ section with 3-5 questions
+- [ ] No spelling/grammar errors
+- [ ] Statistics are current and sourced
+
+### Phase 6: Commit and Push
+
+```bash
+git add src/lib/blog/posts.ts
+git commit -m "feat(blog): Add article - [Short Title]
+
+- Topic: [Primary topic]
+- Keywords: [primary keyword]
+- Word count: [X] words
+- Category: [category]
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+"
+
+git push origin main
+```
+
+## Content Calendar Topics
+
+### Personal Auto (Florida)
+
+| Topic | Keyword | Best Timing |
+|-------|---------|-------------|
+| PIP Coverage Explained | florida pip insurance | Evergreen |
+| Uninsured Motorist | florida uninsured motorist coverage | Evergreen |
+| Rate Increases | florida auto insurance rates [year] | January |
+| Hurricane Prep for Vehicles | florida car hurricane insurance | May-June |
+| Teen Driver Costs | florida teen driver insurance | August |
+
+### Homeowners (Florida)
+
+| Topic | Keyword | Best Timing |
+|-------|---------|-------------|
+| Hurricane Deductibles | florida hurricane deductible | May-June |
+| Roof Age Requirements | florida roof insurance requirements | Evergreen |
+| Citizens Eligibility | florida citizens insurance eligibility | Evergreen |
+| Flood Insurance | florida flood insurance requirements | May-June |
+| Wind Mitigation | florida wind mitigation inspection | Evergreen |
+| My Safe Florida Home | my safe florida home program | After updates |
+
+## Output Deliverables
+
+After running this skill:
+
+1. ✅ Research notes compiled
+2. ✅ SEO-optimized blog post added to posts.ts
+3. ✅ Article schema generated automatically via existing schema lib
+4. ✅ Git commit with descriptive message
+5. ✅ Push to remote repository
+6. ✅ Site rebuilds automatically on Netlify
