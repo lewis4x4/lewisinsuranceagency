@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Auto Insurance",
+    title: "Florida Auto Insurance Quotes | Lewis Insurance",
     description: "Get competitive Florida auto insurance quotes. Compare rates for liability, PIP, collision, and comprehensive coverage from multiple carriers.",
 
     badge: "Personal Insurance",

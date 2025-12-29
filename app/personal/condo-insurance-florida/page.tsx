@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Condo Insurance",
+    title: "Florida Condo Insurance (HO-6) | Lewis Insurance",
     description: "Protect your Florida condo with HO-6 condo insurance. Coverage for your unit, personal property, and liability. Compare quotes from multiple carriers.",
 
     badge: "Personal Insurance",

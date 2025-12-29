@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Renters Insurance",
+    title: "Florida Renters Insurance | Lewis Insurance",
     description: "Affordable renters insurance for Florida tenants. Protect your belongings and get liability coverage. Quotes from multiple carriers.",
 
     badge: "Personal Insurance",

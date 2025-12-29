@@ -2,8 +2,8 @@ import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Privacy Policy",
-    description: "Lewis Insurance privacy policy. Learn how we collect, use, and protect your personal information.",
+    title: "Privacy Policy | Lewis Insurance Agency",
+    description: "Lewis Insurance Agency privacy policy. Learn how we collect, use, and protect your personal information when you visit our website or request an insurance quote.",
 
     alternates: {
         canonical: `https://lewisinsurance.com/privacy-policy`,

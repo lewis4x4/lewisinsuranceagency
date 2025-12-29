@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Hillsborough",
     slug: "tampa-fl",
 
-    title: "Tampa Insurance Agency",
+    title: "Tampa, FL Insurance Agency | Lewis Insurance",
     description: "Find affordable home, auto, flood, and business insurance in Tampa, FL. Lewis Insurance compares quotes from multiple carriers for Tampa Bay residents and businesses.",
 
     headline: "Insurance Agents in Tampa, Florida",

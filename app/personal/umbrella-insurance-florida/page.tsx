@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Umbrella Insurance",
+    title: "Florida Umbrella Insurance | Lewis Insurance",
     description: "Protect your assets with Florida umbrella insurance. Extra liability coverage beyond your home and auto policies. Affordable peace of mind.",
 
     badge: "Personal Insurance",

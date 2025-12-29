@@ -54,6 +54,10 @@ class CanonicalAnalyzer:
         if any(pattern in page_path for pattern in skip_patterns):
             return issues
 
+        # Skip pages with noindex (they don't need canonical URLs)
+        if re.search(r'index:\s*false|noindex', combined_content):
+            return issues
+
         # Check for canonical URL in metadata (in both page and layout)
         has_canonical = False
 
@@ -67,6 +71,10 @@ class CanonicalAnalyzer:
 
         # Pattern 3: using generateMetadata function (likely has canonical)
         if "generateMetadata" in combined_content and "canonical" in combined_content:
+            has_canonical = True
+
+        # Pattern 4: using helper functions that generate canonical URLs
+        if "generateCityMetadata" in combined_content or "generateServiceMetadata" in combined_content:
             has_canonical = True
 
         if not has_canonical:

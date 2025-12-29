@@ -1,16 +1,19 @@
 "use client"
 
+import Image from "next/image"
 import { Star } from "lucide-react"
 import { siteConfig } from "@/config/site"
 
-// Carrier logos placeholder - will be replaced with actual logos
+// Carrier logos - add PNG files to public/carriers/
 const carriers = [
-    { name: "Carrier 1", logo: null },
-    { name: "Carrier 2", logo: null },
-    { name: "Carrier 3", logo: null },
-    { name: "Carrier 4", logo: null },
-    { name: "Carrier 5", logo: null },
-    { name: "Carrier 6", logo: null },
+    { name: "Progressive", logo: "/carriers/progressive.png" },
+    { name: "Geico", logo: "/carriers/geico.png" },
+    { name: "Nationwide", logo: "/carriers/nationwide.png" },
+    { name: "Kemper", logo: "/carriers/kemper.png" },
+    { name: "Universal Property & Casualty", logo: "/carriers/universal.png" },
+    { name: "Heritage Insurance", logo: "/carriers/heritage.png" },
+    { name: "American Integrity", logo: "/carriers/american-integrity.png" },
+    { name: "Foremost", logo: "/carriers/foremost.png" },
 ]
 
 export function TrustBar() {
@@ -25,10 +28,15 @@ export function TrustBar() {
                             {carriers.map((carrier, index) => (
                                 <div
                                     key={index}
-                                    className="w-24 h-12 bg-gray-100 rounded-lg flex items-center justify-center"
-                                    aria-label={`${carrier.name} logo placeholder`}
+                                    className="w-24 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100"
                                 >
-                                    <span className="text-xs text-gray-400">Logo</span>
+                                    <Image
+                                        src={carrier.logo}
+                                        alt={`${carrier.name} logo`}
+                                        width={96}
+                                        height={48}
+                                        className="object-contain max-h-10"
+                                    />
                                 </div>
                             ))}
                         </div>

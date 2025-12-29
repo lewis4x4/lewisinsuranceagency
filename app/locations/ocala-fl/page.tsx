@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Marion",
     slug: "ocala-fl",
 
-    title: "Ocala Insurance Agency",
+    title: "Ocala, FL Insurance Agency | Lewis Insurance",
     description: "Find affordable home, auto, farm, and business insurance in Ocala, FL. Lewis Insurance serves Marion County and the Horse Capital of the World.",
 
     headline: "Insurance Agents in Ocala, Florida",

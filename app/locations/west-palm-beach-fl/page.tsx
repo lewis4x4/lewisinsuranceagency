@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Palm Beach",
     slug: "west-palm-beach-fl",
 
-    title: "West Palm Beach Insurance Agency",
+    title: "West Palm Beach, FL Insurance | Lewis Insurance",
     description: "Find affordable home, auto, flood, and business insurance in West Palm Beach, FL. Lewis Insurance compares quotes from multiple carriers for Palm Beach County residents and businesses.",
 
     headline: "Insurance Agents in West Palm Beach, Florida",

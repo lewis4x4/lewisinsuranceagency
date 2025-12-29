@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Personal Insurance",
+    title: "Personal Insurance in Florida | Lewis Insurance",
     description: "Protect your Florida home, car, and family with personalized insurance coverage. Compare quotes for homeowners, auto, flood, condo, renters, and umbrella insurance.",
     alternates: {
         canonical: "https://lewisinsurance.com/personal",

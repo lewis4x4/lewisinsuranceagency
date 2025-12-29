@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Columbia",
     slug: "lake-city-fl",
 
-    title: "Lake City Insurance Agency",
+    title: "Lake City, FL Insurance Agency | Lewis Insurance",
     description: "Find affordable home, auto, flood, and business insurance in Lake City, FL. Lewis Insurance - your local North Central Florida insurance experts.",
 
     headline: "Insurance Agents in Lake City, Florida",

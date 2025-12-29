@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Homeowners Insurance",
+    title: "Florida Homeowners Insurance | Lewis Insurance",
     description: "Protect your Florida home with comprehensive homeowners insurance. Compare quotes from multiple carriers for wind, hurricane, and all-perils coverage.",
 
     badge: "Personal Insurance",

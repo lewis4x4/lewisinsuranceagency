@@ -2,8 +2,8 @@ import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Terms of Service",
-    description: "Lewis Insurance terms of service. Review the terms and conditions for using our website and services.",
+    title: "Terms of Service | Lewis Insurance Agency",
+    description: "Lewis Insurance Agency terms of service. Review the terms and conditions for using our website, requesting quotes, and working with our insurance agency.",
 
     alternates: {
         canonical: `https://lewisinsurance.com/terms`,

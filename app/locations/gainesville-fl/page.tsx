@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Alachua",
     slug: "gainesville-fl",
 
-    title: "Gainesville Insurance Agency",
+    title: "Gainesville, FL Insurance Agency | Lewis Insurance",
     description: "Find affordable home, auto, flood, and business insurance in Gainesville, FL. Lewis Insurance serves Alachua County and North Central Florida.",
 
     headline: "Insurance Agents in Gainesville, Florida",

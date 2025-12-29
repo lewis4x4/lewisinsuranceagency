@@ -8,7 +8,7 @@ const pageData: CityPageData = {
     county: "Leon",
     slug: "tallahassee-fl",
 
-    title: "Tallahassee Insurance Agency",
+    title: "Tallahassee, FL Insurance Agency | Lewis Insurance",
     description: "Find affordable home, auto, flood, and business insurance in Tallahassee, FL. Lewis Insurance serves the Capital City and Big Bend region.",
 
     headline: "Insurance Agents in Tallahassee, Florida",

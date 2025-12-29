@@ -7,7 +7,7 @@ import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Service Areas",
+    title: "Florida Insurance Service Areas | Lewis Insurance",
     description: "Lewis Insurance serves all of Florida from our Lake City office. Find insurance agents near you in Jacksonville, Gainesville, Tampa, Orlando, and more.",
     alternates: {
         canonical: "https://lewisinsurance.com/locations",
