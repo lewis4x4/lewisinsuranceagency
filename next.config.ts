@@ -26,11 +26,11 @@ const nextConfig: NextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.usecanopy.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.usecanopy.com https://analytics.tiktok.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https: blob:",
-              "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.usecanopy.com",
+              "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.usecanopy.com https://analytics.tiktok.com https://*.tiktok.com",
               "frame-src 'self' https://cdn.usecanopy.com",
               "object-src 'none'",
               "base-uri 'self'",
