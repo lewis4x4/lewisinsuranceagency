@@ -31,7 +31,7 @@ export function CanopyConnectSection({
                     <p className="font-medium text-lewis-ink">{dynamicTitle}</p>
                     <p className="text-sm text-lewis-body">Import your policy for faster quotes</p>
                 </div>
-                <CanopyConnectButton variant="outline" size="sm" />
+                <CanopyConnectButton variant="green" size="sm" />
             </div>
         )
     }
@@ -51,7 +51,7 @@ export function CanopyConnectSection({
                                     Connect your existing policy for instant verification.
                                 </p>
                             </div>
-                            <CanopyConnectButton variant="outline" size="sm" />
+                            <CanopyConnectButton variant="green" size="sm" />
                         </div>
                     </div>
                 </CardContent>
@@ -73,7 +73,7 @@ export function CanopyConnectSection({
                         <p className="text-lewis-body">{description}</p>
                     </div>
 
-                    <CanopyConnectButton size="lg" className="rounded-full" />
+                    <CanopyConnectButton variant="green" size="lg" className="rounded-full" />
 
                     <div className="flex items-center justify-center gap-2 text-xs text-lewis-body">
                         <Lock className="h-3 w-3" />

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 interface CanopyConnectButtonProps {
-    variant?: "default" | "secondary" | "outline" | "ghost"
+    variant?: "default" | "secondary" | "outline" | "ghost" | "green"
     size?: "default" | "sm" | "lg"
     className?: string
     children?: React.ReactNode
@@ -19,14 +19,18 @@ export function CanopyConnectButton({
     className,
     children,
 }: CanopyConnectButtonProps) {
+    const isGreen = variant === "green"
+    const buttonVariant = isGreen ? "default" : variant
+
     return (
         <Button
             asChild
-            variant={variant}
+            variant={buttonVariant}
             size={size}
             className={cn(
                 "gap-2",
                 variant === "default" && "bg-lewis-blue hover:bg-lewis-blue-dark",
+                isGreen && "bg-green-600 hover:bg-green-700 text-white",
                 className
             )}
         >
