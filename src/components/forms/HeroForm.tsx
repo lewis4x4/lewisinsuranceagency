@@ -12,7 +12,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { insuranceTypes } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { useCSRF } from "@/hooks/useCSRF"
 
 // Form schemas
 export const heroFormSchema = z.object({
@@ -37,7 +36,6 @@ interface HeroFormProps {
 export function HeroForm({ className, source = "homepage-hero" }: HeroFormProps) {
     const router = useRouter()
     const [isSubmitting, setIsSubmitting] = useState(false)
-    const { csrfToken, refresh: refreshCSRF } = useCSRF()
 
     const {
         register,
@@ -60,12 +58,6 @@ export function HeroForm({ className, source = "homepage-hero" }: HeroFormProps)
             return
         }
 
-        if (!csrfToken) {
-            toast.error("Security token expired. Please try again.")
-            await refreshCSRF()
-            return
-        }
-
         setIsSubmitting(true)
 
         try {
@@ -74,27 +66,19 @@ export function HeroForm({ className, source = "homepage-hero" }: HeroFormProps)
                 headers: {
                     "Content-Type": "application/json",
                 },
-                credentials: "include", // Include cookies for CSRF
                 body: JSON.stringify({
                     ...data,
                     source,
-                    csrfToken, // Include CSRF token
                 }),
             })
 
             const result = await response.json()
 
             if (!response.ok) {
-                // Refresh CSRF token on 403 (token expired/invalid)
-                if (response.status === 403) {
-                    await refreshCSRF()
-                }
                 throw new Error(result.error || "Something went wrong")
             }
 
             toast.success("Thanks — we got it! We'll be in touch soon.")
-            // Refresh CSRF token for potential next submission
-            refreshCSRF()
             router.push(`/thank-you?id=${result.id}`)
         } catch (error) {
             console.error("Form submission error:", error)
