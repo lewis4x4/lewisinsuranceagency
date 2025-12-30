@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import { Inter, Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 import { Header, Footer, MobileCTA } from "@/components/layout"
@@ -97,8 +98,12 @@ export default function RootLayout({
         <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-XXXXXXX"></script>
         */}
 
+      </head>
+      <body className="min-h-screen flex flex-col font-sans antialiased">
         {/* TikTok Pixel */}
-        <script
+        <Script
+          id="tiktok-pixel"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               !function (w, d, t) {
@@ -111,8 +116,6 @@ export default function RootLayout({
             `,
           }}
         />
-      </head>
-      <body className="min-h-screen flex flex-col font-sans antialiased">
         <Header />
         <main id="main-content" className="flex-1">
           {children}
