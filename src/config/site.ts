@@ -113,10 +113,10 @@ export const navigation = {
             name: "Resources",
             href: "/resources",
             children: [
-                { name: "Insurance Guides", href: "/resources" },
                 { name: "Insurance FAQ", href: "/learn" },
+                { name: "Renewal Review", href: "/renewal-review" },
+                { name: "Coverage Checklists", href: "/auto-coverage-checklist" },
                 { name: "Blog", href: "/blog" },
-                { name: "Tools", href: "/tools" },
                 { name: "Our Carriers", href: "/carriers" },
                 { name: "Reviews", href: "/reviews" },
             ]
@@ -153,6 +153,7 @@ export const navigation = {
             { name: "Reviews", href: "/reviews" },
             { name: "Blog", href: "/blog" },
             { name: "Insurance FAQ", href: "/learn" },
+            { name: "Renewal Review", href: "/renewal-review" },
             { name: "Client Portal", href: "/portal" },
         ],
         locations: [

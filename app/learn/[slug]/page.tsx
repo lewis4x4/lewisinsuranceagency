@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, HelpCircle, Clock } from "lucide-react"
 import { getLearnArticleBySlug, loadAllLearnArticles, getRelatedArticles } from "@/lib/learn"
-import { generateFAQSchema, generateBreadcrumbSchema, SchemaScripts } from "@/lib/schema"
+import { generateFAQSchema, generateBreadcrumbSchema, SchemaScripts, organizationSchema } from "@/lib/schema"
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 
@@ -81,6 +81,30 @@ export default async function LearnArticlePage({ params }: Props) {
         { name: article.title, url: `${baseUrl}/learn/${article.slug}` },
     ])
 
+    // Generate Article schema for SEO
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "@id": `${baseUrl}/learn/${article.slug}/#article`,
+        headline: article.title,
+        description: article.description,
+        url: `${baseUrl}/learn/${article.slug}`,
+        datePublished: article.publishedAt,
+        dateModified: article.updatedAt || article.publishedAt,
+        author: {
+            "@type": "Organization",
+            name: "Lewis Insurance Team",
+            url: baseUrl,
+        },
+        publisher: {
+            "@id": `${baseUrl}/#organization`,
+        },
+        mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `${baseUrl}/learn/${article.slug}`,
+        },
+    }
+
     // Estimate reading time
     const wordCount = article.content.split(/\s+/).length
     const readingTime = Math.max(1, Math.ceil(wordCount / 200))
@@ -88,7 +112,7 @@ export default async function LearnArticlePage({ params }: Props) {
     return (
         <>
             {/* JSON-LD Schema */}
-            <SchemaScripts schemas={[faqSchema, breadcrumbSchema]} />
+            <SchemaScripts schemas={[organizationSchema, articleSchema, faqSchema, breadcrumbSchema]} />
 
             {/* Breadcrumbs */}
             <nav className="bg-white border-b border-lewis-border" aria-label="Breadcrumb">
@@ -138,6 +162,14 @@ export default async function LearnArticlePage({ params }: Props) {
                                 <Clock className="h-4 w-4" />
                                 {readingTime} min read
                             </span>
+                            <span className="text-lewis-border">|</span>
+                            <span>Reviewed by Lewis Insurance Team</span>
+                            {article.updatedAt && (
+                                <>
+                                    <span className="text-lewis-border">|</span>
+                                    <span>Updated {new Date(article.updatedAt).toLocaleDateString("en-US", { month: "short", year: "numeric" })}</span>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>
