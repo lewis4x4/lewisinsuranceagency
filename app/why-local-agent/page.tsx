@@ -441,10 +441,14 @@ export default function WhyLocalAgentPage() {
                             For over {siteConfig.trust.yearsInBusiness} years, Lewis Insurance has been helping
                             Florida families and businesses find the right coverage at the right price.
                             We're not a faceless corporation—we're your neighbors. Whether you need{" "}
-                            <Link href="/personal/umbrella-insurance-florida" className="text-lewis-blue hover:underline">
-                                umbrella coverage
+                            <Link href="/personal/auto-insurance-florida" className="text-lewis-blue hover:underline">
+                                auto
                             </Link>{" "}
-                            or help understanding your options, we're here to help.
+                            or{" "}
+                            <Link href="/personal/homeowners-insurance-florida" className="text-lewis-blue hover:underline">
+                                homeowners insurance
+                            </Link>
+                            , we're here to help.
                         </p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                             <div className="text-center">

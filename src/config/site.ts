@@ -56,7 +56,7 @@ export const siteConfig = {
     trust: {
         yearsInBusiness: "44",
         foundedYear: 1981,
-        reviewCount: "500+",
+        reviewCount: "2,000+",
         averageRating: "4.9",
         carrierCount: "20+",
     },
