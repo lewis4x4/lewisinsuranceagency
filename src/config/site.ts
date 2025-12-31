@@ -152,6 +152,7 @@ export const navigation = {
             { name: "Carriers", href: "/carriers" },
             { name: "Reviews", href: "/reviews" },
             { name: "Blog", href: "/blog" },
+            { name: "Insurance FAQ", href: "/learn" },
             { name: "Client Portal", href: "/portal" },
         ],
         locations: [
