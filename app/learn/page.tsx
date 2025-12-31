@@ -2,7 +2,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { ArrowRight, HelpCircle, BookOpen } from "lucide-react"
+import { ArrowRight, HelpCircle, BookOpen, Users } from "lucide-react"
 import { loadAllLearnArticles } from "@/lib/learn"
 import { CTABand } from "@/components/sections"
 
@@ -78,6 +78,30 @@ export default function LearnPage() {
                             <div className="text-sm text-lewis-body">Years Experience</div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* Related Resource */}
+            <section className="py-6 bg-lewis-page border-b border-lewis-border">
+                <div className="container-lg">
+                    <Link href="/why-local-agent" className="group">
+                        <Card className="p-6 card-hover border-lewis-blue/20 bg-gradient-to-r from-lewis-blue/5 to-transparent">
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-lewis-blue/10 flex items-center justify-center flex-shrink-0">
+                                    <Users className="h-6 w-6 text-lewis-blue" />
+                                </div>
+                                <div className="flex-1">
+                                    <h3 className="text-lg font-semibold text-lewis-ink group-hover:text-lewis-blue transition-colors">
+                                        Local Agent vs Direct Insurance
+                                    </h3>
+                                    <p className="text-sm text-lewis-body">
+                                        See the quick comparison and the biggest differences between a local independent agent and direct/online insurance.
+                                    </p>
+                                </div>
+                                <ArrowRight className="h-5 w-5 text-lewis-blue opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                            </div>
+                        </Card>
+                    </Link>
                 </div>
             </section>
 
