@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 import { z } from "zod"
 import crypto from "crypto"
-import fs from "fs/promises"
-import path from "path"
-// cookies import removed - not currently used
+import { supabase } from "@/lib/supabase"
 
 // Rate limiting store (in-memory for simplicity, use Redis in production)
 const rateLimitStore = new Map<string, { count: number; timestamp: number }>()
@@ -144,18 +142,13 @@ export async function POST(request: NextRequest) {
             ipHash: hashIP(clientIP),
         }
 
-        // Storage based on environment variable
-        const destination = process.env.LEADS_DESTINATION || "local"
+        // Store lead in Supabase
+        await storeInSupabase(lead)
 
-        switch (destination) {
-            case "local":
-                await storeLocally(lead)
-                break
-            case "webhook":
-                await sendToWebhook(lead)
-                break
-            default:
-                await storeLocally(lead)
+        // Also send to CRM webhook if configured
+        const webhookUrl = process.env.CRM_WEBHOOK_URL
+        if (webhookUrl) {
+            await sendToWebhook(lead, webhookUrl)
         }
 
         return NextResponse.json({
@@ -172,45 +165,8 @@ export async function POST(request: NextRequest) {
     }
 }
 
-// Store locally (development)
-async function storeLocally(lead: Record<string, unknown>) {
-    const dataDir = path.join(process.cwd(), "data")
-    const filePath = path.join(dataDir, "leads.json")
-
-    try {
-        // Ensure directory exists
-        await fs.mkdir(dataDir, { recursive: true })
-
-        // Read existing leads
-        let leads: Record<string, unknown>[] = []
-        try {
-            const content = await fs.readFile(filePath, "utf-8")
-            leads = JSON.parse(content)
-        } catch {
-            // File doesn't exist yet, start fresh
-        }
-
-        // Add new lead
-        leads.push(lead)
-
-        // Write back
-        await fs.writeFile(filePath, JSON.stringify(leads, null, 2))
-    } catch (error) {
-        console.error("Error storing lead locally:", error)
-        throw error
-    }
-}
-
-// Send to webhook (production)
-async function sendToWebhook(lead: Record<string, unknown>) {
-    const webhookUrl = process.env.WEBHOOK_URL
-
-    if (!webhookUrl) {
-        console.warn("WEBHOOK_URL not configured, falling back to local storage")
-        await storeLocally(lead)
-        return
-    }
-
+// Send to CRM webhook
+async function sendToWebhook(lead: Record<string, unknown>, webhookUrl: string) {
     try {
         const response = await fetch(webhookUrl, {
             method: "POST",
@@ -221,12 +177,39 @@ async function sendToWebhook(lead: Record<string, unknown>) {
         })
 
         if (!response.ok) {
-            throw new Error(`Webhook returned ${response.status}`)
+            console.error(`CRM webhook returned ${response.status}`)
         }
     } catch (error) {
-        console.error("Error sending to webhook:", error)
-        // Fallback to local storage
-        await storeLocally(lead)
+        // Log error but don't throw - CRM sync is non-critical
+        console.error("Error sending to CRM webhook:", error)
+    }
+}
+
+// Store in Supabase
+async function storeInSupabase(lead: Record<string, unknown>) {
+    if (!supabase) {
+        throw new Error("Supabase client not configured")
+    }
+
+    const { error } = await supabase.from("leads").insert({
+        id: lead.id,
+        name: lead.name,
+        email: lead.email,
+        phone: lead.phone,
+        zip_code: lead.zipCode,
+        insurance_type: lead.insuranceType,
+        message: lead.message,
+        source: lead.source,
+        utm_source: lead.utmSource,
+        utm_medium: lead.utmMedium,
+        utm_campaign: lead.utmCampaign,
+        consent_timestamp: lead.consentTimestamp,
+        ip_hash: lead.ipHash,
+    })
+
+    if (error) {
+        console.error("Error storing lead in Supabase:", error)
+        throw error
     }
 }
 
