@@ -114,6 +114,7 @@ export const navigation = {
             href: "/resources",
             children: [
                 { name: "Insurance Guides", href: "/resources" },
+                { name: "Insurance FAQ", href: "/learn" },
                 { name: "Blog", href: "/blog" },
                 { name: "Tools", href: "/tools" },
                 { name: "Our Carriers", href: "/carriers" },
@@ -146,6 +147,7 @@ export const navigation = {
         ],
         company: [
             { name: "About Us", href: "/about" },
+            { name: "Why Local Agent", href: "/why-local-agent" },
             { name: "Contact", href: "/contact" },
             { name: "Carriers", href: "/carriers" },
             { name: "Reviews", href: "/reviews" },
