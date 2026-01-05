@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Naples Homeowners Insurance | Compare Quotes",
-    description: "Find affordable homeowners insurance in Naples, FL. Compare quotes for hurricane, wind, and property coverage. Serving Collier County homeowners and estates.",
+    description: "Find affordable homeowners insurance in Naples, FL. Compare quotes for hurricane.",
 
     headline: "Naples Homeowners Insurance",
     subheadline: "Protect your Naples home with comprehensive coverage designed for Southwest Florida's coastal environment. We compare rates from multiple carriers to find the best protection for your property.",

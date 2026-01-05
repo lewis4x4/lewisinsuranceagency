@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "umbrella-insurance",
 
     title: "Fort Lauderdale Umbrella Insurance | Asset Protection",
-    description: "Get umbrella insurance in Fort Lauderdale, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Broward County residents.",
+    description: "Get umbrella insurance in Fort Lauderdale, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Broward.",
 
     headline: "Fort Lauderdale Umbrella Insurance",
     subheadline: "Protect your assets and future income with umbrella insurance that extends beyond your home and auto policy limits. Essential coverage for Fort Lauderdale property owners.",

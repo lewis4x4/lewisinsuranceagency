@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "Orlando Auto Insurance | Compare Quotes",
-    description: "Find affordable auto insurance in Orlando, FL. Compare quotes from multiple carriers. Coverage for I-4 commuters, tourists, and local drivers in Orange County.",
+    description: "Find affordable auto insurance in Orlando, FL. Compare quotes. I-4 commuters, tourists, and local drivers in Orange County.",
 
     headline: "Orlando Auto Insurance",
     subheadline: "Get reliable auto insurance coverage for Orlando's busy roads. We compare rates from multiple carriers to find protection that fits your driving needs and budget.",

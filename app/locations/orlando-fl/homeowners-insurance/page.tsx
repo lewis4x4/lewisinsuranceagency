@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Orlando Homeowners Insurance | Compare Quotes",
-    description: "Find affordable homeowners insurance in Orlando, FL. Compare quotes from multiple carriers for hurricane, sinkhole, and property coverage. Serving Orange County.",
+    description: "Find affordable homeowners insurance in Orlando, FL. Compare quotes for hurricane, sinkhole, and property coverage. Serving Orange County.",
 
     headline: "Orlando Homeowners Insurance",
     subheadline: "Protect your Orlando home with comprehensive coverage tailored to Central Florida's unique risks. We compare rates from multiple carriers to find the best coverage for your property.",

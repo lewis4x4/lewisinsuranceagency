@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Jacksonville Homeowners Insurance | Compare Quotes",
-    description: "Find affordable homeowners insurance in Jacksonville, FL. Compare quotes from multiple carriers for hurricane and wind coverage. Serving Duval County and Northeast Florida.",
+    description: "Find affordable homeowners insurance in Jacksonville, FL. Compare quotes for hurricane and wind coverage. Serving Duval County and Northeast Florida.",
 
     headline: "Jacksonville Homeowners Insurance",
     subheadline: "Protect your Jacksonville home with comprehensive coverage designed for Northeast Florida's needs. Compare rates from multiple carriers.",

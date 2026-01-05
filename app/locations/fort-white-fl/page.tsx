@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "fort-white-fl",
 
     title: "Fort White, FL Insurance Agency | Lewis Insurance",
-    description: "Home, auto, mobile home, and business insurance in Fort White, FL. Independent agents serving Columbia County since 1981. Compare quotes from multiple carriers.",
+    description: "Home, auto, mobile home, and business insurance in Fort White, FL. Independent agents serving Columbia County. Compare quotes.",
 
     headline: "Insurance Agents Serving Fort White, Florida",
     subheadline: "Local independent insurance agency for Fort White and the springs area. We compare carriers to find coverage protecting your family at competitive rates.",

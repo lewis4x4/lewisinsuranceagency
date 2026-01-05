@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "Sarasota Auto Insurance | Compare Quotes",
-    description: "Find affordable auto insurance in Sarasota, FL. Compare quotes from multiple carriers. Coverage for I-75 commuters and Sarasota County drivers. PIP and full coverage options.",
+    description: "Find affordable auto insurance in Sarasota, FL. Compare quotes. I-75 commuters and Sarasota County drivers. PIP and full coverage options.",
 
     headline: "Sarasota Auto Insurance",
     subheadline: "Get reliable auto insurance coverage for Sarasota roads. We compare rates from multiple carriers to find protection that fits your driving needs and budget.",

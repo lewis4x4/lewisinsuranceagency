@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Lake City Homeowners Insurance | Local Agents",
-    description: "Find affordable homeowners insurance in Lake City, FL. Your local Columbia County insurance agency. Compare quotes for wind, property, and liability coverage.",
+    description: "Find affordable homeowners insurance in Lake City, FL. Your local Columbia County insurance agency.",
 
     headline: "Lake City Homeowners Insurance",
     subheadline: "Protect your Lake City home with comprehensive coverage from your local independent insurance agency. We've served Columbia County since 1981, helping neighbors find the right protection.",

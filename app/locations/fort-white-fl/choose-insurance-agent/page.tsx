@@ -20,13 +20,13 @@ const localEntities = ["US-27", "Santa Fe River", "Ichetucknee Springs area", "F
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Fort White, FL",
-    description: "Find the right insurance agent in Fort White, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance. Serving Columbia County since 1981.",
+    description: "How to choose an insurance agent in Fort White, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
     alternates: {
-        canonical: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
+        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Fort White, FL",
-        description: "Find the right insurance agent in Fort White, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance.",
+        description: "How to choose an insurance agent in Fort White, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

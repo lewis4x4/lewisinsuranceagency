@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "umbrella-insurance",
 
     title: "Tampa Umbrella Insurance | Asset Protection",
-    description: "Get umbrella insurance in Tampa, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Hillsborough County residents.",
+    description: "Get umbrella insurance in Tampa, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Hillsborough.",
 
     headline: "Tampa Umbrella Insurance",
     subheadline: "Protect your assets and future income with umbrella insurance that extends beyond your home and auto policy limits. Essential coverage for Tampa Bay property owners.",

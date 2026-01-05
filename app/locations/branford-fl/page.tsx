@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "branford-fl",
 
     title: "Branford, FL Insurance Agency | Lewis Insurance",
-    description: "Home, auto, mobile home, and business insurance in Branford, FL. Independent agents serving Suwannee County since 1981. Compare quotes from multiple carriers.",
+    description: "Home, auto, mobile home, and business insurance in Branford, FL. Independent agents serving Suwannee County. Compare quotes.",
 
     headline: "Insurance Agents Serving Branford, Florida",
     subheadline: "Local independent insurance agency for Branford and the Suwannee River area. We compare carriers to find coverage that protects your family and budget.",

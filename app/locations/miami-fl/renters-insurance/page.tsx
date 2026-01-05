@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "renters-insurance",
 
     title: "Miami Renters Insurance | Protect Your Belongings",
-    description: "Affordable renters insurance for Miami, FL apartments and rentals. Protect your belongings from theft, fire, and storms. Coverage for Miami-Dade County tenants.",
+    description: "Affordable renters insurance for Miami, FL apartments and rentals. Protect your belongings from theft, fire, and storms. Miami-Dade County tenants.",
 
     headline: "Miami Renters Insurance",
     subheadline: "Your landlord's insurance doesn't cover your belongings. Renters insurance protects your stuff, provides liability coverage, and is surprisingly affordable for Miami tenants.",

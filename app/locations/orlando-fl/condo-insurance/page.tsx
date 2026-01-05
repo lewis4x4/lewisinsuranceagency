@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "condo-insurance",
 
     title: "Orlando Condo Insurance | HO-6 Coverage",
-    description: "Get condo insurance in Orlando, FL. HO-6 policies for unit owners covering personal property, interior, and liability. Serving downtown and suburban communities.",
+    description: "Get condo insurance in Orlando, FL. HO-6 policies for unit owners covering personal property.",
 
     headline: "Orlando Condo Insurance",
     subheadline: "Protect your Orlando condo with HO-6 coverage designed for unit owners. We help you understand what your HOA covers and fill the gaps with the right personal policy.",

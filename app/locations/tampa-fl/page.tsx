@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "tampa-fl",
 
     title: "Tampa, FL Insurance Agency | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Tampa, FL. Lewis Insurance compares quotes from multiple carriers for Tampa Bay residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Tampa, FL. Lewis Insurance compares quotes for Tampa Bay residents and businesses.",
 
     headline: "Insurance Agents in Tampa, Florida",
     subheadline: "Get personalized insurance coverage for your Tampa home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

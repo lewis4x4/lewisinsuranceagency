@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "Lake City Auto Insurance | Local Agents",
-    description: "Find affordable auto insurance in Lake City, FL. Your local Columbia County agents compare quotes from multiple carriers. PIP, liability, and full coverage options.",
+    description: "Find affordable auto insurance in Lake City, FL. Your local Columbia County agents compare quotes. PIP, liability, and full coverage options.",
 
     headline: "Lake City Auto Insurance",
     subheadline: "Get reliable auto insurance coverage from your local Lake City agency. We've served Columbia County drivers since 1981, helping neighbors find the right protection at competitive rates.",

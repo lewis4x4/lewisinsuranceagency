@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "macclenny-fl",
 
     title: "Macclenny, FL Insurance Agency | Lewis Insurance",
-    description: "Home, auto, mobile home, and business insurance in Macclenny, FL. Independent agents serving Baker County since 1981. Compare quotes from multiple carriers.",
+    description: "Home, auto, mobile home, and business insurance in Macclenny, FL. Independent agents serving Baker County. Compare quotes.",
 
     headline: "Insurance Agents Serving Macclenny, Florida",
     subheadline: "Local independent insurance agency for Macclenny and Baker County. We compare carriers to find coverage that protects your family and fits your budget.",

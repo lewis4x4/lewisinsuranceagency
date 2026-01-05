@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "condo-insurance",
 
     title: "Naples Condo Insurance | HO-6 Coverage",
-    description: "Get condo insurance in Naples, FL. HO-6 policies for unit owners covering personal property, interior, and liability. High-rise and beachfront condo specialists.",
+    description: "Get condo insurance in Naples, FL. HO-6 policies for unit owners covering personal property.",
 
     headline: "Naples Condo Insurance",
     subheadline: "Protect your Naples condo with HO-6 coverage designed for Collier County's coastal communities. We help you understand master policy gaps and build comprehensive personal coverage.",

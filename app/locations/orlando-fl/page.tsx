@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "orlando-fl",
 
     title: "Orlando, FL Insurance Agency | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Orlando, FL. Lewis Insurance compares quotes from multiple carriers for Central Florida residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Orlando, FL. Lewis Insurance compares quotes for Central Florida residents and businesses.",
 
     headline: "Insurance Agents in Orlando, Florida",
     subheadline: "Get personalized insurance coverage for your Orlando home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

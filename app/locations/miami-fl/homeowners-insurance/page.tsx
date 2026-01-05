@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Miami Homeowners Insurance | Compare Quotes",
-    description: "Find affordable homeowners insurance in Miami, FL. Compare quotes from multiple carriers for hurricane, wind, and property coverage. Local experts serving Miami-Dade County.",
+    description: "Find affordable homeowners insurance in Miami, FL. Compare quotes for hurricane, wind, and property coverage. Local experts serving Miami-Dade County.",
 
     headline: "Miami Homeowners Insurance",
     subheadline: "Protect your Miami home with comprehensive coverage designed for South Florida's unique risks. We compare rates from multiple carriers to find you the best deal.",

@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "Florida Business Insurance Quotes | Lewis Insurance",
-    description: "Protect your Florida business with comprehensive commercial insurance. Compare quotes for general liability, workers comp, commercial auto, BOP, E&O, and cyber insurance.",
+    description: "Florida business insurance quotes. Compare general liability, workers comp, commercial auto, BOP, and cyber coverage.",
     alternates: {
         canonical: "https://lewisinsurance.com/business",
     },

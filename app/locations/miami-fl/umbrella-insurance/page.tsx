@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "umbrella-insurance",
 
     title: "Miami Umbrella Insurance | Extra Liability Protection",
-    description: "Get umbrella insurance in Miami, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Miami-Dade County residents.",
+    description: "Get umbrella insurance in Miami, FL. Protect your assets with liability coverage beyond home and auto limits. Affordable protection for Miami-Dade.",
 
     headline: "Miami Umbrella Insurance",
     subheadline: "Protect your assets and future income with umbrella insurance that extends beyond your home and auto policy limits. Essential coverage for Miami's high-value property owners.",

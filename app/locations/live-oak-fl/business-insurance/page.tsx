@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "business-insurance",
 
     title: "Live Oak Business Insurance | Suwannee County FL",
-    description: "Business insurance in Live Oak, FL. Independent agents compare commercial coverage for Suwannee County businesses. Liability, property, workers comp since 1981.",
+    description: "Business insurance in Live Oak, FL. commercial coverage for Suwannee County businesses. Liability, property, workers comp.",
 
     headline: "Live Oak Business Insurance",
     subheadline: "Protect your Live Oak business with commercial coverage designed for Suwannee County operations. We compare carriers to build the right combination of liability, property, and specialty coverage.",

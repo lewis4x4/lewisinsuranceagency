@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "miami-fl",
 
     title: "Miami, FL Insurance Agency | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Miami, FL. Lewis Insurance compares quotes from multiple carriers for Miami residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Miami, FL. Lewis Insurance compares quotes for Miami residents and businesses.",
 
     headline: "Insurance Agents in Miami, Florida",
     subheadline: "Get personalized insurance coverage for your Miami home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "business-insurance",
 
     title: "Branford Business Insurance | Suwannee County FL",
-    description: "Business insurance in Branford, FL. Independent agents compare commercial coverage for Suwannee County businesses. Liability, property, workers comp since 1981.",
+    description: "Business insurance in Branford, FL. commercial coverage for Suwannee County businesses. Liability, property, workers comp.",
 
     headline: "Branford Business Insurance",
     subheadline: "Protect your Branford business with commercial coverage designed for Suwannee County operations. We compare carriers to find the right combination of protection.",

@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "Privacy Policy | Lewis Insurance Agency",
-    description: "Lewis Insurance Agency privacy policy. Learn how we collect, use, and protect your personal information when you visit our website or request an insurance quote.",
+    description: "Lewis Insurance privacy policy. How we collect, use, and protect your personal information. Florida insurance agency.",
 
     alternates: {
         canonical: `https://lewisinsurance.com/privacy-policy`,

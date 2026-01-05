@@ -19,8 +19,7 @@ import { siteConfig } from "@/config/site"
 
 export const metadata: Metadata = {
   title: "Florida Insurance Made Simple | Lewis Insurance",
-  description:
-    "Compare home, auto, flood, and business insurance quotes from multiple Florida carriers. Independent agency with 44+ years of local expertise. Free quotes in minutes.",
+  description: "Lewis Insurance Agency - Independent Florida insurance since 1981. Compare quotes from 30+ carriers for home, auto, flood.",
   alternates: {
     canonical: `https://${siteConfig.domain}`,
   },

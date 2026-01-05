@@ -15,7 +15,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "About Lewis Insurance | Florida Independent Agency",
-    description: "Lewis Insurance is an independent Florida insurance agency. Learn about our team, our mission, and why Florida families and businesses trust us with their insurance needs.",
+    description: "Lewis Insurance is an independent Florida insurance agency serving families and businesses since 1981. Learn about our team.",
     alternates: {
         canonical: `https://${siteConfig.domain}/about`,
     },

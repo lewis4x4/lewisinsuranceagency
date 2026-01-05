@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "live-oak-fl",
 
     title: "Live Oak, FL Insurance Agency | Lewis Insurance",
-    description: "Home, auto, mobile home, and business insurance in Live Oak, FL. Independent agents serving Suwannee County since 1981. Compare quotes from multiple carriers.",
+    description: "Home, auto, mobile home, and business insurance in Live Oak, FL. Independent agents serving Suwannee County. Compare quotes.",
 
     headline: "Insurance Agents in Live Oak, Florida",
     subheadline: "Your local independent insurance agency serving Suwannee County. We compare rates from multiple carriers to find coverage that fits your needs and budget.",

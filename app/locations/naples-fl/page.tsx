@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "naples-fl",
 
     title: "Naples, FL Insurance Agency | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Naples, FL. Lewis Insurance compares quotes from multiple carriers for Collier County residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Naples, FL. Lewis Insurance compares quotes for Collier and businesses.",
 
     headline: "Insurance Agents in Naples, Florida",
     subheadline: "Get personalized insurance coverage for your Naples home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

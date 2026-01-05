@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "flood-insurance",
 
     title: "Sarasota Flood Insurance | NFIP & Private Options",
-    description: "Get flood insurance in Sarasota, FL. Compare NFIP and private flood coverage for Gulf Coast homes. Essential protection for Siesta Key, Longboat Key, and mainland Sarasota.",
+    description: "Get flood insurance in Sarasota, FL. Compare NFIP and private flood coverage for Gulf Coast homes.",
 
     headline: "Sarasota Flood Insurance",
     subheadline: "Protect your Sarasota property from flood damage with coverage designed for Florida's Gulf Coast. Compare NFIP and private flood options for comprehensive protection.",

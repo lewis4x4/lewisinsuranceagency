@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "Personal Insurance in Florida | Lewis Insurance",
-    description: "Protect your Florida home, car, and family with personalized insurance coverage. Compare quotes for homeowners, auto, flood, condo, renters, and umbrella insurance.",
+    description: "Florida personal insurance from Lewis Insurance. Home, auto, flood, condo, renters, and umbrella coverage. Free quotes.",
     alternates: {
         canonical: "https://lewisinsurance.com/personal",
     },

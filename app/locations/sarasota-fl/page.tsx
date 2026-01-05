@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "sarasota-fl",
 
     title: "Sarasota, FL Insurance Agency | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Sarasota, FL. Lewis Insurance compares quotes from multiple carriers for Sarasota County residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Sarasota, FL. Lewis Insurance compares quotes for Sarasota and businesses.",
 
     headline: "Insurance Agents in Sarasota, Florida",
     subheadline: "Get personalized insurance coverage for your Sarasota home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

@@ -20,13 +20,13 @@ const localEntities = ["I-75", "University of Florida area", "Downtown Gainesvil
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Gainesville, FL",
-    description: "Find the right insurance agent in Gainesville, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance. Serving Alachua County since 1981.",
+    description: "How to choose an insurance agent in Gainesville, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
     alternates: {
-        canonical: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
+        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Gainesville, FL",
-        description: "Find the right insurance agent in Gainesville, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance.",
+        description: "How to choose an insurance agent in Gainesville, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

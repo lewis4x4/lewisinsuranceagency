@@ -30,8 +30,7 @@ const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
     title: "FL Homeowners Insurance Checklist | Lewis Insurance",
-    description:
-        "Review your Florida homeowners insurance coverage with this checklist. Understand dwelling coverage, hurricane deductibles, flood gaps, and wind mitigation discounts.",
+    description: "FL homeowners insurance checklist. Review dwelling, hurricane deductibles, flood gaps, wind mitigation. Free coverage review.",
     alternates: {
         canonical: `${baseUrl}/homeowners-coverage-checklist`,
     },

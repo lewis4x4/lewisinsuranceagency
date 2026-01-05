@@ -20,13 +20,13 @@ const localEntities = ["I-95", "I-10", "Downtown Jacksonville", "Southside area"
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Jacksonville, FL",
-    description: "Find the right insurance agent in Jacksonville, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance. Serving Duval County since 1981.",
+    description: "How to choose an insurance agent in Jacksonville, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
     alternates: {
-        canonical: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
+        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Jacksonville, FL",
-        description: "Find the right insurance agent in Jacksonville, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance.",
+        description: "How to choose an insurance agent in Jacksonville, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "flood-insurance",
 
     title: "West Palm Beach Flood Insurance | NFIP & Private Options",
-    description: "Get flood insurance in West Palm Beach, FL. Compare NFIP and private flood coverage for coastal Palm Beach County homes. Essential hurricane and storm surge protection.",
+    description: "Get flood insurance in West Palm Beach, FL. Compare NFIP and private flood coverage for coastal Palm Beach County homes.",
 
     headline: "West Palm Beach Flood Insurance",
     subheadline: "Protect your West Palm Beach property from flood damage with coverage designed for Palm Beach County's coastal environment. Compare NFIP and private flood options for the best fit.",

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "business-insurance",
 
     title: "Macclenny Business Insurance | Baker County FL",
-    description: "Business insurance in Macclenny, FL. Independent agents compare commercial coverage for Baker County businesses. Liability, property, workers comp since 1981.",
+    description: "Business insurance in Macclenny, FL. commercial coverage for Baker County businesses. Liability, property, workers comp.",
 
     headline: "Macclenny Business Insurance",
     subheadline: "Protect your Macclenny business with commercial coverage built for Baker County operations. We compare carriers to find the right protection mix.",

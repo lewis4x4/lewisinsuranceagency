@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "flood-insurance",
 
     title: "Miami Flood Insurance | NFIP & Private Options",
-    description: "Get flood insurance quotes for Miami properties. Compare NFIP and private flood insurance options. Essential coverage for Miami-Dade County homes and condos.",
+    description: "Get flood insurance quotes for Miami properties. Compare NFIP and private flood insurance options.",
 
     headline: "Miami Flood Insurance",
     subheadline: "Protect your Miami property from flood damage with coverage from the NFIP or private insurers. We help you find the right flood protection for your situation.",

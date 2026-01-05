@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "Jacksonville Auto Insurance | Compare Quotes",
-    description: "Find affordable auto insurance in Jacksonville, FL. Compare quotes from multiple carriers. Coverage for I-95 commuters and Duval County drivers. PIP and full coverage options.",
+    description: "Find affordable auto insurance in Jacksonville, FL. Compare quotes. I-95 commuters and Duval County drivers. PIP and full coverage options.",
 
     headline: "Jacksonville Auto Insurance",
     subheadline: "Get reliable auto insurance coverage for Jacksonville roads. We compare rates from multiple carriers to find protection that fits your driving needs and budget.",

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "condo-insurance",
 
     title: "Tampa Condo Insurance | HO-6 Coverage",
-    description: "Get condo insurance in Tampa, FL. HO-6 policies for Tampa Bay condos covering interior, belongings, and liability. Protection for Channelside, Davis Islands, and beyond.",
+    description: "Get condo insurance in Tampa, FL. HO-6 policies for Tampa Bay condos covering interior.",
 
     headline: "Tampa Condo Insurance",
     subheadline: "Protect your Tampa condo with an HO-6 policy designed for Florida unit owners. Coverage for your interior, belongings, and liability where your association's master policy stops.",

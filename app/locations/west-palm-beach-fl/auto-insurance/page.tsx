@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "West Palm Beach Auto Insurance | Compare Quotes",
-    description: "Find affordable auto insurance in West Palm Beach, FL. Compare quotes from multiple carriers for Palm Beach County drivers. PIP, liability, and full coverage options.",
+    description: "Find affordable auto insurance in West Palm Beach, FL. Compare quotes for Palm Beach County drivers. PIP, liability, and full coverage options.",
 
     headline: "West Palm Beach Auto Insurance",
     subheadline: "Get reliable auto insurance coverage for West Palm Beach roads. We compare rates from multiple carriers to find protection that fits your driving needs and budget.",

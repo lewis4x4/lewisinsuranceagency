@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Sarasota Homeowners Insurance | Compare Quotes",
-    description: "Find affordable homeowners insurance in Sarasota, FL. Compare quotes for hurricane, wind, and property coverage. Serving Sarasota County from Siesta Key to Lakewood Ranch.",
+    description: "Find affordable homeowners insurance in Sarasota, FL. Compare quotes for hurricane.",
 
     headline: "Sarasota Homeowners Insurance",
     subheadline: "Protect your Sarasota home with comprehensive coverage designed for Florida's Gulf Coast. We compare rates from multiple carriers to find the best protection for your property.",

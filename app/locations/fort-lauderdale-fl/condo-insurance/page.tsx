@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "condo-insurance",
 
     title: "Fort Lauderdale Condo Insurance | HO-6 Coverage",
-    description: "Get condo insurance in Fort Lauderdale, FL. HO-6 policies for condos covering interior, belongings, and liability. Protection for beach high-rises and Intracoastal units.",
+    description: "Get condo insurance in Fort Lauderdale, FL. HO-6 policies for condos covering interior.",
 
     headline: "Fort Lauderdale Condo Insurance",
     subheadline: "Protect your Fort Lauderdale condo with an HO-6 policy designed for Florida unit owners. Coverage for your interior, belongings, and liability where your association's master policy stops.",

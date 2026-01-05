@@ -9,7 +9,7 @@ const pageData: CityPageData = {
     slug: "fort-lauderdale-fl",
 
     title: "Fort Lauderdale, FL Insurance | Lewis Insurance",
-    description: "Find affordable home, auto, flood, and business insurance in Fort Lauderdale, FL. Lewis Insurance compares quotes for Broward County residents and businesses.",
+    description: "Find affordable home, auto, flood, and business insurance in Fort Lauderdale, FL. Lewis Insurance compares quotes for Broward and businesses.",
 
     headline: "Insurance Agents in Fort Lauderdale, Florida",
     subheadline: "Get personalized insurance coverage for your Fort Lauderdale home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "business-insurance",
 
     title: "Lake City Business Insurance | Columbia County FL",
-    description: "Business insurance in Lake City, FL. Independent agents compare commercial coverage for Columbia County businesses. Liability, property, workers comp since 1981.",
+    description: "Business insurance in Lake City, FL. commercial coverage for Columbia County businesses. Liability, property, workers comp.",
 
     headline: "Lake City Business Insurance",
     subheadline: "Protect your Lake City business with commercial coverage tailored to Columbia County operations. We compare carriers to find the right mix of liability, property, and specialty coverage.",
