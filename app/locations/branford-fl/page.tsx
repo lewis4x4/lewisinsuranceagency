@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance agency for Branford and the Suwannee River area. We compare carriers to find coverage that protects your family and budget.",
 
     overview: [
-        "Branford sits at the confluence of the Suwannee and Santa Fe rivers, making it a unique community with specific insurance considerations. Lewis Insurance Agency understands the needs of Branford residents—from riverfront properties to rural acreage.",
-        "As an independent agency, we're not limited to one company's products. We compare options from multiple carriers to find the right coverage for Branford families, whether you need home, auto, mobile home, boat, or business insurance.",
-        "Since 1981, we've helped North Florida communities with personalized insurance service. Branford residents deserve an agent who takes time to understand their needs, not a call center reading from a script.",
-        "Contact us to discuss your insurance needs. We'll help you find coverage that fits your situation and budget.",
+        "Branford occupies one of the most geographically unique locations in North Florida—sitting at the confluence of the Suwannee and Santa Fe rivers. This small Suwannee County community of about 700 residents has become internationally recognized as a premier cave diving destination, with numerous underwater cave systems attracting divers from around the world. Lewis Insurance Agency understands the distinct insurance needs this creates for Branford property owners and businesses.",
+        "The dual-river location creates significant flood exposure that property owners must address. Standard homeowners insurance excludes flood damage, making separate flood coverage essential for many Branford properties. Even homes not in designated flood zones can experience flooding from the rivers during heavy rainfall or tropical weather events. We help Branford residents evaluate their flood risk and secure appropriate protection.",
+        "Beyond flood considerations, Branford's rural character means many properties include acreage, outbuildings, and features requiring specialized coverage. Mobile and manufactured homes are common throughout the area. Businesses serving the diving and outdoor recreation community need liability coverage appropriate to their activities. We work with carriers that understand these varied needs.",
+        "Our Lake City office is just 30 minutes from Branford, allowing us to serve this community with personal attention. As an independent agency since 1981, we compare options from multiple carriers to find home, auto, mobile home, boat, flood, and business insurance that fits your situation. Contact us for quotes tailored to Branford's unique environment.",
     ],
 
     localFactors: [

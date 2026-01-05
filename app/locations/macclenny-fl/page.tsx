@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance agency for Macclenny and Baker County. We compare carriers to find coverage that protects your family and fits your budget.",
 
     overview: [
-        "Macclenny serves as the heart of Baker County, positioned along I-10 between Lake City and Jacksonville. Lewis Insurance Agency provides personalized insurance service to this growing community—from families along SR-121 to businesses serving the I-10 corridor.",
-        "As an independent agency, we're not limited to one company. We compare options from multiple carriers to find the right coverage at competitive rates for Baker County residents, whether you need home, auto, mobile home, boat, or business insurance.",
-        "Since 1981, we've helped North Florida families with personalized service. Macclenny residents deserve an agent who understands the community and takes time to find the right protection—not a distant call center.",
-        "Contact us to discuss your insurance needs. We'll help you find coverage that works for your situation.",
+        "Macclenny serves as the county seat of Baker County, a growing community of about 6,400 residents positioned along I-10 between Lake City and Jacksonville. Once a quiet rural town, Macclenny has become one of the fastest-growing bedroom communities west of Jacksonville as families seek affordable housing while commuting to urban employment. Lewis Insurance Agency serves this evolving community from our Lake City office, about 40 minutes west on I-10.",
+        "Baker County's transformation creates diverse insurance needs. New construction requires builder's risk and proper homeowners coverage from day one. Established properties range from rural acreage with outbuildings to town residences. Mobile and manufactured homes remain common throughout the county, requiring specialized policies. I-10 commuters need auto coverage that accounts for highway driving patterns.",
+        "The Ed Fraser Memorial Hospital serves as a healthcare anchor, while the Baker Correctional Institution provides employment. Local businesses ranging from I-10 services to downtown retail need commercial coverage appropriate to their operations. Agricultural properties in surrounding areas may need farm coverage for liability and equipment. Distance from Jacksonville means local insurance service matters.",
+        "As an independent agency since 1981, we compare quotes from multiple carriers for Macclenny families and businesses. Whether you need homeowners, mobile home, auto, commercial, or specialty coverage, we find policies fitting your situation. Growing communities deserve agents who understand change while providing personal service—contact us to discuss your insurance needs.",
     ],
 
     localFactors: [

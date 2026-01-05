@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance for White Springs and Hamilton County. We compare carriers to find coverage protecting your family at competitive rates.",
 
     overview: [
-        "White Springs is a historic community along the Suwannee River, home to Stephen Foster Folk Culture Center State Park. Lewis Insurance Agency serves this area with personalized insurance understanding the needs of riverfront and rural properties.",
-        "As an independent agency, we compare options from multiple carriers. Whether you need home, auto, mobile home, boat, or business insurance, we find coverage fitting your situation.",
-        "Since 1981, we've helped North Florida families. White Springs residents deserve an agent taking time for personal service—not a call center.",
-        "Contact us to discuss your insurance needs.",
+        "White Springs is a historic community along the Suwannee River, known for its Victorian-era heritage and the Stephen Foster Folk Culture Center State Park. With a population of under 500 residents, this tight-knit Hamilton County town has deep roots in Florida's cultural history. Lewis Insurance Agency serves White Springs with personalized insurance that understands the unique needs of riverfront properties and rural living.",
+        "The town's location on the Suwannee River creates specific insurance considerations. Properties near the river face flood risks that require separate flood insurance—standard homeowners policies exclude flood damage. Historic homes, some dating back to the town's days as a mineral springs health resort, may need coverage considerations for older construction and architectural features.",
+        "As an independent agency just 25 minutes away in Lake City, we compare options from multiple insurance carriers for White Springs families. Whether you need homeowners insurance for a historic property, mobile home coverage, auto insurance, boat insurance for Suwannee River recreation, or business coverage, we find policies that fit your situation and budget.",
+        "The annual Florida Folk Festival draws thousands of visitors to White Springs, but local residents need year-round protection. Since 1981, we've helped North Florida families with personal insurance service—not distant call centers. Contact us to discuss your specific insurance needs and get quotes from multiple carriers.",
     ],
 
     localFactors: [

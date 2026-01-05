@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance for Jasper and Hamilton County. We compare carriers to find coverage protecting your family at competitive rates.",
 
     overview: [
-        "Jasper serves as the county seat of Hamilton County, located along I-75 in North Florida. Lewis Insurance Agency provides personalized insurance to this community—understanding rural properties and the needs of I-75 corridor businesses.",
-        "As an independent agency, we compare options from multiple carriers. Whether you need home, auto, mobile home, boat, or business insurance, we find coverage fitting your situation.",
-        "Since 1981, we've helped North Florida families. Jasper residents deserve personal service—not a distant call center.",
-        "Contact us to discuss your insurance needs.",
+        "Jasper serves as the county seat of Hamilton County, a rural community of about 4,500 residents along the I-75 corridor in North Florida near the Georgia border. Named after Revolutionary War hero Sergeant William Jasper, this small-town community maintains strong agricultural roots in tobacco, timber, and cattle while benefiting from I-75 commerce. Lewis Insurance Agency provides personalized insurance understanding both rural properties and the business needs of this interstate highway corridor.",
+        "Hamilton County's rural character creates specific insurance considerations. Many properties sit on acreage with outbuildings, equipment, and features needing appropriate coverage beyond standard policies. Mobile and manufactured homes are common throughout the county—these require specialized policies different from traditional homeowners insurance. Agricultural operations may need farm liability and property coverage for equipment, livestock, and crops.",
+        "The Suwannee and Withlacoochee rivers border portions of Hamilton County, creating flood exposure for some properties. Standard homeowners policies exclude flood damage, so separate flood insurance protects against this risk. The I-75 corridor brings traffic that can increase auto accident exposure—adequate liability coverage protects Jasper drivers and business owners.",
+        "Located just 30 minutes from Jasper, our Lake City office serves all of Hamilton County with personal attention. As an independent agency since 1981, we compare quotes from multiple insurance carriers for home, auto, mobile home, commercial, and farm coverage. Jasper residents deserve an agent who takes time to understand their needs—contact us to experience the difference.",
     ],
 
     localFactors: [

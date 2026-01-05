@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance for High Springs and Alachua County. We compare carriers to find coverage protecting your family at competitive rates.",
 
     overview: [
-        "High Springs is a charming community along US-441 near some of Florida's most famous springs, including Ginnie Springs. Lewis Insurance Agency serves this area with personalized insurance understanding the needs of springs-area properties.",
-        "As an independent agency, we compare options from multiple carriers. Whether you need home, auto, mobile home, boat, or business insurance, we find coverage fitting your situation.",
-        "Since 1981, we've helped North Florida families. High Springs residents deserve personal service—not a distant call center.",
-        "Contact us to discuss your insurance needs.",
+        "High Springs is a charming Alachua County community of about 5,800 residents known as the 'Antique Capital of North Central Florida' for its historic downtown filled with antique shops and restaurants. The town sits near several first-magnitude springs including Ginnie Springs, Blue Springs, and the Santa Fe River, making it a premier destination for cave diving, tubing, and outdoor recreation. Lewis Insurance Agency serves High Springs with personalized insurance about 40 minutes from our Lake City office.",
+        "The Santa Fe River corridor creates unique insurance considerations for High Springs property owners. Properties near the river face flood exposure—standard homeowners insurance excludes flood damage, so separate flood coverage is essential for many homes. The karst terrain underlying the area can also create sinkhole risks. Understanding your specific property's exposure helps ensure proper coverage.",
+        "High Springs attracts both tourism businesses and commuters working in nearby Gainesville. This creates diverse insurance needs—from liability coverage for diving outfitters and recreational businesses to standard home and auto policies for families. Downtown's historic buildings may need coverage considerations for older construction. Mobile homes throughout the surrounding area require specialized policies.",
+        "As an independent agency since 1981, we compare quotes from multiple carriers for High Springs residents and businesses. Whether you need homeowners, flood, mobile home, auto, boat, or commercial insurance, we find coverage fitting your situation. The local service from a nearby agency beats distant call centers—contact us to discuss your specific needs.",
     ],
 
     localFactors: [

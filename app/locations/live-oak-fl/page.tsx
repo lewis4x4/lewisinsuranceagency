@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Your local independent insurance agency serving Suwannee County. We compare rates from multiple carriers to find coverage that fits your needs and budget.",
 
     overview: [
-        "Lewis Insurance Agency serves Live Oak and Suwannee County with personalized insurance solutions. As an independent agency, we work with multiple carriers to find the right coverage at competitive rates—not just one company's options.",
-        "Live Oak's mix of rural properties, small businesses, and family homes requires an agent who understands the community. From mobile homes to farms, from downtown shops to service companies, we know the insurance needs of Suwannee County residents.",
-        "We've been helping North Florida families since 1981. Whether you're looking for auto, homeowners, mobile home, boat, or business insurance, our team provides the local service you deserve.",
-        "Contact us for a quote or stop by to discuss your insurance needs. We're here to help Live Oak families and businesses find protection that works.",
+        "Live Oak serves as the county seat of Suwannee County, a community of about 7,100 residents with strong agricultural traditions and growing tourism appeal. The town's name comes from the large live oak trees that characterize the area. Lewis Insurance Agency serves Live Oak from our Lake City office, just 35 minutes away, providing personalized insurance solutions for this diverse community.",
+        "The Suwannee River runs through the county, creating flood exposure for properties in low-lying areas. The famous Spirit of the Suwannee Music Park hosts major festivals throughout the year, contributing to the local economy while drawing visitors from across the country. For Live Oak residents, year-round protection matters regardless of tourist seasons.",
+        "Suwannee County's character creates varied insurance needs. Many properties include acreage with outbuildings requiring appropriate coverage. Mobile and manufactured homes are prevalent—these need specialized policies different from standard homeowners insurance. Agricultural operations, including vegetables, poultry, and cattle, may require farm coverage for liability and property risks.",
+        "As an independent agency since 1981, we compare options from multiple carriers for Live Oak families and businesses. Whether you need homeowners, mobile home, auto, boat, flood, commercial, or farm insurance, we find coverage fitting your situation. The I-10 corridor provides easy access to our Lake City office—contact us for quotes from carriers who understand North Florida.",
     ],
 
     localFactors: [

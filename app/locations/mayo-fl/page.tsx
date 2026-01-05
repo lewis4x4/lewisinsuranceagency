@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance for Mayo and Lafayette County. We compare carriers to find coverage protecting your family at competitive rates.",
 
     overview: [
-        "Mayo is the county seat of Lafayette County, one of Florida's most rural counties. Lewis Insurance Agency serves this community with personalized insurance understanding rural properties and agricultural operations.",
-        "As an independent agency, we compare options from multiple carriers. Whether you need home, auto, mobile home, boat, or business insurance, we find coverage fitting your situation.",
-        "Since 1981, we've helped North Florida families. Mayo residents deserve personal service—not a distant call center.",
-        "Contact us to discuss your insurance needs.",
+        "Mayo serves as the county seat of Lafayette County, one of Florida's least populated and most rural counties with just over 8,400 residents countywide. This close-knit agricultural community along US-27 maintains strong farming traditions including dairy, cattle, timber, and row crops. Lewis Insurance Agency understands the insurance needs of rural Mayo residents—from farm coverage to mobile home protection.",
+        "Lafayette County's rural character creates unique insurance considerations. Many properties sit on large acreage with outbuildings, barns, and agricultural equipment that need appropriate coverage. Mobile and manufactured homes are prevalent throughout the county, requiring specialized policies that differ from standard homeowners insurance. Distance from fire stations can also affect property insurance rates and options.",
+        "The Suwannee River flows along Lafayette County's eastern border, creating flood exposure for some properties. Standard homeowners insurance doesn't cover flood damage—separate flood coverage protects against this often-overlooked risk. Whether you're on a working farm, a rural homestead, or in the small downtown area, understanding your specific risks is essential.",
+        "As an independent agency about 40 minutes away in Lake City, we serve Mayo and all of Lafayette County with personal attention. We compare quotes from multiple insurance carriers to find home, auto, mobile home, farm, and business coverage that fits your needs. Since 1981, we've helped North Florida families with the kind of personalized service small-town residents expect. Call us or request a quote online.",
     ],
 
     localFactors: [

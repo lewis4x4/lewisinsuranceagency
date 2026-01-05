@@ -15,10 +15,10 @@ const pageData: CityPageData = {
     subheadline: "Local independent insurance agency for Fort White and the springs area. We compare carriers to find coverage protecting your family at competitive rates.",
 
     overview: [
-        "Fort White sits in Columbia County near some of Florida's most beautiful springs, including Ichetucknee Springs State Park. Lewis Insurance Agency serves this community with personalized insurance—understanding the unique needs of rural properties and spring-area homes.",
-        "As an independent agency, we compare options from multiple carriers rather than selling one company's products. Whether you need home, auto, mobile home, boat, or business insurance, we find coverage fitting your situation.",
-        "Since 1981, we've helped North Florida families with personal service. Fort White residents deserve an agent who takes time to understand their needs—not a distant call center reading scripts.",
-        "Contact us to discuss your insurance. We'll find coverage that works for your situation and budget.",
+        "Fort White is a small Columbia County community of about 550 residents, serving as the gateway to Ichetucknee Springs State Park—one of Florida's most pristine natural springs. Named for a fort built during the Second Seminole War, this quiet residential area attracts families seeking rural living close to natural springs and outdoor recreation. Lewis Insurance Agency understands the specific insurance needs of Fort White properties just 20 minutes from our Lake City office.",
+        "The Santa Fe River flows through the area, and Ichetucknee Springs draws over 100,000 visitors annually. This creates unique insurance considerations for local property owners. Properties near the river may face flood risks—standard homeowners insurance excludes flood damage, making separate flood coverage important. The rural nature of the area means many homes sit on acreage with outbuildings that need appropriate coverage.",
+        "Mobile and manufactured homes are common throughout Fort White and the surrounding Columbia County area. These require specialized insurance policies that differ from standard homeowners coverage. Hobby farms and small agricultural operations may need farm liability coverage. Distance from fire stations can affect property insurance rates, so understanding your ISO rating matters.",
+        "As an independent agency since 1981, we compare quotes from multiple insurance carriers for Fort White residents. Whether you need homeowners, mobile home, auto, boat, flood, or business insurance, we find coverage that fits your situation and budget. Personal service from a local agency beats distant call centers—contact us to discuss your insurance needs.",
     ],
 
     localFactors: [
