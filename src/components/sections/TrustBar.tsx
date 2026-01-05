@@ -1,18 +1,18 @@
 "use client"
 
+import Image from "next/image"
 import { Star } from "lucide-react"
 import { siteConfig } from "@/config/site"
 
-// Carrier names - these are the insurance companies we work with
+// Carrier logos - these are the insurance companies we work with
 const carriers = [
-    "Progressive",
-    "Nationwide",
-    "Kemper",
-    "Universal",
-    "Heritage",
-    "American Integrity",
-    "Foremost",
-    "Citizens",
+    { name: "Progressive", logo: "/carriers/progressive.png" },
+    { name: "Nationwide", logo: "/carriers/nationwide.png" },
+    { name: "Kemper", logo: "/carriers/kemper.png" },
+    { name: "Universal", logo: "/carriers/universal.png" },
+    { name: "Heritage", logo: "/carriers/heritage.png" },
+    { name: "American Integrity", logo: "/carriers/american-integrity.png" },
+    { name: "Foremost", logo: "/carriers/foremost.png" },
 ]
 
 export function TrustBar() {
@@ -20,17 +20,23 @@ export function TrustBar() {
         <section className="py-8 bg-white border-y border-lewis-border">
             <div className="container-lg">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-                    {/* Carrier Names */}
+                    {/* Carrier Logos */}
                     <div className="flex flex-wrap items-center justify-center gap-4">
                         <p className="text-sm font-medium text-lewis-body">We represent {siteConfig.trust.carrierCount} carriers including:</p>
-                        <div className="flex flex-wrap items-center justify-center gap-3">
-                            {carriers.map((carrier, index) => (
-                                <span
-                                    key={index}
-                                    className="px-3 py-1 text-sm font-medium text-lewis-ink bg-gray-100 rounded-full"
+                        <div className="flex flex-wrap items-center justify-center gap-6">
+                            {carriers.map((carrier) => (
+                                <div
+                                    key={carrier.name}
+                                    className="h-8 flex items-center justify-center grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all"
                                 >
-                                    {carrier}
-                                </span>
+                                    <Image
+                                        src={carrier.logo}
+                                        alt={`${carrier.name} logo`}
+                                        width={80}
+                                        height={32}
+                                        className="object-contain max-h-8 w-auto"
+                                    />
+                                </div>
                             ))}
                         </div>
                     </div>
