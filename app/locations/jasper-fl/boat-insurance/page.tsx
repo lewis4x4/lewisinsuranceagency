@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "boat-insurance",
 
     title: "Jasper Boat Insurance | Hamilton County FL",
-    description: "Boat insurance in Jasper, FL. Marine coverage for Hamilton County boaters since 1981.",
+    description: "Boat insurance in Jasper, FL. Marine coverage for Hamilton County boaters since 1981. Compare quotes and protect your vessel.",
 
     headline: "Jasper Boat Insurance",
     subheadline: "Coverage for Hamilton County boaters. We compare marine insurance to protect your time on the water.",

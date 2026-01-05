@@ -8,7 +8,7 @@ const pageData: CityServicePageData = {
     serviceName: "Auto Insurance",
     serviceSlug: "auto-insurance",
     title: "Mayo Auto Insurance | Lafayette County FL",
-    description: "Auto insurance in Mayo, FL. Independent agents compare quotes for Lafayette County drivers since 1981.",
+    description: "Auto insurance in Mayo, FL. Independent agents compare quotes for Lafayette County drivers since 1981. Get a free quote today.",
     headline: "Mayo Auto Insurance",
     subheadline: "Find auto coverage for Lafayette County's rural roads. We compare carriers to help Mayo drivers get competitive rates.",
     overview: [

@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Business Owners Policy (BOP)",
+    title: "Florida Business Owners Policy (BOP)",
     description: "Florida Business Owners Policy bundles property and liability coverage at a discount. Ideal for small businesses. Compare BOP quotes.",
 
     badge: "Business Insurance",

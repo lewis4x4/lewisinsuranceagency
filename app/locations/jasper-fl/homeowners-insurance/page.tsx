@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "homeowners-insurance",
 
     title: "Jasper Homeowners Insurance | Hamilton County FL",
-    description: "Homeowners insurance in Jasper, FL. Independent agents compare carriers for Hamilton County homes since 1981.",
+    description: "Homeowners insurance in Jasper, FL. Independent agents compare carriers for Hamilton County homes since 1981. Get a free quote today.",
 
     headline: "Jasper Homeowners Insurance",
     subheadline: "Protect your Hamilton County home with coverage from an independent agency. We find insurance fitting your property.",

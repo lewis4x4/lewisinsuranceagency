@@ -8,7 +8,7 @@ const pageData: CityServicePageData = {
     serviceName: "Auto Insurance",
     serviceSlug: "auto-insurance",
     title: "High Springs Auto Insurance | Alachua County FL",
-    description: "Auto insurance in High Springs, FL. Independent agents compare quotes for Alachua County drivers since 1981.",
+    description: "Auto insurance in High Springs, FL. Independent agents compare quotes for Alachua County drivers since 1981. Get a free quote today.",
     headline: "High Springs Auto Insurance",
     subheadline: "Find auto coverage for Alachua County roads. We compare carriers to help High Springs drivers get competitive rates.",
     overview: [

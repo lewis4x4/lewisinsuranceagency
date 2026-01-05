@@ -13,7 +13,7 @@ import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Client Tools & Service Center",
+    title: "Client Tools & Service Center | Lewis Insurance",
     description: "Access your insurance portal, make payments, file claims, and manage your policies online. Lewis Insurance self-service tools for Florida clients.",
     alternates: {
         canonical: "https://lewisinsurance.com/client-tools",

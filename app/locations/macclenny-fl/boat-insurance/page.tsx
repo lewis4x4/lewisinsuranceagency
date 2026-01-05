@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "boat-insurance",
 
     title: "Macclenny Boat Insurance | Baker County FL",
-    description: "Boat insurance in Macclenny, FL. Marine coverage for Baker County boaters. Rivers to coast coverage since 1981.",
+    description: "Boat insurance in Macclenny, FL. Marine coverage for Baker County boaters. Rivers to coast coverage since 1981. Compare quotes today.",
 
     headline: "Macclenny Boat Insurance",
     subheadline: "Coverage for Baker County boaters who trailer to rivers, lakes, and the coast. We compare marine insurance to protect your time on the water.",

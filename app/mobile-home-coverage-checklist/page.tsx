@@ -29,14 +29,14 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Mobile Home Insurance Coverage Checklist | Lewis Insurance",
+    title: "FL Mobile Home Insurance Checklist | Lewis Insurance",
     description:
         "Review your Florida mobile home or manufactured home insurance coverage. Understand tie-down requirements, replacement cost options, and hurricane deductibles.",
     alternates: {
         canonical: `${baseUrl}/mobile-home-coverage-checklist`,
     },
     openGraph: {
-        title: "Florida Mobile Home Insurance Coverage Checklist | Lewis Insurance",
+        title: "FL Mobile Home Insurance Checklist | Lewis Insurance",
         description:
             "Review your Florida mobile home insurance. Understand tie-down requirements and coverage options.",
         url: `${baseUrl}/mobile-home-coverage-checklist`,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Florida Mobile Home Insurance Coverage Checklist | Lewis Insurance",
+        title: "FL Mobile Home Insurance Checklist | Lewis Insurance",
         description:
             "Review your Florida mobile home insurance. Understand tie-down requirements and coverage options.",
     },

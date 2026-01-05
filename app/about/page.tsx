@@ -14,7 +14,7 @@ import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "About Us",
+    title: "About Lewis Insurance | Florida Independent Agency",
     description: "Lewis Insurance is an independent Florida insurance agency. Learn about our team, our mission, and why Florida families and businesses trust us with their insurance needs.",
     alternates: {
         canonical: `https://${siteConfig.domain}/about`,

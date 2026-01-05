@@ -8,7 +8,7 @@ const pageData: CityServicePageData = {
     serviceName: "Homeowners Insurance",
     serviceSlug: "homeowners-insurance",
     title: "Mayo Homeowners Insurance | Lafayette County FL",
-    description: "Homeowners insurance in Mayo, FL. Independent agents compare carriers for Lafayette County homes since 1981.",
+    description: "Homeowners insurance in Mayo, FL. Independent agents compare carriers for Lafayette County homes since 1981. Get a free quote today.",
     headline: "Mayo Homeowners Insurance",
     subheadline: "Protect your Lafayette County home with coverage from an independent agency. We find insurance fitting rural properties.",
     overview: [

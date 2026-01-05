@@ -29,14 +29,14 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Homeowners Insurance Coverage Checklist | Lewis Insurance",
+    title: "FL Homeowners Insurance Checklist | Lewis Insurance",
     description:
         "Review your Florida homeowners insurance coverage with this checklist. Understand dwelling coverage, hurricane deductibles, flood gaps, and wind mitigation discounts.",
     alternates: {
         canonical: `${baseUrl}/homeowners-coverage-checklist`,
     },
     openGraph: {
-        title: "Florida Homeowners Insurance Coverage Checklist | Lewis Insurance",
+        title: "FL Homeowners Insurance Checklist | Lewis Insurance",
         description:
             "Review your Florida homeowners coverage. Understand hurricane deductibles, flood gaps, and more.",
         url: `${baseUrl}/homeowners-coverage-checklist`,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Florida Homeowners Insurance Coverage Checklist | Lewis Insurance",
+        title: "FL Homeowners Insurance Checklist | Lewis Insurance",
         description:
             "Review your Florida homeowners coverage. Understand hurricane deductibles, flood gaps, and more.",
     },

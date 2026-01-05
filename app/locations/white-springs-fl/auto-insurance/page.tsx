@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "auto-insurance",
 
     title: "White Springs Auto Insurance | Hamilton County FL",
-    description: "Auto insurance in White Springs, FL. Independent agents compare quotes for Hamilton County drivers since 1981.",
+    description: "Auto insurance in White Springs, FL. Independent agents compare quotes for Hamilton County drivers since 1981. Free quotes.",
 
     headline: "White Springs Auto Insurance",
     subheadline: "Find auto coverage for Hamilton County roads. We compare carriers to help White Springs drivers get competitive rates.",

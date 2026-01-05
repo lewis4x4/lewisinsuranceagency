@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Cyber Liability Insurance",
+    title: "Florida Cyber Liability Insurance",
     description: "Protect your Florida business from data breaches and cyber attacks. Cyber liability insurance covers breach response, liability, and business interruption.",
 
     badge: "Business Insurance",

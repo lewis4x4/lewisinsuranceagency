@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "Commercial Auto Insurance",
+    title: "Florida Commercial Auto Insurance",
     description: "Florida commercial auto insurance for business vehicles. Coverage for company cars, trucks, and fleets. Compare quotes from multiple carriers.",
 
     badge: "Business Insurance",

@@ -3,7 +3,7 @@ import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
 
 const pageData: ServicePageData = {
-    title: "General Liability Insurance",
+    title: "Florida General Liability Insurance",
     description: "Protect your Florida business with general liability insurance. Coverage for third-party injuries, property damage, and lawsuits. Compare quotes.",
 
     badge: "Business Insurance",

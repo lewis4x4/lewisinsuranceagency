@@ -11,7 +11,7 @@ import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Insurance Resources",
+    title: "Florida Insurance Resources & Guides | Lewis Insurance",
     description: "Learn about insurance in Florida. Guides, articles, and tools to help you understand your coverage options and make informed decisions.",
     alternates: {
         canonical: "https://lewisinsurance.com/resources",

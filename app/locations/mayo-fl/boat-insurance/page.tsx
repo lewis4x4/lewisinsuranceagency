@@ -8,7 +8,7 @@ const pageData: CityServicePageData = {
     serviceName: "Boat Insurance",
     serviceSlug: "boat-insurance",
     title: "Mayo Boat Insurance | Lafayette County FL",
-    description: "Boat insurance in Mayo, FL. Marine coverage for Lafayette County boaters since 1981.",
+    description: "Boat insurance in Mayo, FL. Marine coverage for Lafayette County boaters since 1981. Compare quotes and protect your vessel.",
     headline: "Mayo Boat Insurance",
     subheadline: "Coverage for Lafayette County boaters. We compare marine insurance to protect your time on the water.",
     overview: [

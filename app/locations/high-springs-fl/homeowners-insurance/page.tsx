@@ -8,7 +8,7 @@ const pageData: CityServicePageData = {
     serviceName: "Homeowners Insurance",
     serviceSlug: "homeowners-insurance",
     title: "High Springs Homeowners Insurance | Alachua County",
-    description: "Homeowners insurance in High Springs, FL. Independent agents compare carriers for homes near Santa Fe River since 1981.",
+    description: "Homeowners insurance in High Springs, FL. Independent agents compare carriers for homes near Santa Fe River since 1981. Free quotes.",
     headline: "High Springs Homeowners Insurance",
     subheadline: "Protect your Alachua County home with coverage from an independent agency. We find insurance fitting springs-area and downtown properties.",
     overview: [

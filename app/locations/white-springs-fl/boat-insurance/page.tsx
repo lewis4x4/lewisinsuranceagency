@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "boat-insurance",
 
     title: "White Springs Boat Insurance | Hamilton County FL",
-    description: "Boat insurance in White Springs, FL. Marine coverage for Suwannee River boaters since 1981.",
+    description: "Boat insurance in White Springs, FL. Marine coverage for Suwannee River boaters since 1981. Compare quotes and protect your vessel.",
 
     headline: "White Springs Boat Insurance",
     subheadline: "Coverage for boaters on the Suwannee River and beyond. We compare marine insurance to protect your time on the water.",
