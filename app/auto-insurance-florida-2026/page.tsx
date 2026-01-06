@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -52,12 +53,21 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "article",
+        images: [
+            {
+                url: `${baseUrl}/images/2026_Auto_Insurance_Review.jpg`,
+                width: 1200,
+                height: 630,
+                alt: "Auto Insurance in 2026 - What Florida Drivers Need to Know",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "Auto Insurance in 2026: Florida Driver's Guide | Lewis Insurance",
         description:
             "Complete guide to Florida auto insurance in 2026. Rate trends, upcoming PIP changes, and strategies to lower your premium.",
+        images: [`${baseUrl}/images/2026_Auto_Insurance_Review.jpg`],
     },
 }
 
@@ -292,6 +302,18 @@ export default function AutoInsuranceFlorida2026Page() {
                     </ol>
                 </div>
             </nav>
+
+            {/* Header Image */}
+            <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
+                <Image
+                    src="/images/2026_Auto_Insurance_Review.jpg"
+                    alt="Auto Insurance in 2026 - What Florida Drivers Need to Know"
+                    fill
+                    className="object-cover"
+                    priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/90" />
+            </div>
 
             {/* Hero Section */}
             <section className="hero-gradient py-16 md:py-24">
