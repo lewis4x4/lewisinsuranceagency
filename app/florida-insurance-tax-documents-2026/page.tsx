@@ -38,16 +38,16 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Insurance Tax Documents 2026 | Lewis Insurance",
+    title: "Florida Insurance Tax Documents 2026: What's Deductible | Lewis Insurance",
     description:
-        "Learn which insurance documents Florida homeowners receive for tax season 2026, what's deductible, and how to maximize savings. Expert guide from Lewis Insurance.",
+        "Florida homeowners insurance tax documents for 2026. What's deductible, Form 1098 explained, PMI changes, home office deductions. Lake City expert guide.",
     alternates: {
         canonical: `${baseUrl}/florida-insurance-tax-documents-2026`,
     },
     openGraph: {
-        title: "Florida Insurance Tax Documents 2026 | Lewis Insurance",
+        title: "Florida Insurance Tax Documents 2026: What's Deductible",
         description:
-            "Which insurance costs are tax deductible? What documents do you need? Complete guide for Florida homeowners.",
+            "Is homeowners insurance tax deductible in Florida? What documents do you need? Complete 2026 guide for Florida homeowners.",
         url: `${baseUrl}/florida-insurance-tax-documents-2026`,
         siteName: siteConfig.name,
         locale: "en_US",
@@ -63,9 +63,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Florida Insurance Tax Documents 2026 | Lewis Insurance",
+        title: "Florida Insurance Tax Documents 2026: What's Deductible",
         description:
-            "Which insurance costs are tax deductible? What documents do you need? Complete guide for Florida homeowners.",
+            "Is homeowners insurance tax deductible in Florida? What documents do you need? Complete 2026 guide for Florida homeowners.",
         images: [`${baseUrl}/images/florida-insurance-tax-documents-2026.png`],
     },
 }
