@@ -40,7 +40,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Homeowners Insurance 2026: Review Checklist | Lewis Insurance",
+    title: "Florida Homeowners Insurance 2026 Guide | Lewis",
     description:
         "Review your Florida homeowners insurance for 2026. Rate changes, roof requirements, wind mitigation credits, and coverage gaps. Expert advice for North Florida.",
     alternates: {

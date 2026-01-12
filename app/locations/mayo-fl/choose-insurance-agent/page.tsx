@@ -20,13 +20,13 @@ const localEntities = ["US-27", "Downtown Mayo", "Lafayette County area", "rural
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Mayo, FL",
-    description: "How to choose an insurance agent in Mayo, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in Mayo, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Lafayette County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/mayo-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Mayo, FL",
-        description: "How to choose an insurance agent in Mayo, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in Mayo, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Lafayette County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

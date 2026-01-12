@@ -34,7 +34,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida 4-Point Inspection Guide | Cost & Requirements | Lewis Insurance",
+    title: "Florida 4-Point Inspection Guide: Cost & Tips",
     description: "What is a 4-point inspection in Florida? Costs $75-$150. Required for homes 20+ years old. Learn what inspectors check and how to prepare.",
     alternates: {
         canonical: `${baseUrl}/4-point-inspection-guide`,

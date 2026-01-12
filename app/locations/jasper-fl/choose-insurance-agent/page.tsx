@@ -20,13 +20,13 @@ const localEntities = ["I-75", "US-41", "Downtown Jasper", "Hamilton County area
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Jasper, FL",
-    description: "How to choose an insurance agent in Jasper, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in Jasper, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Hamilton County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/jasper-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Jasper, FL",
-        description: "How to choose an insurance agent in Jasper, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in Jasper, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Hamilton County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

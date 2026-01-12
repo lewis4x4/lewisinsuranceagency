@@ -20,7 +20,7 @@ const localEntities = ["I-75", "US-90", "Downtown Lake City", "Lake DeSoto"]
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Lake City, FL",
-    description: "How to choose an insurance agent in Lake City, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in Lake City, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Columbia County service.",
     alternates: {
         canonical: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
     },

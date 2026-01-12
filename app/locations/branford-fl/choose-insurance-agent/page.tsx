@@ -20,13 +20,13 @@ const localEntities = ["US-27", "Suwannee River", "Santa Fe River", "Downtown Br
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Branford, FL",
-    description: "How to choose an insurance agent in Branford, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in Branford, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Suwannee County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/branford-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Branford, FL",
-        description: "How to choose an insurance agent in Branford, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in Branford, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Suwannee County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

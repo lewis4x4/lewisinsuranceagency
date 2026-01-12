@@ -39,7 +39,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Auto Insurance in 2026: What Florida Drivers Need to Know | Lewis Insurance",
+    title: "Florida Auto Insurance 2026: Rates & Guide | Lewis",
     description:
         "Florida auto insurance guide for 2026. Rate trends, PIP changes, coverage requirements, and proven ways to save. Expert advice for North Florida drivers.",
     alternates: {

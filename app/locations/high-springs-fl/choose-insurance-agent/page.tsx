@@ -20,13 +20,13 @@ const localEntities = ["US-441", "Downtown High Springs", "Santa Fe River", "spr
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in High Springs, FL",
-    description: "How to choose an insurance agent in High Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in High Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Alachua County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/high-springs-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in High Springs, FL",
-        description: "How to choose an insurance agent in High Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in High Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Alachua County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

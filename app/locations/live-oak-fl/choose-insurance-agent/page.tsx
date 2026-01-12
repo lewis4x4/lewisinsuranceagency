@@ -20,13 +20,13 @@ const localEntities = ["US-129", "US-90", "Downtown Live Oak", "Spirit of the Su
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in Live Oak, FL",
-    description: "How to choose an insurance agent in Live Oak, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in Live Oak, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Suwannee County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/live-oak-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in Live Oak, FL",
-        description: "How to choose an insurance agent in Live Oak, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in Live Oak, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Suwannee County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },

@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "flood-insurance",
 
     title: "Naples Flood Insurance | NFIP & Private Options",
-    description: "Get flood insurance in Naples, FL. Compare NFIP and private flood coverage for Collier County homes.",
+    description: "Naples flood insurance from local Florida agents. Compare NFIP and private flood coverage options for Collier County Gulf Coast homes. Free quotes available.",
 
     headline: "Naples Flood Insurance",
     subheadline: "Protect your Naples property from flood damage with coverage designed for Southwest Florida's Gulf Coast risks. Compare NFIP and private flood options for your home.",

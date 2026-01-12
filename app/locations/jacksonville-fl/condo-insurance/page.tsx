@@ -9,7 +9,7 @@ const pageData: CityServicePageData = {
     serviceSlug: "condo-insurance",
 
     title: "Jacksonville Condo Insurance | HO-6 Coverage",
-    description: "Get condo insurance in Jacksonville, FL. HO-6 policies for condos covering interior.",
+    description: "Jacksonville condo insurance from local Florida agents. HO-6 policies covering interior, personal property, and liability. Compare quotes from multiple carriers today.",
 
     headline: "Jacksonville Condo Insurance",
     subheadline: "Protect your Jacksonville condo with an HO-6 policy designed for Florida unit owners. Coverage for your interior, belongings, and liability where your association's master policy stops.",

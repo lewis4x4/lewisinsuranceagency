@@ -20,13 +20,13 @@ const localEntities = ["US-41", "Suwannee River", "Stephen Foster Folk Culture C
 
 export const metadata: Metadata = {
     title: "How to Choose an Insurance Agent in White Springs, FL",
-    description: "How to choose an insurance agent in White Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+    description: "How to choose an insurance agent in White Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Hamilton County service.",
     alternates: {
-        canonical: "https://lewisinsurance.com/locations/lake-city-fl/choose-insurance-agent",
+        canonical: "https://lewisinsurance.com/locations/white-springs-fl/choose-insurance-agent",
     },
     openGraph: {
         title: "How to Choose an Insurance Agent in White Springs, FL",
-        description: "How to choose an insurance agent in White Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers.",
+        description: "How to choose an insurance agent in White Springs, FL. Compare independent vs captive agents. Free quotes from 30+ carriers. Local Hamilton County service.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
     },
