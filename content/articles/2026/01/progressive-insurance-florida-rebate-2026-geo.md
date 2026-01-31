@@ -8,7 +8,7 @@ author_credentials: "Serving North Florida since 1978"
 expert_reviewer: "Rocky Lewis, Licensed Insurance Agent"
 category: "florida-auto-insurance"
 tags: ["florida auto insurance", "progressive insurance", "insurance rebate", "north florida", "lake city", "rate reduction", "comprehensive guide", "HB 837", "insurance reform"]
-featured_image: "/content/images/2026/01/progressive-insurance-florida-rebate-2026-featured.png"
+featured_image: "/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png"
 featured_image_alt: "Florida driver receiving auto insurance savings representing Progressive rebate"
 version: "geo"
 schema_type: "Article"
@@ -19,7 +19,7 @@ sources_count: 15
 word_count: 3200
 ---
 
-![Progressive Insurance Florida Rebate - Featured Image](/content/images/2026/01/progressive-insurance-florida-rebate-2026-featured.png)
+![Progressive Insurance Florida Rebate - Featured Image](/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png)
 
 # Progressive Insurance Florida Rebate 2026: Complete Guide to the $1 Billion Refund
 

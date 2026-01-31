@@ -7,7 +7,7 @@ author: "Lewis Insurance Agency"
 author_credentials: "Serving North Florida since 1978"
 category: "florida-auto-insurance"
 tags: ["florida auto insurance", "progressive insurance", "insurance rebate", "north florida", "lake city", "rate reduction"]
-featured_image: "/content/images/2026/01/progressive-insurance-florida-rebate-2026-featured.png"
+featured_image: "/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png"
 featured_image_alt: "Florida driver receiving auto insurance savings representing Progressive rebate"
 version: "aeo"
 schema_type: "FAQPage"
@@ -16,7 +16,7 @@ primary_keyword: "Progressive Insurance Florida rebate 2026"
 secondary_keywords: ["Progressive auto insurance refund", "Florida auto insurance rate decrease", "Progressive $300 rebate", "Florida insurance reforms"]
 ---
 
-![Progressive Insurance Florida Rebate - Featured Image](/content/images/2026/01/progressive-insurance-florida-rebate-2026-featured.png)
+![Progressive Insurance Florida Rebate - Featured Image](/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png)
 
 # Progressive Insurance Florida Rebate 2026: Quick Answers
 
