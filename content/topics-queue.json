@@ -1,0 +1,81 @@
+{
+  "description": "Queue of topics for automated daily article generation via BlogPublisher skill",
+  "topics": [
+    {
+      "topic": "Florida wind mitigation inspections: What homeowners need to know in 2026",
+      "status": "pending",
+      "priority": 1
+    },
+    {
+      "topic": "Understanding Florida hurricane deductibles: How they work and what to expect",
+      "status": "pending",
+      "priority": 2
+    },
+    {
+      "topic": "Flood insurance in Florida: NFIP vs private flood coverage comparison",
+      "status": "pending",
+      "priority": 3
+    },
+    {
+      "topic": "Florida roof age requirements for homeowners insurance 2026",
+      "status": "pending",
+      "priority": 4
+    },
+    {
+      "topic": "My Safe Florida Home program: Grants and discounts for hurricane protection",
+      "status": "pending",
+      "priority": 5
+    },
+    {
+      "topic": "Florida auto insurance PIP coverage: What changes in 2026",
+      "status": "pending",
+      "priority": 6
+    },
+    {
+      "topic": "Uninsured motorist coverage in Florida: Why you need it",
+      "status": "pending",
+      "priority": 7
+    },
+    {
+      "topic": "Commercial auto insurance for Florida small businesses",
+      "status": "pending",
+      "priority": 8
+    },
+    {
+      "topic": "Florida condo insurance: What your HOA covers vs what you need",
+      "status": "pending",
+      "priority": 9
+    },
+    {
+      "topic": "Umbrella insurance in Florida: Extra liability protection explained",
+      "status": "pending",
+      "priority": 10
+    },
+    {
+      "topic": "Florida renters insurance: Coverage every tenant needs",
+      "status": "pending",
+      "priority": 11
+    },
+    {
+      "topic": "Business interruption insurance for Florida companies",
+      "status": "pending",
+      "priority": 12
+    },
+    {
+      "topic": "Workers compensation insurance requirements in Florida",
+      "status": "pending",
+      "priority": 13
+    },
+    {
+      "topic": "Sinkhole coverage in Florida: What homeowners should know",
+      "status": "pending",
+      "priority": 14
+    },
+    {
+      "topic": "Florida insurance claims process: Step-by-step guide after a loss",
+      "status": "pending",
+      "priority": 15
+    }
+  ],
+  "completed": []
+}
