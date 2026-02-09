@@ -53,7 +53,7 @@ jobs:
 
       - name: Run SEO check
         run: |
-          python scripts/seo_analyzer.py "content/blog/$(ls -t content/blog/*.md 2>/dev/null | head -1)"
+          python scripts/seo_analyzer.py "$(ls -t content/blog/*.md 2>/dev/null | head -1)"
         continue-on-error: true
 
       - name: Commit and push

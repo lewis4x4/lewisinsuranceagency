@@ -16,6 +16,9 @@ env:
   HF_API_KEY: ${{ secrets.HF_API_KEY }}
   HF_API_SECRET: ${{ secrets.HF_API_SECRET }}
 
+permissions:
+  contents: write
+
 jobs:
   generate-article:
     runs-on: ubuntu-latest
