@@ -108,7 +108,7 @@ const checklistItems = [
 const commonMistakes = [
     "Keeping state minimum limits when you have significant assets to protect",
     "Declining uninsured motorist coverage in a state with high uninsured driver rates",
-    "Not understanding how PIP coordinates with health insurance",
+    "Not understanding how PIP coordinates with other medical expense protection",
     "Letting coverage lapse even briefly, which can increase future rates",
     "Not reporting all household drivers to your insurance company",
     "Choosing a deductible you can't afford to pay in the event of a claim",
@@ -132,8 +132,8 @@ const faqs = [
         answer: "Consider your vehicle's value versus your deductible. If your car is worth $3,000 and your deductible is $1,000, you'd only receive $2,000 after a total loss. Think about whether that payout is worth the ongoing premium cost.",
     },
     {
-        question: "How does PIP work with health insurance?",
-        answer: "PIP is primary for auto accident injuries—it pays first. You can elect to have your health insurance be primary through a PIP deductible, which may lower your auto premium but means you'll use health insurance first.",
+        question: "How does PIP work after an accident?",
+        answer: "PIP generally pays first for covered auto accident injuries, subject to Florida law, policy terms, and the 14-day treatment rule. Your agent can explain deductible choices and other medical expense protection options.",
     },
 ]
 

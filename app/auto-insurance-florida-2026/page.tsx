@@ -41,14 +41,14 @@ const baseUrl = `https://${siteConfig.domain}`
 export const metadata: Metadata = {
     title: "Florida Auto Insurance 2026: Rates & Guide | Lewis",
     description:
-        "Florida auto insurance guide for 2026. Rate trends, PIP changes, coverage requirements, and proven ways to save. Expert advice for North Florida drivers.",
+        "Florida auto insurance guide for 2026. Rate trends, current PIP requirements, coverage recommendations, and proven ways to save. Expert advice for North Florida drivers.",
     alternates: {
         canonical: `${baseUrl}/auto-insurance-florida-2026`,
     },
     openGraph: {
         title: "Auto Insurance in 2026: Florida Driver's Guide | Lewis Insurance",
         description:
-            "Complete guide to Florida auto insurance in 2026. Rate trends, upcoming PIP changes, and strategies to lower your premium.",
+            "Complete guide to Florida auto insurance in 2026. Rate trends, current PIP requirements, and strategies to lower your premium.",
         url: `${baseUrl}/auto-insurance-florida-2026`,
         siteName: siteConfig.name,
         locale: "en_US",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Auto Insurance in 2026: Florida Driver's Guide | Lewis Insurance",
         description:
-            "Complete guide to Florida auto insurance in 2026. Rate trends, upcoming PIP changes, and strategies to lower your premium.",
+            "Complete guide to Florida auto insurance in 2026. Rate trends, current PIP requirements, and strategies to lower your premium.",
         images: [`${baseUrl}/images/2026_Auto_Insurance_Review.jpg`],
     },
 }
@@ -117,18 +117,18 @@ const floridaRequirements = [
 const proposedRequirements = [
     {
         coverage: "Bodily Injury Liability",
-        amount: "$25,000/$50,000",
-        description: "Per person/per accident coverage for injuries you cause to others",
+        amount: "Review limits",
+        description: "Important protection for injuries you cause to others",
     },
     {
-        coverage: "Medical Payments (MedPay)",
-        amount: "$5,000",
-        description: "Covers your medical expenses regardless of fault",
+        coverage: "Uninsured/Underinsured Motorist",
+        amount: "Consider carefully",
+        description: "Helps protect you when another driver has no or too little coverage",
     },
     {
         coverage: "Property Damage Liability",
-        amount: "$10,000",
-        description: "Same as current requirement",
+        amount: "Review limits",
+        description: "The state minimum may be low compared with modern vehicle costs",
     },
 ]
 
@@ -225,7 +225,7 @@ const faqs = [
     },
     {
         question: "Is Florida eliminating PIP coverage in 2026?",
-        answer: "Pending legislation (HB 1181/SB 1256) would eliminate Florida's no-fault PIP system effective July 1, 2026, replacing it with mandatory bodily injury liability coverage. However, the bill must pass and be signed into law. Contact your agent to discuss how this potential change affects your coverage.",
+        answer: "No. HB 1181 was proposed in 2025 but did not become law; the official Florida Senate page lists it as died in committee. Current Florida requirements still include PIP and PDL for most Florida-registered vehicles.",
     },
     {
         question: "What's the minimum auto insurance required in Florida?",
@@ -617,28 +617,28 @@ export default function AutoInsuranceFlorida2026Page() {
                 </div>
             </section>
 
-            {/* PIP Changes */}
+            {/* PIP Status */}
             <section className="section-wrapper bg-lewis-page">
                 <div className="container-lg">
                     <div className="max-w-3xl mx-auto">
                         <div className="text-center mb-8">
-                            <Badge className="mb-3 bg-red-100 text-red-800">
+                            <Badge className="mb-3 bg-blue-100 text-blue-800">
                                 <Calendar className="h-3 w-3 mr-1 inline" />
-                                Potential Change
+                                2026 Correction
                             </Badge>
                             <h2 className="text-2xl font-bold text-lewis-ink">
-                                Florida May End PIP in July 2026
+                                Florida PIP Has Not Been Repealed
                             </h2>
                             <p className="text-lewis-body mt-2">
-                                Pending legislation would eliminate Florida&apos;s no-fault system—the most significant change in 50+ years.
+                                HB 1181 did not become law. Current Florida PIP and PDL requirements still apply.
                             </p>
                         </div>
 
                         <div className="grid md:grid-cols-2 gap-6 mb-6">
                             <Card>
                                 <CardContent className="p-5">
-                                    <h3 className="font-semibold text-lewis-ink mb-3">Proposed New Requirements</h3>
-                                    <p className="text-xs text-lewis-body mb-3">HB 1181 / SB 1256 — Effective July 1, 2026 (if passed)</p>
+                                    <h3 className="font-semibold text-lewis-ink mb-3">Coverage to Review</h3>
+                                    <p className="text-xs text-lewis-body mb-3">Not a July 2026 mandate — smart protection to discuss with your agent</p>
                                     <div className="space-y-3">
                                         {proposedRequirements.map((req, index) => (
                                             <div key={index} className="flex justify-between items-start">
@@ -659,19 +659,19 @@ export default function AutoInsuranceFlorida2026Page() {
                                     <ul className="space-y-2 text-sm text-lewis-body">
                                         <li className="flex items-start gap-2">
                                             <ArrowRight className="h-4 w-4 text-lewis-blue flex-shrink-0 mt-0.5" />
-                                            Your insurance would cover injuries you cause to others (not yourself first)
+                                            PIP remains required for most Florida-registered vehicles
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <ArrowRight className="h-4 w-4 text-lewis-blue flex-shrink-0 mt-0.5" />
-                                            Your health insurance becomes primary for your own medical bills
+                                            The July 2026 PIP-ending claim was based on a bill that died in committee
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <ArrowRight className="h-4 w-4 text-lewis-blue flex-shrink-0 mt-0.5" />
-                                            Uninsured/underinsured motorist coverage becomes more critical
+                                            Uninsured/underinsured motorist coverage remains important to review
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <ArrowRight className="h-4 w-4 text-lewis-blue flex-shrink-0 mt-0.5" />
-                                            Premium impacts remain uncertain (estimates vary from +13% to -$349/year)
+                                            Premiums still vary by carrier, driver, vehicle, limits, and location
                                         </li>
                                     </ul>
                                 </CardContent>
@@ -688,7 +688,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <CheckCircle2 className="h-4 w-4 text-blue-600" />
-                                        Understand how coverage would change
+                                        Separate confirmed requirements from proposed legislation
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <CheckCircle2 className="h-4 w-4 text-blue-600" />
@@ -696,7 +696,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <CheckCircle2 className="h-4 w-4 text-blue-600" />
-                                        Ensure adequate health insurance is in place
+                                        Review Bodily Injury Liability and PDL limits
                                     </div>
                                 </div>
                             </CardContent>

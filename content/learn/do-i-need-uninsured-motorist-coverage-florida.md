@@ -1,24 +1,25 @@
 ---
 title: "Do I Need Uninsured Motorist Coverage in Florida?"
-description: "Uninsured motorist coverage protects you when an at-fault driver has no insurance. Florida has one of the highest uninsured driver rates—this coverage is strongly recommended."
+description: "Uninsured motorist coverage protects you when an at-fault driver has no insurance. Florida has meaningful uninsured-driver risk, so this coverage is strongly recommended."
 category: "auto"
 tags: ["florida insurance", "auto insurance", "uninsured motorist"]
 date: "2025-01-15"
+updatedAt: "2026-06-30"
 ---
 
 ## Short Answer
 
-Uninsured motorist (UM) coverage is optional in Florida, but strongly recommended. It pays for your injuries and damages when you're hit by a driver who has no insurance or flees the scene. Given Florida's high rate of uninsured drivers, this coverage can be essential protection.
+Uninsured motorist (UM) coverage is optional in Florida, but strongly recommended for many drivers. It helps protect you when you're hit by a driver who has no insurance, not enough insurance, or leaves the scene.
+
+Florida PIP has not been repealed under current law, but PIP alone may not be enough after a serious accident.
 
 ---
 
 ## Why It Matters in Florida
 
-Florida is a no-fault state with PIP (Personal Injury Protection) as the required coverage—but PIP only covers $10,000 of your medical bills regardless of fault. If you're seriously injured by an uninsured driver, PIP may not come close to covering your expenses.
+Florida is a no-fault state with PIP (Personal Injury Protection) as required coverage for most Florida-registered vehicles. PIP is limited, and a serious injury claim can exceed minimum coverage quickly.
 
-That's where uninsured motorist coverage comes in. It fills the gap when the at-fault driver either has no insurance or doesn't have enough insurance to pay for your injuries and losses.
-
-Florida consistently ranks among the states with the highest percentage of uninsured drivers. When you're sharing the road with drivers who may have no coverage, UM protection becomes more valuable.
+UM/UIM coverage can help fill the gap when the at-fault driver either has no insurance or doesn't have enough insurance to pay for your injuries and losses.
 
 ---
 
@@ -26,8 +27,8 @@ Florida consistently ranks among the states with the highest percentage of unins
 
 When deciding on uninsured motorist coverage, consider:
 
-- **Your health insurance situation:** If you have strong health coverage, your exposure may be lower—but UM also covers lost wages and pain and suffering that health insurance doesn't.
-- **Your assets:** If you'd have to pay medical bills and lost income out of pocket, UM provides important protection.
+- **Your financial exposure:** UM can help with injury-related losses that another driver cannot pay.
+- **Your assets and income:** If a serious accident would create financial strain, UM provides important protection.
 - **Stacking:** Florida allows you to "stack" UM coverage across multiple vehicles on your policy, multiplying your protection.
 
 Talk to us about your specific situation. We can explain your options and help you decide what level of coverage makes sense.
@@ -38,9 +39,9 @@ Talk to us about your specific situation. We can explain your options and help y
 
 To give you an accurate quote with uninsured motorist coverage, we'll need:
 
-- Your current declarations page (if you have existing coverage)
+- Your current declarations page, if you have existing coverage
 - Driver information for everyone in your household
-- Vehicle information (year, make, model, VIN)
+- Vehicle information: year, make, model, VIN
 - Your preferences on deductibles and coverage limits
 
 Bring your dec page to a [coverage review](/renewal-review) and we'll walk through your options clearly.

@@ -1,28 +1,31 @@
 ---
 title: "What Does PIP Cover in Florida?"
-description: "PIP (Personal Injury Protection) is required in Florida and covers your medical bills after an accident regardless of fault, up to $10,000. It also covers lost wages."
+description: "PIP (Personal Injury Protection) is required in Florida and covers covered injury expenses after an accident regardless of fault, up to policy limits."
 category: "auto"
 tags: ["florida insurance", "auto insurance", "pip", "no-fault"]
 date: "2025-01-15"
+updatedAt: "2026-06-30"
 ---
 
 ## Short Answer
 
-PIP (Personal Injury Protection) is Florida's required no-fault auto insurance coverage. It pays for your medical expenses after a car accident regardless of who caused it, up to your policy limit—typically $10,000. PIP also covers a portion of lost wages and, in fatal accidents, death benefits.
+PIP (Personal Injury Protection) is Florida's required no-fault auto insurance coverage for most Florida-registered vehicles with four or more wheels. It helps pay covered injury expenses after a car accident regardless of who caused it, up to policy limits.
+
+As of June 30, 2026, Florida PIP has not been repealed. HB 1181 died in committee and did not become law.
 
 ---
 
 ## Why It Matters in Florida
 
-Florida is one of a handful of no-fault states, which means your own insurance pays for your injuries first—regardless of who caused the accident. This is designed to get you medical treatment quickly without waiting to determine fault.
+Florida is a no-fault state, which means your own PIP coverage helps pay covered injury expenses first, regardless of who caused the accident. This is designed to provide faster access to benefits without waiting for fault to be determined.
 
-PIP covers:
+PIP may cover:
 
-- **Medical expenses:** Doctor visits, hospital stays, surgery, physical therapy, and other medical care related to the accident
-- **Lost wages:** Up to 60% of your lost income if you can't work due to injuries
-- **Death benefits:** $5,000 for funeral and related expenses
+- **Medical expenses:** covered care related to the accident
+- **Lost wages:** a portion of lost income if accident injuries prevent you from working
+- **Death benefits:** benefits in qualifying fatal accidents
 
-The standard limit is $10,000, which can be used up quickly with serious injuries. That's why many Florida drivers add Medical Payments (MedPay) coverage or higher liability limits for additional protection.
+The standard minimum limit is $10,000, which can be used up quickly with serious injuries. That's why many Florida drivers also review Medical Payments, Bodily Injury Liability, and Uninsured/Underinsured Motorist options.
 
 ---
 
@@ -30,23 +33,23 @@ The standard limit is $10,000, which can be used up quickly with serious injurie
 
 When reviewing your PIP options, consider:
 
-- **Deductible choices:** You can choose deductibles from $0 to $1,000 or more. A higher deductible lowers your premium but means more out-of-pocket when you file a claim.
-- **Coordination with health insurance:** You may be able to elect to have health insurance pay first through a PIP deductible election, potentially lowering your auto premium.
-- **Additional coverage:** MedPay can supplement PIP to cover medical expenses beyond the $10,000 limit.
+- **Deductible choices:** A higher deductible can lower premium but increases out-of-pocket cost after a claim.
+- **Additional coverage:** Optional coverage may supplement PIP depending on carrier availability and policy terms.
+- **Liability and UM/UIM limits:** PIP is not a substitute for liability or uninsured motorist protection.
 
-Understanding how PIP works with your health insurance can help you make the right choice. We can explain your options based on your specific situation.
+We can explain your options based on your vehicles, drivers, and current policy.
 
 ---
 
 ## What We Need to Help
 
-To help you understand your PIP options and find the right balance of coverage:
+To help you understand your PIP options and coverage gaps:
 
 - Your current auto insurance declarations page
-- Information about your health insurance (to discuss coordination options)
 - Driver and vehicle information
+- Any recent renewal or carrier notice
 
-Schedule a [renewal review](/renewal-review) and we'll explain how PIP works with your other coverage.
+Schedule a [renewal review](/renewal-review) and we'll explain how PIP fits into your Florida auto policy.
 
 ---
 
