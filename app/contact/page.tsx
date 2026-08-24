@@ -15,6 +15,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { siteConfig, insuranceTypes } from "@/config/site"
 import { CanopyConnectSection } from "@/components/canopy"
 import { cn } from "@/lib/utils"
+import { CloudflareEmailBoundary } from "@/components/CloudflareEmailBoundary"
 
 // Contact form schema
 const contactFormSchema = z.object({
@@ -135,12 +136,14 @@ export default function ContactPage() {
                                         </div>
                                         <div>
                                             <h3 className="font-semibold text-lewis-ink mb-1">Email</h3>
+                                            <CloudflareEmailBoundary enabled />
                                             <a
                                                 href={`mailto:${siteConfig.contact.email.info}`}
                                                 className="text-lewis-blue hover:underline"
                                             >
                                                 {siteConfig.contact.email.info}
                                             </a>
+                                            <CloudflareEmailBoundary enabled={false} />
                                         </div>
                                     </div>
                                 </CardContent>
