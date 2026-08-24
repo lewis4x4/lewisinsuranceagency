@@ -35,6 +35,8 @@ export function loadMarkdownPost(filename: string): BlogPost | null {
             updatedAt: data.updatedAt || data.date || new Date().toISOString().split("T")[0],
             category: mapCategory(data.category),
             tags: Array.isArray(data.tags) ? data.tags : [],
+            image: data.image || undefined,
+            imageAlt: data.imageAlt || undefined,
             featured: data.featured === true,
         }
 

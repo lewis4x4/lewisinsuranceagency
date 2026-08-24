@@ -5,6 +5,7 @@ import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 import { googleReviews } from "@/data/googleReviews"
 import { Card, CardContent } from "@/components/ui/card"
+import { MailtoInfo } from "@/components/MailtoInfo"
 
 export const metadata: Metadata = {
     title: "Client Reviews | Lewis Insurance Agency",
@@ -77,12 +78,10 @@ export default function ReviewsPage() {
                                     <ExternalLink className="h-4 w-4 ml-2" />
                                 </a>
                             </Button>
-                            <Button asChild variant="outline" className="rounded-full">
-                                <a href={`mailto:${siteConfig.contact.email.info}`}>
-                                    Email Us
-                                    <Mail className="h-4 w-4 ml-2" />
-                                </a>
-                            </Button>
+                            <MailtoInfo
+                                label="Email Us"
+                                className="inline-flex items-center justify-center gap-2 rounded-full border border-input bg-background h-10 px-4 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+                            />
                         </div>
                     </div>
                 </div>
