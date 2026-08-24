@@ -1,6 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/hurricane-season-insurance-checklist',
+        destination: '/blog/hurricane-season-insurance-checklist',
+        permanent: true,
+      },
+      {
+        source: '/learn/hurricane-season-insurance-checklist',
+        destination: '/blog/hurricane-season-insurance-checklist',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
