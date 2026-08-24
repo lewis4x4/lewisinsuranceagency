@@ -156,6 +156,7 @@ export const navigation = {
             { name: "Client Portal", href: "/portal" },
         ],
         locations: [
+            { name: "All Locations", href: "/locations" },
             { name: "Lake City", href: "/locations/lake-city-fl" },
             { name: "Gainesville", href: "/locations/gainesville-fl" },
             { name: "Jacksonville", href: "/locations/jacksonville-fl" },
@@ -167,6 +168,15 @@ export const navigation = {
             { name: "Macclenny", href: "/locations/macclenny-fl" },
             { name: "Mayo", href: "/locations/mayo-fl" },
             { name: "White Springs", href: "/locations/white-springs-fl" },
+            { name: "Fort Lauderdale", href: "/locations/fort-lauderdale-fl" },
+            { name: "Miami", href: "/locations/miami-fl" },
+            { name: "Naples", href: "/locations/naples-fl" },
+            { name: "Ocala", href: "/locations/ocala-fl" },
+            { name: "Orlando", href: "/locations/orlando-fl" },
+            { name: "Sarasota", href: "/locations/sarasota-fl" },
+            { name: "Tallahassee", href: "/locations/tallahassee-fl" },
+            { name: "Tampa", href: "/locations/tampa-fl" },
+            { name: "West Palm Beach", href: "/locations/west-palm-beach-fl" },
         ],
         legal: [
             { name: "Privacy Policy", href: "/privacy-policy" },
