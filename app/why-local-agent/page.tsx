@@ -450,7 +450,7 @@ export default function WhyLocalAgentPage() {
                             </Link>
                             , we're here to help.
                         </p>
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-2 gap-6">
                             <div className="text-center">
                                 <div className="text-4xl font-bold text-lewis-blue mb-1">
                                     {siteConfig.trust.yearsInBusiness}+
@@ -462,18 +462,6 @@ export default function WhyLocalAgentPage() {
                                     {siteConfig.trust.carrierCount}
                                 </div>
                                 <div className="text-sm text-lewis-body">Insurance Carriers</div>
-                            </div>
-                            <div className="text-center">
-                                <div className="text-4xl font-bold text-lewis-blue mb-1">
-                                    {siteConfig.trust.reviewCount}
-                                </div>
-                                <div className="text-sm text-lewis-body">Happy Clients</div>
-                            </div>
-                            <div className="text-center">
-                                <div className="text-4xl font-bold text-lewis-blue mb-1">
-                                    {siteConfig.trust.averageRating}
-                                </div>
-                                <div className="text-sm text-lewis-body">Star Rating</div>
                             </div>
                         </div>
                     </div>

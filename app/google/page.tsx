@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: "Get Your Insurance Quote | Lewis Insurance",
-    description: "Get a free Florida insurance quote from Lewis Insurance. Compare rates from 30+ carriers for auto, home, flood, and business insurance.",
+    description: "Get a free Florida insurance quote from Lewis Insurance. Compare rates from 20+ carriers for auto, home, flood, and business insurance.",
     robots: { index: false, follow: false },
 }
 

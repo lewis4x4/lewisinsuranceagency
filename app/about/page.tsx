@@ -151,7 +151,7 @@ export default function AboutPage() {
             {/* Stats */}
             <section className="section-wrapper">
                 <div className="container-lg">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                         <div>
                             <div className="text-4xl font-bold text-lewis-blue mb-2">
                                 {siteConfig.trust.yearsInBusiness}+
@@ -163,12 +163,6 @@ export default function AboutPage() {
                                 {siteConfig.trust.carrierCount}
                             </div>
                             <div className="text-sm text-lewis-body">Carrier Partners</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl font-bold text-lewis-blue mb-2">
-                                {siteConfig.trust.averageRating}★
-                            </div>
-                            <div className="text-sm text-lewis-body">Client Rating</div>
                         </div>
                         <div>
                             <div className="text-4xl font-bold text-lewis-blue mb-2">

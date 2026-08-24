@@ -26,7 +26,8 @@ export const siteConfig = {
     social: {
         facebook: "https://facebook.com/lewisinsurance",
         linkedin: "https://linkedin.com/company/lewisinsurance",
-        google: "https://g.page/lewisinsurance",
+        google: "https://share.google/0PDpUGK0HaMwXWRS1",
+        googleMaps: "https://www.google.com/maps/place/Lewis+Insurance+Agency/@30.1845645,-82.6554565,17z/data=!3m1!4b1!4m6!3m5!1s0x88ef3bd330b4e5ff:0x96bf3089f664f3f9!8m2!3d30.1845645!4d-82.6554565!16s%2Fg%2F1tnpg86j",
     },
 
     portal: {
@@ -56,8 +57,6 @@ export const siteConfig = {
     trust: {
         yearsInBusiness: "44",
         foundedYear: 1981,
-        reviewCount: "2,000+",
-        averageRating: "4.9",
         carrierCount: "20+",
     },
 
