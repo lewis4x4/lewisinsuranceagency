@@ -8,6 +8,18 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
+[[redirects]]
+  from = "/hurricane-season-insurance-checklist"
+  to = "/blog/hurricane-season-insurance-checklist"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/learn/hurricane-season-insurance-checklist"
+  to = "/blog/hurricane-season-insurance-checklist"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

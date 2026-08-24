@@ -12,6 +12,8 @@ export interface BlogPost {
     updatedAt: string
     category: "guides" | "tips" | "news" | "local"
     tags: string[]
+    image?: string
+    imageAlt?: string
     featured?: boolean
     relatedPosts?: string[]
 }
@@ -29,5 +31,7 @@ export interface BlogPostMeta {
     updatedAt: string
     category: "guides" | "tips" | "news" | "local"
     tags: string[]
+    image?: string
+    imageAlt?: string
     featured?: boolean
 }
