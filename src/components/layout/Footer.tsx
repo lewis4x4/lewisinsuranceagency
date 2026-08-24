@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Facebook, Linkedin, Clock, Phone, Mail } from "lucide-react"
 import { siteConfig, navigation } from "@/config/site"
 import { Separator } from "@/components/ui/separator"
-import { CloudflareEmailBoundary } from "@/components/CloudflareEmailBoundary"
+import { MailtoInfo } from "@/components/MailtoInfo"
 
 export function Footer() {
     const currentYear = new Date().getFullYear()
@@ -39,15 +39,10 @@ export function Footer() {
                                 <Phone className="h-4 w-4 text-lewis-orange" />
                                 {siteConfig.contact.phone.main}
                             </a>
-                            <CloudflareEmailBoundary enabled />
-                            <a
-                                href={`mailto:${siteConfig.contact.email.info}`}
-                                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
-                            >
+                            <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                                 <Mail className="h-4 w-4 text-lewis-orange" />
-                                {siteConfig.contact.email.info}
-                            </a>
-                            <CloudflareEmailBoundary enabled={false} />
+                                <MailtoInfo className="hover:text-white transition-colors" />
+                            </div>
                             <div className="flex items-center gap-3 text-gray-300">
                                 <Clock className="h-4 w-4 text-lewis-orange" />
                                 <span>Mon-Fri: {siteConfig.hours.weekdays}</span>

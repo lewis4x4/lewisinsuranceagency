@@ -54,7 +54,7 @@ function lastModified(urlPath) {
     if (urlPath.startsWith('/blog/') && file === 'src/lib/blog/posts.ts') {
         const slug = urlPath.slice('/blog/'.length).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
         const source = fs.readFileSync(file, 'utf8')
-        const post = source.match(new RegExp(`slug:\\s*["']${slug}["']([\\s\\S]*?)(?=\\n\\s*\\},\\n\\s*\\{|\\n\\s*\\},?\\n\\])`))
+        const post = source.match(new RegExp(`slug:\s*["']${slug}["']([\\s\\S]*?)(?=\\n\\s*\\},\\n\\s*\\{|\\n\\s*\\},?\\n\\])`))
         const updatedAt = post?.[1].match(/updatedAt:\s*["'](\d{4}-\d{2}-\d{2})["']/)
         const publishedAt = post?.[1].match(/publishedAt:\s*["'](\d{4}-\d{2}-\d{2})["']/)
         if (updatedAt || publishedAt) return (updatedAt || publishedAt)[1]
@@ -76,7 +76,7 @@ const config = {
     exclude: [
         '/thank-you', '/thanks/*', '/api/*', '/admin/*', '/portal', '/portal/*',
         '/import-policy', '/import-policy/*', '/google', '/facebook', '/tiktok/*',
-        '/robots.txt', '/_not-found',
+        '/robots.txt', '/_not-found', '/apple-icon.png', '/icon.png',
     ],
     changefreq: 'weekly',
     priority: 0.7,
