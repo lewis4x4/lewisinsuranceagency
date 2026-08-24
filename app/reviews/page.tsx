@@ -5,6 +5,7 @@ import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 import { googleReviews } from "@/data/googleReviews"
 import { Card, CardContent } from "@/components/ui/card"
+import { CloudflareEmailBoundary } from "@/components/CloudflareEmailBoundary"
 
 export const metadata: Metadata = {
     title: "Client Reviews | Lewis Insurance Agency",
@@ -77,12 +78,14 @@ export default function ReviewsPage() {
                                     <ExternalLink className="h-4 w-4 ml-2" />
                                 </a>
                             </Button>
+                            <CloudflareEmailBoundary enabled />
                             <Button asChild variant="outline" className="rounded-full">
                                 <a href={`mailto:${siteConfig.contact.email.info}`}>
                                     Email Us
                                     <Mail className="h-4 w-4 ml-2" />
                                 </a>
                             </Button>
+                            <CloudflareEmailBoundary enabled={false} />
                         </div>
                     </div>
                 </div>

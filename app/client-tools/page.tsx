@@ -11,6 +11,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
+import { CloudflareEmailBoundary } from "@/components/CloudflareEmailBoundary"
 
 export const metadata: Metadata = {
     title: "Client Tools & Service Center | Lewis Insurance",
@@ -133,12 +134,14 @@ export default function ClientToolsPage() {
                                     Call: {siteConfig.contact.phone.main}
                                 </a>
                                 <span className="hidden sm:inline text-lewis-border">|</span>
+                                <CloudflareEmailBoundary enabled />
                                 <a
                                     href={`mailto:${siteConfig.contact.email.info}`}
                                     className="inline-flex items-center gap-2 text-lewis-blue font-medium hover:underline"
                                 >
                                     Email: {siteConfig.contact.email.info}
                                 </a>
+                                <CloudflareEmailBoundary enabled={false} />
                             </div>
                         </CardContent>
                     </Card>
