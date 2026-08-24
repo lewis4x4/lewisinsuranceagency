@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
+import Image from "next/image"
 import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
@@ -9,6 +10,7 @@ import { getPostBySlug, getAllPosts, getRelatedPosts } from "@/lib/blog"
 import { generateArticleSchema, generateBreadcrumbSchema, SchemaScripts } from "@/lib/schema"
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
+import { blogCanonicalSlugs } from "@/lib/blog/canonicals"
 
 interface Props {
     params: Promise<{ slug: string }>
@@ -24,6 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = getPostBySlug(slug)
     if (!post) return {}
 
+    const canonicalSlug = blogCanonicalSlugs[slug] || slug
+
     return {
         title: post.title,
         description: post.description,
@@ -35,9 +39,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
             authors: [post.author.name],
+            images: post.image
+                ? [{
+                    url: `https://${siteConfig.domain}${post.image}`,
+                    alt: post.imageAlt || post.title,
+                }]
+                : undefined,
         },
         alternates: {
-            canonical: `https://${siteConfig.domain}/blog/${slug}`,
+            canonical: `https://${siteConfig.domain}/blog/${canonicalSlug}`,
         },
     }
 }
@@ -143,6 +153,21 @@ export default async function BlogPostPage({ params }: Props) {
                     </div>
                 </div>
             </header>
+
+            {post.image && (
+                <div className="container-lg -mt-2 md:-mt-4">
+                    <div className="relative mx-auto aspect-[16/9] max-w-4xl overflow-hidden rounded-2xl shadow-lg">
+                        <Image
+                            src={post.image}
+                            alt={post.imageAlt || post.title}
+                            fill
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 896px"
+                            className="object-cover"
+                        />
+                    </div>
+                </div>
+            )}
 
             {/* Article Content */}
             <article className="section-wrapper">
