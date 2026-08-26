@@ -70,7 +70,7 @@ const whyItMatters = [
     {
         title: "Accurate Claim Amounts",
         description:
-            "Most people underestimate their belongings by 20-40%. A proper inventory ensures you claim everything you're entitled to—not just what you remember.",
+            "A proper inventory ensures you claim everything you're entitled to—not just what you remember.",
     },
     {
         title: "Proof of Ownership",
