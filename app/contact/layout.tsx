@@ -14,11 +14,13 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
         title: "Contact Lewis Insurance | Free Quote",
         description: `Get in touch with Lewis Insurance for a free quote. Call ${siteConfig.contact.phone.main} or fill out our contact form.`,
+        images: ["https://lewisinsurance.com/images/og-default.png"],
     },
 }
 
