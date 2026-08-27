@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://lewisinsurance.com/reviews",
     },
+    openGraph: {
+        title: "Client Reviews | Lewis Insurance Agency",
+        description: "Share feedback about your experience with Lewis Insurance Agency or visit our verified Google Business Profile.",
+        url: "https://lewisinsurance.com/reviews",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
+    },
 }
 
 export default function ReviewsPage() {
