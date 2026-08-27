@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://lewisinsurance.com/blog",
     },
+    openGraph: {
+        title: "Insurance Blog | Tips, Guides & News",
+        description: "Florida insurance tips, guides, and news from Lewis Insurance. Learn about homeowners, auto, flood, and business insurance from local experts.",
+        url: "https://lewisinsurance.com/blog",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
+    },
 }
 
 export default function BlogPage() {
