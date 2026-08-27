@@ -31,12 +31,21 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "https://lewisinsurance.com/images/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "Lewis Insurance — Florida insurance",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Florida Insurance Made Simple | Lewis Insurance",
     description:
       "Compare home, auto, flood, and business insurance quotes from multiple Florida carriers.",
+    images: ["https://lewisinsurance.com/images/og-default.png"],
   },
 }
 
