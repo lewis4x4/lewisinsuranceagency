@@ -44,11 +44,20 @@ export const metadata: Metadata = {
     title: siteConfig.seo.defaultTitle,
     description: siteConfig.seo.defaultDescription,
     siteName: siteConfig.name,
+    images: [
+      {
+        url: "https://lewisinsurance.com/images/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "Lewis Insurance — Florida insurance",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.seo.defaultTitle,
     description: siteConfig.seo.defaultDescription,
+    images: ["https://lewisinsurance.com/images/og-default.png"],
   },
   robots: {
     index: true,
