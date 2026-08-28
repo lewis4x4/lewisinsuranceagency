@@ -9,6 +9,12 @@
   package = "@netlify/plugin-nextjs"
 
 [[redirects]]
+  from = "/hurricane"
+  to = "/hurricane-preparation-checklist"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/hurricane-season-insurance-checklist"
   to = "/blog/hurricane-season-insurance-checklist"
   status = 301

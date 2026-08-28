@@ -23,9 +23,11 @@ const duplicateBlogSlugs = new Set([
     'florida-sr22-insurance-complete-guide-for-2026-requirements-',
 ])
 
+const nextErrorRoutes = ['/_not-found', '/_error', '/_global-error', '/404', '/500']
+
 function isExcludedPath(urlPath) {
     return /\.[a-z0-9]+$/i.test(urlPath)
-        || ['/thank-you', '/import-policy', '/google', '/facebook', '/tiktok', '/robots.txt', '/_not-found'].includes(urlPath)
+        || ['/thank-you', '/import-policy', '/google', '/facebook', '/tiktok', '/robots.txt', ...nextErrorRoutes].includes(urlPath)
         || ['/thanks/', '/api/', '/admin/', '/portal/', '/import-policy/', '/tiktok/'].some((prefix) => urlPath.startsWith(prefix))
         || urlPath === '/thanks'
         || urlPath === '/portal'
@@ -76,7 +78,7 @@ const config = {
     exclude: [
         '/thank-you', '/thanks/*', '/api/*', '/admin/*', '/portal', '/portal/*',
         '/import-policy', '/import-policy/*', '/google', '/facebook', '/tiktok/*',
-        '/robots.txt', '/_not-found', '/apple-icon.png', '/icon.png',
+        '/robots.txt', ...nextErrorRoutes, '/apple-icon.png', '/icon.png',
     ],
     changefreq: 'weekly',
     priority: 0.7,
