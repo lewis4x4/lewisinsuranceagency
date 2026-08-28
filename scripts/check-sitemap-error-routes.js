@@ -1,6 +1,6 @@
-const fs = require('node:fs')
+import { readFileSync } from 'node:fs'
 
-const sitemap = fs.readFileSync('public/sitemap.xml', 'utf8')
+const sitemap = readFileSync('public/sitemap.xml', 'utf8')
 const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1])
 const errorRoutes = new Set(['/_not-found', '/_error', '/_global-error', '/404', '/500'])
 const invalidLocations = locations.filter((location) => {
