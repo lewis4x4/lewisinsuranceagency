@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/hurricane',
+        destination: '/hurricane-preparation-checklist',
+        permanent: true,
+      },
+      {
         source: '/hurricane-season-insurance-checklist',
         destination: '/blog/hurricane-season-insurance-checklist',
         permanent: true,
