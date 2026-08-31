@@ -6,11 +6,20 @@ import { siteConfig } from "@/config/site"
 import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
 
+const title = "Florida Insurance Service Areas | Lewis Insurance"
+const description = "Lewis Insurance serves all of Florida from our Lake City office. Find insurance agents near you in Jacksonville, Gainesville, Tampa, Orlando, and more."
+const canonicalUrl = "https://lewisinsurance.com/locations"
+
 export const metadata: Metadata = {
-    title: "Florida Insurance Service Areas | Lewis Insurance",
-    description: "Lewis Insurance serves all of Florida from our Lake City office. Find insurance agents near you in Jacksonville, Gainesville, Tampa, Orlando, and more.",
+    title,
+    description,
     alternates: {
-        canonical: "https://lewisinsurance.com/locations",
+        canonical: canonicalUrl,
+    },
+    openGraph: {
+        title,
+        description,
+        url: canonicalUrl,
     },
 }
 

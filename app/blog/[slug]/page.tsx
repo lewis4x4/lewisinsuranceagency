@@ -27,6 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!post) return {}
 
     const canonicalSlug = blogCanonicalSlugs[slug] || slug
+    const canonicalUrl = `https://${siteConfig.domain}/blog/${canonicalSlug}`
+    const imageUrl = post.image
+        ? `https://${siteConfig.domain}${post.image}`
+        : undefined
 
     return {
         title: post.title,
@@ -35,19 +39,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             title: post.title,
             description: post.description,
+            url: canonicalUrl,
             type: "article",
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
             authors: [post.author.name],
-            images: post.image
+            images: imageUrl
                 ? [{
-                    url: `https://${siteConfig.domain}${post.image}`,
+                    url: imageUrl,
                     alt: post.imageAlt || post.title,
                 }]
                 : undefined,
         },
+        twitter: {
+            card: "summary_large_image",
+            title: post.title,
+            description: post.description,
+            images: imageUrl ? [imageUrl] : undefined,
+        },
         alternates: {
-            canonical: `https://${siteConfig.domain}/blog/${canonicalSlug}`,
+            canonical: canonicalUrl,
         },
     }
 }
