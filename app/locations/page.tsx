@@ -6,9 +6,11 @@ import { siteConfig } from "@/config/site"
 import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
 
-const title = "Florida Insurance Service Areas | Lewis Insurance"
+const title = "Florida Insurance Service Areas"
+const socialTitle = "Florida Insurance Service Areas | Lewis Insurance"
 const description = "Lewis Insurance serves all of Florida from our Lake City office. Find insurance agents near you in Jacksonville, Gainesville, Tampa, Orlando, and more."
 const canonicalUrl = "https://lewisinsurance.com/locations"
+const socialImageUrl = "https://lewisinsurance.com/images/og-default.png"
 
 export const metadata: Metadata = {
     title,
@@ -17,9 +19,23 @@ export const metadata: Metadata = {
         canonical: canonicalUrl,
     },
     openGraph: {
-        title,
+        title: socialTitle,
         description,
         url: canonicalUrl,
+        images: [
+            {
+                url: socialImageUrl,
+                width: 1200,
+                height: 630,
+                alt: "Lewis Insurance — Florida insurance",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: socialTitle,
+        description,
+        images: [socialImageUrl],
     },
 }
 
