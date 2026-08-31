@@ -295,24 +295,39 @@ export function generateCityMetadata(data: {
     description: string
 }) {
     const url = `${baseUrl}/locations/${data.slug}`
+    const brandSuffix = ` | ${siteConfig.name}`
+    const title = data.title.endsWith(brandSuffix)
+        ? data.title.slice(0, -brandSuffix.length)
+        : data.title
+    const socialTitle = data.title
+    const socialImageUrl = `${baseUrl}/images/og-default.png`
     return {
-        title: data.title,
+        title,
         description: data.description,
         alternates: {
             canonical: url,
         },
         openGraph: {
-            title: `${data.title} | ${siteConfig.name}`,
+            title: socialTitle,
             description: data.description,
             url: url,
             siteName: siteConfig.name,
             locale: "en_US",
             type: "website" as const,
+            images: [
+                {
+                    url: socialImageUrl,
+                    width: 1200,
+                    height: 630,
+                    alt: "Lewis Insurance — Florida insurance",
+                },
+            ],
         },
         twitter: {
             card: "summary_large_image" as const,
-            title: `${data.title} | ${siteConfig.name}`,
+            title: socialTitle,
             description: data.description,
+            images: [socialImageUrl],
         },
     }
 }
