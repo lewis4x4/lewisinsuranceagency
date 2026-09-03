@@ -11,6 +11,7 @@ const duplicateBlogSlugs = new Set([
     'florida-pip-coverage-explained-what-every-north-florida-driv',
     'florida-pip-coverage-explained-your-complete-guide-for-2026',
     'florida-nofault-insurance-2026-what-changes-mean-for-drivers',
+    'florida-uninsured-motorist-coverage-essential-protection-in-',
     'florida-roof-insurance-requirements-your-2026-complete-guide',
     'florida-roof-insurance-requirements-guide-for-2026',
     'florida-roof-insurance-requirements-your-2026-guide-to-cover',

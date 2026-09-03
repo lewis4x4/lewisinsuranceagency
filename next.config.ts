@@ -43,6 +43,16 @@ const nextConfig: NextConfig = {
         destination: '/blog/hurricane-season-insurance-checklist',
         permanent: true,
       },
+      {
+        source: '/blog/florida-uninsured-motorist-coverage-essential-protection-in-',
+        destination: '/blog/florida-uninsured-motorist-coverage-essential-protection-for',
+        permanent: true,
+      },
+      {
+        source: '/blog/florida-uninsured-motorist-coverage-essential-protection-in_',
+        destination: '/blog/florida-uninsured-motorist-coverage-essential-protection-for',
+        permanent: true,
+      },
     ];
   },
   async headers() {

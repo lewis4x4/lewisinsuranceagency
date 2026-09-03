@@ -6,6 +6,7 @@ export const blogCanonicalSlugs: Record<string, string> = {
     "florida-pip-coverage-explained-what-every-north-florida-driv": "florida-pip-coverage-explained-what-you-need-to-know-for-202",
     "florida-pip-coverage-explained-your-complete-guide-for-2026": "florida-pip-coverage-explained-what-you-need-to-know-for-202",
     "florida-nofault-insurance-2026-what-changes-mean-for-drivers": "florida-nofault-insurance-2026-what-lake-city-drivers-must-k",
+    "florida-uninsured-motorist-coverage-essential-protection-in-": "florida-uninsured-motorist-coverage-essential-protection-for",
     "florida-roof-insurance-requirements-your-2026-complete-guide": "florida-roof-insurance-requirements-2026-new-laws-and-rules-",
     "florida-roof-insurance-requirements-guide-for-2026": "florida-roof-insurance-requirements-2026-new-laws-and-rules-",
     "florida-roof-insurance-requirements-your-2026-guide-to-cover": "florida-roof-insurance-requirements-2026-new-laws-and-rules-",
