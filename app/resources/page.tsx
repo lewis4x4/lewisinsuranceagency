@@ -10,11 +10,36 @@ import { Button } from "@/components/ui/button"
 import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
 
+const title = "Florida Insurance Resources & Guides"
+const socialTitle = `${title} | Lewis Insurance`
+const description = "Learn about insurance in Florida. Guides, articles, and tools to help you understand your coverage options and make informed decisions."
+const canonicalUrl = "https://lewisinsurance.com/resources"
+const socialImageUrl = "https://lewisinsurance.com/images/og-default.png"
+
 export const metadata: Metadata = {
-    title: "Florida Insurance Resources & Guides | Lewis Insurance",
-    description: "Learn about insurance in Florida. Guides, articles, and tools to help you understand your coverage options and make informed decisions.",
+    title,
+    description,
     alternates: {
-        canonical: "https://lewisinsurance.com/resources",
+        canonical: canonicalUrl,
+    },
+    openGraph: {
+        title: socialTitle,
+        description,
+        url: canonicalUrl,
+        images: [
+            {
+                url: socialImageUrl,
+                width: 1200,
+                height: 630,
+                alt: "Lewis Insurance — Florida insurance",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: socialTitle,
+        description,
+        images: [socialImageUrl],
     },
 }
 

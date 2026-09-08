@@ -1,12 +1,36 @@
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
-export const metadata: Metadata = {
-    title: "Terms of Service | Lewis Insurance Agency",
-    description: "Lewis Insurance Agency terms of service. Review the terms and conditions for using our website, requesting quotes, and working with our insurance agency.",
+const title = "Terms of Service"
+const socialTitle = `${title} | Lewis Insurance Agency`
+const description = "Lewis Insurance Agency terms of service. Review the terms and conditions for using our website, requesting quotes, and working with our insurance agency."
+const canonicalUrl = "https://lewisinsurance.com/terms"
+const socialImageUrl = "https://lewisinsurance.com/images/og-default.png"
 
+export const metadata: Metadata = {
+    title,
+    description,
     alternates: {
-        canonical: `https://lewisinsurance.com/terms`,
+        canonical: canonicalUrl,
+    },
+    openGraph: {
+        title: socialTitle,
+        description,
+        url: canonicalUrl,
+        images: [
+            {
+                url: socialImageUrl,
+                width: 1200,
+                height: 630,
+                alt: "Lewis Insurance — Florida insurance",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: socialTitle,
+        description,
+        images: [socialImageUrl],
     },
 }
 

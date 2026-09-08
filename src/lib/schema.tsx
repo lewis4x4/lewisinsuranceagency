@@ -264,24 +264,44 @@ export function generateServiceMetadata(data: {
     category: "personal" | "business"
 }) {
     const url = `${baseUrl}/${data.category}/${data.slug}`
+    const agencyBrandSuffix = ` | ${siteConfig.name} Agency`
+    const brandSuffix = ` | ${siteConfig.name}`
+    const title = data.title.endsWith(agencyBrandSuffix)
+        ? data.title.slice(0, -agencyBrandSuffix.length)
+        : data.title.endsWith(brandSuffix)
+            ? data.title.slice(0, -brandSuffix.length)
+            : data.title
+    const socialTitle = data.title.endsWith(brandSuffix) || data.title.endsWith(agencyBrandSuffix)
+        ? data.title
+        : `${data.title}${brandSuffix}`
+    const socialImageUrl = `${baseUrl}/images/og-default.png`
     return {
-        title: data.title,
+        title,
         description: data.description,
         alternates: {
             canonical: url,
         },
         openGraph: {
-            title: `${data.title} | ${siteConfig.name}`,
+            title: socialTitle,
             description: data.description,
             url: url,
             siteName: siteConfig.name,
             locale: "en_US",
             type: "website" as const,
+            images: [
+                {
+                    url: socialImageUrl,
+                    width: 1200,
+                    height: 630,
+                    alt: "Lewis Insurance — Florida insurance",
+                },
+            ],
         },
         twitter: {
             card: "summary_large_image" as const,
-            title: `${data.title} | ${siteConfig.name}`,
+            title: socialTitle,
             description: data.description,
+            images: [socialImageUrl],
         },
     }
 }
