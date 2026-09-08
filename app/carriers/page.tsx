@@ -6,11 +6,36 @@ import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 
+const title = "Insurance Carriers"
+const socialTitle = `${title} | Lewis Insurance Agency`
+const description = "Lewis Insurance partners with 20+ top-rated insurance carriers to find you the best coverage at competitive rates. Compare quotes from multiple companies."
+const canonicalUrl = "https://lewisinsurance.com/carriers"
+const socialImageUrl = "https://lewisinsurance.com/images/og-default.png"
+
 export const metadata: Metadata = {
-    title: "Insurance Carriers | Lewis Insurance Agency",
-    description: "Lewis Insurance partners with 20+ top-rated insurance carriers to find you the best coverage at competitive rates. Compare quotes from multiple companies.",
+    title,
+    description,
     alternates: {
-        canonical: "https://lewisinsurance.com/carriers",
+        canonical: canonicalUrl,
+    },
+    openGraph: {
+        title: socialTitle,
+        description,
+        url: canonicalUrl,
+        images: [
+            {
+                url: socialImageUrl,
+                width: 1200,
+                height: 630,
+                alt: "Lewis Insurance — Florida insurance",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: socialTitle,
+        description,
+        images: [socialImageUrl],
     },
 }
 

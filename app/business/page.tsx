@@ -4,11 +4,36 @@ import { CTABand } from "@/components/sections"
 import { Badge } from "@/components/ui/badge"
 import type { Metadata } from "next"
 
+const title = "Florida Business Insurance Quotes"
+const socialTitle = `${title} | Lewis Insurance`
+const description = "Florida business insurance quotes. Compare general liability, workers comp, commercial auto, BOP, and cyber coverage."
+const canonicalUrl = "https://lewisinsurance.com/business"
+const socialImageUrl = "https://lewisinsurance.com/images/og-default.png"
+
 export const metadata: Metadata = {
-    title: "Florida Business Insurance Quotes | Lewis Insurance",
-    description: "Florida business insurance quotes. Compare general liability, workers comp, commercial auto, BOP, and cyber coverage.",
+    title,
+    description,
     alternates: {
-        canonical: "https://lewisinsurance.com/business",
+        canonical: canonicalUrl,
+    },
+    openGraph: {
+        title: socialTitle,
+        description,
+        url: canonicalUrl,
+        images: [
+            {
+                url: socialImageUrl,
+                width: 1200,
+                height: 630,
+                alt: "Lewis Insurance — Florida insurance",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: socialTitle,
+        description,
+        images: [socialImageUrl],
     },
 }
 
