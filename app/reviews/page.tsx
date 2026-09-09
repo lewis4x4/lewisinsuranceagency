@@ -19,6 +19,12 @@ export const metadata: Metadata = {
         url: "https://lewisinsurance.com/reviews",
         images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
+    twitter: {
+        card: "summary_large_image",
+        title: "Client Reviews | Lewis Insurance Agency",
+        description: "Share feedback about your experience with Lewis Insurance Agency or visit our verified Google Business Profile.",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
+    },
 }
 
 export default function ReviewsPage() {

@@ -18,6 +18,12 @@ export const metadata: Metadata = {
         url: "https://lewisinsurance.com/blog",
         images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
+    twitter: {
+        card: "summary_large_image",
+        title: "Insurance Blog | Tips, Guides & News",
+        description: "Florida insurance tips, guides, and news from Lewis Insurance. Learn about homeowners, auto, flood, and business insurance from local experts.",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
+    },
 }
 
 export default function BlogPage() {

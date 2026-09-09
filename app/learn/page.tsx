@@ -18,6 +18,12 @@ export const metadata: Metadata = {
         url: "https://lewisinsurance.com/learn",
         images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
+    twitter: {
+        card: "summary_large_image",
+        title: "Insurance FAQ | Common Questions Answered",
+        description: "Get answers to common Florida insurance questions. Learn about homeowners, auto, flood, and business insurance from local experts.",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
+    },
 }
 
 const categoryLabels: Record<string, string> = {
