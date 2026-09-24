@@ -17,7 +17,7 @@ const pageData: CityServicePageData = {
     overview: [
         "Fort Lauderdale homeowners need insurance that addresses the area's significant hurricane and flood exposure. From waterfront homes on the Intracoastal to family residences in Coral Springs, every Broward County property deserves comprehensive protection.",
         "As an independent insurance agency, we work with multiple carriers to find homeowners coverage that fits your Fort Lauderdale property. We understand the local challenges—roof age requirements, wind mitigation opportunities, and navigating a market where some carriers have reduced their Florida presence.",
-        "Fort Lauderdale's extensive canal system and coastal location create unique insurance considerations. We help homeowners understand their exposures, secure appropriate coverage, and find the best available rates in Broward County's competitive market.",
+        "Fort Lauderdale's extensive canal system and coastal location create unique insurance considerations. We help homeowners understand their exposures, secure appropriate coverage, and compare options in Broward County's competitive market.",
     ],
 
     whyNeeded: [

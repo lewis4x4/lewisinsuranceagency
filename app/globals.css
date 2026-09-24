@@ -46,16 +46,22 @@
   --color-lewis-blue: #1C71E2;
   --color-lewis-blue-dark: #1558b8;
   --color-lewis-blue-light: #4a90e8;
-  --color-lewis-orange: #FF7A00;
-  --color-lewis-orange-dark: #e06c00;
+  --color-lewis-orange: #B35600;
+  --color-lewis-orange-dark: #8F4500;
   --color-lewis-orange-light: #ff9433;
   --color-lewis-ink: #111827;
+  --color-lewis-ink-muted: #9CA3AF;
+  --color-lewis-blue-text: #1A65C9;
   --color-lewis-body: #4B5563;
   --color-lewis-border: #E5E7EB;
   --color-lewis-card: #FFFFFF;
   --color-lewis-page: #F6F7FB;
   --color-lewis-gradient-start: #EAF2FF;
   --color-lewis-gradient-end: #FFE9E1;
+
+  /* WCAG AA: darker green for white-text CTAs (5.49:1 at 600) */
+  --color-green-600: #007A2E;
+  --color-green-700: #00652A;
 
   /* Radius */
   --radius-sm: calc(var(--radius) - 4px);
@@ -83,7 +89,7 @@
   --secondary-foreground: #111827;
   --muted: #F3F4F6;
   --muted-foreground: #6B7280;
-  --accent: #FF7A00;
+  --accent: #B35600;
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --border: #E5E7EB;
@@ -185,8 +191,23 @@
     @apply text-xl md:text-2xl;
   }
 
+  /* No color on bare `p`: an element-level color beats inheritance, so a
+     parent's text-* utility (e.g. footer text-lewis-ink-muted on ink bg)
+     would never reach its child <p>. Paragraphs inherit instead. */
   p {
-    @apply text-lewis-body leading-relaxed;
+    @apply leading-relaxed;
+  }
+
+  /* Markdown bodies (blog/learn/articles) have no per-<p> classes and no
+     typography plugin, so give them the body color here. */
+  .prose p {
+    @apply text-lewis-body;
+  }
+
+  /* Underline in-paragraph links by default */
+  p a,
+  .prose a {
+    @apply underline;
   }
 
   /* Focus states */
@@ -359,6 +380,11 @@
   /* Text balance */
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* WCAG AA: text-on-tint link blue (5.23:1 on #F6F7FB); backgrounds keep #1C71E2 */
+  .text-lewis-blue {
+    color: #1A65C9;
   }
 
   /* Min touch target */

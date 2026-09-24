@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Naples, FL. Lewis Insurance compares quotes for Collier and businesses.",
 
     headline: "Insurance Agents in Naples, Florida",
-    subheadline: "Get personalized insurance coverage for your Naples home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
+    subheadline: "Get personalized insurance coverage for your Naples home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
 
     overview: [
         "Naples is renowned for its pristine beaches, world-class golf courses, and affluent communities along the Gulf Coast. From the historic Naples Pier to the luxury estates of Port Royal, the city attracts residents seeking Southwest Florida's finest lifestyle.",

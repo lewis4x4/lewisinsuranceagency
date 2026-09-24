@@ -84,7 +84,7 @@ const pageData: ServicePageData = {
         },
         {
             question: "How are commercial auto rates determined?",
-            answer: "Rates depend on: types of vehicles, what they're used for, how far they travel, number and experience of drivers, driver records, coverage limits, and your claims history. Heavier vehicles, longer distances, and delivery/hauling operations typically cost more. We shop multiple carriers to find the best rates.",
+            answer: "Rates depend on: types of vehicles, what they're used for, how far they travel, number and experience of drivers, driver records, coverage limits, and your claims history. Heavier vehicles, longer distances, and delivery/hauling operations typically cost more. We shop multiple carriers to find coverage that fits your needs.",
         },
         {
             question: "Does commercial auto cover personal use?",

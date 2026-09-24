@@ -16,6 +16,7 @@ import { siteConfig, insuranceTypes } from "@/config/site"
 import { CanopyConnectSection } from "@/components/canopy"
 import { cn } from "@/lib/utils"
 import { MailtoInfo } from "@/components/MailtoInfo"
+import { pushDataLayer } from "@/lib/analytics"
 
 // Contact form schema
 const contactFormSchema = z.object({
@@ -75,6 +76,13 @@ export default function ContactPage() {
                 throw new Error(result.error || "Something went wrong")
             }
 
+            pushDataLayer({
+                event: "quote_request",
+                form_id: "contact",
+                insurance_type: data.insuranceType || "unknown",
+                page_path: window.location.pathname,
+                has_phone: !!data.phone,
+            })
             toast.success("Thanks — we got it! We'll be in touch soon.")
             router.push(`/thank-you?id=${result.id}`)
         } catch (error) {
@@ -106,6 +114,8 @@ export default function ContactPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         {/* Contact Info */}
                         <div className="space-y-6">
+                            <h2 className="sr-only">Contact information</h2>
+
                             {/* Canopy Connect Card */}
                             <CanopyConnectSection variant="card" />
 
@@ -137,6 +147,24 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-semibold text-lewis-ink mb-1">Email</h3>
                                             <MailtoInfo className="text-lewis-blue hover:underline" />
+                                        </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            <Card>
+                                <CardContent className="p-6">
+                                    <div className="flex items-start gap-4">
+                                        <div className="w-10 h-10 rounded-full bg-lewis-blue/10 flex items-center justify-center flex-shrink-0">
+                                            <MapPin className="h-5 w-5 text-lewis-blue" />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-semibold text-lewis-ink mb-1">Office</h3>
+                                            <address className="text-sm text-lewis-body not-italic">
+                                                {siteConfig.contact.streetAddress}
+                                                <br />
+                                                {siteConfig.contact.city}, {siteConfig.contact.state} {siteConfig.contact.zip}
+                                            </address>
                                         </div>
                                     </div>
                                 </CardContent>
@@ -288,22 +316,24 @@ export default function ContactPage() {
 
                                         {/* Privacy Consent */}
                                         <div className="space-y-1.5">
-                                            <label className="flex items-start gap-3">
+                                            <div className="flex items-start gap-3">
                                                 <input
+                                                    id="contact-privacyConsent"
                                                     type="checkbox"
                                                     {...register("privacyConsent")}
+                                                    aria-describedby={errors.privacyConsent ? "contact-privacyConsent-error" : undefined}
                                                     className="mt-1 h-4 w-4 rounded border-gray-300"
                                                 />
-                                                <span className="text-sm text-lewis-body">
+                                                <label htmlFor="contact-privacyConsent" className="text-sm text-lewis-body">
                                                     I agree to the{" "}
-                                                    <a href="/privacy-policy" className="text-lewis-blue hover:underline">
+                                                    <a href="/privacy-policy" className="text-lewis-blue underline">
                                                         Privacy Policy
                                                     </a>{" "}
                                                     <span className="text-red-500">*</span>
-                                                </span>
-                                            </label>
+                                                </label>
+                                            </div>
                                             {errors.privacyConsent && (
-                                                <p className="text-sm text-red-500">
+                                                <p id="contact-privacyConsent-error" className="text-sm text-red-500">
                                                     {errors.privacyConsent.message}
                                                 </p>
                                             )}

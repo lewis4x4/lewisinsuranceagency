@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Facebook, Linkedin, Clock, Phone, Mail } from "lucide-react"
+import { Clock, Phone, Mail, MapPin } from "lucide-react"
 import { siteConfig, navigation } from "@/config/site"
 import { Separator } from "@/components/ui/separator"
 import { MailtoInfo } from "@/components/MailtoInfo"
@@ -22,7 +22,7 @@ export function Footer() {
                             </div>
                             <div className="flex flex-col">
                                 <span className="font-heading font-bold text-white text-lg leading-tight">Lewis Insurance</span>
-                                <span className="text-xs text-gray-400">Your Florida Experts</span>
+                                <span className="text-xs text-lewis-ink-muted">Your Florida Experts</span>
                             </div>
                         </div>
 
@@ -43,32 +43,19 @@ export function Footer() {
                                 <Mail className="h-4 w-4 text-lewis-orange" />
                                 <MailtoInfo className="hover:text-white transition-colors" />
                             </div>
+                            <a
+                                href={siteConfig.social.google}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
+                            >
+                                <MapPin className="h-4 w-4 text-lewis-orange" />
+                                {siteConfig.contact.address}
+                            </a>
                             <div className="flex items-center gap-3 text-gray-300">
                                 <Clock className="h-4 w-4 text-lewis-orange" />
                                 <span>Mon-Fri: {siteConfig.hours.weekdays}</span>
                             </div>
-                        </div>
-
-                        {/* Social Links */}
-                        <div className="flex items-center gap-4 pt-2">
-                            <a
-                                href={siteConfig.social.facebook}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lewis-blue transition-colors"
-                                aria-label="Facebook"
-                            >
-                                <Facebook className="h-5 w-5" />
-                            </a>
-                            <a
-                                href={siteConfig.social.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lewis-blue transition-colors"
-                                aria-label="LinkedIn"
-                            >
-                                <Linkedin className="h-5 w-5" />
-                            </a>
                         </div>
                     </div>
 
@@ -154,8 +141,8 @@ export function Footer() {
                 <Separator className="my-8 bg-white/10" />
 
                 {/* Bottom Bar */}
-                <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-                    <p>© {currentYear} Lewis Insurance. All rights reserved.</p>
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-lewis-ink-muted">
+                    <p>© {currentYear} {siteConfig.name}. All rights reserved.</p>
 
                     <div className="flex items-center gap-6">
                         {navigation.footer.legal.map((link) => (
@@ -170,9 +157,14 @@ export function Footer() {
                     </div>
                 </div>
 
+                {/* License */}
+                <p className="mt-6 text-xs text-lewis-ink-muted text-center md:text-left">
+                    {siteConfig.legalName} · FL Agency License {siteConfig.licenses.agencyNumber} · Agent: {siteConfig.licenses.agentName}, FL License {siteConfig.licenses.agentNumber}
+                </p>
+
                 {/* Service Areas */}
                 <div className="mt-8 pt-8 border-t border-white/10">
-                    <p className="text-xs text-gray-500 text-center">
+                    <p className="text-xs text-lewis-ink-muted text-center">
                         Proudly serving {siteConfig.serviceAreas.join(", ")} and all of Florida
                     </p>
                 </div>

@@ -105,7 +105,7 @@ const benefits = [
         description: "Work with a single local agent who can access quotes from all our carrier partners.",
     },
     {
-        title: "Best Rates Available",
+        title: "Coverage That Fits Your Needs",
         description: "Different carriers offer different rates—we find which one is best for your situation.",
     },
     {
@@ -207,7 +207,7 @@ export default function CarriersPage() {
             <section className="section-wrapper bg-lewis-page">
                 <div className="container-lg">
                     <div className="max-w-3xl mx-auto text-center">
-                        <h2 className="text-lewis-ink mb-4">How We Find Your Best Rate</h2>
+                        <h2 className="text-lewis-ink mb-4">How We Compare Your Coverage Options</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                             <div>
                                 <div className="w-12 h-12 rounded-full bg-lewis-blue text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">
