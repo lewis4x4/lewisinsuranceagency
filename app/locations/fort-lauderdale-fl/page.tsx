@@ -12,11 +12,11 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Fort Lauderdale, FL. Lewis Insurance compares quotes for Broward and businesses.",
 
     headline: "Insurance Agents in Fort Lauderdale, Florida",
-    subheadline: "Get personalized insurance coverage for your Fort Lauderdale home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Fort Lauderdale home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Fort Lauderdale and Broward County offer an appealing mix of beach living, boating lifestyle, and urban amenities. From the waterfront homes of Las Olas to the family communities of Coral Springs and Weston, the area draws residents seeking the South Florida lifestyle.",
-        "Lewis Insurance serves all of Broward County and the greater Fort Lauderdale area. As an independent agency, we're not captive to any single carrier. We shop your coverage to find coverage that fits your property and your needs.",
+        "Lewis Insurance serves all of Broward County and the greater Fort Lauderdale area. As an independent agency, we're not captive to any single carrier—we shop your coverage to find the best rates and coverage available for your property.",
         "Broward County's coastal location means significant hurricane and flood exposure. Many Fort Lauderdale homes are on canals, near the Intracoastal, or in low-lying areas where flood insurance isn't optional—it's essential. We help clients understand these risks and build appropriate protection.",
         "Whether you own a waterfront home, a condo overlooking the beach, or a business serving the local community, we're here to provide personalized insurance guidance. Get a free quote and see why Fort Lauderdale residents choose Lewis Insurance.",
     ],
@@ -81,7 +81,7 @@ const pageData: CityPageData = {
     faqs: [
         {
             question: "Why is Fort Lauderdale home insurance so expensive?",
-            answer: "Fort Lauderdale's coastal location creates high hurricane and flood exposure. Broward County also has a history of litigation that increases carrier costs. However, we shop multiple carriers to find coverage that fits your needs, and wind mitigation credits can significantly reduce premiums.",
+            answer: "Fort Lauderdale's coastal location creates high hurricane and flood exposure. Broward County also has a history of litigation that increases carrier costs. However, we shop multiple carriers to find the best available rates, and wind mitigation credits can significantly reduce premiums.",
         },
         {
             question: "Do I need flood insurance on a canal home?",

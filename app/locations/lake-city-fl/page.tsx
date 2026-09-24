@@ -16,7 +16,7 @@ const pageData: CityPageData = {
 
     overview: [
         "Lewis Insurance is proud to call Lake City home. Located at 1313 W US Highway 90, we've been serving Columbia County and the surrounding North Central Florida region with personalized insurance solutions.",
-        "As an independent agency, we're not tied to any single insurance company. This means we can shop your coverage with multiple carriers to find coverage that fits your specific needs, whether you're protecting your home, vehicles, or business.",
+        "As an independent agency, we're not tied to any single insurance company. This means we can shop your coverage with multiple carriers to find the best rates and coverage for your specific needs—whether you're protecting your home, vehicles, or business.",
         "Lake City and Columbia County offer a mix of rural charm and growing commerce. From family homes to farms, from small businesses to larger commercial operations, we understand the insurance needs of our local community.",
         "Stop by our office on Highway 90, give us a call, or request a quote online. Experience the difference a local, independent insurance agent can make.",
     ],

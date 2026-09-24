@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Gainesville, FL. Lewis Insurance serves Alachua County and North Central Florida.",
 
     headline: "Insurance Agents in Gainesville, Florida",
-    subheadline: "Get personalized insurance coverage for your Gainesville home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Gainesville home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Gainesville is the cultural and educational hub of North Central Florida, home to the University of Florida and a diverse community of students, families, and businesses. From historic neighborhoods to new developments, Gainesville offers unique insurance considerations.",

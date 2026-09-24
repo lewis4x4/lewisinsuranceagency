@@ -1,6 +1,5 @@
 export const siteConfig = {
     name: "Lewis Insurance",
-    legalName: "Lewis & Lewis Insurance Agency Inc.",
     tagline: "Your Florida Insurance Experts",
     domain: "lewisinsurance.com",
     portalDomain: "lewisinsurance.ai",
@@ -16,10 +15,6 @@ export const siteConfig = {
             quotes: "quotes@lewisinsurance.com",
         },
         address: "1313 W US Highway 90, Lake City, FL 32055",
-        streetAddress: "1313 W US Highway 90",
-        city: "Lake City",
-        state: "FL",
-        zip: "32055",
     },
 
     hours: {
@@ -29,16 +24,10 @@ export const siteConfig = {
     },
 
     social: {
+        facebook: "https://facebook.com/lewisinsurance",
+        linkedin: "https://linkedin.com/company/lewisinsurance",
         google: "https://share.google/0PDpUGK0HaMwXWRS1",
         googleMaps: "https://www.google.com/maps/place/Lewis+Insurance+Agency/@30.1845645,-82.6554565,17z/data=!3m1!4b1!4m6!3m5!1s0x88ef3bd330b4e5ff:0x96bf3089f664f3f9!8m2!3d30.1845645!4d-82.6554565!16s%2Fg%2F1tnpg86j",
-    },
-
-    licenses: {
-        agencyNumber: "L077545",
-        agencyNpn: "8461351",
-        agentName: "Brian Lewis",
-        agentNumber: "A154707",
-        agentNpn: "467684",
     },
 
     portal: {
@@ -90,17 +79,6 @@ export const insuranceTypes = [
     { value: "business", label: "Business Insurance" },
     { value: "other", label: "Other" },
 ] as const
-
-// Policy types for certificate of insurance requests
-export const coiPolicyTypes = [
-    { value: "gl", label: "General Liability" },
-    { value: "wc", label: "Workers Compensation" },
-    { value: "commercial_auto", label: "Commercial Auto" },
-    { value: "bop", label: "Business Owners Policy (BOP)" },
-    { value: "other", label: "Other" },
-] as const
-
-export type CoiPolicyType = typeof coiPolicyTypes[number]["value"]
 
 // Navigation structure
 export const navigation = {
@@ -175,7 +153,6 @@ export const navigation = {
             { name: "Blog", href: "/blog" },
             { name: "Insurance FAQ", href: "/learn" },
             { name: "Renewal Review", href: "/renewal-review" },
-            { name: "Certificate of Insurance", href: "/coi-request" },
             { name: "Client Portal", href: "/portal" },
         ],
         locations: [

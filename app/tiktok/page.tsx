@@ -3,9 +3,33 @@
 import Link from "next/link"
 import { Shield, CheckCircle, ArrowRight } from "lucide-react"
 
+declare global {
+    interface Window {
+        ttq?: {
+            track: (event: string, params?: Record<string, unknown>) => void
+            page: () => void
+        }
+    }
+}
+
 const CANOPY_URL = "https://app.usecanopy.com/c/lewis-insurance-tiktok"
 
 export default function TikTokLandingPage() {
+    const handleClick = () => {
+        // Fire TikTok pixel event
+        if (typeof window !== "undefined" && window.ttq) {
+            window.ttq.track("ClickButton", {
+                contents: [{
+                    content_id: "tiktok-lp-cta",
+                    content_type: "product",
+                    content_name: "Get Free Quote - TikTok LP",
+                }],
+                value: 0,
+                currency: "USD",
+            })
+        }
+    }
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-lewis-gradient-start to-white flex flex-col">
             {/* Main Content */}
@@ -28,6 +52,7 @@ export default function TikTokLandingPage() {
                     {/* Green CTA Button */}
                     <a
                         href={CANOPY_URL}
+                        onClick={handleClick}
                         className="inline-flex items-center justify-center gap-2 w-full max-w-xs bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors shadow-lg hover:shadow-xl"
                     >
                         Get My Free Quote

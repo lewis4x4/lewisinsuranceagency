@@ -12,7 +12,7 @@ const pageData: ServicePageData = {
 
     overview: [
         "Florida has unique auto insurance requirements as a no-fault state. Every driver must carry Personal Injury Protection (PIP) and Property Damage Liability at minimum. But minimum coverage may not be enough to fully protect you—we'll help you understand what coverage makes sense for your situation.",
-        "As an independent agency, we work with multiple auto insurance carriers to compare options and find coverage that fits your needs. Rates vary significantly between companies, so shopping around is one of the best ways to save on auto insurance.",
+        "As an independent agency, we work with multiple auto insurance carriers to compare rates and find you the best deal. Rates vary significantly between companies, so shopping around is one of the best ways to save on auto insurance.",
         "Beyond just meeting legal requirements, a comprehensive auto policy protects you financially if you cause an accident, if your car is damaged or stolen, or if you're hit by an uninsured driver. We'll help you build coverage that protects you without paying for what you don't need.",
         "Bundle your auto insurance with homeowners or renters insurance and you'll typically save 10-25% on your premiums. We can quote everything together to show you the savings.",
     ],

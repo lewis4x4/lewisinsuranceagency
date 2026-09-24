@@ -111,7 +111,7 @@ export default function HomePage() {
                   <CanopyConnectButton
                     variant="default"
                     size="lg"
-                    className="w-full rounded-xl bg-green-600 hover:bg-green-700 text-white font-bold text-base py-4 shadow-lg hover:shadow-xl transition-all"
+                    className="w-full rounded-xl bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white font-bold text-base py-4 shadow-lg hover:shadow-xl transition-all"
                   >
                     Already Have Coverage? Import Your Policy
                   </CanopyConnectButton>

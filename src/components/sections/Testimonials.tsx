@@ -17,7 +17,7 @@ export function Testimonials() {
                                     <span className="text-sm font-medium text-lewis-blue">Google review</span>
                                     <Quote className="h-5 w-5 text-lewis-blue" aria-hidden="true" />
                                 </div>
-                                <div className="flex items-center gap-0.5 mb-4" role="img" aria-label="5 out of 5 stars">
+                                <div className="flex items-center gap-0.5 mb-4" aria-label="5 out of 5 stars">
                                     {[...Array(5)].map((_, index) => (
                                         <Star key={index} className="h-4 w-4 fill-yellow-400 text-yellow-400" aria-hidden="true" />
                                     ))}

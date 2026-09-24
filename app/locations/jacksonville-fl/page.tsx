@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Jacksonville, FL. Lewis Insurance compares quotes for Northeast Florida.",
 
     headline: "Insurance Agents in Jacksonville, Florida",
-    subheadline: "Get personalized insurance coverage for your Jacksonville home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Jacksonville home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Jacksonville is the largest city by area in the continental United States, offering diverse neighborhoods from the beaches to the urban core to sprawling suburbs. This diversity means varied insurance needs—from oceanfront condos at Jax Beach to riverfront homes on the St. Johns to suburban family homes in Mandarin and Fleming Island.",

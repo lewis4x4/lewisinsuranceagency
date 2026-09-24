@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Sarasota, FL. Lewis Insurance compares quotes for Sarasota and businesses.",
 
     headline: "Insurance Agents in Sarasota, Florida",
-    subheadline: "Get personalized insurance coverage for your Sarasota home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Sarasota home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Sarasota offers an exceptional quality of life with its beautiful Gulf beaches, vibrant arts scene, and diverse communities. From the barrier islands of Siesta Key and Longboat Key to the mainland neighborhoods of Sarasota and Bradenton, the region attracts residents seeking Southwest Florida's cultural hub.",

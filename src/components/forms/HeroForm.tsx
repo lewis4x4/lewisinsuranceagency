@@ -12,7 +12,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { insuranceTypes } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { pushDataLayer } from "@/lib/analytics"
 
 // Form schemas
 export const heroFormSchema = z.object({
@@ -32,10 +31,9 @@ export type HeroFormData = z.infer<typeof heroFormSchema>
 interface HeroFormProps {
     className?: string
     source?: string
-    formId?: "hero" | "product_sidebar"
 }
 
-export function HeroForm({ className, source = "homepage-hero", formId = "hero" }: HeroFormProps) {
+export function HeroForm({ className, source = "homepage-hero" }: HeroFormProps) {
     const router = useRouter()
     const [isSubmitting, setIsSubmitting] = useState(false)
 
@@ -80,13 +78,6 @@ export function HeroForm({ className, source = "homepage-hero", formId = "hero" 
                 throw new Error(result.error || "Something went wrong")
             }
 
-            pushDataLayer({
-                event: "quote_request",
-                form_id: formId,
-                insurance_type: data.insuranceType || "unknown",
-                page_path: window.location.pathname,
-                has_phone: !!data.phone,
-            })
             toast.success("Thanks — we got it! We'll be in touch soon.")
             router.push(`/thank-you?id=${result.id}`)
         } catch (error) {
@@ -188,7 +179,7 @@ export function HeroForm({ className, source = "homepage-hero", formId = "hero" 
             {/* Phone (Optional) */}
             <div className="space-y-1.5">
                 <Label htmlFor="hero-phone" className="text-sm font-medium text-lewis-ink">
-                    Phone <span className="text-gray-600">(optional)</span>
+                    Phone <span className="text-gray-400">(optional)</span>
                 </Label>
                 <Input
                     id="hero-phone"

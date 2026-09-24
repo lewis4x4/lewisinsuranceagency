@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, farm, and business insurance in Ocala, FL. Lewis Insurance serves Marion County and the Horse Capital of the World.",
 
     headline: "Insurance Agents in Ocala, Florida",
-    subheadline: "Get personalized insurance coverage for your Ocala home, farm, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Ocala home, farm, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Ocala and Marion County are known as the Horse Capital of the World, with a unique mix of equestrian estates, family farms, suburban developments, and urban commerce. This diversity creates varied insurance needs that require local expertise.",

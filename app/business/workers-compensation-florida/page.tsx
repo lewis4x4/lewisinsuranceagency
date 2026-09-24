@@ -1,7 +1,6 @@
 import { ServicePageTemplate, type ServicePageData } from "@/components/templates"
 import { generateServiceMetadata } from "@/lib/schema"
 import type { Metadata } from "next"
-import { siteConfig } from "@/config/site"
 
 const pageData: ServicePageData = {
     title: "Workers Compensation Insurance",
@@ -9,20 +8,7 @@ const pageData: ServicePageData = {
 
     badge: "Business Insurance",
     headline: "Florida Workers Compensation Insurance",
-    subheadline: `Most Lake City and Columbia County employers need Florida workers compensation insurance once they hit state thresholds: generally one or more employees in construction and four or more in non-construction, with separate agricultural rules. ${siteConfig.name} at ${siteConfig.contact.address} compares options from ${siteConfig.trust.carrierCount} carriers. Call ${siteConfig.contact.phone.main}.`,
-
-    localSection: {
-        title: "Workers comp for Lake City and Columbia County employers",
-        body: [
-            "If you run a business in Lake City or elsewhere in Columbia County, workers comp is both a compliance issue and a way to protect your team when someone is hurt on the job. Florida's Division of Workers' Compensation sets who must carry coverage. Florida generally requires construction employers with one or more employees to carry workers compensation. Most non-construction employers are required once they reach four employees. Agricultural employers follow separate employee and seasonal-worker thresholds. Corporate officers and LLC members may be able to file individual exemptions, but exemptions do not remove your duties for other workers.",
-            "Local contractors and project owners commonly ask for a current certificate of insurance before work starts. Subcontractor coverage gaps can become your problem if paperwork is missing. When you request a quote, bring payroll by role, class codes if you have them, exemption filings, loss runs, and a list of subcontractors. That helps us compare carriers without guessing.",
-            `We are down the road at ${siteConfig.contact.address}, not a call center in another state. For broader business coverage in town, see our Lake City business insurance page. To talk through workers comp for your shop or crew, call ${siteConfig.contact.phone.main}, email ${siteConfig.contact.email.info}, or request a quote online.`,
-        ],
-        internalHref: "/locations/lake-city-fl/business-insurance",
-        internalLabel: "Lake City business insurance page",
-        outboundHref: "https://www.myfloridacfo.com/division/wc/employer/coverage-requirements",
-        outboundLabel: "Florida employer coverage requirements (myfloridacfo.com)",
-    },
+    subheadline: "Workers comp protects your employees when they're injured on the job and protects your business from lawsuits. It's required for most Florida employers.",
 
     overview: [
         "Workers compensation insurance provides benefits to employees who are injured or become ill as a result of their job. It covers medical expenses, lost wages, rehabilitation costs, and death benefits—regardless of who was at fault for the injury.",

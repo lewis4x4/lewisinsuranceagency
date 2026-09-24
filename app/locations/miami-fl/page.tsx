@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Miami, FL. Lewis Insurance compares quotes for Miami residents and businesses.",
 
     headline: "Insurance Agents in Miami, Florida",
-    subheadline: "Get personalized insurance coverage for your Miami home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your Miami home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "Miami is one of Florida's most dynamic cities, and with that comes unique insurance considerations. From waterfront properties and high-rise condos to busy streets and tropical weather, Miami residents and businesses face distinct risks that require the right insurance coverage.",
@@ -81,7 +81,7 @@ const pageData: CityPageData = {
     faqs: [
         {
             question: "Why is Miami home insurance so expensive?",
-            answer: "Miami's coastal location creates significant hurricane and flood exposure. The area is also prone to litigation, which increases carrier costs. However, wind mitigation credits, higher deductibles, and shopping multiple carriers can help reduce premiums. We'll help you compare options to find coverage that fits your needs.",
+            answer: "Miami's coastal location creates significant hurricane and flood exposure. The area is also prone to litigation, which increases carrier costs. However, wind mitigation credits, higher deductibles, and shopping multiple carriers can help reduce premiums. We'll help you find the best rates available.",
         },
         {
             question: "Do I need flood insurance in Miami?",

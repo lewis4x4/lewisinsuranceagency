@@ -12,7 +12,7 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in West Palm Beach, FL. Lewis Insurance compares quotes for Palm Beach and businesses.",
 
     headline: "Insurance Agents in West Palm Beach, Florida",
-    subheadline: "Get personalized insurance coverage for your West Palm Beach home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
+    subheadline: "Get personalized insurance coverage for your West Palm Beach home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
 
     overview: [
         "West Palm Beach and Palm Beach County offer a diverse mix of coastal luxury, suburban communities, and thriving business districts. From the historic estates of Palm Beach Island to the family neighborhoods of Wellington and Royal Palm Beach, the area attracts residents seeking South Florida's premier lifestyle.",

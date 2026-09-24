@@ -651,7 +651,7 @@ export default function WindMitigationInspectionGuidePage() {
                 <div className="container-lg">
                     <div className="max-w-3xl mx-auto text-center">
                         <h2 className="text-2xl font-bold text-lewis-ink mb-4">
-                            Ready to compare your coverage options?
+                            Ready to Save on Your Premium?
                         </h2>
                         <p className="text-lewis-body mb-8">
                             Get a wind mitigation inspection, then send us the form. We&apos;ll apply your
