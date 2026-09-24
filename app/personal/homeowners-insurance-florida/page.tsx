@@ -8,7 +8,7 @@ const pageData: ServicePageData = {
 
     badge: "Personal Insurance",
     headline: "Florida Homeowners Insurance",
-    subheadline: "Protect your home and family with comprehensive coverage designed for Florida's unique risks. We'll compare options from multiple carriers to find you the best rate.",
+    subheadline: "Protect your home and family with comprehensive coverage designed for Florida's unique risks. We'll compare options from multiple carriers to find coverage that fits your needs.",
 
     overview: [
         "Your home is likely your biggest investment, and in Florida, it faces unique challenges from hurricanes, tropical storms, and flooding. A comprehensive homeowners insurance policy protects your dwelling, personal property, and provides liability coverage if someone is injured on your property.",
@@ -93,7 +93,7 @@ const pageData: ServicePageData = {
         },
         {
             question: "How can I lower my homeowners insurance premium?",
-            answer: "There are several strategies: increase your deductible (if you can afford higher out-of-pocket costs), get a wind mitigation inspection to document hurricane-resistant features, bundle with auto insurance, install security systems, maintain good credit, and most importantly—let us shop multiple carriers on your behalf to find the best rate.",
+            answer: "There are several strategies: increase your deductible (if you can afford higher out-of-pocket costs), get a wind mitigation inspection to document hurricane-resistant features, bundle with auto insurance, install security systems, maintain good credit, and most importantly, let us shop multiple carriers on your behalf to find coverage that fits your needs.",
         },
     ],
 

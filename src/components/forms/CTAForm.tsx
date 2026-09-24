@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { cn } from "@/lib/utils"
+import { pushDataLayer } from "@/lib/analytics"
 
 // CTA Band form schema
 export const ctaFormSchema = z.object({
@@ -76,6 +77,13 @@ export function CTAForm({ className, source = "homepage-cta", variant = "horizon
                 throw new Error(result.error || "Something went wrong")
             }
 
+            pushDataLayer({
+                event: "quote_request",
+                form_id: "home_cta",
+                insurance_type: "unknown",
+                page_path: window.location.pathname,
+                has_phone: false,
+            })
             toast.success("Thanks — we got it! We'll be in touch soon.")
             router.push(`/thank-you?id=${result.id}`)
         } catch (error) {
