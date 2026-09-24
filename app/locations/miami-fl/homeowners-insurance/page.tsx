@@ -12,7 +12,7 @@ const pageData: CityServicePageData = {
     description: "Find affordable homeowners insurance in Miami, FL. Compare quotes for hurricane, wind, and property coverage. Local experts serving Miami-Dade County.",
 
     headline: "Miami Homeowners Insurance",
-    subheadline: "Protect your Miami home with comprehensive coverage designed for South Florida's unique risks. We compare rates from multiple carriers to find you the best deal.",
+    subheadline: "Protect your Miami home with comprehensive coverage designed for South Florida's unique risks. We'll compare options from 20+ carriers to find coverage that fits your needs.",
 
     overview: [
         "Miami homeowners face unique insurance challenges due to the city's coastal location and hurricane exposure. From waterfront properties in Miami Beach to family homes in Kendall, every Miami residence needs comprehensive protection against wind, storms, and the unexpected.",

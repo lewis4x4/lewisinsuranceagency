@@ -114,7 +114,7 @@ export default function ImportSuccessPage() {
                             <div>
                                 <h3 className="font-semibold text-lewis-ink mb-1">Independent Agency</h3>
                                 <p className="text-sm text-lewis-body">
-                                    We work for you, not the insurance companies. We compare rates from 20+ carriers to find you the best deal.
+                                    We work for you, not the insurance companies. We compare options from 20+ carriers to find coverage that fits your needs.
                                 </p>
                             </div>
                         </div>

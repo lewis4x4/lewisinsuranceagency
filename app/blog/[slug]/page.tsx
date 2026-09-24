@@ -236,7 +236,7 @@ export default async function BlogPostPage({ params }: Props) {
                                     <h3 className="font-semibold text-white mb-2">
                                         Need Insurance Help?
                                     </h3>
-                                    <p className="text-sm text-white/80 mb-4">
+                                    <p className="text-sm text-white mb-4">
                                         Get a free quote from our team of Florida insurance experts.
                                     </p>
                                     <Button
@@ -296,6 +296,7 @@ function formatContent(content: string): string {
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         // Lists
         .replace(/^\- (.*$)/gim, '<li class="ml-4">$1</li>')
+        .replace(/(?:^<li class="ml-4">.*<\/li>$\n?)+/gm, (match) => `<ul class="list-disc pl-6 mb-4">${match.trimEnd()}</ul>\n`)
         // Tables (basic support)
         .replace(/\|(.+)\|/g, (match) => {
             const cells = match.split('|').filter(Boolean)

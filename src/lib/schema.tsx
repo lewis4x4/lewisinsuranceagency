@@ -8,6 +8,7 @@ export const organizationSchema = {
     "@type": "InsuranceAgency",
     "@id": `${baseUrl}/#organization`,
     name: siteConfig.name,
+    legalName: siteConfig.legalName,
     description: siteConfig.seo.defaultDescription,
     url: baseUrl,
     telephone: siteConfig.contact.phone.main,
@@ -29,8 +30,6 @@ export const organizationSchema = {
         },
     })),
     sameAs: [
-        siteConfig.social.facebook,
-        siteConfig.social.linkedin,
         siteConfig.social.google,
     ],
     openingHoursSpecification: [

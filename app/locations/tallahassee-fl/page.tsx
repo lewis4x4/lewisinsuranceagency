@@ -12,11 +12,11 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Tallahassee, FL. Lewis Insurance serves the Capital City and Big Bend region.",
 
     headline: "Insurance Agents in Tallahassee, Florida",
-    subheadline: "Get personalized insurance coverage for your Tallahassee home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
+    subheadline: "Get personalized insurance coverage for your Tallahassee home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
 
     overview: [
         "Tallahassee is Florida's capital city and the hub of the Big Bend region. Home to Florida State University, Florida A&M University, and state government, Tallahassee offers a unique mix of college town energy, government stability, and Southern charm.",
-        "Lewis Insurance serves Tallahassee and Leon County from our nearby Lake City office. As an independent agency, we shop your coverage with multiple carriers to find the best rates—whether you're insuring a historic Midtown home, a Killearn Estates property, or a business serving the capital community.",
+        "Lewis Insurance serves Tallahassee and Leon County from our nearby Lake City office. As an independent agency, we shop your coverage with multiple carriers to find coverage that fits your needs, whether you're insuring a historic Midtown home, a Killearn Estates property, or a business serving the capital community.",
         "Tallahassee's location in North Florida means a different risk profile than coastal areas, but the region still faces hurricane exposure from Gulf storms. We help Tallahassee residents understand their wind, flood, and liability risks and build appropriate coverage.",
         "Whether you're a longtime Tallahassee resident, a state employee, a university student or faculty member, or a business owner, we're here to provide personalized insurance guidance at competitive rates.",
     ],
