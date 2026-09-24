@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { z } from "zod"
 import crypto from "crypto"
 import { supabase } from "@/lib/supabase"
+import { siteConfig, coiPolicyTypes, type CoiPolicyType } from "@/config/site"
 
 // Rate limiting store (in-memory for simplicity, use Redis in production)
 const rateLimitStore = new Map<string, { count: number; timestamp: number }>()
@@ -21,6 +22,25 @@ const leadSchema = z.object({
     privacyConsent: z.boolean().optional(),
 })
 
+// Certificate of insurance request schema (no SSN / DOB fields by design)
+const coiSchema = z.object({
+    formType: z.literal("coi"),
+    requesterName: z.string().trim().min(2).max(200),
+    requesterCompany: z.string().trim().min(1).max(200),
+    email: z.string().email("Invalid email address"),
+    phone: z.string().trim().min(7).max(30),
+    insuredName: z.string().trim().min(1).max(200),
+    policyType: z.enum(coiPolicyTypes.map((type) => type.value) as [CoiPolicyType, ...CoiPolicyType[]]),
+    holderName: z.string().trim().min(1).max(200),
+    holderAddress: z.string().trim().min(5).max(500),
+    additionalInsured: z.boolean().optional(),
+    waiverSubrogation: z.boolean().optional(),
+    neededBy: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Invalid date"),
+    notes: z.string().max(1000).optional(),
+    source: z.string(),
+    honeypot: z.string().max(0).optional(),
+    privacyConsent: z.literal(true),
+})
 
 // Helper to hash IP
 function hashIP(ip: string): string {
@@ -100,6 +120,10 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ success: true, id: "blocked" }, { status: 200 })
         }
 
+        if (body.formType === "coi") {
+            return await handleCOIRequest(body, request, clientIP)
+        }
+
         // Validate input
         const validationResult = leadSchema.safeParse(body)
         if (!validationResult.success) {
@@ -163,6 +187,69 @@ export async function POST(request: NextRequest) {
             { status: 500 }
         )
     }
+}
+
+// Certificate of insurance request: stored as a lead and routed to the info@ inbox
+async function handleCOIRequest(body: unknown, request: NextRequest, clientIP: string) {
+    const validationResult = coiSchema.safeParse(body)
+    if (!validationResult.success) {
+        const errors = validationResult.error.flatten().fieldErrors
+        return NextResponse.json(
+            { error: "Validation failed", details: errors },
+            { status: 400 }
+        )
+    }
+
+    const data = validationResult.data
+    const clean = (value: string | undefined) => (value ? sanitizeInput(value) : "")
+
+    const details = [
+        `Requester company: ${clean(data.requesterCompany)}`,
+        `Insured business: ${clean(data.insuredName)}`,
+        `Policy type: ${data.policyType}`,
+        `Certificate holder: ${clean(data.holderName)}`,
+        `Holder address: ${clean(data.holderAddress)}`,
+        `Additional insured requested: ${data.additionalInsured ? "Yes" : "No"}`,
+        `Waiver of subrogation requested: ${data.waiverSubrogation ? "Yes" : "No"}`,
+        `Needed by: ${data.neededBy}`,
+        data.notes ? `Notes: ${clean(data.notes)}` : null,
+    ].filter(Boolean).join("\n")
+
+    const leadId = crypto.randomUUID()
+    const now = new Date().toISOString()
+
+    const lead = {
+        id: leadId,
+        timestamp: now,
+        formType: "coi",
+        notifyEmail: siteConfig.contact.email.info,
+        subject: `COI request: ${clean(data.insuredName)} for ${clean(data.holderName)}`,
+        name: clean(data.requesterName),
+        email: clean(data.email),
+        phone: clean(data.phone),
+        zipCode: null,
+        insuranceType: "coi",
+        message: details,
+        source: clean(data.source),
+        ...getUTMParams(request),
+        consentTimestamp: now,
+        ipHash: hashIP(clientIP),
+    }
+
+    await storeInSupabase(lead)
+
+    // Email delivery to info@ is handled by the configured webhook (COI_WEBHOOK_URL, else CRM_WEBHOOK_URL)
+    const webhookUrl = process.env.COI_WEBHOOK_URL || process.env.CRM_WEBHOOK_URL
+    if (webhookUrl) {
+        await sendToWebhook(lead, webhookUrl)
+    } else {
+        console.warn("COI request stored but no COI_WEBHOOK_URL/CRM_WEBHOOK_URL configured for email routing")
+    }
+
+    return NextResponse.json({
+        success: true,
+        id: leadId,
+    })
 }
 
 // Send to CRM webhook

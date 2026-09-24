@@ -36,6 +36,16 @@ export interface ServicePageData {
     headline: string
     subheadline: string
 
+    // Optional local section rendered before Overview
+    localSection?: {
+        title: string
+        body: string[]
+        internalHref?: string
+        internalLabel?: string
+        outboundHref?: string
+        outboundLabel?: string
+    }
+
     // Content
     overview: string[]
     coverageIncludes: {
@@ -64,6 +74,22 @@ export interface ServicePageData {
     // Page info
     slug: string
     category: "personal" | "business"
+}
+
+// Links the first occurrence of `label` inside `text`, if present
+function renderInternalLink(text: string, label?: string, href?: string) {
+    if (!label || !href) return text
+    const index = text.indexOf(label)
+    if (index === -1) return text
+    return (
+        <>
+            {text.slice(0, index)}
+            <Link href={href} className="text-lewis-blue underline">
+                {label}
+            </Link>
+            {text.slice(index + label.length)}
+        </>
+    )
 }
 
 interface ServicePageTemplateProps {
@@ -155,7 +181,7 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                             <h2 className="text-lg font-semibold text-lewis-ink mb-4">
                                 Get Your Free Quote
                             </h2>
-                            <HeroForm source={`service-${data.slug}`} />
+                            <HeroForm source={`service-${data.slug}`} formId="product_sidebar" />
                         </div>
                     </div>
                 </div>
@@ -167,6 +193,33 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
                         {/* Main Content */}
                         <div className="lg:col-span-2 space-y-12">
+                            {/* Local Section */}
+                            {data.localSection && (
+                                <div>
+                                    <h2 className="text-lewis-ink mb-6">{data.localSection.title}</h2>
+                                    <div className="prose prose-lg max-w-none">
+                                        {data.localSection.body.map((paragraph, index) => (
+                                            <p key={index} className="text-lewis-body">
+                                                {renderInternalLink(paragraph, data.localSection!.internalLabel, data.localSection!.internalHref)}
+                                            </p>
+                                        ))}
+                                        {data.localSection.outboundHref && data.localSection.outboundLabel && (
+                                            <p className="text-lewis-body">
+                                                Source:{" "}
+                                                <a
+                                                    href={data.localSection.outboundHref}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-lewis-blue underline"
+                                                >
+                                                    {data.localSection.outboundLabel}
+                                                </a>
+                                            </p>
+                                        )}
+                                    </div>
+                                </div>
+                            )}
+
                             {/* Overview */}
                             <div>
                                 <h2 className="text-lewis-ink mb-6">Overview</h2>
@@ -303,11 +356,11 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                             {/* Help Card */}
                             <Card className="bg-lewis-blue text-white">
                                 <CardContent className="p-6">
-                                    <HelpCircle className="h-8 w-8 mb-4 text-white/80" />
+                                    <HelpCircle className="h-8 w-8 mb-4 text-white" />
                                     <h3 className="font-semibold text-white mb-2">
                                         Need Help Deciding?
                                     </h3>
-                                    <p className="text-sm text-white/80 mb-4">
+                                    <p className="text-sm text-white mb-4">
                                         Not sure what coverage you need? Our team can help you understand your options.
                                     </p>
                                     <Button asChild variant="secondary" className="w-full rounded-full">

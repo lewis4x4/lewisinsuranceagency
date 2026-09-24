@@ -12,11 +12,11 @@ const pageData: CityPageData = {
     description: "Find affordable home, auto, flood, and business insurance in Tampa, FL. Lewis Insurance compares quotes for Tampa Bay residents and businesses.",
 
     headline: "Insurance Agents in Tampa, Florida",
-    subheadline: "Get personalized insurance coverage for your Tampa home, vehicle, or business. We compare rates from multiple carriers to find you the best deal.",
+    subheadline: "Get personalized insurance coverage for your Tampa home, vehicle, or business. We'll compare options from 20+ carriers to find coverage that fits your needs.",
 
     overview: [
         "Tampa and the greater Tampa Bay area offer a vibrant mix of urban living, waterfront properties, and growing business opportunities. With this diversity comes varied insurance needs—from protecting historic Ybor City homes to covering South Tampa waterfront properties to insuring growing businesses in Westshore.",
-        "Lewis Insurance serves the entire Tampa Bay region, including Hillsborough County and surrounding areas. As an independent agency, we're not tied to one carrier—we shop your coverage with multiple insurers to find the best rates and coverage for your specific situation.",
+        "Lewis Insurance serves the entire Tampa Bay region, including Hillsborough County and surrounding areas. As an independent agency, we're not tied to one carrier. We shop your coverage with multiple insurers to find coverage that fits your specific situation.",
         "Tampa's location on Tampa Bay means many properties face hurricane, flood, and wind risks. We help Tampa area residents understand their exposure, choose appropriate coverage levels, and find the right balance of protection and affordability.",
         "Whether you're buying your first Tampa home, moving from out of state, or need commercial coverage for your growing business, we're here to help. Get a free quote and experience the local service that sets us apart from national call centers.",
     ],
