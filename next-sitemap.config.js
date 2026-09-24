@@ -28,8 +28,8 @@ const nextErrorRoutes = ['/_not-found', '/_error', '/_global-error', '/404', '/5
 
 function isExcludedPath(urlPath) {
     return /\.[a-z0-9]+$/i.test(urlPath)
-        || ['/thank-you', '/import-policy', '/google', '/facebook', '/tiktok', '/robots.txt', ...nextErrorRoutes].includes(urlPath)
-        || ['/thanks/', '/api/', '/admin/', '/portal/', '/import-policy/', '/tiktok/'].some((prefix) => urlPath.startsWith(prefix))
+        || ['/thank-you', '/import-policy', '/google', '/facebook', '/robots.txt', ...nextErrorRoutes].includes(urlPath)
+        || ['/thanks/', '/api/', '/admin/', '/portal/', '/import-policy/'].some((prefix) => urlPath.startsWith(prefix))
         || urlPath === '/thanks'
         || urlPath === '/portal'
         || (urlPath.startsWith('/blog/') && duplicateBlogSlugs.has(urlPath.slice('/blog/'.length)))
@@ -78,7 +78,7 @@ const config = {
     autoLastmod: false,
     exclude: [
         '/thank-you', '/thanks/*', '/api/*', '/admin/*', '/portal', '/portal/*',
-        '/import-policy', '/import-policy/*', '/google', '/facebook', '/tiktok/*',
+        '/import-policy', '/import-policy/*', '/google', '/facebook',
         '/robots.txt', ...nextErrorRoutes, '/apple-icon.png', '/icon.png',
     ],
     changefreq: 'weekly',

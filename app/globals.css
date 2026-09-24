@@ -191,8 +191,17 @@
     @apply text-xl md:text-2xl;
   }
 
+  /* No color on bare `p`: an element-level color beats inheritance, so a
+     parent's text-* utility (e.g. footer text-lewis-ink-muted on ink bg)
+     would never reach its child <p>. Paragraphs inherit instead. */
   p {
-    @apply text-lewis-body leading-relaxed;
+    @apply leading-relaxed;
+  }
+
+  /* Markdown bodies (blog/learn/articles) have no per-<p> classes and no
+     typography plugin, so give them the body color here. */
+  .prose p {
+    @apply text-lewis-body;
   }
 
   /* Underline in-paragraph links by default */

@@ -63,6 +63,16 @@ const nextConfig: NextConfig = {
         destination: 'https://lewisinsurance.com/business/workers-compensation-florida',
         permanent: true,
       },
+      {
+        source: '/tiktok',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/tiktok/:path*',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
   async headers() {
