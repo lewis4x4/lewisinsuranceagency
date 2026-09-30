@@ -36,7 +36,7 @@ Your class codes, payroll, experience modification, and credits still decide the
 
 In late August 2026, trade coverage (including Business Insurance on Aug. 24, 2026, plus Orlando Weekly and Insurance Business) reported that NCCI filed a **proposed average 7.4%** Florida workers compensation rate decrease for the voluntary market, aimed at policies effective **Jan. 1, 2027**.
 
-That filing is a **recommendation**. OIR still runs the hearing and Final Order process. Coverage as of early September 2026 notes that a public hearing date for the 2027 filing had **not** been posted yet. Do not price a 2027 renewal as if **7.4%** is already law.
+That filing is a **recommendation**. OIR still runs the hearing and Final Order process. As of late September 2026, [OIR's 2026 NCCI public rate hearing page](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) lists a virtual public rate hearing on NCCI's proposed **7.4%** filing, effective **Jan. 1, 2027**, for Tuesday, **Oct. 27, 2026**, at **10 a.m. ET**. No Final Order has issued for 2027 yet. Do not price a 2027 renewal as if **7.4%** is already law.
 
 ## What to check before your renewal
 
@@ -44,7 +44,7 @@ That filing is a **recommendation**. OIR still runs the hearing and Final Order 
 2. **Class codes and payroll.** Wrong codes or stale payroll estimates can erase a statewide decrease before it shows up on the invoice.
 3. **Experience modification.** Your mod can move premium up or down independent of the statewide filing.
 4. **Credits and schedule rating.** Ask what is already applied and what still needs underwriting support.
-5. **Watch OIR for the 2027 hearing.** Notices typically post on [floir.gov](https://floir.gov/). Until a Final Order issues, treat **7.4%** as proposed only.
+5. **Watch OIR for the 2027 hearing.** [OIR's 2026 NCCI public rate hearing page](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) lists the virtual hearing for **Oct. 27, 2026**, at **10 a.m. ET**. Until a Final Order issues, treat **7.4%** as proposed only.
 
 ## When to call us
 
