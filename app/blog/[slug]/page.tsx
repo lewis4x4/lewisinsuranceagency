@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, Calendar, User, Clock } from "lucide-react"
 import { getPostBySlug, getAllPosts, getRelatedPosts } from "@/lib/blog"
+import { formatContent } from "@/lib/blog/format-content"
 import { generateArticleSchema, generateBreadcrumbSchema, SchemaScripts } from "@/lib/schema"
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
@@ -284,37 +285,4 @@ export default async function BlogPostPage({ params }: Props) {
             <CTABand />
         </>
     )
-}
-
-// Simple markdown-like formatting
-function formatContent(content: string): string {
-    return content
-        // Headers
-        .replace(/^### (.*$)/gim, '<h3 class="text-xl font-semibold mt-8 mb-4">$1</h3>')
-        .replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold mt-10 mb-6">$1</h2>')
-        // Bold
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        // Lists
-        .replace(/^\- (.*$)/gim, '<li class="ml-4">$1</li>')
-        .replace(/(?:^<li class="ml-4">.*<\/li>$\n?)+/gm, (match) => `<ul class="list-disc pl-6 mb-4">${match.trimEnd()}</ul>\n`)
-        // Tables (basic support)
-        .replace(/\|(.+)\|/g, (match) => {
-            const cells = match.split('|').filter(Boolean)
-            if (cells[0]?.includes('---')) {
-                return ''
-            }
-            const isHeader = cells.some(cell => cell.trim().length > 0)
-            const cellTag = isHeader ? 'td' : 'td'
-            return `<tr>${cells.map(cell => `<${cellTag} class="border px-4 py-2">${cell.trim()}</${cellTag}>`).join('')}</tr>`
-        })
-        // Paragraphs
-        .replace(/\n\n/g, '</p><p class="mb-4">')
-        // Line breaks within content
-        .replace(/\n(?!<)/g, '<br/>')
-        // Wrap in paragraph
-        .replace(/^/, '<p class="mb-4">')
-        .replace(/$/, '</p>')
-        // Clean up empty paragraphs
-        .replace(/<p class="mb-4"><\/p>/g, '')
-        .replace(/<p class="mb-4"><br\/><\/p>/g, '')
 }
