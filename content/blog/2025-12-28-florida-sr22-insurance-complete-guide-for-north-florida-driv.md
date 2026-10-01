@@ -166,6 +166,6 @@ If you need SR-22 insurance in Florida, don't wait. Every day without proper fil
 
 Don't let SR-22 requirements keep you off the road longer than necessary. Call Lewis Insurance Agency today at (386) 755-0050 for a free consultation and quote. We'll help you understand your options, find affordable coverage, and get you back to driving legally and safely.
 
-For more information about Florida's official insurance requirements, visit the [Florida Department of Highway Safety and Motor Vehicles](https://www.flhsmv.gov/driver-licenses-id-cards/insurance-requirements/).
+For more information about Florida's official insurance requirements, visit the [Florida Department of Highway Safety and Motor Vehicles](https://www.flhsmv.gov/insurance/).
 
 Remember, maintaining continuous coverage is essential for meeting your obligations and protecting your future insurability. Let Lewis Insurance Agency guide you through this challenging time with the personalized service and expert knowledge you deserve.
