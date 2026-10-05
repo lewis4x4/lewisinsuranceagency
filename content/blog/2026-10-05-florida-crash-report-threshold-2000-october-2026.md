@@ -55,3 +55,10 @@ A small crash is a good reminder to check your liability limits, collision and c
 **[Review your Florida auto insurance options →](https://lewisinsurance.com/personal/auto-insurance-florida)**
 
 *This article is general information, not legal advice. Statute citations are current as of October 5, 2026.*
+
+## Sources
+
+- [Chapter 2026-39, Laws of Florida](https://laws.flrules.org/2026/39)
+- [SB 488 (2026)](https://www.flsenate.gov/Session/Bill/2026/488)
+- [2026 Florida Statutes s. 316.065](https://www.flsenate.gov/Laws/Statutes/2026/316.065)
+- [2026 Florida Statutes s. 316.062](https://www.flsenate.gov/Laws/Statutes/2026/316.062)
