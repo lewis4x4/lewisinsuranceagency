@@ -47,9 +47,11 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Florida 4-Point Inspection Guide | Cost & Requirements",
         description:
             "Complete guide to Florida 4-point inspections. What they check, typical costs, and how to prepare.",

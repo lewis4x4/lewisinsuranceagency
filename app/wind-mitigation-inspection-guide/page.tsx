@@ -46,9 +46,11 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Florida Wind Mitigation Inspection Guide | Lewis Insurance",
         description:
             "Save up to 45% on Florida homeowners insurance with a wind mitigation inspection. Complete guide to the process and savings.",

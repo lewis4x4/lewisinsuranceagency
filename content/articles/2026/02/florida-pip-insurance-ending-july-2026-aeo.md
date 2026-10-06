@@ -7,7 +7,7 @@ author: "Lewis Insurance Agency"
 author_credentials: "Serving North Florida since 1981"
 category: "florida-auto-insurance"
 tags: ["florida auto insurance", "PIP insurance", "no-fault insurance", "HB 1181", "florida insurance requirements"]
-featured_image: "/images/articles/2026/02/florida-pip-insurance-ending-july-2026-featured.png"
+featured_image: "/images/2026_Auto_Insurance_Review.jpg"
 featured_image_alt: "Florida auto insurance correction about PIP coverage in 2026"
 version: "aeo"
 schema_type: "FAQPage"

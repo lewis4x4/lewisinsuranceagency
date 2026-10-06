@@ -87,7 +87,7 @@ const pageData: CityServicePageData = {
 
     relatedServices: [
         { title: "Live Oak Auto Insurance", href: "/locations/live-oak-fl/auto-insurance", description: "Bundle for multi-policy savings" },
-        { title: "Live Oak Flood Insurance", href: "/locations/live-oak-fl/flood-insurance", description: "Separate flood protection" },
+        { title: "Live Oak Flood Insurance", href: "/personal/flood-insurance-florida", description: "Separate flood protection" },
         { title: "Suwannee County Insurance", href: "/locations/live-oak-fl", description: "All insurance services" },
     ],
 }

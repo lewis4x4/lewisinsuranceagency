@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["uninsured motorist coverage", "florida auto insurance", "car insurance protection", "PIP correction"]
-image: "/images/blog/florida-uninsured-motorist-coverage.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida drivers discussing uninsured motorist coverage options with insurance agent"
 ---
 

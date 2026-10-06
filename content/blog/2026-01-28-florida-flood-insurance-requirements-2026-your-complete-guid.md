@@ -5,7 +5,7 @@ date: 2026-01-28
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["florida-flood-insurance", "citizens-insurance", "nfip", "private-flood-insurance", "homeowners-insurance"]
-image: "/images/blog/florida-flood-insurance-2026.jpg"
+image: "/images/blog/nfip-september-30-2026-florida-flood-deadline.png"
 imageAlt: "Florida homeowner reviewing flood insurance options and requirements for 2026"
 ---
 

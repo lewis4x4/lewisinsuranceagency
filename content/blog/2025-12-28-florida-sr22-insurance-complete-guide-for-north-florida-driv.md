@@ -5,7 +5,7 @@ date: 2025-12-28
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["sr-22 insurance", "florida auto insurance", "high-risk drivers", "license reinstatement", "dui insurance"]
-image: "/images/florida-sr22-insurance-guide.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida SR-22 insurance certificate with car keys and documents"
 ---
 

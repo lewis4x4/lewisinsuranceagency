@@ -5,7 +5,7 @@ date: 2026-01-31
 author: "Lewis Insurance Agency"
 category: "news"
 tags: ["florida insurance", "homeowners insurance", "insurance rates", "citizens insurance", "north florida"]
-image: "/images/blog/florida-rate-relief-2026.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with clear skies representing insurance rate relief"
 ---
 

@@ -50,9 +50,11 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Life Insurance Beneficiary Guide | Lewis Insurance",
         description:
             "Choose the right beneficiaries and avoid costly mistakes. Complete guide to life insurance designations.",

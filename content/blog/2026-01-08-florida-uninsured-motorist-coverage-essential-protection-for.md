@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["uninsured-motorist", "florida-insurance", "auto-coverage", "2026-update"]
-image: "/images/blog/florida-uninsured-motorist-coverage.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida road with cars representing uninsured motorist protection"
 ---
 

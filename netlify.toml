@@ -26,6 +26,12 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/locations/live-oak-fl/flood-insurance"
+  to = "/personal/flood-insurance-florida"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

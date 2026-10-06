@@ -17,6 +17,7 @@ import {
 import { HeroForm } from "@/components/forms"
 import { CTABand } from "@/components/sections"
 import { CanopyConnectSection } from "@/components/canopy"
+import { MailtoInfo } from "@/components/MailtoInfo"
 
 import {
     generateServiceSchema,
@@ -88,6 +89,21 @@ function renderInternalLink(text: string, label?: string, href?: string) {
                 {label}
             </Link>
             {text.slice(index + label.length)}
+        </>
+    )
+}
+
+function renderLocalSectionText(text: string, label?: string, href?: string) {
+    const email = siteConfig.contact.email.info
+    const emailIndex = text.indexOf(email)
+
+    if (emailIndex === -1) return renderInternalLink(text, label, href)
+
+    return (
+        <>
+            {renderInternalLink(text.slice(0, emailIndex), label, href)}
+            <MailtoInfo />
+            {renderInternalLink(text.slice(emailIndex + email.length), label, href)}
         </>
     )
 }
@@ -200,7 +216,7 @@ export function ServicePageTemplate({ data }: ServicePageTemplateProps) {
                                     <div className="prose prose-lg max-w-none">
                                         {data.localSection.body.map((paragraph, index) => (
                                             <p key={index} className="text-lewis-body">
-                                                {renderInternalLink(paragraph, data.localSection!.internalLabel, data.localSection!.internalHref)}
+                                                {renderLocalSectionText(paragraph, data.localSection!.internalLabel, data.localSection!.internalHref)}
                                             </p>
                                         ))}
                                         {data.localSection.outboundHref && data.localSection.outboundLabel && (

@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["florida-pip-coverage", "personal-injury-protection", "north-florida-insurance", "auto-insurance-requirements"]
-image: "/images/blog/florida-pip-coverage-guide.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida driver reviewing PIP insurance coverage documents with Lewis Insurance Agency agent"
 ---
 

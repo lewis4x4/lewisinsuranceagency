@@ -5,7 +5,7 @@ date: 2026-02-18
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["florida roof requirements", "homeowners insurance", "hb 815", "roof age laws", "property insurance"]
-image: "/images/blog/florida-roof-insurance-requirements-2026.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with new roof installation showing proper hurricane-rated materials and construction"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-27
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["teen driver insurance", "florida auto insurance", "young driver discounts", "north florida insurance"]
-image: "/images/blog/florida-teen-driver-insurance.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida teen driver with car keys and insurance documents"
 ---
 

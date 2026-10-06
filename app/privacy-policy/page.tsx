@@ -1,4 +1,5 @@
 import { siteConfig } from "@/config/site"
+import { MailtoInfo } from "@/components/MailtoInfo"
 import type { Metadata } from "next"
 
 const title = "Privacy Policy"
@@ -191,7 +192,7 @@ export default function PrivacyPolicyPage() {
                             <div className="mt-4 p-4 bg-lewis-page rounded-lg">
                                 <p className="text-lewis-body">
                                     <strong>{siteConfig.name}</strong><br />
-                                    Email: {siteConfig.contact.email.info}<br />
+                                    Email: <MailtoInfo /><br />
                                     Phone: {siteConfig.contact.phone.main}
                                 </p>
                             </div>

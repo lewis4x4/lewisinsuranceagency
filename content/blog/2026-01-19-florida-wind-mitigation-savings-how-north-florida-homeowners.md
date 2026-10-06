@@ -5,7 +5,7 @@ date: 2026-01-19
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["wind-mitigation", "florida-homeowners-insurance", "insurance-discounts", "north-florida", "hurricane-protection"]
-image: "/images/blog/florida-wind-mitigation-savings-2025.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with hurricane shutters and wind-resistant features showing homeowners insurance savings potential"
 ---
 

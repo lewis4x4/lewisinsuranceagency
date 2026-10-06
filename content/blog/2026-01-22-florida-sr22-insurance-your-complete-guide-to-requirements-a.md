@@ -5,7 +5,7 @@ date: 2026-01-22
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["sr22-insurance", "florida-auto-insurance", "high-risk-insurance", "dui-insurance"]
-image: "/images/blog/florida-sr22-insurance.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida driver reviewing SR-22 insurance requirements paperwork"
 ---
 

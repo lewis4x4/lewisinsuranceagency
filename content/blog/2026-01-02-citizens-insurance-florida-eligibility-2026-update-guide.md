@@ -5,7 +5,7 @@ date: 2026-01-02
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["citizens-insurance", "florida-homeowners", "insurance-eligibility", "depopulation-program"]
-image: "/images/blog/citizens-insurance-eligibility-florida.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with insurance documents showing Citizens eligibility requirements"
 ---
 
