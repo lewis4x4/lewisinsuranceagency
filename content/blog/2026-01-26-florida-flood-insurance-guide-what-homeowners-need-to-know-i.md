@@ -5,7 +5,7 @@ date: 2026-01-26
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["flood insurance", "florida insurance", "citizens insurance", "north florida", "lake city"]
-image: "/images/blog/florida-flood-insurance-guide.jpg"
+image: "/images/blog/nfip-september-30-2026-florida-flood-deadline.png"
 imageAlt: "Florida homeowner reviewing flood insurance policy documents with rising water levels in background"
 ---
 

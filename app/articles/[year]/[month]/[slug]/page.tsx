@@ -27,6 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const baseUrl = `https://${siteConfig.domain}`
     const articleUrl = `${baseUrl}/articles/${year}/${month}/${slug}`
+    const socialImageUrl = new URL(
+        article.featuredImage || "/images/og-default.png",
+        baseUrl
+    ).toString()
 
     return {
         title: article.title,
@@ -40,12 +44,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             modifiedTime: article.updatedAt,
             authors: [article.author],
             url: articleUrl,
-            images: article.featuredImage ? [article.featuredImage] : undefined,
+            images: [{
+                url: socialImageUrl,
+                alt: article.featuredImageAlt || article.title,
+            }],
         },
         twitter: {
             card: "summary_large_image",
             title: article.title,
             description: article.description,
+            images: [socialImageUrl],
         },
         alternates: {
             canonical: articleUrl,
@@ -79,8 +87,6 @@ export default async function ArticlePage({ params }: Props) {
     const breadcrumbSchema = generateBreadcrumbSchema([
         { name: "Home", url: baseUrl },
         { name: "Articles", url: `${baseUrl}/articles` },
-        { name: year, url: `${baseUrl}/articles/${year}` },
-        { name: getMonthName(month), url: `${baseUrl}/articles/${year}/${month}` },
         { name: article.title, url: articleUrl },
     ])
 
@@ -111,24 +117,6 @@ export default async function ArticlePage({ params }: Props) {
                         <li>
                             <Link href="/articles" className="text-lewis-body hover:text-lewis-blue">
                                 Articles
-                            </Link>
-                        </li>
-                        <li className="text-lewis-border">/</li>
-                        <li>
-                            <Link
-                                href={`/articles/${year}`}
-                                className="text-lewis-body hover:text-lewis-blue"
-                            >
-                                {year}
-                            </Link>
-                        </li>
-                        <li className="text-lewis-border">/</li>
-                        <li>
-                            <Link
-                                href={`/articles/${year}/${month}`}
-                                className="text-lewis-body hover:text-lewis-blue"
-                            >
-                                {getMonthName(month)}
                             </Link>
                         </li>
                         <li className="text-lewis-border">/</li>
@@ -345,15 +333,6 @@ export default async function ArticlePage({ params }: Props) {
             <CTABand />
         </>
     )
-}
-
-function getMonthName(month: string): string {
-    const months = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ]
-    const index = parseInt(month, 10) - 1
-    return months[index] || month
 }
 
 function formatArticleContent(content: string): string {

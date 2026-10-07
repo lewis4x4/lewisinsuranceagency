@@ -5,7 +5,7 @@ date: 2026-01-09
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["florida roof insurance", "homeowners insurance", "roof requirements", "insurance compliance", "florida legislation"]
-image: "/images/blog/florida-roof-insurance-requirements-2026.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with a hurricane-resistant roof showing proper installation and wind mitigation features"
 ---
 

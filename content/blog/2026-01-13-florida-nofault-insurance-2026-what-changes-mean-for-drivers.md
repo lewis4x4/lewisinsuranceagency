@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["florida-no-fault-insurance", "pip-coverage", "auto-insurance-requirements", "florida-drivers", "HB 1181"]
-image: "/images/blog/florida-no-fault-insurance-2026.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Corrected Florida no-fault insurance update for 2026"
 ---
 

@@ -8,7 +8,7 @@ author_credentials: "Serving North Florida since 1981"
 expert_reviewer: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["florida auto insurance", "PIP insurance", "no-fault insurance", "HB 1181", "florida insurance requirements", "lake city"]
-featured_image: "/images/articles/2026/02/florida-pip-insurance-ending-july-2026-featured.png"
+featured_image: "/images/2026_Auto_Insurance_Review.jpg"
 featured_image_alt: "Corrected Florida auto insurance guide explaining that PIP is not ending in July 2026"
 version: "geo"
 schema_type: "Article"

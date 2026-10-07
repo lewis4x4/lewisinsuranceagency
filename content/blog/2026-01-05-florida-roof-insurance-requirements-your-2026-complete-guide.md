@@ -5,7 +5,7 @@ date: 2026-01-05
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["florida-roof-insurance", "homeowners-insurance", "roof-requirements", "north-florida", "insurance-laws"]
-image: "/images/blog/florida-roof-insurance-requirements.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with new roof meeting insurance requirements"
 ---
 

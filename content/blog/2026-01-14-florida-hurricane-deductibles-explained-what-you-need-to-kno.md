@@ -5,7 +5,7 @@ date: 2026-01-14
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["hurricane deductible", "florida insurance", "homeowners insurance", "storm coverage"]
-image: "/images/blog/florida-hurricane-deductible.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home weathering hurricane with insurance coverage illustration"
 ---
 

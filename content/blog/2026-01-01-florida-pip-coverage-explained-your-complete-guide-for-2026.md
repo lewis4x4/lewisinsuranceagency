@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["pip coverage", "florida auto insurance", "personal injury protection", "no fault insurance", "HB 1181"]
-image: "/images/blog/florida-pip-coverage-explained.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida driver reviewing PIP coverage documents with insurance agent"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-01-16
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["hurricane deductible", "florida insurance", "homeowners insurance", "storm coverage", "deductible options"]
-image: "/images/blog/florida-hurricane-deductible-guide.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home protected with hurricane shutters during storm season"
 ---
 

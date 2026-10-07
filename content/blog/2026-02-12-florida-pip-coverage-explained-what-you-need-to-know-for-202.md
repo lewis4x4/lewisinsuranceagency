@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["florida-pip", "auto-insurance", "2026-update", "bodily-injury-liability", "uninsured-motorist"]
-image: "/images/blog/florida-pip-coverage-explained.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Florida driver reviewing PIP insurance coverage documents with insurance agent"
 ---
 

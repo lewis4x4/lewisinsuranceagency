@@ -5,7 +5,7 @@ date: 2025-12-29
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["citizens-insurance", "florida-homeowners", "eligibility-requirements", "north-florida-insurance"]
-image: "/images/blog/citizens-insurance-eligibility-florida.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with Citizens Property Insurance eligibility requirements overlay"
 ---
 

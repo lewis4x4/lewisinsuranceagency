@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site"
 import { serviceKeywords, cityData, generateLocalKeywords } from "@/data/keywords"
 
 const baseUrl = `https://${siteConfig.domain}`
+const defaultSocialImageUrl = `${baseUrl}/images/og-default.png`
 
 // Generate SEO metadata for service pages
 export function generateServiceMetadata(serviceKey: keyof typeof serviceKeywords) {
@@ -126,7 +127,7 @@ export function generateOpenGraphData(options: {
         siteName: siteConfig.name,
         type: options.type || "website",
         locale: "en_US",
-        ...(options.image && { images: [{ url: options.image }] }),
+        images: [{ url: new URL(options.image || defaultSocialImageUrl, baseUrl).toString() }],
         ...(options.publishedTime && { publishedTime: options.publishedTime }),
         ...(options.modifiedTime && { modifiedTime: options.modifiedTime }),
     }
@@ -142,7 +143,7 @@ export function generateTwitterData(options: {
         card: "summary_large_image" as const,
         title: options.title,
         description: options.description,
-        ...(options.image && { images: [options.image] }),
+        images: [new URL(options.image || defaultSocialImageUrl, baseUrl).toString()],
     }
 }
 

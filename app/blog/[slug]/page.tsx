@@ -27,11 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = getPostBySlug(slug)
     if (!post) return {}
 
+    const baseUrl = `https://${siteConfig.domain}`
     const canonicalSlug = blogCanonicalSlugs[slug] || slug
-    const canonicalUrl = `https://${siteConfig.domain}/blog/${canonicalSlug}`
-    const imageUrl = post.image
-        ? `https://${siteConfig.domain}${post.image}`
-        : undefined
+    const canonicalUrl = `${baseUrl}/blog/${canonicalSlug}`
+    const imageUrl = new URL(post.image || "/images/og-default.png", baseUrl).toString()
 
     return {
         title: post.title,
@@ -45,18 +44,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
             authors: [post.author.name],
-            images: imageUrl
-                ? [{
-                    url: imageUrl,
-                    alt: post.imageAlt || post.title,
-                }]
-                : undefined,
+            images: [{
+                url: imageUrl,
+                alt: post.imageAlt || post.title,
+            }],
         },
         twitter: {
             card: "summary_large_image",
             title: post.title,
             description: post.description,
-            images: imageUrl ? [imageUrl] : undefined,
+            images: [imageUrl],
         },
         alternates: {
             canonical: canonicalUrl,

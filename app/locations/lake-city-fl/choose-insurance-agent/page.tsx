@@ -29,6 +29,7 @@ export const metadata: Metadata = {
         description: "Find the right insurance agent in Lake City, FL. Learn what to look for in an independent agency, compare options, and get Florida-specific guidance.",
         url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
 }
 

@@ -5,7 +5,7 @@ date: 2026-02-13
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["citizens insurance", "florida homeowners insurance", "insurance eligibility", "north florida insurance", "lake city insurance"]
-image: "/images/blog/citizens-insurance-eligibility-florida-2026.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida homeowner reviewing Citizens Insurance eligibility requirements with insurance agent"
 ---
 

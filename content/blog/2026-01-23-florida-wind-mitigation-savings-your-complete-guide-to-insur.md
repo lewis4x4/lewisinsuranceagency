@@ -5,7 +5,7 @@ date: 2026-01-23
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["wind-mitigation", "florida-insurance", "homeowners-insurance", "hurricane-preparedness", "insurance-discounts"]
-image: "/images/blog/florida-wind-mitigation-savings.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with hurricane shutters and reinforced roof features for wind mitigation savings"
 ---
 

@@ -41,9 +41,11 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Local Insurance Agent vs Direct Insurance | Lewis Insurance",
         description: "Compare Lewis Insurance vs direct/online insurance. Get multi-carrier options, Florida-specific guidance, renewal reviews, and claims advocacy.",
     },

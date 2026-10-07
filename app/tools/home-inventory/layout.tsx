@@ -16,9 +16,11 @@ export const metadata: Metadata = {
         siteName: siteConfig.name,
         locale: "en_US",
         type: "website",
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },
     twitter: {
         card: "summary_large_image",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Home Inventory Checklist | Lewis Insurance",
         description: "Create a detailed home inventory room-by-room. Essential for insurance claims and ensuring proper coverage.",
     },

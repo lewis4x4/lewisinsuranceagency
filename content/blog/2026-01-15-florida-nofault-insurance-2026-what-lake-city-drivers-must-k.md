@@ -6,7 +6,7 @@ updatedAt: 2026-06-30
 author: "Lewis Insurance Agency"
 category: "florida-auto-insurance"
 tags: ["florida-no-fault", "pip-insurance", "lake-city-auto-insurance", "florida-insurance-reform", "HB 1181"]
-image: "/images/blog/florida-no-fault-insurance-2026.jpg"
+image: "/images/2026_Auto_Insurance_Review.jpg"
 imageAlt: "Corrected Florida no-fault insurance guidance for Lake City drivers in 2026"
 ---
 

@@ -19,6 +19,13 @@ export const metadata: Metadata = {
         description: "Comprehensive insurance articles and quick-answer guides for Florida homeowners.",
         type: "website",
         url: `https://${siteConfig.domain}/articles`,
+        images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Insurance Articles & Guides | Lewis Insurance",
+        description: "Comprehensive insurance articles and quick-answer guides for Florida homeowners.",
+        images: ["https://lewisinsurance.com/images/og-default.png"],
     },
 }
 

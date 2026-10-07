@@ -5,7 +5,7 @@ date: 2026-02-16
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
 tags: ["florida homeowners insurance", "roof insurance", "home insurance", "property insurance"]
-image: "/images/blog/florida-roof-insurance-requirements.jpg"
+image: "/images/2026_Homeowners_Checklist.jpg"
 imageAlt: "Florida home with well-maintained roof meeting insurance requirements"
 ---
 
