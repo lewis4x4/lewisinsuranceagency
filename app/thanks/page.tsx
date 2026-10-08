@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
+import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
     title: "Policy Connected Successfully | Lewis Insurance",
@@ -11,6 +12,10 @@ export const metadata: Metadata = {
 
     alternates: {
         canonical: `https://lewisinsurance.com/thanks`,
+    },
+    openGraph: {
+        ...siteOpenGraph,
+        url: `https://lewisinsurance.com/thanks`,
     },
 }
 

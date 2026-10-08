@@ -4,12 +4,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { CTABand } from "@/components/sections"
 import type { Metadata } from "next"
+import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
     title: "Insurance Tools & Calculators | Lewis Insurance",
     description: "Free insurance tools for Florida homeowners and drivers. Calculate coverage needs, create home inventory, and prepare for hurricane season.",
     alternates: {
         canonical: "https://lewisinsurance.com/tools",
+    },
+    openGraph: {
+        ...siteOpenGraph,
+        url: "https://lewisinsurance.com/tools",
     },
 }
 

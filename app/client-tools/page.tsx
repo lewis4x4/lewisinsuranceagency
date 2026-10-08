@@ -12,12 +12,17 @@ import { Button } from "@/components/ui/button"
 import { siteConfig } from "@/config/site"
 import type { Metadata } from "next"
 import { MailtoInfo } from "@/components/MailtoInfo"
+import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
     title: "Client Tools & Service Center | Lewis Insurance",
     description: "Access your insurance portal, make payments, file claims, and manage your policies online. Lewis Insurance self-service tools for Florida clients.",
     alternates: {
         canonical: "https://lewisinsurance.com/client-tools",
+    },
+    openGraph: {
+        ...siteOpenGraph,
+        url: "https://lewisinsurance.com/client-tools",
     },
 }
 

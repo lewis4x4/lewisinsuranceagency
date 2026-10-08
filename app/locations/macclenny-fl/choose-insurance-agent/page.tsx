@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "How to Choose an Insurance Agent in Macclenny, FL",
         description: "How to choose an insurance agent in Macclenny, FL. Compare independent vs captive agents. Free quotes from 20+ carriers. Local Baker County service.",
-        url: `https://lewisinsurance.com/locations/${citySlug}/choose-insurance-agent`,
+        url: "https://lewisinsurance.com/locations/macclenny-fl/choose-insurance-agent",
         type: "website",
         images: [{ url: "https://lewisinsurance.com/images/og-default.png", width: 1200, height: 630, alt: "Lewis Insurance — Florida insurance" }],
     },

@@ -5,6 +5,7 @@ import { Header, Footer, MobileCTA } from "@/components/layout"
 import { LiveChatWidget } from "@/components/sections"
 import { Toaster } from "@/components/ui/sonner"
 import { siteConfig } from "@/config/site"
+import { siteOpenGraph } from "@/lib/og"
 import { organizationSchema } from "@/lib/schema"
 import { GoogleTagManagerScript, GoogleTagManagerNoScript, PhoneClickTracker } from "@/components/analytics"
 
@@ -39,22 +40,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: `https://${siteConfig.domain}`,
-    title: siteConfig.seo.defaultTitle,
-    description: siteConfig.seo.defaultDescription,
-    siteName: siteConfig.name,
-    images: [
-      {
-        url: "https://lewisinsurance.com/images/og-default.png",
-        width: 1200,
-        height: 630,
-        alt: "Lewis Insurance — Florida insurance",
-      },
-    ],
-  },
+  openGraph: siteOpenGraph,
   twitter: {
     card: "summary_large_image",
     title: siteConfig.seo.defaultTitle,

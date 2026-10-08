@@ -4,7 +4,6 @@ import {
     MapPin,
     ShieldCheck,
     Handshake,
-    Award,
     ArrowRight,
 } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
@@ -81,7 +80,7 @@ export default function AboutPage() {
             {/* Our Story */}
             <section className="section-wrapper">
                 <div className="container-lg">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className="max-w-3xl mx-auto">
                         <div>
                             <h2 className="text-lewis-ink mb-6">Our Story</h2>
                             <div className="space-y-4 text-lewis-body">
@@ -100,14 +99,6 @@ export default function AboutPage() {
                                     Whether you're a first-time homebuyer, a growing family, or a business owner, we're
                                     here to be your trusted insurance advisor—not just when you're buying a policy, but
                                     whenever you have a question or need to file a claim.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="bg-gray-100 rounded-2xl aspect-[4/3] flex items-center justify-center">
-                            <div className="text-center p-8">
-                                <Award className="h-16 w-16 text-lewis-blue/50 mx-auto mb-4" />
-                                <p className="text-lewis-body text-sm">
-                                    Team photo placeholder
                                 </p>
                             </div>
                         </div>
