@@ -54,7 +54,7 @@ interface FAQSectionProps {
 
 export function FAQSection({ className, items = faqs }: FAQSectionProps) {
     return (
-        <section className={`section-wrapper bg-lewis-page ${className || ""}`}>
+        <section id="faq" className={`section-wrapper scroll-mt-20 bg-lewis-page ${className || ""}`}>
             <div className="container-lg">
                 <div className="text-center max-w-2xl mx-auto mb-12">
                     <h2 className="text-lewis-ink mb-4">Frequently Asked Questions</h2>

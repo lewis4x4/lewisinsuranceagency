@@ -1,5 +1,6 @@
 import { CityServicePageTemplate, type CityServicePageData } from "@/components/templates"
 import type { Metadata } from "next"
+import { siteOpenGraph } from "@/lib/og"
 
 const pageData: CityServicePageData = {
     city: "Jasper",
@@ -58,6 +59,10 @@ export const metadata: Metadata = {
     title: pageData.title,
     description: pageData.description,
     alternates: { canonical: `https://lewisinsurance.com/locations/${pageData.citySlug}/${pageData.serviceSlug}` },
+    openGraph: {
+        ...siteOpenGraph,
+        url: `https://lewisinsurance.com/locations/${pageData.citySlug}/${pageData.serviceSlug}`,
+    },
 }
 
 export default function JasperMobileHomeInsurancePage() {

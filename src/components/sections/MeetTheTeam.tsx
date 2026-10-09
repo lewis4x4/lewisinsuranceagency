@@ -70,11 +70,6 @@ export function MeetTheTeam() {
                         </div>
                     </Card>
                 </div>
-
-                {/* Note about team photos */}
-                <p className="text-center text-sm text-gray-500 mt-8">
-                    Team photos coming soon! Contact us to meet our friendly staff in person.
-                </p>
             </div>
         </section>
     )
