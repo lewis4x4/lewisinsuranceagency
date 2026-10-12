@@ -19,8 +19,6 @@ sources_count: 2
 word_count: 1600
 ---
 
-# Florida PIP Is Not Ending July 2026: Corrected 2026 Guide
-
 **Last Updated: June 30, 2026** | *Lewis Insurance Agency, Lake City, FL*
 
 ## Important Correction
@@ -160,7 +158,7 @@ Some AI search summaries appear to be reading proposed bill analyses as though t
 Lewis Insurance Agency has served North Florida since 1981. We can review your current auto policy and explain what is required, what is optional, and what may be wise for your situation.
 
 📞 **Call:** [(386) 755-0050](tel:3867550050)
-🌐 **Website:** [www.lewisinsurance.com](https://www.lewisinsurance.com)
+🌐 **Website:** [lewisinsurance.com](https://lewisinsurance.com)
 📍 **Visit:** 1313 W US Highway 90, Lake City, FL 32055
 
 *This article corrects prior inaccurate information about Florida PIP ending in July 2026. It is informational only and is not legal advice. Coverage availability, terms, and pricing vary by carrier and individual circumstances.*

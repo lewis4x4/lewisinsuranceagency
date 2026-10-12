@@ -5,8 +5,8 @@ import { loadAllMarkdownPosts } from "./markdown-loader"
 const hardcodedPosts: BlogPost[] = [
     {
         slug: "florida-homeowners-insurance-guide-2025",
-        title: "Florida Homeowners Insurance Guide 2025",
-        description: "Everything Florida homeowners need to know about home insurance in 2025. Learn about coverage types, hurricane deductibles, wind mitigation, and how to find affordable rates.",
+        title: "Florida Homeowners Insurance Guide",
+        description: "Everything Florida homeowners need to know about home insurance. Learn about coverage types, hurricane deductibles, wind mitigation, and how to find affordable rates.",
         excerpt: "Navigating Florida homeowners insurance can be challenging. This comprehensive guide explains coverage options, hurricane deductibles, and how to find competitive rates in today's market.",
         content: `
 ## Understanding Florida Homeowners Insurance

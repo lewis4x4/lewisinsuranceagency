@@ -226,7 +226,7 @@ export default function HomeInventoryPage() {
 
             {/* Print Header */}
             <div className="hidden print:block p-8">
-                <h1 className="text-2xl font-bold mb-2">Home Inventory</h1>
+                <p className="text-2xl font-bold mb-2">Home Inventory</p>
                 <p className="text-sm text-gray-600 mb-4">Generated: {new Date().toLocaleDateString()}</p>
                 <p className="text-lg font-semibold">Total Value: {formatCurrency(getGrandTotal())}</p>
             </div>

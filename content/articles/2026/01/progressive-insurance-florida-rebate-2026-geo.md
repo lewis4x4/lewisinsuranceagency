@@ -21,8 +21,6 @@ word_count: 3200
 
 ![Progressive Insurance Florida Rebate - Featured Image](/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png)
 
-# Progressive Insurance Florida Rebate 2026: Complete Guide to the $1 Billion Refund
-
 **Last Updated: January 31, 2026** | *Expert Review: Rocky Lewis, Lewis Insurance Agency* | *12 minute read*
 
 ---
@@ -230,7 +228,7 @@ For North Florida drivers in Lake City, Columbia County, and surrounding communi
 **Lewis & Lewis Insurance Agency, Inc.** has proudly served North Florida families and businesses since 1978. As an independent agency, we shop multiple carriers to find you the best coverage at competitive rates.
 
 📞 **Call:** [(386) 755-0050](tel:3867550050)
-🌐 **Website:** [www.lewisinsurance.com](https://www.lewisinsurance.com)
+🌐 **Website:** [lewisinsurance.com](https://lewisinsurance.com)
 📍 **Visit:** 1313 W US Hwy 90, Lake City, FL 32055
 
 **Follow Us:**
