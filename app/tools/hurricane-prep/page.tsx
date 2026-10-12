@@ -294,7 +294,7 @@ export default function HurricanePrepPage() {
 
             {/* Print Header */}
             <div className="hidden print:block p-8">
-                <h1 className="text-2xl font-bold mb-2">Hurricane Preparedness Checklist</h1>
+                <p className="text-2xl font-bold mb-2">Hurricane Preparedness Checklist</p>
                 <p className="text-sm text-gray-600">Progress: {overall.checked} of {overall.total} items complete</p>
             </div>
 

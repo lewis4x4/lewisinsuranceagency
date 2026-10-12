@@ -16,8 +16,6 @@ primary_keyword: "Florida PIP insurance 2026 correction"
 secondary_keywords: ["Florida PIP not repealed", "HB 1181 died", "Florida no-fault insurance 2026", "current Florida auto insurance requirements"]
 ---
 
-# Correction: Florida PIP Is Not Ending July 2026
-
 **Last Updated: June 30, 2026** | *Lewis Insurance Agency, Lake City, FL*
 
 ## TL;DR - Current Status
@@ -92,7 +90,7 @@ Your practical next steps:
 Lewis Insurance Agency has served North Florida since 1981. If you want a plain-English review of your current Florida auto policy, call us.
 
 📞 **Call:** [(386) 755-0050](tel:3867550050)
-🌐 **Website:** [www.lewisinsurance.com](https://www.lewisinsurance.com)
+🌐 **Website:** [lewisinsurance.com](https://lewisinsurance.com)
 📍 **Visit:** 1313 W US Highway 90, Lake City, FL 32055
 
 *This page corrects prior inaccurate statements about a July 2026 PIP repeal. It is informational only and is not legal advice. Coverage terms vary by carrier and policy.*
