@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 const checklistItems = [
     {
         title: "Bodily Injury Liability",
-        description: "Pays if you injure someone in an accident you cause. Florida requires $25,000 per person / $50,000 per accident as minimum, but higher limits offer better protection.",
+        description: "Pays if you injure someone in an accident you cause. Florida does not require bodily injury liability to register most private passenger vehicles, but if you are cited in a crash that causes injuries and don't have it, Florida's Financial Responsibility Law can suspend your license and registration until you carry at least $10,000 per person / $20,000 per crash and keep an SR-22 filing for 3 years. Higher limits offer much better protection.",
         tip: "Consider at least $100,000/$300,000 if you have assets to protect.",
     },
     {
@@ -119,7 +119,7 @@ const commonMistakes = [
 const faqs = [
     {
         question: "What auto insurance is required in Florida?",
-        answer: "Florida requires $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). If you cause an accident with injuries, you must also carry Bodily Injury Liability of at least $25,000/$50,000.",
+        answer: "Florida requires every registered vehicle with four or more wheels to carry at least $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). Bodily Injury Liability is not required to register most private passenger vehicles, but if you are cited in a crash that causes injuries without it, Florida's Financial Responsibility Law can suspend your license and registration until you carry at least $10,000 per person / $20,000 per crash with an SR-22 filing for 3 years (higher limits apply after a DUI).",
     },
     {
         question: "Is uninsured motorist coverage worth it in Florida?",
