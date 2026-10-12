@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Florida Wind Mitigation Inspection Guide | Lewis Insurance",
         description:
-            "Save up to 45% on Florida homeowners insurance with a wind mitigation inspection. Complete guide to the process and savings.",
+            "A Florida wind mitigation inspection can lower the wind portion of your homeowners premium. Complete guide to the process and savings.",
         url: `${baseUrl}/wind-mitigation-inspection-guide`,
         siteName: siteConfig.name,
         locale: "en_US",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         images: ["https://lewisinsurance.com/images/og-default.png"],
         title: "Florida Wind Mitigation Inspection Guide | Lewis Insurance",
         description:
-            "Save up to 45% on Florida homeowners insurance with a wind mitigation inspection. Complete guide to the process and savings.",
+            "A Florida wind mitigation inspection can lower the wind portion of your homeowners premium. Complete guide to the process and savings.",
     },
 }
 
@@ -296,7 +296,7 @@ export default function WindMitigationInspectionGuidePage() {
                                 <DollarSign className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <p className="text-lg text-lewis-ink font-medium mb-2">
-                                        Save Up to 45% on Your Premium
+                                        Lower the Wind Portion of Your Premium
                                     </p>
                                     <p className="text-lewis-body">
                                         A wind mitigation inspection documents hurricane-resistant features in your
