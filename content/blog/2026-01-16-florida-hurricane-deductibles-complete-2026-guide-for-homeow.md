@@ -39,8 +39,6 @@ Here's what these percentages mean in real dollars:
 
 For North Florida homeowners, these amounts can represent significant financial exposure, making it essential to choose your deductible level carefully.
 
-[INTERNAL_LINK:wind-mitigation-credits]
-
 ## When Does Your Hurricane Deductible Apply?
 
 The duration of a hurricane in which the hurricane deductible would apply includes the time period beginning at the time a hurricane warning is issued for any part of Florida by the National Hurricane Center and ending 72 hours following the termination of the last hurricane watch or hurricane warning issued for any part of Florida by the National Hurricane Center.
@@ -79,8 +77,6 @@ The average cost of home insurance in Florida, including coverage for hurricanes
 
 For North Florida residents, including the Lake City area, costs may be lower than coastal regions due to reduced hurricane exposure, though homeowners in Lake City and surrounding North Florida communities face unique considerations. Our location provides some buffer from coastal hurricane damage, but we're not immune to severe weather.
 
-[INTERNAL_LINK:citizens-insurance-eligibility]
-
 ## Important Rules About Hurricane Deductible Application
 
 ### Once Per Season Rule
@@ -118,7 +114,7 @@ Standard homeowners NEVER covers flood—even hurricane-caused flooding. Require
 
 ## Working with Insurance Professionals
 
-Working with an independent agency allows you to compare multiple carriers at once rather than calling companies one by one. At Florida All Risk Insurance, we've seen how strategic deductible adjustments can save families hundreds annually without sacrificing crucial coverage.
+Working with an independent agency allows you to compare multiple carriers at once rather than calling companies one by one.
 
 At Lewis Insurance Agency, we've been helping North Florida families navigate insurance complexities since 1981. Our local expertise allows us to:
 

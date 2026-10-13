@@ -132,8 +132,6 @@ Be cautious of "Actual Cash Value" (ACV) policies. They pay less on claims by fa
 
 As your roof ages, many insurers switch from Replacement Cost Value (RCV) to Actual Cash Value (ACV) coverage, which can significantly impact your claim payouts.
 
-## [INTERNAL_LINK:florida-homeowners-insurance-guide]
-
 ## Working with Insurance Professionals
 
 Given the complexity of Florida's roof insurance requirements, working with experienced insurance professionals becomes crucial. At Lewis Insurance Agency, we help homeowners:
@@ -153,8 +151,6 @@ If you receive a non-renewal notice:
 3. Consider getting a professional inspection
 4. Contact your insurance agent immediately
 5. Explore alternative carriers
-
-## [INTERNAL_LINK:florida-hurricane-insurance-tips]
 
 ## Future Outlook
 

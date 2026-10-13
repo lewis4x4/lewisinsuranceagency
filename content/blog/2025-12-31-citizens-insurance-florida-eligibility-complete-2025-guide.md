@@ -61,7 +61,7 @@ In North Florida, working with an experienced agent like Lewis Insurance Agency 
 - Verify your eligibility for Citizens coverage
 - Compare rates from private insurers to ensure you meet the 20% threshold
 - Guide you through the application process
-- Help you explore [INTERNAL_LINK:florida-homeowners-insurance-options] before resorting to Citizens
+- Help you explore [Florida homeowners insurance options](/personal/homeowners-insurance-florida) before resorting to Citizens
 
 ### Required Documentation
 
@@ -151,7 +151,7 @@ At Lewis Insurance Agency, we've been helping North Florida families navigate in
 - Determine if you qualify for Citizens coverage
 - Compare all available options in the Lake City market
 - Guide you through the application process
-- Explore [INTERNAL_LINK:my-safe-florida-home-program] opportunities
+- Explore [My Safe Florida Home program opportunities](/blog/florida-wind-mitigation-savings-your-complete-guide-to-insur)
 - Find the best coverage for your specific needs and budget
 
 ## Frequently Asked Questions

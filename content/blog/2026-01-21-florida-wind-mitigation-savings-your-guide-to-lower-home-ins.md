@@ -114,7 +114,7 @@ Wind mitigation inspections stay valid for 5 years per FS 627.711, so keep your 
 
 ### 4. Work with Your Insurance Agent
 
-Contact your insurance agent to ensure you're receiving all available discounts. [INTERNAL_LINK:florida-homeowners-insurance-discounts] can significantly reduce your premiums when properly applied.
+Contact your insurance agent to ensure you're receiving all available discounts. [Wind mitigation discounts](/wind-mitigation-inspection-guide) can significantly reduce your premiums when properly applied.
 
 ## Regional Considerations for North Florida
 
@@ -134,7 +134,7 @@ These reforms are producing tangible results: Since the enactment of these refor
 
 At Lewis Insurance Agency, we've been helping North Florida families protect their homes and save money since 1981. Our experienced team understands the local market and can help you navigate the wind mitigation process. We work with multiple carriers to ensure you're getting the best rates with all available discounts applied.
 
-For [INTERNAL_LINK:hurricane-preparedness] and insurance optimization, our team can guide you through every step of the process.
+For [hurricane preparation](/hurricane-preparation-checklist) and insurance optimization, our team can guide you through every step of the process.
 
 ## Additional Resources
 

@@ -114,8 +114,6 @@ Lake City and surrounding North Florida areas face unique challenges in the insu
 - **Market availability**: Fewer insurance options compared to South Florida
 - **Rural properties**: Special considerations for homes on larger lots or with unique features
 
-[INTERNAL_LINK:north-florida-homeowners-insurance-tips]
-
 ## 2026 Building Code Updates
 
 The 2025-2026 code requires sealed roof decks, enhanced roof-to-wall connections, R-20 attic insulation, and revised the 25% replacement rule. All materials must carry Florida Product Approval numbers, and installations must meet higher wind resistance standards based on your location.
@@ -161,8 +159,6 @@ Consider these upgrades:
 Navigating Florida's complex roof insurance requirements requires expertise and local knowledge. At Lewis Insurance Agency, we've been helping North Florida families understand and comply with these requirements since 1981.
 
 Our team stays current with legislative changes and maintains relationships with multiple insurance carriers, ensuring you have access to competitive coverage options even in challenging market conditions.
-
-[INTERNAL_LINK:florida-homeowners-insurance-quotes]
 
 For additional guidance on Florida's insurance regulations, visit the [Florida Office of Insurance Regulation](https://www.floir.com) for official information and updates.
 

@@ -32,8 +32,6 @@ Common situations requiring SR-22 in Florida include:
 - Involvement in a car accident without valid insurance. A series of traffic violations within a short period. Driving without a valid license or proof of insurance.
 - Accumulating too many points on your license
 
-[INTERNAL_LINK:florida-auto-insurance-requirements]
-
 ## SR-22 vs FR-44: Understanding Florida's Requirements
 
 Florida and Virginia, however, implemented the FR-44 for certain severe violations, primarily those involving alcohol or drugs. The rationale behind this stricter requirement is to ensure that drivers who have committed high-risk offenses carry insurance limits substantial enough to cover the potentially catastrophic damages from a serious accident.
@@ -70,8 +68,6 @@ There are three different types of SR-22 forms: Owner: Covers you only when driv
 If you don't own a vehicle, a driver who does not have a vehicle registered in their name may purchase a Non-owner policy. Non-owner policies cost far less and carry significantly lower premiums, while still meeting compliance for all SR-22 and FR44 requirements.
 
 This is particularly useful for Lake City residents who may rely on family vehicles or public transportation but still need to maintain their driving privileges.
-
-[INTERNAL_LINK:non-owner-auto-insurance]
 
 ## How to Get SR-22 Insurance in Florida
 

@@ -43,8 +43,6 @@ You might need an SR-22 in Florida after certain traffic or legal violations, no
 
 Unlike most states, Florida requires an FR-44 for DUI convictions. An FR-44 form certifies you hold bodily injury liability coverage of $100,000 per person and $300,000 per accident and property damage liability of $50,000. If you're facing DUI charges, consult with a qualified attorney about potential SR-22 vs. FR-44 requirements.
 
-[INTERNAL_LINK:florida-auto-insurance-requirements]
-
 ## Florida SR-22 Insurance Cost Breakdown
 
 ### 2025-2026 Rate Analysis
@@ -93,8 +91,6 @@ It is also the responsibility of the driver to ensure that the form is filed eac
 ### 4. Verify Filing Status
 
 After binding, you'll receive electronic ID cards. Many carriers deliver same-day proof for registration or reinstatement.
-
-[INTERNAL_LINK:florida-auto-insurance-discounts]
 
 ## Non-Owner SR-22 Policies
 

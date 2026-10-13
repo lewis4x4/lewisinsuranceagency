@@ -47,8 +47,6 @@ This dramatic reduction means fewer Florida homeowners are eligible for Citizens
 
 For Lake City and North Florida residents, this market improvement brings both opportunities and challenges. While more private insurance options are available, Citizens eligibility has become more restrictive. The Citizens Depopulation Program in 2025 successfully transferred more than 546,000 Citizens policies to private insurance companies.
 
-[INTERNAL_LINK:florida-homeowners-insurance-rates]
-
 ## New Flood Insurance Requirements
 
 Citizens has implemented mandatory flood insurance requirements on a phased schedule that directly impacts eligibility:
@@ -80,8 +78,6 @@ At Lewis Insurance Agency, we're authorized Citizens agents with over 40 years o
 - Compare Citizens rates with private market options
 - Navigate the 20% rule implications
 - Ensure compliance with flood insurance requirements
-
-[INTERNAL_LINK:citizens-insurance-alternatives]
 
 ## The Depopulation Program: What It Means for You
 

@@ -112,9 +112,7 @@ Citizens provides an appeal process for eligibility determinations. You'll need 
 ### Alternative Options
 
 Consider these alternatives:
-- [INTERNAL_LINK:florida-fair-plan-insurance]
 - Surplus lines insurance for high-risk properties
-- [INTERNAL_LINK:florida-homeowners-insurance-companies]
 
 ## Important Limitations and Considerations
 

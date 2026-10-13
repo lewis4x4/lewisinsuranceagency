@@ -80,8 +80,6 @@ It's essential to understand that hurricane deductibles apply only to wind damag
 
 Homeowners insurance doesn't cover water damage caused by flooding. For that, you'd need a flood insurance policy. This is particularly important for North Florida residents, as storm surge and inland flooding can occur even in areas not immediately coastal.
 
-[INTERNAL_LINK:flood-insurance-florida]
-
 ## Strategies for Managing Hurricane Deductibles
 
 ### Emergency Fund Planning
@@ -107,8 +105,6 @@ This deadline is firm and missing it could result in complete loss of coverage f
 ### Documentation Is Critical
 
 When damage occurs near a hurricane event, carefully document the condition of your property before, during, and after the storm. Photographs, videos, and date-stamped evidence can be invaluable if your insurance company disputes when the damage occurred or improperly applies a hurricane deductible.
-
-[INTERNAL_LINK:hurricane-claim-process]
 
 ## Common Issues and Disputes
 

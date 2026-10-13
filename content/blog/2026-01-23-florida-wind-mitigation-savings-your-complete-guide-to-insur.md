@@ -61,8 +61,6 @@ The potential savings vary significantly based on your home's features:
 
 One homeowner reported a 14% insurance premium reduction ($714 annually) after installing impact windows with a $10,000 MSFH grant. In many cases, the inspection pays for itself in less than a year.
 
-[INTERNAL_LINK:hurricane-preparedness-checklist]
-
 ## The 2025-2026 My Safe Florida Home Program: Free Inspections and Grants
 
 Thanks to a fresh $280 million funding boost in the 2025–2026 state budget, the My Safe Florida Home program is making a major comeback. This program offers incredible opportunities for North Florida homeowners:
@@ -122,8 +120,6 @@ If your home was built prior to 2002, you're not out of luck. You may still qual
 
 There are a few cost-effective measures you can take to safeguard your home and reduce your hurricane-wind premium: securing your roof with hurricane clips or wraps, for example, or hurricane protecting all windows, doors and other openings to your home.
 
-[INTERNAL_LINK:florida-homeowners-insurance-tips]
-
 ## How Wind Mitigation Inspections Work
 
 ### The Inspection Process
@@ -162,7 +158,7 @@ Look at your roof shape, window protection, and construction date. Many homeowne
 
 ### 2. Schedule an Inspection
 
-Contact a qualified wind mitigation inspector in the Lake City area. At High Mark Inspections, LLC, we have a comprehensive understanding of wind mitigation inspections and can assist you in saving money on your home insurance in the Lake City Area.
+Contact a qualified wind mitigation inspector in the Lake City area.
 
 ### 3. Apply for My Safe Florida Home Benefits
 
