@@ -12,6 +12,12 @@ import argparse
 from datetime import datetime, timedelta
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from blog_content_guard import find_violations, sanitize
+
 # Configuration
 CONFIG = {
     "agency_name": "Lewis Insurance Agency",
@@ -65,13 +71,14 @@ CRITICAL REQUIREMENTS:
 - Include exactly ONE H1 (the title)
 - Use H2s for main sections (4-6 sections)
 - Primary keyword in first 100 words
-- Include 2-3 internal link placeholders: [INTERNAL_LINK:topic]
+- Include 2-3 internal links as normal markdown links using ONLY these site paths: /wind-mitigation-inspection-guide, /hurricane-preparation-checklist, /personal/flood-insurance-florida, /blog/citizens-insurance-florida-eligibility-requirements-2026-gui, /personal/auto-insurance-florida, /personal/homeowners-insurance-florida, /personal/condo-insurance-florida, /personal/umbrella-insurance-florida, /why-local-agent, /contact, /claims, /business. Never use placeholder tokens.
 - Include 1-2 external links to authoritative sources (FLOIR, III, etc.)
 - Add FAQ section with 3-5 questions for schema markup
 - Write at 8th grade reading level
 - Use Florida-specific examples and references
 - Include current statistics with sources
 - Strong CTA to contact the agency
+- VOICE: Always write as Lewis Insurance Agency; never write in first person as, or on behalf of, any other company, agency, inspector, or vendor. Other businesses may only be mentioned in the third person, and only if necessary.
 
 AGENCY INFO:
 - Name: Lewis Insurance Agency
@@ -242,6 +249,12 @@ def main():
 
     try:
         content, category = generate_blog_post(args.topic)
+        content = sanitize(content)
+        violations = find_violations(content)
+        if violations:
+            for violation in violations:
+                print(f"❌ Content guard: {violation}", file=sys.stderr)
+            sys.exit(1)
 
         if args.dry_run:
             print("\n" + "="*60)

@@ -52,6 +52,32 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
 
+  content-guard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run content guard tests
+        run: python3 -m unittest discover -s scripts/tests
+
+      # Switch these changed-file checks to --all once PR #31 (legacy token cleanup) is merged.
+      - name: Check changed blog posts (pull request)
+        if: github.event_name == 'pull_request'
+        run: python3 scripts/blog_content_guard.py --changed-against origin/${{ github.base_ref }}
+
+      - name: Check changed blog posts (push)
+        if: github.event_name == 'push'
+        run: python3 scripts/blog_content_guard.py --changed-against HEAD~1
+
   security-audit:
     runs-on: ubuntu-latest
 
