@@ -112,7 +112,7 @@ Given the complexity of Citizens eligibility requirements and the ongoing market
 - Depopulation transfer evaluations
 - Private market comparisons
 
-[INTERNAL_LINK:florida-homeowners-insurance-rates] can provide additional insights into regional rate variations across Florida.
+[Florida homeowners insurance rates](/personal/homeowners-insurance-florida) can provide additional insights into regional rate variations across Florida.
 
 ## Frequently Asked Questions
 

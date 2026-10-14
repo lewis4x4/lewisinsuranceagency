@@ -134,6 +134,6 @@ Insuring a teen driver in Florida doesn't have to break the bank. With the right
 
 At Lewis Insurance Agency, we've been serving North Florida families since 1981. Our experienced agents understand the unique challenges of insuring teen drivers and can help you find the best coverage options for your family's needs.
 
-Don't wait until your teen gets their license – start planning now. Contact Lewis Insurance Agency at (386) 755-0050 for a personalized quote and expert guidance on [INTERNAL_LINK:florida-auto-insurance-discounts] and [INTERNAL_LINK:young-driver-safety-programs]. Let our decades of experience work for your family's protection.
+Don't wait until your teen gets their license – start planning now. Contact Lewis Insurance Agency at (386) 755-0050 for a personalized quote and expert guidance on [Florida auto insurance discounts](/personal/auto-insurance-florida) and young driver safety programs. Let our decades of experience work for your family's protection.
 
 Visit us in Lake City or call today to discover how we can help make teen driver insurance more affordable for your family while ensuring your young driver has the protection they need on Florida's roads.

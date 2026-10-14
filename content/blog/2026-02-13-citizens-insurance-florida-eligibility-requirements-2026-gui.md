@@ -94,7 +94,7 @@ And just two years after these significant legislative reforms, the market is se
 
 Private-market policyholders often have more coverage options and less restrictive coverage than can be purchased from Citizens. The following resources can help you find agents and Florida-authorized companies doing business in your area: Florida Market Assistance Plan (FMAP) – Free referral service that helps consumers find personal residential insurance with authorized private-market insurance companies.
 
-[INTERNAL_LINK:florida-homeowners-insurance-rates] provides detailed information about current market rates and how they compare to Citizens pricing.
+[Florida homeowners insurance rates](/personal/homeowners-insurance-florida) provide detailed information about current market rates and how they compare to Citizens pricing.
 
 ## Special Considerations for North Florida Homeowners
 
@@ -128,7 +128,7 @@ Citizens has returned to its proper role as Florida's insurer of last resort. Th
 
 Actual losses have trended below prior projections, reinsurance costs have declined, and Citizens' overall exposure has decreased as policyholders return to the private market. Underwriting conditions across personal insurance lines have also improved significantly. As of January 2025, Citizens policies in force declined to 395,144, representing a 50% reduction from the prior year and the lowest level in 14 years.
 
-For more information about navigating Florida's changing insurance landscape, explore our guide on [INTERNAL_LINK:florida-property-insurance-alternatives].
+For more information about navigating Florida's changing insurance landscape, explore our guide to [Florida property insurance alternatives](/personal/homeowners-insurance-florida).
 
 ## Frequently Asked Questions
 

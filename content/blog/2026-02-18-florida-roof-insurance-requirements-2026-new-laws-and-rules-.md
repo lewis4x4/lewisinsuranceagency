@@ -103,15 +103,11 @@ Living in the Lake City area brings unique advantages and considerations for roo
 **Building Materials:**
 For our region, metal roofs last 40 to 70 years, far longer than asphalt shingles. Metal roofs have excellent wind resistance. Insurance companies often give discounts for metal roofs.
 
-[INTERNAL_LINK:florida-homeowners-insurance-discounts]
-
 ## How Wind Mitigation Can Save You Money
 
 Hip roofs typically perform better in high winds and may qualify for credits versus gable designs. Improved fasteners (e.g., ring-shank nails) and proper spacing help keep decking secured during storms. Underlayment that seals the deck offers extra protection if shingles are compromised. Hurricane clips/straps that tie the roof system to wall studs can unlock meaningful credits.
 
 A certified wind-mitigation inspection verifies your features so carriers can apply the credits.
-
-[INTERNAL_LINK:florida-wind-mitigation-inspection]
 
 ## The 25% Rule and When It Applies
 

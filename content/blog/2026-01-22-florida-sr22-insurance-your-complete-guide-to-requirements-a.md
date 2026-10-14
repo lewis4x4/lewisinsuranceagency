@@ -160,7 +160,7 @@ As a North Florida resident, you have certain advantages when it comes to SR-22 
 
 1. **Lower Population Density**: Rural areas typically see lower rates than urban centers
 2. **Fewer Accidents**: Less traffic congestion means lower risk profiles
-3. **Local Agents**: Working with [INTERNAL_LINK:local-insurance-agents] who understand the area can help you find better rates
+3. **Local Agents**: Working with [local insurance agents](/why-local-agent) who understand the area can help you find better rates
 
 At Lewis Insurance Agency, we've been serving the Lake City area since 1981, helping drivers navigate challenging situations like SR-22 requirements. Our local expertise means we understand the unique needs of North Florida drivers and can help you find the most affordable coverage that meets your requirements.
 
@@ -182,7 +182,7 @@ Getting SR-22 insurance doesn't have to be overwhelming. At Lewis Insurance Agen
 - Compare rates from multiple SR-22-friendly insurers
 - Ensure your policy meets all Florida requirements
 - Help you maintain continuous coverage throughout the required period
-- Provide guidance on [INTERNAL_LINK:high-risk-auto-insurance] options
+- Provide guidance on [high-risk auto insurance](/personal/auto-insurance-florida) options
 - Answer any questions about the filing process
 
 Since 1981, we've helped thousands of North Florida drivers navigate insurance challenges. Our commitment to personalized service means you'll work with agents who know your name and understand your situation.

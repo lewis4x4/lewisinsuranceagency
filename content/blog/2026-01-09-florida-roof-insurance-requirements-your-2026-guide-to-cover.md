@@ -32,8 +32,6 @@ Important changes are on the horizon for Florida homeowners. House Bill 815 (202
 
 For a roof that is at least 15 years old, an insurer must differentiate between a low-slope roof with a 2-inch pitch or less and a steep-slope roof with a pitch of more than 2 inches in its offer for coverage under a policy. The roof of the residential structure performed by an authorized inspector indicates that the roof has 5 years or more of useful life remaining.
 
-[INTERNAL_LINK:florida-homeowners-insurance-guide]
-
 ## Current Market Conditions and Statistics
 
 The Florida insurance market is showing signs of stabilization in 2026. Homeowners are facing high premiums, with the average annual cost for $300,000 dwelling coverage reaching $5,376 statewide. However, there's encouraging news:
@@ -72,8 +70,6 @@ The key benefits of wind mitigation include:
 - Impact-resistant roofing materials
 - Proper deck attachment methods
 - Secondary water barriers
-
-[INTERNAL_LINK:wind-mitigation-inspections]
 
 ## Roof Types and Insurance Considerations
 

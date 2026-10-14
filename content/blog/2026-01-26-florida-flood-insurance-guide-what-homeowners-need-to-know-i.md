@@ -103,8 +103,6 @@ North Florida, including the Lake City area, faces unique flood challenges:
 
 For Lake City and North Florida residents, working with a local insurance agency that understands regional flood patterns is crucial. At Lewis Insurance Agency, we've been serving the North Florida community since 1981 and understand the specific flood risks facing our area.
 
-[INTERNAL_LINK:homeowners-insurance-north-florida]
-
 ## Important Timing Considerations
 
 ### The 30-Day Waiting Period
@@ -214,8 +212,6 @@ Both options have advantages. NFIP provides standardized coverage with federal b
 Florida's flood insurance landscape is changing rapidly, and 2026 brings new requirements that could affect your coverage and costs. Don't wait until it's too late – flood insurance has waiting periods, and you can't purchase or modify coverage once a storm is named.
 
 At Lewis Insurance Agency, we've been helping North Florida families protect their homes and financial futures since 1981. Our experienced agents understand the unique flood risks facing Lake City and the surrounding areas, and we can help you navigate both NFIP and private market options to find the best coverage at the most competitive rates.
-
-[INTERNAL_LINK:flood-insurance-quote]
 
 Whether you need to comply with new Citizens requirements, want to explore cost-saving opportunities, or simply want expert guidance on protecting your home, we're here to help. Contact Lewis Insurance Agency today at (386) 755-0050 to schedule a consultation and ensure your family is protected against Florida's flood risks.
 

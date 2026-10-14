@@ -107,7 +107,7 @@ When damage occurs near a hurricane event, carefully document the condition of y
 
 At Lewis Insurance Agency, we've helped North Florida families navigate hurricane coverage since 1981. Our Lake City location puts us right in the heart of understanding regional storm patterns and insurance challenges.
 
-[INTERNAL_LINK:florida-homeowners-insurance-guide] provides additional coverage insights, while our [INTERNAL_LINK:wind-mitigation-credits] resource explains how to maximize your savings through property improvements.
+Our [Florida homeowners insurance guide](/personal/homeowners-insurance-florida) provides additional coverage insights, while our [wind mitigation guide](/wind-mitigation-inspection-guide) explains how to maximize your savings through property improvements.
 
 We work with multiple carriers to find the right balance between hurricane deductible levels and premium costs for your specific situation and budget.
 

@@ -94,8 +94,6 @@ North Florida homeowners, including those in the Lake City area, often benefit f
 
 However, flood risk exists throughout Florida. More than 30% of flood insurance claims come from lower-risk areas. Here's what catches most homeowners off guard: approximately 25% of flood claims happen in low-risk areas.
 
-[INTERNAL_LINK:citizens-insurance-eligibility]
-
 ## What the Market Changes Mean for 2026
 
 The Florida insurance market is experiencing unprecedented changes. The reduction is primarily due to legal reforms in 2023 that curbed abusive litigation and contractor fraud. This allowed 17 new insurers to enter the market, increasing competition and lowering prices for the first time in a decade.
@@ -120,8 +118,6 @@ Since 2021, the state added nearly 100,000 NFIP policies, roughly 6% growth, eve
 
 5. **Use a Licensed Agent**
    Use a licensed Florida insurance agent to get flood insurance
-
-[INTERNAL_LINK:homeowners-insurance-north-florida]
 
 ## The Financial Impact of Going Without Coverage
 

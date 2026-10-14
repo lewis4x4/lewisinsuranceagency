@@ -104,7 +104,7 @@ Regular roof maintenance, including inspections, repairs and cleaning, can exten
 Living in North Florida presents unique challenges and opportunities:
 
 - **Hurricane Risk**: While less than South Florida, our region still faces significant wind and storm risks
-- **Market Options**: [INTERNAL_LINK:north-florida-insurance-carriers] We work with multiple carriers familiar with North Central Florida conditions
+- **Market Options**: We work with multiple [Florida homeowners insurance carriers](/personal/homeowners-insurance-florida) familiar with North Central Florida conditions
 - **Agricultural Properties**: Rural properties may have different considerations for outbuildings and farm structures
 
 ## Wind Mitigation and Discounts
@@ -157,7 +157,7 @@ Many homeowners find that the savings from a lower insurance premium help offset
 
 ### What documentation do I need for wind mitigation credits?
 
-You'll need a current wind mitigation inspection form completed by a qualified inspector, documentation of roof installation or upgrades, and proof of impact-resistant materials or secondary water resistance features. [INTERNAL_LINK:wind-mitigation-discounts] Our team can help you navigate these requirements.
+You'll need a current wind mitigation inspection form completed by a qualified inspector, documentation of roof installation or upgrades, and proof of impact-resistant materials or secondary water resistance features. [Wind mitigation discounts](/wind-mitigation-inspection-guide) may be available. Our team can help you navigate these requirements.
 
 ## Take Action Today
 

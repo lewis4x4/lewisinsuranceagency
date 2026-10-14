@@ -114,7 +114,7 @@ While North Florida experiences fewer direct hurricane hits than South Florida, 
 
 ### Local Contractors and Inspectors
 
-[INTERNAL_LINK:north-florida-home-inspectors] are familiar with regional construction patterns and can efficiently identify qualifying features during inspections. Working with local professionals ensures accurate assessments and proper documentation.
+[Wind mitigation inspectors](/wind-mitigation-inspection-guide) are familiar with regional construction patterns and can efficiently identify qualifying features during inspections. Working with local professionals ensures accurate assessments and proper documentation.
 
 ## Common Wind Mitigation Upgrades for Maximum Savings
 
@@ -147,7 +147,7 @@ As an independent agency established in 1981, Lewis Insurance Agency understands
 - Compare carriers to find the best rates with your mitigation credits
 - Navigate the My Safe Florida Home program application process
 
-[INTERNAL_LINK:florida-homeowners-insurance-comparison] can help you understand how wind mitigation credits affect your overall premium across different carriers.
+[Comparing Florida homeowners insurance](/personal/homeowners-insurance-florida) can help you understand how wind mitigation credits affect your overall premium across different carriers.
 
 ## Frequently Asked Questions
 
