@@ -91,7 +91,7 @@ Common mitigation features that qualify for credits include:
 - **Secondary water resistance**: Improved underlayment systems
 - **Opening protection**: Impact-rated windows and doors
 
-Homeowners typically save 20-45% on premiums with fully code-compliant roofing systems, with additional discounts for impact-rated materials, reinforced connections, and secondary water barriers.
+Fully code-compliant roofing systems can qualify homeowners for discounts on the windstorm portion of their homeowners premium, with credits based on features such as impact-rated materials, reinforced connections, and secondary water barriers.
 
 ## Navigating Insurance Non-Renewals
 
@@ -135,7 +135,7 @@ These updates emphasize:
 
 ### Long-term Planning
 
-Florida homeowners who upgrade to code-compliant roofing systems can save up to 45% on insurance premiums while increasing their home's storm resistance.
+Florida homeowners who upgrade to code-compliant roofing systems can qualify for discounts on the windstorm portion of their homeowners premium while increasing their home's storm resistance.
 
 Consider these upgrades:
 
@@ -195,4 +195,4 @@ RUL is the estimated number of years your roof will last based on a certified in
 Not necessarily. If your roof was built or replaced after March 1, 2009, under proper permits, you may only need to repair the damaged portion, regardless of the percentage affected.
 
 **How much can wind mitigation features save on insurance?**
-Wind mitigation credits can reduce premiums by 20-45%, with specific discounts varying by feature and insurance company. The exact savings depend on your home's location, construction, and the specific mitigation features installed.
+Wind mitigation credits apply to the windstorm portion of the homeowners premium, with specific discounts varying by feature and insurance company. The exact savings depend on your home's location, construction, and the specific mitigation features installed.

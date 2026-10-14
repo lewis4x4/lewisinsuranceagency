@@ -19,9 +19,9 @@ A wind mitigation inspection documents how well your home is built to withstand 
 |------------------------|-------------------|
 | Hip roof (vs. gable) | 3%–8% |
 | Roof deck attachment (8d nails, proper spacing) | 5%–15% |
-| Roof-to-wall connections (clips, straps, wraps) | 15%–45% |
+| Roof-to-wall connections (clips, straps, wraps) | Varies on wind portion of homeowners premium |
 | Secondary water resistance | 2%–10% |
-| Opening protection (shutters, impact windows) | 5%–45% |
+| Opening protection (shutters, impact windows) | Varies on wind portion of homeowners premium |
 | Roof covering (FBC-compliant, age) | Varies |
 
 **Why This Matters:**

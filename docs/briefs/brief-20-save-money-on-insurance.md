@@ -12,7 +12,7 @@ Shop your policies regularly, bundle where it makes sense, increase deductibles 
 |----------------------|-------------------|
 | Bundle home + auto with same carrier | 10%–25% |
 | Increase deductibles | 10%–25% |
-| Wind mitigation inspection (homeowners) | Up to 45% |
+| Wind mitigation inspection (homeowners) | Discount on wind portion of homeowners premium |
 | Defensive driving course (auto) | 5%–15% |
 | Pay annually instead of monthly | 5%–10% |
 | Maintain good credit | Significant (varies by carrier) |

@@ -162,7 +162,7 @@ const windMitFeatures = [
 const savingsStrategies = [
     {
         strategy: "Wind Mitigation Inspection",
-        savings: "10-45%+",
+        savings: "Discount on wind portion",
         description: "Often the single most impactful step. Even older homes may have qualifying features.",
         icon: Wind,
     },
@@ -220,7 +220,7 @@ const faqs = [
     },
     {
         question: "What is a wind mitigation inspection and is it worth it?",
-        answer: "A wind mitigation inspection evaluates your home's ability to withstand hurricane-force winds and can result in premium reductions of 10% to 45% or more. The inspection typically costs $75-$200 and examines roof covering, deck attachment, roof-to-wall connections, opening protection, roof shape, and secondary water resistance. For most Florida homeowners, it's absolutely worth the investment.",
+        answer: "A wind mitigation inspection evaluates your home's ability to withstand hurricane-force winds and can result in discounts on the windstorm portion of the homeowners premium. The inspection typically costs $75-$200 and examines roof covering, deck attachment, roof-to-wall connections, opening protection, roof shape, and secondary water resistance. For most Florida homeowners, it's absolutely worth the investment.",
     },
     {
         question: "Does homeowners insurance cover flood damage in Florida?",
@@ -345,7 +345,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <DollarSign className="h-4 w-4 text-green-600" />
-                                <span>Wind mit saves 10-45%</span>
+                                <span>Wind credits apply to wind portion</span>
                             </div>
                         </div>
 
@@ -494,7 +494,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                                 Biggest Savings
                             </Badge>
                             <h2 className="text-2xl font-bold text-lewis-ink">
-                                Wind Mitigation: Save 10-45% or More
+                                Wind Mitigation: Save on the Wind Portion
                             </h2>
                         </div>
 
