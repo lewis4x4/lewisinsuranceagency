@@ -1,6 +1,6 @@
 ---
 title: "Florida Wind Mitigation Savings: Your Complete Guide to Insurance Discounts in 2026"
-description: "Discover how Florida wind mitigation inspections can slash your homeowners insurance by up to 45%. Learn about the 2026 My Safe Florida Home program and maximize your savings."
+description: "Discover how Florida wind mitigation inspections can lower the windstorm portion of your homeowners insurance premium. Learn about the 2026 My Safe Florida Home program and maximize your savings."
 date: 2026-01-23
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
@@ -53,8 +53,6 @@ Your wind mitigation inspection will focus on these critical areas:
 
 The potential savings vary significantly based on your home's features:
 
-- Credits can go up to the maximum savings of 88% off the hurricane/wind premium.
-- Policy credit (up to a maximum of 90% inclusive of any Building Code Effectiveness Grading discount) may be available to you.
 - Florida insurance premium discounts, for certain favorable wind mitigation features, have been mandated by State law and can produce significant savings on the windstorm portion of the premium.
 
 ### Real-World Examples
