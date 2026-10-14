@@ -155,7 +155,7 @@ const savingsExamples = [
     },
     {
         feature: "Opening protection (all windows/doors)",
-        typicalSavings: "Varies on wind portion",
+        typicalSavings: "Varies (wind portion only)",
     },
     {
         feature: "Secondary water resistance",
