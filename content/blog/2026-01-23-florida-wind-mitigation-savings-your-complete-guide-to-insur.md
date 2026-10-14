@@ -55,7 +55,7 @@ The potential savings vary significantly based on your home's features:
 
 - Credits can go up to the maximum savings of 88% off the hurricane/wind premium.
 - Policy credit (up to a maximum of 90% inclusive of any Building Code Effectiveness Grading discount) may be available to you.
-- Florida insurance premium discounts, for certain favorable wind mitigation features, have been mandated by State law and produce significant savings of up to 45% off the original policy's premium.
+- Florida insurance premium discounts, for certain favorable wind mitigation features, have been mandated by State law and can produce significant savings on the windstorm portion of the premium.
 
 ### Real-World Examples
 
@@ -104,13 +104,13 @@ Only certain Florida-certified construction professionals can perform a wind mit
 
 ### Finding Inspectors in North Florida
 
-For Lake City and North Florida residents, High Mark Inspections provides wind mitigation insurance inspections in Columbia and Suwannee counties which includes Live Oak, Lake City, Fort White, High Springs, White Springs, and Branford Florida. This local option ensures you're working with inspectors familiar with the specific challenges and opportunities in our region.
+Use a licensed wind mitigation inspector; we can share local options if you ask.
 
 ## Special Considerations for Older and Newer Homes
 
 ### Homes Built After 2002
 
-If your home was built after 2002—good news! You automatically receive default credits on your Progressive homeowners policy. But more discounts may be available to you.
+If your home was built after 2002—good news! Most insurers apply default credits for homes built to post-2002 code. More discounts may be available to you.
 
 Houses built after 2002 in the rest of the state have many wind resistive construction features and will likely qualify for credits due to enhanced building codes implemented after major hurricanes.
 
@@ -124,7 +124,7 @@ There are a few cost-effective measures you can take to safeguard your home and 
 
 ### The Inspection Process
 
-The time needed to complete our inspections is usually about an hour, but that can also depend on the size of the property. During the inspection, certified professionals carefully identify and document specific features that protect your home against wind damage.
+The time needed to complete a wind mitigation inspection is usually about an hour, but that can also depend on the size of the property. During the inspection, certified professionals carefully identify and document specific features that protect your home against wind damage.
 
 ### What Inspectors Look For
 
