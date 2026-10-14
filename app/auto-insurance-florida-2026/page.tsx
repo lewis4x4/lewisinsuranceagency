@@ -548,7 +548,17 @@ export default function AutoInsuranceFlorida2026Page() {
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <CheckCircle2 className="h-4 w-4 text-green-600 flex-shrink-0 mt-0.5" />
-                                            GEICO, Progressive, State Farm filing 6-10.5% reductions
+                                            <span>
+                                                GEICO, Progressive, State Farm filed 6-10.5% reductions, as announced by the{" "}
+                                                <a
+                                                    href="https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-rate-reductions-miami-dade-county-auto-insurance"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="underline"
+                                                >
+                                                    Florida Governor&apos;s office
+                                                </a>
+                                            </span>
                                         </li>
                                     </ul>
                                 </CardContent>

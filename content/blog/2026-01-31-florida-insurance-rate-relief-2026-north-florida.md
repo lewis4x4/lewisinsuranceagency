@@ -114,7 +114,7 @@ An independent agent can quote you with multiple companies in one conversation. 
 
 ### 3. Consider a Wind Mitigation Inspection
 
-If you haven't had a [wind mitigation inspection](/blog/wind-mitigation-inspection-guide), now is a great time. These inspections document hurricane-resistant features in your home and can save hundreds annually. Combined with the market-wide rate decreases, you could see significant savings.
+If you haven't had a [wind mitigation inspection](/blog/wind-mitigation-inspection-guide), now is a great time. These inspections document hurricane-resistant features in your home and can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. Combined with the market-wide rate decreases, you could see significant savings.
 
 ### 4. Don't Forget Flood Insurance
 
