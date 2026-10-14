@@ -215,7 +215,7 @@ const telematicsPrograms = [
     { program: "Nationwide SmartRide", discount: "Up to 40%" },
     { program: "State Farm Drive Safe & Save", discount: "Up to 30%" },
     { program: "Progressive Snapshot", discount: "Varies by driving behavior" },
-    { program: "Allstate Drivewise", discount: "Up to 25%" },
+    { program: "Allstate Drivewise", discount: "Varies by driving behavior" },
 ]
 
 const faqs = [
