@@ -585,8 +585,8 @@ export default function FourPointInspectionGuidePage() {
                                 </h2>
                                 <p className="text-lewis-body mb-6">
                                     Getting a 4-point inspection? Add a wind mitigation inspection at the same time.
-                                    You&apos;ll save $25-$50 on inspection costs, and the wind mitigation can save you
-                                    hundreds annually on your insurance premium.
+                                    Many inspectors offer bundled pricing, and the wind mitigation report can qualify you
+                                    for discounts on the windstorm portion of your premium. Savings vary by home and insurer.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Button asChild className="btn-primary rounded-full">
