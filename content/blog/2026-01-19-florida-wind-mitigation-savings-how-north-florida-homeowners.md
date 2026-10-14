@@ -74,7 +74,7 @@ The potential savings vary significantly based on your home's features and locat
 
 ### Homes Built After 2002
 
-If your home was built after 2002—good news! You automatically receive default credits on your Progressive homeowners policy. But more discounts may be available to you. Houses built after 2002 in the rest of the state have many wind resistive construction features and will likely qualify for credits.
+Good news for newer construction: most insurers apply default credits for homes built to post-2002 code. More discounts may be available to you. Houses built after 2002 in the rest of the state have many wind resistive construction features and will likely qualify for credits.
 
 ### Older Homes Can Still Benefit
 
