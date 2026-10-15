@@ -60,7 +60,7 @@ const pageData: CityServicePageData = {
         },
         {
             question: "What's a wind mitigation inspection?",
-            answer: "A wind mitigation inspection documents hurricane-resistant features in your home. In Fort Lauderdale, this can earn significant premium discounts—often saving hundreds or thousands annually. We can recommend inspectors.",
+            answer: "A wind mitigation inspection documents hurricane-resistant features in your home. In Fort Lauderdale, it can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. We can recommend inspectors.",
         },
         {
             question: "Can you insure waterfront homes?",

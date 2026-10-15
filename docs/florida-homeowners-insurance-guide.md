@@ -156,7 +156,7 @@ Florida law requires insurers to offer discounts for wind mitigation features. A
 - Opening protection (hurricane shutters, impact windows)
 - Secondary water resistance
 
-A wind mitigation inspection costs $75-150 and can save hundreds or even thousands annually on premiums. Every Florida homeowner should get one.
+A wind mitigation inspection costs $75-150 and can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. Every Florida homeowner should get one.
 
 ### 4-Point Inspection
 

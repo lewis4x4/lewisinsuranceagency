@@ -77,7 +77,7 @@ const pageData: CityServicePageData = {
         },
         {
             question: "What is wind mitigation and why does it matter?",
-            answer: "A wind mitigation inspection documents hurricane-resistant features in your home like roof shape, roof-to-wall connections, and opening protection. These features can earn significant premium discounts in Miami—often saving hundreds or thousands per year.",
+            answer: "A wind mitigation inspection documents hurricane-resistant features in your home like roof shape, roof-to-wall connections, and opening protection. In Miami, these features can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
         },
     ],
 

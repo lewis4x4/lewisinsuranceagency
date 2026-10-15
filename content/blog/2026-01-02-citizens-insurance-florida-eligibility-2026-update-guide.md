@@ -13,7 +13,7 @@ imageAlt: "Florida home with insurance documents showing Citizens eligibility re
 
 Citizens Insurance Florida eligibility has undergone dramatic changes as the state's insurance market continues its recovery. With Citizens now holding fewer than 400,000 policies for the first time since 2012, understanding the current eligibility requirements is crucial for Florida homeowners seeking affordable coverage.
 
-Florida's insurer of last resort has successfully returned to its intended role, but this means stricter eligibility requirements for new applicants. As a North Florida homeowner, knowing these requirements could save you hundreds or thousands of dollars on your insurance premiums.
+Florida's insurer of last resort has successfully returned to its intended role, but this means stricter eligibility requirements for new applicants. As a North Florida homeowner, knowing these requirements can help you plan your coverage. Savings vary by home and insurer.
 
 ## Understanding Citizens Insurance Eligibility Requirements
 
