@@ -11,7 +11,7 @@ imageAlt: "Florida home with insurance documents showing Citizens eligibility re
 
 # Citizens Insurance Florida Eligibility: 2026 Update Guide
 
-Citizens Insurance Florida eligibility has undergone dramatic changes as the state's insurance market continues its recovery. With Citizens policies in force now below 400,000, the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms), understanding the current eligibility requirements is crucial for Florida homeowners seeking affordable coverage.
+Citizens Insurance Florida eligibility has undergone dramatic changes as the state's insurance market continues its recovery. With Citizens policies in force below 400,000 as of early 2025, the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms), understanding the current eligibility requirements is crucial for Florida homeowners seeking affordable coverage.
 
 Florida's insurer of last resort has successfully returned to its intended role, but this means stricter eligibility requirements for new applicants. As a North Florida homeowner, knowing these requirements can help you plan your coverage. Savings vary by home and insurer.
 
