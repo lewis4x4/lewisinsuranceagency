@@ -112,7 +112,7 @@ For Lake City and surrounding Columbia County residents, Lewis Insurance Agency 
 
 ## How Long Do You Need SR-22 Insurance?
 
-Generally, you will need to file your SR-22 for three years. Generally, you will need to file your SR-22 for three years. More specifically, SR22/FR44s must be maintained continuously for 3 years from the original suspension date of the FR case.
+Generally, you will need to file your SR-22 for three years. More specifically, SR22/FR44s must be maintained continuously for 3 years from the original suspension date of the FR case.
 
 Typically three years from the date of conviction. However, any lapse in coverage during this period can reset the clock, requiring you to start the three-year period over.
 

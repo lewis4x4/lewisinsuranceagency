@@ -73,7 +73,7 @@ Opting for a higher hurricane deductible can significantly lower your monthly pr
 
 ### The My Safe Florida Home Program
 
-The My Safe Florida Home program offers substantial grants for hurricane-resistant improvements that can dramatically lower your premiums. The My Safe Florida Home program provides matching grants of up to $10,000 for eligible hurricane mitigation improvements.
+The My Safe Florida Home program offers matching grants for eligible hurricane mitigation improvements, matched on the basis of $1 provided by the applicant for $2 provided by the state, up to a maximum state contribution of $10,000 toward the actual cost of the project; eligible low-income applicants are not required to provide a matching amount ([s. 215.5586, Fla. Stat.](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0215/Sections/0215.5586.html)).
 
 ## Critical Filing Deadlines
 
