@@ -155,7 +155,7 @@ const costBreakdown = [
     {
         service: "4-Point + Wind Mit Bundle",
         priceRange: "$150 - $200",
-        notes: "Best value - saves $25-$50",
+        notes: "Many inspectors offer bundled pricing",
     },
     {
         service: "Full Home Inspection + 4-Point",
@@ -202,7 +202,7 @@ const faqs = [
     },
     {
         question: "How much does a 4-point inspection cost in Florida?",
-        answer: "A 4-point inspection typically costs $75-$150 in Florida, with North Florida prices generally on the lower end ($75-$125). When bundled with a wind mitigation inspection, you can often get both for $150-$200, saving $25-$50 compared to booking them separately.",
+        answer: "A 4-point inspection typically costs $75-$150 in Florida, with North Florida prices generally on the lower end ($75-$125). When bundled with a wind mitigation inspection, you can often get both for $150-$200.",
     },
     {
         question: "When is a 4-point inspection required?",
@@ -222,7 +222,7 @@ const faqs = [
     },
     {
         question: "Should I get a 4-point and wind mitigation inspection together?",
-        answer: "Yes—bundling saves money and time. Many inspectors offer package pricing ($150-$200 for both). The 4-point is required for insurability; the wind mitigation inspection can save you hundreds annually on your premium. Get both done at once.",
+        answer: "Yes, bundling saves money and time. Many inspectors offer package pricing ($150-$200 for both). The 4-point is required for insurability; the wind mitigation report can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. Get both done at once.",
     },
     {
         question: "Can I do a 4-point inspection myself?",
@@ -585,8 +585,8 @@ export default function FourPointInspectionGuidePage() {
                                 </h2>
                                 <p className="text-lewis-body mb-6">
                                     Getting a 4-point inspection? Add a wind mitigation inspection at the same time.
-                                    You&apos;ll save $25-$50 on inspection costs, and the wind mitigation can save you
-                                    hundreds annually on your insurance premium.
+                                    Many inspectors offer bundled pricing, and the wind mitigation report can qualify you
+                                    for discounts on the windstorm portion of your premium. Savings vary by home and insurer.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Button asChild className="btn-primary rounded-full">
