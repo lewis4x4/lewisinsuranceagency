@@ -22,53 +22,53 @@ secondary_keywords: ["Progressive auto insurance refund", "Florida auto insuranc
 
 ## TL;DR — Key Takeaways
 
-- ✅ **$1 billion rebate**: Progressive is returning nearly $1 billion to Florida auto policyholders — the largest insurance refund in state history
-- ✅ **~$300 per customer**: If you have a Progressive auto policy in Florida, expect approximately $300 as a credit in early 2026
-- ✅ **2.7 million eligible**: All personal auto policyholders active in Florida as of December 31, 2025 qualify automatically
-- ✅ **No action required**: The credit will be applied automatically — no application needed
-- ✅ **Rate decrease too**: Progressive also filed an 8.1% rate decrease on top of the rebate
+- ✅ **$1 billion rebate**: Progressive will return nearly $1 billion to Florida auto policyholders, according to the [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas).
+- ✅ **Individual credit amounts**: Contact Progressive to confirm the amount of any credit and when it will be available.
+- ✅ **2.7 million policyholders**: The [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) said Progressive expected to provide credits to approximately 2.7 million personal auto policyholders with active coverage in Florida as of December 31, 2025.
+- ✅ **Confirm your credit**: Check your Progressive account or contact the insurer to confirm how the credit will be applied and whether any action is needed.
+- ✅ **Rate decrease too**: Progressive also filed an 8.1% rate decrease, according to the [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-rate-reductions-miami-dade-county-auto-insurance).
 - 📞 **Need help?** Call Lewis Insurance at (386) 755-0050
 
 ---
 
 ## What Is the Progressive Insurance Florida Rebate?
 
-**Quick Answer:** Progressive Insurance is returning nearly $1 billion to approximately 2.7 million Florida auto insurance policyholders in early 2026. This rebate is required by Florida law because Progressive's profits exceeded the state's statutory limits over the 2023-2025 period. The average policyholder will receive approximately $300 as a credit toward future premiums, with the exact amount based on how much you paid in premiums during 2025.
+**Quick Answer:** Progressive will return nearly $1 billion to approximately 2.7 million Florida personal auto policyholders, according to the [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas). The announcement explains that Florida law requires auto insurers to return excess profits when applicable. Contact Progressive to confirm your individual credit amount and timing.
 
 ---
 
 ## How Much Will I Get from the Progressive Rebate?
 
-**Quick Answer:** The average Progressive policyholder in Florida will receive approximately $300. However, your specific rebate amount will vary based on your policy's cost during calendar year 2025. Customers who paid higher premiums will receive larger credits, while those with lower-cost policies will receive proportionally smaller amounts. Progressive reported a $950 million policyholder credit expense in their Q3 2025 earnings specifically for this Florida rebate.
+**Quick Answer:** Contact Progressive to confirm your specific credit amount. The [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) reported that Progressive recorded a $950 million policyholder credit expense, but the announcement does not specify an average credit per customer.
 
 ---
 
 ## When Will I Receive My Progressive Rebate?
 
-**Quick Answer:** Progressive plans to distribute the rebates as credits to policyholders in early 2026. The credits will be applied automatically to your account and can be used toward future insurance purchases or renewals. You do not need to apply or take any action — the rebate will be issued automatically to all eligible Progressive policyholders in Florida who had active coverage as of December 31, 2025.
+**Quick Answer:** Contact Progressive to confirm when your credit will be available, how it will be delivered, and whether any action is needed. The [Governor's office announcement](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) said the company expected to provide credits to personal auto policyholders with active coverage in Florida as of December 31, 2025.
 
 ---
 
 ## Do I Qualify for the Progressive Florida Rebate?
 
-**Quick Answer:** You qualify if you were one of Progressive's 2.7 million personal auto policyholders with active coverage in Florida as of December 31, 2025. The rebate applies to personal auto policies only — commercial policies are not included. If you had Progressive auto insurance in Florida during 2025, you should automatically receive a credit without needing to take any action.
+**Quick Answer:** The [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) said Progressive expected to provide credits to approximately 2.7 million personal auto policyholders with active coverage in Florida as of December 31, 2025. Contact Progressive to confirm your eligibility and how any credit will be applied.
 
 ---
 
 ## Why Is Progressive Giving Rebates to Florida Customers?
 
-**Quick Answer:** Florida law requires auto insurers to return excess profits if their underwriting gains exceed anticipated profit plus 5% of earned premium over any three-year period. Progressive exceeded this limit during the 2023-2025 period, earning strong profits due to lower-than-expected claims following Florida's 2022-2023 insurance reforms (HB 837 and SB 2A). These reforms reduced lawsuit abuse and litigation costs, which improved Progressive's profitability beyond what the law allows them to keep.
+**Quick Answer:** Florida law requires auto insurers to return excess profits to policyholders when applicable, as explained in the [Governor's office rebate announcement](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas). The release links Progressive's expected credits to reduced losses and improved market conditions following Florida's tort and insurance reforms.
 
 **Key factors:**
-1. Florida's tort reforms reduced insurance litigation by 23% year-over-year
-2. Auto glass repair lawsuits dropped from 24,720 to 2,613 (89% reduction)
+1. Insurance litigation filings fell by 23% year-over-year, according to the [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas).
+2. Auto glass repair lawsuits dropped from 24,720 to 2,613, according to [Milliman](https://www.milliman.com/en/insight/how-tort-reforms-shaping-insurance-claims-florida-georgia).
 3. Progressive's loss ratio improved significantly
 
 ---
 
 ## Are Other Insurance Companies Also Lowering Rates?
 
-**Quick Answer:** Yes, Florida's top auto insurers are all reducing rates in 2025-2026. According to the [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2026/01/28/commissioner-mike-yaworsky-approves-more-auto-rate-cuts-for-consumers-in-2026--including-military-service-members), State Farm filed a 10.1% decrease (with cumulative reductions of more than 20%), AAA has lowered rates by 15%, and USAA filed a 7% decrease.
+**Quick Answer:** Yes, major Florida auto insurers have filed rate decreases. According to the [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2026/01/28/commissioner-mike-yaworsky-approves-more-auto-rate-cuts-for-consumers-in-2026--including-military-service-members), State Farm filed a 10.1% decrease (with cumulative reductions of more than 20%), AAA has lowered rates by 15%, and USAA filed a 7% decrease.
 
 ---
 
