@@ -1,6 +1,6 @@
 ---
 title: "Florida Wind Mitigation Savings: How North Florida Homeowners Can Cut Insurance Costs in 2025"
-description: "Discover how Florida homeowners can save hundreds on insurance with wind mitigation inspections and credits. Get expert tips for North Florida residents."
+description: "Discover how wind mitigation inspections and credits can qualify Florida homeowners for discounts on the windstorm portion of their premium. Get expert tips for North Florida residents."
 date: 2026-01-19
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
