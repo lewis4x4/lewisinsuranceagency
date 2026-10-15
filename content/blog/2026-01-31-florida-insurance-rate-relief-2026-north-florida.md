@@ -11,7 +11,7 @@ imageAlt: "Florida home with clear skies representing insurance rate relief"
 
 # Florida Insurance Rate Relief 2026: What North Florida Homeowners Need to Know
 
-After years of soaring premiums, carrier exits, and difficult renewals, Florida homeowners are finally getting good news. Governor Ron DeSantis announced in January 2026 that insurance reforms passed in 2022 and 2023 are delivering real results—and Citizens Insurance policyholders will see their first rate decrease since 2015.
+After years of soaring premiums, carrier exits, and difficult renewals, Florida homeowners are finally getting good news. Governor Ron DeSantis announced in January 2026 that insurance reforms passed in 2022 and 2023 are delivering real results, and Citizens Insurance policyholders will see a rate decrease.
 
 For homeowners in North Florida—from Jacksonville to Gainesville to Lake City and the surrounding counties—this represents a meaningful shift in a market that has tested everyone's patience and budgets. Here's what you need to know about the changes and how to make the most of them.
 
@@ -50,7 +50,7 @@ Before the reforms, litigation drove up homeowners insurance costs in Florida. T
 
 - Litigation between plaintiffs and insurers has dropped dramatically
 - Florida's ranking for "nuclear verdicts" (massive jury awards) fell from 2nd nationally to 10th
-- The Florida property-casualty industry posted its **first profitable year since 2016** in 2023
+- The Florida property-casualty industry's financial results have improved since the reforms
 - **17 new insurance companies** have entered or re-entered the Florida market
 
 More competition means better rates and more choices for homeowners.
@@ -150,7 +150,7 @@ Roof age remains a significant factor. Some carriers won't write homes with roof
 
 ## The Bottom Line
 
-After years of challenges, Florida's homeowners insurance market is stabilizing. The 2022 and 2023 reforms are delivering results, Citizens is cutting rates for the first time in a decade, and private carriers are competing for your business.
+After years of challenges, Florida's homeowners insurance market is stabilizing. The 2022 and 2023 reforms are delivering results, Citizens is cutting rates, and private carriers are competing for your business.
 
 For North Florida homeowners, this is an opportunity to review your coverage, shop your options, and potentially save money while improving your protection. Don't let your renewal auto-pay without checking what's available.
 
