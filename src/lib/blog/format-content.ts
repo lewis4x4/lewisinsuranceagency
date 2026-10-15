@@ -1,4 +1,4 @@
-import { siteConfig } from "@/config/site"
+import { siteConfig } from "../../config/site"
 
 const LINK_CLASS = "text-lewis-blue underline underline-offset-2 hover:text-lewis-ink"
 const CONTROL_CHARACTER_PATTERN = /[\u0000-\u001F\u007F-\u009F]/
@@ -197,6 +197,9 @@ export function formatContent(content: string): string {
     const tokenized = tokenizeMarkdownLinks(content)
     const formatted = tokenized.content
         // Headers
+        .replace(/^###### (.*$)/gim, '<h6 class="text-sm font-semibold mt-4 mb-2">$1</h6>')
+        .replace(/^##### (.*$)/gim, '<h5 class="text-base font-semibold mt-6 mb-2">$1</h5>')
+        .replace(/^#### (.*$)/gim, '<h4 class="text-lg font-semibold mt-6 mb-3">$1</h4>')
         .replace(/^### (.*$)/gim, '<h3 class="text-xl font-semibold mt-8 mb-4">$1</h3>')
         .replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold mt-10 mb-6">$1</h2>')
         // Bold
