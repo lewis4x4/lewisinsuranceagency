@@ -57,7 +57,7 @@ The potential savings vary significantly based on your home's features:
 
 ### Real-World Examples
 
-One homeowner reported a 14% insurance premium reduction ($714 annually) after installing impact windows with a $10,000 MSFH grant. In many cases, the inspection pays for itself in less than a year.
+One homeowner reported a 14% insurance premium reduction ($714 annually) after installing impact windows with a $10,000 MSFH grant. Savings vary by home and insurer.
 
 ## The 2025-2026 My Safe Florida Home Program: Free Inspections and Grants
 

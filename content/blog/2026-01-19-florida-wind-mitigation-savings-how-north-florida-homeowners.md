@@ -66,7 +66,7 @@ In Florida, the inspection follows a standard checklist (the Uniform Mitigation 
 4. **Opening Protection** - Impact windows, shutters, or garage door reinforcement
 5. **Secondary Water Resistance** - Membranes or barriers under roofing
 
-The cost of a wind mitigation inspection typically ranges between $75 and $150 in Tampa and most parts of Florida. Pricing depends on home size, location, and the inspector's rates. Considering the potential savings, the inspection cost is minimal. For example, even a modest 10% discount on a $2,500 premium equals $250 in annual savings — meaning the inspection pays for itself in the first year.
+The cost of a wind mitigation inspection typically ranges between $75 and $150 in Tampa and most parts of Florida. Pricing depends on home size, location, and the inspector's rates. Considering the potential savings, the inspection cost is minimal. Savings vary by home and insurer.
 
 ## Actual Savings for North Florida Homeowners
 

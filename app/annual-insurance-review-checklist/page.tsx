@@ -118,7 +118,7 @@ const homeownersReview = [
     {
         item: "Wind Mitigation Credits",
         what: "If you've improved your roof or added hurricane protections, you may qualify for discounts. Get a wind mitigation inspection.",
-        warning: "Missing credits can cost hundreds per year.",
+        warning: "Missing credits can mean paying more than you need to on the windstorm portion of your premium.",
     },
     {
         item: "Loss of Use Coverage",

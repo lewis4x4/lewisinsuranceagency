@@ -97,7 +97,7 @@ const checklistItems = [
     {
         title: "Wind Mitigation Credits",
         description: "Discounts for hurricane-resistant features: roof shape, opening protection, roof-to-wall connections. Requires a wind mitigation inspection.",
-        tip: "A wind mitigation inspection can pay for itself quickly through premium savings.",
+        tip: "A wind mitigation inspection can qualify you for discounts on the windstorm portion of your premium.",
     },
     {
         title: "Ordinance or Law Coverage",
