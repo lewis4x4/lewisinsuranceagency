@@ -79,7 +79,7 @@ Recent legislative changes have modified flood insurance requirements. Citizens 
 
 ### Rate Changes and Market Impact
 
-After years of asking for rate increases, Florida's Citizens Property Insurance Corp. is now asking for a rare decrease in homeowners' rates. The corporation's Board of Governors voted to file for an average rate cut of 2.6% for personal lines, starting in June 2026.
+Citizens rate changes vary by policy and location.
 
 This represents a dramatic shift from previous years. In early 2022, Citizens' indicated rate increase was more than 91% for homeowners policies.
 

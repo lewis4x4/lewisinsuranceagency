@@ -81,7 +81,7 @@ Understanding Citizens' pricing is essential for North Florida homeowners. The N
 
 For 2025, Board members will consider recommended rates for 2025 that call for a statewide average increase of 14% for all Personal Lines policies. The glide path caps individual rate increases at 14% in 2025 for primary residences, excluding coverage changes and surcharges.
 
-However, positive changes are on the horizon. The company is recommending an average 2.6% statewide rate decrease for personal lines accounts beginning on June 1 for 2026.
+For 2026, Citizens rate changes vary by policy and location.
 
 ### Assessment Risk
 

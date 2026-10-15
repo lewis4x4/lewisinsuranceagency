@@ -54,9 +54,9 @@ To get a Citizens Property Insurance Corporation homeowners policy, start by fin
 
 ## 2026 Rate Changes and Their Impact on Eligibility
 
-Citizens has recommended significant rate changes for 2026 that affect eligibility considerations. Citizens has recommended significant rate changes for 2026. The corporation's Board of Governors voted to file for an average rate cut of 2.6% for personal lines, starting in June 2026.
+Citizens rate changes for 2026 can affect eligibility considerations. Citizens rate changes vary by policy and location.
 
-Now, Citizens plans to cut rates for 2026 by an average 2.6% statewide. Citizens says 60% of customers would see an average premium cut of 11.5% if the state approves those rates.
+Ask your agent how current Citizens rates compare with private market options for your home.
 
 ### Regional Variations in Rate Changes
 

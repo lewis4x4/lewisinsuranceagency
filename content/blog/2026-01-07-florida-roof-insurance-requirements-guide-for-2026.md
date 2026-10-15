@@ -77,7 +77,7 @@ The average U.S. home insurance premium increased 24% between 2021 and 2024, out
 
 ### Rate Stabilization Signs
 
-There's some encouraging news on the horizon. Citizens Property Insurance Corp. voted to file for an average rate cut of 2.6% for personal lines, starting in June 2026, marking a significant reversal from years of increases.
+If you're insured with Citizens, rate changes vary by policy and location, so review your renewal notice carefully.
 
 ## Practical Steps for North Florida Homeowners
 

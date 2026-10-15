@@ -60,7 +60,7 @@ These requirements can affect your Citizens eligibility if you're unwilling or u
 
 ## Rate Changes and Market Trends
 
-Citizens has recommended significant rate changes for 2026. The corporation's Board of Governors voted to file for an average rate cut of 2.6% for personal lines, starting in June 2026. However, almost half of Citizens' personal-lines consumers will see an average rate decrease of about 11.5%, representing an average annual premium savings of about $359.
+Citizens rate changes vary by policy and location. Ask your agent how your renewal compares with private market options.
 
 ### Regional Rate Variations
 
