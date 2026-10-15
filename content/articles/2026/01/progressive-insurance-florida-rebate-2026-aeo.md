@@ -68,7 +68,7 @@ secondary_keywords: ["Progressive auto insurance refund", "Florida auto insuranc
 
 ## Are Other Insurance Companies Also Lowering Rates?
 
-**Quick Answer:** Yes, Florida's top auto insurers are all reducing rates in 2025-2026. According to the [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2026/01/28/commissioner-mike-yaworsky-approves-more-auto-rate-cuts-for-consumers-in-2026--including-military-service-members), GEICO filed a 10.5% decrease, State Farm filed a 10.1% decrease (with cumulative reductions of 20%), AAA has lowered rates by 15%, and USAA filed a 7% decrease. Florida's top five auto insurance groups averaged a 6.5% rate reduction in 2025, down from a 4.3% increase in 2024 and a 31.7% increase in 2023.
+**Quick Answer:** Yes, Florida's top auto insurers are all reducing rates in 2025-2026. According to the [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2026/01/28/commissioner-mike-yaworsky-approves-more-auto-rate-cuts-for-consumers-in-2026--including-military-service-members), State Farm filed a 10.1% decrease (with cumulative reductions of more than 20%), AAA has lowered rates by 15%, and USAA filed a 7% decrease.
 
 ---
 
