@@ -11,9 +11,9 @@ imageAlt: "Florida homeowner reviewing Citizens Insurance eligibility documents"
 
 # Citizens Insurance Florida Eligibility 2026: Complete Guide
 
-Citizens Property Insurance Corporation has dramatically transformed, starting 2026 with 395,144 policies, down from 936,182 policies at the beginning of 2025. As Florida's state-run insurer of last resort returns to its intended role, understanding Citizens insurance Florida eligibility requirements has never been more critical for homeowners seeking affordable coverage.
+Citizens Property Insurance Corporation has dramatically transformed. As of January 2025, Citizens policies in force declined to 395,144, a 50% reduction from the prior year and the lowest level in 14 years, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms). As Florida's state-run insurer of last resort returns to its intended role, understanding Citizens insurance Florida eligibility requirements has never been more critical for homeowners seeking affordable coverage.
 
-Citizens has reached the lowest policy count in its history, with expectations to fall to 385,000 by the end of 2025 – a 73% decrease from its peak. This dramatic shift affects every Florida homeowner's insurance options, making it essential to understand the current eligibility landscape.
+Citizens policies in force are at the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms). This dramatic shift affects every Florida homeowner's insurance options, making it essential to understand the current eligibility landscape.
 
 ## Understanding Citizens Insurance Eligibility Requirements
 
@@ -53,7 +53,7 @@ For Lake City area homeowners, this creates an interesting dynamic where private
 
 ### How Depopulation Affects Your Coverage
 
-The Citizens Depopulation Program in 2025 successfully transferred more than 546,000 Citizens policies to private insurance companies approved by the Florida Office of Insurance Regulation. This aggressive depopulation effort continues reshaping the insurance landscape.
+The Citizens Depopulation Program moves Citizens policies to private insurance companies approved by the Florida Office of Insurance Regulation. This aggressive depopulation effort continues reshaping the insurance landscape.
 
 If a private carrier's rates are within 20% of Citizens rates, you cannot refuse the transfer and remain with Citizens. This means many current Citizens policyholders will be required to move to private insurers.
 

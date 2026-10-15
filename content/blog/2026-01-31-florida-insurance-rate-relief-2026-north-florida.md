@@ -79,7 +79,7 @@ Private insurers often offer:
 - Replacement cost coverage (vs. actual cash value)
 - No flood insurance mandate (though you should still carry it)
 
-An independent agent can check whether you have private market options. Given that **546,000+ policies** moved from Citizens to private insurers in 2024 alone, there's a good chance you do.
+An independent agent can check whether you have private market options. With many policies moving from Citizens to private insurers, there's a good chance you do.
 
 ## What This Means for Private Insurance Customers
 
