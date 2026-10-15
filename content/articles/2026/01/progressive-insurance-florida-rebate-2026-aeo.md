@@ -1,6 +1,6 @@
 ---
 title: "Progressive Insurance Florida Rebate 2026: Quick Answers"
-meta_description: "Progressive is returning $1 billion to Florida auto policyholders in 2026. Find out if you qualify for a ~$300 rebate and when to expect your credit."
+meta_description: "Progressive is returning $1 billion to Florida auto policyholders in 2026. Find out who qualifies and how to confirm your credit."
 date: 2026-01-31
 last_updated: 2026-01-31
 author: "Lewis Insurance Agency"
@@ -13,7 +13,7 @@ version: "aeo"
 schema_type: "FAQPage"
 local_focus: "Lake City, FL | Columbia County | North Florida"
 primary_keyword: "Progressive Insurance Florida rebate 2026"
-secondary_keywords: ["Progressive auto insurance refund", "Florida auto insurance rate decrease", "Progressive $300 rebate", "Florida insurance reforms"]
+secondary_keywords: ["Progressive auto insurance refund", "Florida auto insurance rate decrease", "Florida insurance reforms"]
 ---
 
 ![Progressive Insurance Florida Rebate - Featured Image](/images/articles/2026/01/progressive-insurance-florida-rebate-2026-featured.png)

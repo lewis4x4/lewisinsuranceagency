@@ -14,7 +14,7 @@ version: "geo"
 schema_type: "Article"
 local_focus: "Lake City, FL | Columbia County | North Florida"
 primary_keyword: "Progressive Insurance Florida rebate 2026"
-secondary_keywords: ["Progressive auto insurance refund", "Florida auto insurance rate decrease", "Progressive $300 rebate", "Florida insurance reforms", "HB 837 results", "Florida OIR rate filing"]
+secondary_keywords: ["Progressive auto insurance refund", "Florida auto insurance rate decrease", "Florida insurance reforms", "HB 837 results", "Florida OIR rate filing"]
 sources_count: 15
 word_count: 3200
 ---
@@ -57,7 +57,7 @@ Under current Florida law, the Florida Office of Insurance Regulation (OIR) over
 
 In October 2025, the [Governor's office](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) announced that Progressive would return nearly $1 billion to Florida auto policyholders. The release reported a $950 million policyholder credit expense and explained that insurers must return excess profits to policyholders when applicable.
 
-Governor Ron DeSantis announced the rebate in Sarasota on October 22, 2025, alongside Florida Insurance Commissioner Mike Yaworsky, according to the [Governor's office release](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas). The release quoted Yaworsky as saying that "Florida's insurance market continues to see great stability and the strong underwriting gains in the auto market is just the latest sign of success since Florida's historic tort reforms." The announcement highlighted that approximately 2.7 million Progressive personal auto policyholders in Florida were expected to receive credits.
+Governor Ron DeSantis announced the rebate in Sarasota on October 22, 2025, alongside Florida Insurance Commissioner Mike Yaworsky, according to the [Governor's office release](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas). The release quoted Yaworsky as saying that "Florida's insurance market continues to see great stability and the strong underwriting gains in the auto market is just the latest sign of success since Florida's historic tort reforms". The announcement highlighted that approximately 2.7 million Progressive personal auto policyholders in Florida were expected to receive credits.
 
 ### Recent Legislative and Regulatory Changes
 
@@ -111,7 +111,7 @@ This market transformation benefits both consumers and insurers by creating sust
 
 ## Expert Analysis and Perspectives
 
-> "Florida's insurance market continues to see great stability and the strong underwriting gains in the auto market is just the latest sign of success since Florida's historic tort reforms." [Governor's office release](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas)
+> "Florida's insurance market continues to see great stability and the strong underwriting gains in the auto market is just the latest sign of success since Florida's historic tort reforms". [Governor's office release](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas)
 > **[Mike Yaworsky](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas)**, Florida Insurance Commissioner, October 2025
 
 [Commissioner Yaworsky's statement](https://floir.gov/newsroom/archives/item-details/2025/10/23/icymi--governor-ron-desantis-announces--1-billion-in-auto-insurance-refunds-as-a-result-of-florida-s-improving-insurance-market) reflects the regulatory perspective that Florida's legislative reforms have helped stabilize the insurance market. He described OIR's communication with auto insurers to ensure that credits owed to policyholders are paid.
@@ -121,7 +121,7 @@ This market transformation benefits both consumers and insurers by creating sust
 
 Progressive's acknowledgment, quoted in the [Governor's office release](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas), connects Florida's reforms with lower loss costs on certain personal auto accident claims and strong profitability. This helps explain the relationship between the claims environment and the expected policyholder credits.
 
-Rocky Lewis, a licensed insurance agent serving North Florida since 1978, recommends that "every Florida driver should use this market shift as an opportunity to shop their auto coverage. Even if you're happy with your current insurer, the competitive environment means you may find better rates or coverage options by comparing quotes from multiple carriers. An independent agent can help you navigate these options efficiently."
+Rocky Lewis, a licensed insurance agent serving North Florida since 1978, recommends that every Florida driver use this market shift to shop their auto coverage. Even drivers who are happy with their current insurer may find better rates or coverage options by comparing quotes from multiple carriers, and an independent agent can help them compare those options efficiently.
 
 ---
 
