@@ -11,7 +11,7 @@ imageAlt: "Florida home with Citizens Property Insurance eligibility requirement
 
 # Citizens Property Insurance Florida Eligibility: Your 2025 Guide
 
-Citizens Property Insurance continues to evolve as Florida's insurance market transforms. With significant changes happening in 2025, North Florida homeowners in Lake City and surrounding areas need to understand the latest eligibility requirements for this state-backed insurer. By the end of 2025, Citizens' policy count is expected to fall to 385,000, a decrease of 73% from its peak and the lowest level since Citizens was established in 2002.
+Citizens Property Insurance continues to evolve as Florida's insurance market transforms. With significant changes happening in 2025, North Florida homeowners in Lake City and surrounding areas need to understand the latest eligibility requirements for this state-backed insurer. Citizens policies in force have fallen to the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms).
 
 Understanding these eligibility requirements is crucial as the Florida insurance market becomes increasingly competitive, with more private options becoming available and Citizens returning to its intended role as a true insurer of last resort.
 
@@ -60,7 +60,7 @@ One of the most significant aspects of Citizens in 2025 is the aggressive "depop
 
 ### How Depopulation Works
 
-The Citizens Depopulation Program in 2025 successfully transferred more than 546,000 Citizens policies to private insurance companies approved to participate in the program by the Florida Office of Insurance Regulation. Twelve private-market insurers participated in Citizens' depopulation program between January and October 2025, taking out 416,233 policies, with all but 14,732 falling below the 20% threshold, meaning 96.5% were barred by state law from remaining with Citizens.
+The Citizens Depopulation Program moves Citizens policies to private insurance companies approved to participate by the Florida Office of Insurance Regulation. Policyholders who receive a comparable private offer within the 20% threshold generally cannot remain with Citizens.
 
 ### Your Rights During Depopulation
 

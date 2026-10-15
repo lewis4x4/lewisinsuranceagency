@@ -13,7 +13,7 @@ imageAlt: "Florida homeowner reviewing Citizens Insurance eligibility requiremen
 
 Florida homeowners facing the challenge of finding affordable property insurance often turn to Citizens Property Insurance Corporation as their lifeline. As Florida's "insurer of last resort," Citizens may write a new insurance policy only for property that meets one of the following eligibility criteria: Coverage is not available from a Florida-authorized insurance company · Premiums for coverage from Florida-authorized insurance companies are more than 20 percent higher than Citizens' rates. Understanding Citizens insurance eligibility requirements has become crucial for North Florida residents, especially as the insurance landscape continues evolving in 2025.
 
-The good news for Florida homeowners is that significant changes are happening in the insurance market. By the end of 2025, Citizens' policy count is expected to fall to 385,000 a decrease of 73% from the October peak and the lowest level ever for Citizens, which was established in 2002. This dramatic reduction signals a healthier insurance market, but it also means eligibility requirements remain strictly enforced.
+The good news for Florida homeowners is that significant changes are happening in the insurance market. Citizens policies in force have fallen to the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms). This dramatic reduction signals a healthier insurance market, but it also means eligibility requirements remain strictly enforced.
 
 For Lake City and North Florida residents working with Lewis Insurance Agency, understanding when you qualify for Citizens coverage—and when you don't—can save you thousands of dollars annually. Let's explore everything you need to know about Citizens insurance eligibility in 2025.
 
@@ -48,7 +48,7 @@ This means if your property has been deemed unsafe by local authorities or has s
 
 ### Take-Out Program Impact
 
-Tightened Citizens eligibility by steering potential and existing policyholders to private carriers if a comparable policy was available, ensuring the longevity of the program and therefore the predictability of Florida's insurance market. The depopulation program has been highly successful, with Citizens Depopulation Program in 2025 successfully transferred more than 546,000 Citizens policies to private insurance companies approved to participate in the program by the Florida Office of Insurance Regulation.
+Tightened Citizens eligibility by steering potential and existing policyholders to private carriers if a comparable policy was available, ensuring the longevity of the program and therefore the predictability of Florida's insurance market. The depopulation program moves Citizens policies to private insurance companies approved to participate by the Florida Office of Insurance Regulation.
 
 ## How to Apply for Citizens Insurance Coverage
 

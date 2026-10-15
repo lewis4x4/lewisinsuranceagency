@@ -85,7 +85,7 @@ Don't let deadlines cost you coverage. Act promptly after any storm damage.
 
 ### Citizens Insurance Updates
 
-Citizens will end 2025 with its lowest policy count ever—about 385,000 policies—as new carriers have moved into the rejuvenated state arena. Citizens is rapidly becoming the backstop insurer of last resort that lawmakers envisioned when they created the corporation in 2002.
+Citizens policies in force fell to 395,144 as of January 2025, the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms), as new carriers moved into the state. Citizens is rapidly becoming the backstop insurer of last resort that lawmakers envisioned when they created the corporation in 2002.
 
 This improvement means more options for North Florida homeowners who previously relied on Citizens as their only choice.
 

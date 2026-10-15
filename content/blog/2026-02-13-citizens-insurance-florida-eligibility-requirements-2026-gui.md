@@ -13,7 +13,7 @@ imageAlt: "Florida homeowner reviewing Citizens Insurance eligibility requiremen
 
 Citizens Insurance Florida eligibility has undergone dramatic changes as the state's insurance market continues its recovery. With Citizens policies in force below 400,000 as of early 2025, the [lowest level in 14 years](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms), understanding the current eligibility requirements is crucial for Florida homeowners seeking affordable coverage. Florida's insurer of last resort has successfully returned to its intended role, but this means stricter eligibility requirements for new applicants. As a North Florida homeowner, knowing these requirements could help you find coverage that may lower your premium.
 
-Citizens had 395,144 policies on Friday, down from 936,182 policies as 2025 started, according to data posted on its website. Friday's total was the lowest since at least 2012. This dramatic reduction reflects the success of Florida's insurance market reforms and the growing availability of private market alternatives for homeowners across the state.
+As of January 2025, Citizens policies in force declined to 395,144, a 50% reduction from the prior year and the lowest level in 14 years, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms). This dramatic reduction reflects the success of Florida's insurance market reforms and the growing availability of private market alternatives for homeowners across the state.
 
 ## Understanding Citizens Insurance Eligibility Basics
 
@@ -126,7 +126,7 @@ Tankersley added that policyholders with private companies should consider shopp
 
 Citizens has returned to its proper role as Florida's insurer of last resort. This return to its intended function means continued focus on strict eligibility requirements and efforts to move eligible policies to private insurers.
 
-Actual losses have trended below prior projections, reinsurance costs have declined, and Citizens' overall exposure has decreased as policyholders return to the private market. Underwriting conditions across personal insurance lines have also improved significantly. As of January 2025, Citizens policies in force declined to 395,144, representing a 50% reduction from the prior year and the lowest level in 14 years.
+Actual losses have trended below prior projections, reinsurance costs have declined, and Citizens' overall exposure has decreased as policyholders return to the private market. Underwriting conditions across personal insurance lines have also improved significantly. As of January 2025, Citizens policies in force declined to 395,144, representing a 50% reduction from the prior year and the lowest level in 14 years, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms).
 
 For more information about navigating Florida's changing insurance landscape, explore our guide to [Florida property insurance alternatives](/personal/homeowners-insurance-florida).
 

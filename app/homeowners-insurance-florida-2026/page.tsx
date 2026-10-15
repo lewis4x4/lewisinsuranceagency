@@ -81,19 +81,14 @@ const rateChanges = [
 
 const marketHighlights = [
     {
-        stat: "385,000",
+        stat: "395,144",
         label: "Citizens policies",
-        detail: "Down from 1.4M peak in 2023",
+        detail: "Lowest level in 14 years (Jan 2025)",
     },
     {
         stat: "17",
         label: "New carriers",
         detail: "Entered Florida market",
-    },
-    {
-        stat: "546,000",
-        label: "Policies transferred",
-        detail: "From Citizens to private in 2025",
     },
 ]
 
@@ -378,7 +373,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                         </div>
 
                         {/* Market Stats */}
-                        <div className="grid md:grid-cols-3 gap-4 mb-8">
+                        <div className="grid md:grid-cols-2 gap-4 mb-8">
                             {marketHighlights.map((item, index) => (
                                 <Card key={index} className="text-center">
                                     <CardContent className="p-6">

@@ -39,13 +39,13 @@ Wind-only policies are available in certain areas of the state when all eligibil
 
 ## The Dramatic Policy Count Decline
 
-The Citizens depopulation program has been remarkably successful. Citizens' policy count peaked at 1.42 million policies in October 2023, but by the end of 2025, the policy count fell to 385,000 - a decrease of 73% from the peak and the lowest level ever for Citizens.
+The Citizens depopulation program has been remarkably successful. As of January 2025, Citizens policies in force declined to 395,144, a 50% reduction from the prior year and the lowest level in 14 years, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms).
 
 This dramatic reduction means fewer Florida homeowners are eligible for Citizens coverage as private market options have expanded significantly. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, 17 new insurance companies have entered the Florida market.
 
 ### Impact on North Florida Homeowners
 
-For Lake City and North Florida residents, this market improvement brings both opportunities and challenges. While more private insurance options are available, Citizens eligibility has become more restrictive. The Citizens Depopulation Program in 2025 successfully transferred more than 546,000 Citizens policies to private insurance companies.
+For Lake City and North Florida residents, this market improvement brings both opportunities and challenges. While more private insurance options are available, Citizens eligibility has become more restrictive. The Citizens Depopulation Program continues to move policies to private insurance companies.
 
 ## New Flood Insurance Requirements
 
@@ -81,7 +81,7 @@ At Lewis Insurance Agency, we're authorized Citizens agents with over 40 years o
 
 ## The Depopulation Program: What It Means for You
 
-The depopulation program allows private insurers to assume Citizens policies in bulk transfers. The depopulation program allows private insurers to seek approval from state regulators to periodically assume batches of Citizens policies, with 199,434 policies assumed in a recent single week.
+The depopulation program allows private insurers to assume Citizens policies in bulk transfers. The depopulation program allows private insurers to seek approval from state regulators to periodically assume batches of Citizens policies,.
 
 **If You're Selected for Depopulation:**
 - You'll receive notice of the transfer
