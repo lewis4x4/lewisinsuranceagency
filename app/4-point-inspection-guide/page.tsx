@@ -222,7 +222,7 @@ const faqs = [
     },
     {
         question: "Should I get a 4-point and wind mitigation inspection together?",
-        answer: "Yes—bundling saves money and time. Many inspectors offer package pricing ($150-$200 for both). The 4-point is required for insurability; the wind mitigation report can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. Get both done at once.",
+        answer: "Yes, bundling saves money and time. Many inspectors offer package pricing ($150-$200 for both). The 4-point is required for insurability; the wind mitigation report can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. Get both done at once.",
     },
     {
         question: "Can I do a 4-point inspection myself?",
