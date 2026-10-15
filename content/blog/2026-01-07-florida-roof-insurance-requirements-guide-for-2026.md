@@ -77,7 +77,7 @@ The average U.S. home insurance premium increased 24% between 2021 and 2024, out
 
 ### Rate Stabilization Signs
 
-There's some encouraging news in the market. Citizens rate changes vary by policy and location.
+If you're insured with Citizens, rate changes vary by policy and location, so review your renewal notice carefully.
 
 ## Practical Steps for North Florida Homeowners
 

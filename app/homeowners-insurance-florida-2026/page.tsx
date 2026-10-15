@@ -595,11 +595,11 @@ export default function HomeownersInsuranceFlorida2026Page() {
                                 <ul className="space-y-2 text-sm text-lewis-body">
                                     <li className="flex items-start gap-2">
                                         <CheckCircle2 className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
-                                        ~60% of personal lines policyholders would see an average 11.5% reduction (~$359)
+                                        Many personal lines policyholders may see lower rates at renewal
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <AlertTriangle className="h-4 w-4 text-amber-500 flex-shrink-0 mt-0.5" />
-                                        Commercial lines face a proposed 10.4% increase
+                                        Commercial lines rates may move differently from personal lines
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <AlertTriangle className="h-4 w-4 text-amber-500 flex-shrink-0 mt-0.5" />
