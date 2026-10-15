@@ -169,7 +169,7 @@ const savingStrategies = [
     },
     {
         strategy: "Telematics Programs",
-        savings: "Up to 40%",
+        savings: "Varies by driving behavior",
         description: "Usage-based programs reward safe driving habits.",
         icon: Smartphone,
     },
@@ -233,7 +233,7 @@ const faqs = [
     },
     {
         question: "How can I lower my auto insurance premium?",
-        answer: "Bundle home and auto policies (15-20% savings), enroll in telematics programs (up to 40% for safe drivers), maintain a clean driving record, improve your credit score, raise deductibles if you have emergency savings, and shop your policy every 1-2 years. Ask your agent about all available discounts.",
+        answer: "Bundle home and auto policies (15-20% savings), enroll in telematics programs, maintain a clean driving record, improve your credit score, raise deductibles if you have emergency savings, and shop your policy every 1-2 years. Ask your agent about all available discounts.",
     },
     {
         question: "Do I need uninsured motorist coverage in Florida?",
@@ -241,7 +241,7 @@ const faqs = [
     },
     {
         question: "Are telematics programs worth it?",
-        answer: "For safe drivers, yes. Programs like Nationwide SmartRide and State Farm Drive Safe & Save offer discounts up to 40% based on your actual driving habits. They track hard braking, rapid acceleration, nighttime driving, and mileage. Most programs won't raise rates for unsafe driving—you simply won't get the discount.",
+        answer: "For safe drivers, yes. Programs like Nationwide SmartRide and State Farm Drive Safe & Save offer discounts that vary based on your actual driving habits. They track hard braking, rapid acceleration, nighttime driving, and mileage. Most programs won't raise rates for unsafe driving. You simply won't get the discount.",
     },
     {
         question: "How much does a DUI affect insurance rates?",
@@ -788,7 +788,7 @@ export default function AutoInsuranceFlorida2026Page() {
                             <CardContent className="p-6">
                                 <h3 className="font-semibold text-lewis-ink mb-4 flex items-center gap-2">
                                     <Smartphone className="h-5 w-5 text-lewis-blue" />
-                                    Telematics Programs: Up to 40% Savings
+                                    Telematics Programs: Savings Vary by Driving Behavior
                                 </h3>
                                 <p className="text-lewis-body text-sm mb-4">
                                     Usage-based programs track your driving habits and reward safe drivers. Most programs won&apos;t raise

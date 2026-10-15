@@ -60,7 +60,7 @@ const pageData: CityServicePageData = {
         },
         {
             question: "What's a wind mitigation inspection?",
-            answer: "A wind mitigation inspection documents hurricane-resistant features in your home. In Tampa, these credits can save hundreds or thousands annually. We can recommend qualified inspectors.",
+            answer: "A wind mitigation inspection documents hurricane-resistant features in your home. In Tampa, an inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer. We can recommend qualified inspectors.",
         },
         {
             question: "Has Tampa insurance changed after recent hurricanes?",

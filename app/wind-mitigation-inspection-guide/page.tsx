@@ -34,7 +34,7 @@ const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
     title: "Florida Wind Mitigation Inspection Guide | Lewis Insurance",
-    description: "Learn how a Florida wind mitigation inspection can save you hundreds on homeowners insurance. What inspectors check, costs, and how to prepare.",
+    description: "Learn how a Florida wind mitigation inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
     alternates: {
         canonical: `${baseUrl}/wind-mitigation-inspection-guide`,
     },
@@ -197,7 +197,7 @@ const preparationTips = [
 const faqs = [
     {
         question: "How much does a wind mitigation inspection cost in Florida?",
-        answer: "A wind mitigation inspection typically costs $75-$150 in Florida, depending on your location and the inspector. Many inspectors offer discounts when combined with a 4-point inspection. The inspection usually pays for itself within the first year through premium savings—often many times over.",
+        answer: "A wind mitigation inspection typically costs $75-$150 in Florida, depending on your location and the inspector. Many inspectors offer discounts when combined with a 4-point inspection. An inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
     },
     {
         question: "How much can I save with a wind mitigation inspection?",
@@ -300,8 +300,8 @@ export default function WindMitigationInspectionGuidePage() {
                                     </p>
                                     <p className="text-lewis-body">
                                         A wind mitigation inspection documents hurricane-resistant features in your
-                                        home that qualify you for insurance discounts. For $75-$150, you could save
-                                        hundreds—or even thousands—annually on your Florida homeowners insurance.
+                                        home. For $75-$150, an inspection can qualify you for discounts on the windstorm
+                                        portion of your premium. Savings vary by home and insurer.
                                     </p>
                                 </div>
                             </div>

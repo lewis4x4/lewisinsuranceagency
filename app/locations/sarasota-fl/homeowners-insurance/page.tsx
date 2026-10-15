@@ -44,7 +44,7 @@ const pageData: CityServicePageData = {
         "Hurricane deductibles typically range from 2-5% of dwelling coverage",
         "Barrier island properties face additional underwriting requirements",
         "Roof age significantly impacts rates—newer roofs get better pricing",
-        "Wind mitigation inspections can save hundreds or thousands annually",
+        "Wind mitigation inspections can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
         "Flood insurance is separate and essential for Sarasota properties",
         "Lakewood Ranch and inland areas may have different risk profiles",
     ],

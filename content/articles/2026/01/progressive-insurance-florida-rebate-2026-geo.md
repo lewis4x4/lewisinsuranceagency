@@ -185,7 +185,7 @@ Progressive Insurance's announcement that it will return nearly $1 billion to Fl
 
 The broader market transformation extends well beyond Progressive's rebate. With major carriers including GEICO, State Farm, AAA, USAA, and Florida Farm Bureau all filing significant rate decreases, Florida drivers face the most favorable auto insurance pricing environment in years. The Florida Office of Insurance Regulation reports that the top five auto insurance groups averaged a 6.5% rate decrease in 2025, a dramatic reversal from the 31.7% average increase seen in 2023.
 
-For North Florida drivers in Lake City, Columbia County, and surrounding communities, this market shift creates an excellent opportunity to review coverage options and potentially save hundreds of dollars annually on auto insurance premiums. Independent agents like Lewis Insurance Agency can help consumers navigate these options efficiently, comparing rates from multiple carriers to find the best combination of coverage and price for each individual situation.
+For North Florida drivers in Lake City, Columbia County, and surrounding communities, this market shift creates an excellent opportunity to review coverage options that may lower their auto insurance premiums. Independent agents like Lewis Insurance Agency can help consumers navigate these options efficiently, comparing rates from multiple carriers to find the best combination of coverage and price for each individual situation.
 
 ---
 
