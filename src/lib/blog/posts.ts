@@ -61,7 +61,7 @@ Florida law requires insurers to offer discounts for hurricane-resistant feature
 - Opening protection (shutters, impact windows)
 - Secondary water resistance
 
-These discounts can save hundreds or even thousands annually. If you haven't had a wind mitigation inspection, schedule one.
+These discounts apply to the windstorm portion of your premium. Savings vary by home and insurer. If you haven't had a wind mitigation inspection, schedule one.
 
 ### Tips for Finding Affordable Coverage
 
@@ -253,14 +253,14 @@ No. Vehicle damage from hurricanes is covered by your auto insurance's comprehen
     {
         slug: "wind-mitigation-inspection-guide",
         title: "Wind Mitigation Inspections: Save Money on Florida Home Insurance",
-        description: "Learn how wind mitigation inspections can save you hundreds on Florida homeowners insurance. What inspectors look for and how to maximize your discounts.",
-        excerpt: "Wind mitigation inspections document hurricane-resistant features in your home and can save Florida homeowners hundreds or thousands on insurance premiums.",
+        description: "Learn how wind mitigation inspections can qualify you for discounts on the windstorm portion of your premium. What inspectors look for and how to maximize your discounts.",
+        excerpt: "Wind mitigation inspections document hurricane-resistant features in your home and can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
         content: `
 ## What Is a Wind Mitigation Inspection?
 
 A wind mitigation inspection is a detailed assessment of your home's ability to withstand hurricane-force winds. Florida law requires insurance companies to offer premium discounts for homes with hurricane-resistant features.
 
-The inspection documents specific construction features that reduce wind damage risk, and the resulting discounts can be substantial—often saving homeowners hundreds or even thousands of dollars annually.
+The inspection documents specific construction features that reduce wind damage risk, and the resulting discounts apply to the windstorm portion of your premium. Savings vary by home and insurer.
 
 ### What Does the Inspector Look For?
 
@@ -336,7 +336,7 @@ Homes built after 2002 to the Florida Building Code often have many of these fea
 
 #### Inspection Costs
 
-Wind mitigation inspections typically cost $75-150. Given potential savings of hundreds or thousands annually, the return on investment is excellent.
+Wind mitigation inspections typically cost $75-150. Savings vary by home and insurer, and an inspection can qualify you for discounts on the windstorm portion of your premium.
 
 ### Maximizing Your Discounts
 

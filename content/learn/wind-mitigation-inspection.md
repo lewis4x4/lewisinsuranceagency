@@ -9,7 +9,7 @@ date: "2025-01-01"
 
 ## The Simple Answer
 
-A wind mitigation inspection documents how well your home is built to withstand hurricane-force winds. Florida law requires insurance companies to give you discounts if your home has certain wind-resistant features. One $75–$150 inspection can save you hundreds—sometimes thousands—on your annual premium.
+A wind mitigation inspection documents how well your home is built to withstand hurricane-force winds. Florida law requires insurance companies to give you discounts if your home has certain wind-resistant features. One $75-$150 inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.
 
 ---
 

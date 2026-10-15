@@ -89,7 +89,7 @@ The program prioritizes certain groups: In 2024, new grant applications were wei
 
 According to home renovation expert Bob Vila, a wind mitigation inspection costs about $100 but can vary based on the area you live in Florida. Most inspections cost between $75 and $150, depending on location, roof size, and overall home features.
 
-For less than $150, a Florida wind mitigation inspection could save you hundreds or even thousands every year on insurance premiums.
+For less than $150, a Florida wind mitigation inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.
 
 ### Who Can Perform Inspections
 

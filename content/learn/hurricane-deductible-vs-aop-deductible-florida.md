@@ -38,7 +38,7 @@ Many homeowners don't realize their hurricane deductible is a percentage until a
 When choosing your deductibles, consider:
 
 - **Your emergency fund:** Can you afford a 5% hurricane deductible if a storm hits? If your home is insured for $400,000, that's $20,000 out of pocket.
-- **Premium impact:** Higher deductibles lower your premium. You might save hundreds per year with a 5% hurricane deductible vs. 2%—but you're taking on more risk.
+- **Premium impact:** Higher deductibles lower your premium. A 5% hurricane deductible may lower your premium compared with 2%. But you're taking on more risk.
 - **Your risk tolerance:** Some homeowners prefer lower deductibles for peace of mind, even at a higher premium.
 
 There's no one-size-fits-all answer. We can show you the premium difference between deductible options so you can make an informed choice.
