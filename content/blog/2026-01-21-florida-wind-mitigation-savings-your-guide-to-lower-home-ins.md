@@ -76,13 +76,13 @@ The savings from wind mitigation can be substantial. Many homeowners may see eno
 
 For homes in the North Florida region, including Lake City, insurance premiums are typically lower than coastal areas. Premiums closer to statewide averages can be found in the central region of the state, including the Tampa and Orlando areas, while homes in northern inland counties can typically be insured for below-average prices.
 
-### Progressive's Wind Mitigation Credits
+### Wind Mitigation Credits
 
-Homeowners and dwelling policyholders that have Windstorm or Hail as a defined covered loss on their policy, a policy credit may be available to you. Premium credits are applied from the date of the wind mitigation inspection or to the start of your Progressive Home policy, whichever occurs later.
+If your homeowners or dwelling policy covers windstorm or hail, you may qualify for a wind mitigation credit. Many insurers apply credits from the date of the inspection or the start of the policy, whichever is later.
 
 ### Homes Built After 2002
 
-Good news for newer construction: If your home was built after 2002—good news! You automatically receive default credits on your Progressive homeowners policy. But more discounts may be available to you.
+Good news for newer construction: most insurers apply default credits for homes built to post-2002 code. More discounts may be available to you.
 
 ## The Wind Mitigation Inspection Process
 
