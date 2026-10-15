@@ -102,7 +102,7 @@ const coverageChecklist = [
         title: "Coverage A: Dwelling Coverage",
         icon: Home,
         what: "Should reflect current cost to rebuild your home—not market value or purchase price.",
-        warning: "Construction costs up 5-10% annually. If you haven't updated limits, you may be underinsured.",
+        warning: "Rising construction costs can outpace your coverage limits. If you haven't updated limits, you may be underinsured.",
         action: "Request a replacement cost estimate from your carrier or agent.",
     },
     {

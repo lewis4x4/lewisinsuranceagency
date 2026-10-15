@@ -28,7 +28,7 @@ The impact is substantial:
 **When will you see the savings?** Rate reductions take effect at your policy renewal starting in **Spring 2026**. If your renewal is in April or later, you should see the new rates reflected.
 
 Private carriers are following suit. Recent filings show:
-- **Florida Peninsula**: 8.2% decrease
+- **Florida Peninsula**: filed for a decrease; changes vary by policy
 - **Security First**: 8% decrease
 - **Universal Property & Casualty**: 5.1% decrease
 
