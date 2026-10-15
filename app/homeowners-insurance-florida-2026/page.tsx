@@ -73,10 +73,10 @@ export const metadata: Metadata = {
 }
 
 const rateChanges = [
-    { carrier: "State Farm", change: "-10%", note: "Filed for reduction" },
-    { carrier: "Florida Peninsula", change: "-8.4%", note: "Approved" },
-    { carrier: "Patriot Select", change: "-11.3%", note: "Filed" },
-    { carrier: "Heritage Property", change: "-3.3%", note: "Filed" },
+    { carrier: "State Farm", change: "Varies", note: "Check your renewal" },
+    { carrier: "Florida Peninsula", change: "Varies", note: "Check your renewal" },
+    { carrier: "Patriot Select", change: "Varies", note: "Check your renewal" },
+    { carrier: "Heritage Property", change: "Varies", note: "Check your renewal" },
 ]
 
 const marketHighlights = [
@@ -211,7 +211,7 @@ const reviewQuestions = [
 const faqs = [
     {
         question: "Are Florida homeowners insurance rates going down in 2026?",
-        answer: "Some carriers are filing for rate decreases. Private carriers like State Farm (-10%), Florida Peninsula (-8.4%), and Patriot Select (-11.3%) have also filed for reductions. However, not every homeowner will see lower premiums, and individual rates depend on location, roof age, claims history, and coverage levels.",
+        answer: "Some carriers have filed for rate decreases, including private carriers like State Farm, Florida Peninsula, and Patriot Select. Changes vary by carrier and policy. However, not every homeowner will see lower premiums, and individual rates depend on location, roof age, claims history, and coverage levels.",
     },
     {
         question: "What roof age requirements exist for Florida homeowners insurance?",
@@ -219,7 +219,7 @@ const faqs = [
     },
     {
         question: "What is a wind mitigation inspection and is it worth it?",
-        answer: "A wind mitigation inspection evaluates your home's ability to withstand hurricane-force winds and can result in discounts on the windstorm portion of the homeowners premium. Inspection costs vary by inspector. The inspection examines roof covering, deck attachment, roof-to-wall connections, opening protection, roof shape, and secondary water resistance. For most Florida homeowners, it's absolutely worth the investment.",
+        answer: "A wind mitigation inspection evaluates your home's ability to withstand hurricane-force winds and can result in discounts on the windstorm portion of the homeowners premium. Inspection costs vary by inspector. The inspection examines roof covering, deck attachment, roof-to-wall connections, opening protection, roof shape, and secondary water resistance. For many Florida homeowners, it's worth considering.",
     },
     {
         question: "Does homeowners insurance cover flood damage in Florida?",
