@@ -17,7 +17,7 @@ For homeowners in North Florida—from Jacksonville to Gainesville to Lake City 
 
 ## What's Happening: The Rate Reductions Explained
 
-Citizens Property Insurance Corporation, Florida's state-backed insurer of last resort, has approved an **average rate reduction of 8.7%** for personal lines policyholders. This is the first decrease since 2015—a decade of rate increases finally reversed.
+Citizens Property Insurance Corporation, Florida's state-backed insurer of last resort, has approved an **average rate reduction of 8.7%** for personal lines policyholders.
 
 The impact is substantial:
 
@@ -27,8 +27,8 @@ The impact is substantial:
 
 **When will you see the savings?** Rate reductions take effect at your policy renewal starting in **Spring 2026**. If your renewal is in April or later, you should see the new rates reflected.
 
-Private carriers are following suit. Recent filings show:
-- **Florida Peninsula**: filed for a decrease; changes vary by policy
+Private carriers are following suit. Recent reductions reported by the Governor's office:
+- **Florida Peninsula**: 8.2% decrease ([source: Governor's office, Jan 2026](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms))
 - **Security First**: 8% decrease
 - **Universal Property & Casualty**: 5.1% decrease
 
@@ -46,7 +46,7 @@ The rate relief didn't happen by accident. It's the direct result of legislative
 
 ### The Results Speak for Themselves
 
-Before the reforms, Florida accounted for just 8% of homeowners insurance claims nationally—but **76% of all homeowners insurance litigation**. That imbalance is now correcting:
+Before the reforms, litigation drove up homeowners insurance costs in Florida. That is now correcting:
 
 - Litigation between plaintiffs and insurers has dropped dramatically
 - Florida's ranking for "nuclear verdicts" (massive jury awards) fell from 2nd nationally to 10th
@@ -91,7 +91,7 @@ With more carriers writing in Florida, you have more options. This is a good tim
 
 ### Rate Stabilization Across the Market
 
-The reforms don't just help Citizens—they've stabilized the entire Florida market. Average rate increases across all insurers dropped from **21% in 2023** to a projected **0.2% in 2025**. That's essentially flat, a dramatic improvement from the double-digit increases homeowners faced in recent years.
+The reforms don't just help Citizens. Rate changes across the broader Florida market have also moderated after the double-digit increases homeowners faced in recent years.
 
 ### Shop Before You Renew
 

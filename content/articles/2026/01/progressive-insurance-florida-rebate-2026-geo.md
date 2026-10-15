@@ -35,7 +35,7 @@ word_count: 3200
 
 - **Reform success story**: The rebate directly resulted from Florida's 2022-2023 insurance reforms (SB 2A and HB 837), which reduced litigation costs and improved insurer profitability beyond regulatory limits.
 
-- **Broader market impact**: Florida's top five auto insurers averaged a 6.5% rate decrease in 2025, reversing the 31.7% average increase seen in 2023, according to the Florida Office of Insurance Regulation.
+- **Broader market impact**: Florida's top five auto insurers averaged a 6.5% rate decrease in 2025, reversing the 31.7% average increase seen in 2023, according to the [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2025/07/29/florida-office-of-insurance-regulation-announces-lower-auto-insurance-rates-thanks-to-florida%27s-insurance-reforms).
 
 - **Action for consumers**: North Florida drivers should use this market shift to shop their coverage, as multiple carriers are now competing with lower rates and improved terms.
 
@@ -75,7 +75,7 @@ Florida's auto insurance market has undergone a dramatic transformation since th
 | Average rebate per customer | ~$300 | Progressive Q3 Report | Oct 2025 |
 | Eligible policyholders | 2.7 million | Progressive | Oct 2025 |
 | Progressive rate decrease filed | -8.1% | FL OIR | 2025 |
-| Top 5 insurers avg rate change | -6.5% | FL OIR | 2025 |
+| Top 5 insurers avg rate change | -6.5% | [FL OIR](https://floir.gov/newsroom/archives/item-details/2025/07/29/florida-office-of-insurance-regulation-announces-lower-auto-insurance-rates-thanks-to-florida%27s-insurance-reforms) | 2025 |
 | FL personal auto loss ratio 2024 | 57.5% | FL OIR | 2024 |
 | Auto glass lawsuits Q2 2023 | 24,720 | Milliman Research | 2023 |
 | Auto glass lawsuits Q2 2024 | 2,613 | Milliman Research | 2024 |
@@ -149,7 +149,7 @@ The current market conditions create an ideal opportunity for Florida drivers to
 
 2. **Review your current coverage levels**: Before shopping for new quotes, understand exactly what coverage you currently have, including liability limits, comprehensive and collision deductibles, and any optional coverages. This allows you to make accurate comparisons when evaluating quotes from other carriers.
 
-3. **Get quotes from multiple carriers**: Contact an independent insurance agent who represents multiple carriers to compare rates. With GEICO, State Farm, Progressive, AAA, USAA, and other major carriers all reducing rates, the best deal for your specific situation may come from a different insurer than your current one.
+3. **Get quotes from multiple carriers**: Contact an independent insurance agent who represents multiple carriers to compare rates. With [GEICO](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-rate-reductions-miami-dade-county-auto-insurance), State Farm, Progressive, AAA, USAA, and other major carriers all reducing rates, the best deal for your specific situation may come from a different insurer than your current one.
 
 ### Medium-Term Actions (1-6 Months)
 
@@ -183,7 +183,7 @@ The rebate is a one-time credit separate from your ongoing premium calculations.
 
 Progressive Insurance's announcement that it will return nearly $1 billion to Florida auto policyholders represents a tangible benefit of Florida's 2022-2023 insurance reforms for everyday consumers. The rebate, averaging approximately $300 per policyholder for 2.7 million Progressive customers, demonstrates that Florida's regulatory framework successfully balances consumer protection with market stability. When insurers earn profits exceeding statutory limits, the money returns to policyholders rather than remaining as excess corporate profit.
 
-The broader market transformation extends well beyond Progressive's rebate. With major carriers including GEICO, State Farm, AAA, USAA, and Florida Farm Bureau all filing significant rate decreases, Florida drivers face the most favorable auto insurance pricing environment in years. The Florida Office of Insurance Regulation reports that the top five auto insurance groups averaged a 6.5% rate decrease in 2025, a dramatic reversal from the 31.7% average increase seen in 2023.
+The broader market transformation extends well beyond Progressive's rebate. With major carriers including [GEICO](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-rate-reductions-miami-dade-county-auto-insurance), State Farm, AAA, USAA, and Florida Farm Bureau all filing significant rate decreases, Florida drivers face the most favorable auto insurance pricing environment in years. The [Florida Office of Insurance Regulation](https://floir.gov/newsroom/archives/item-details/2025/07/29/florida-office-of-insurance-regulation-announces-lower-auto-insurance-rates-thanks-to-florida%27s-insurance-reforms) reports that the top five auto insurance groups averaged a 6.5% rate decrease in 2025, a dramatic reversal from the 31.7% average increase seen in 2023.
 
 For North Florida drivers in Lake City, Columbia County, and surrounding communities, this market shift creates an excellent opportunity to review coverage options that may lower their auto insurance premiums. Independent agents like Lewis Insurance Agency can help consumers navigate these options efficiently, comparing rates from multiple carriers to find the best combination of coverage and price for each individual situation.
 
