@@ -154,11 +154,11 @@ const mySafeFloridaHome = [
     },
     {
         benefit: "Low-Income Grants",
-        detail: "May cover 100% of improvement costs for qualifying homeowners",
+        detail: "Low-income applicants may receive a grant of up to $10,000 with no matching amount required; costs above the grant are the homeowner's responsibility",
     },
     {
         benefit: "Premium Savings",
-        detail: "Wind mitigation improvements can reduce premiums up to 50%",
+        detail: "Insurer discounts for wind mitigation features apply to the windstorm portion of your premium",
     },
     {
         benefit: "Free Inspection",
@@ -171,6 +171,7 @@ const eligibilityRequirements = [
     "Dwelling insured value $700,000 or less",
     "Building permit issued before January 1, 2008",
     "Property located in Florida and serves as primary residence",
+    "For grants: applicant must be a low-income or moderate-income person as defined in s. 420.0004, Florida Statutes",
 ]
 
 const qualifyingImprovements = [
@@ -226,7 +227,7 @@ const faqs = [
     },
     {
         question: "What is the My Safe Florida Home program?",
-        answer: "My Safe Florida Home provides free wind mitigation inspections and matching grants (up to $10,000) for hurricane-hardening improvements. The state provides $2 for every $1 you invest. While improvements aren't directly tax deductible, they can reduce insurance premiums by up to 50%.",
+        answer: "My Safe Florida Home provides free wind mitigation inspections and matching grants (up to $10,000) for hurricane-hardening improvements. The state provides $2 for every $1 you invest. While improvements aren't directly tax deductible, they can lower the windstorm portion of your insurance premium.",
     },
     {
         question: "Are wind mitigation improvements tax deductible?",
