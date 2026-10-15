@@ -49,9 +49,9 @@ The rate relief didn't happen by accident. It's the direct result of legislative
 Before the reforms, litigation drove up homeowners insurance costs in Florida. That is now correcting:
 
 - Litigation between plaintiffs and insurers has dropped dramatically
-- Florida's ranking for "nuclear verdicts" (massive jury awards) fell from 2nd nationally to 10th
+- Florida's ranking for "nuclear verdicts" (massive jury awards) fell from 2nd nationally to 10th, according to [Milliman](https://www.milliman.com/en/insight/how-tort-reforms-shaping-insurance-claims-florida-georgia)
 - The Florida property-casualty industry's financial results have improved since the reforms
-- **17 new insurance companies** have entered or re-entered the Florida market
+- **17 new insurance companies** have entered the Florida market, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms)
 
 More competition means better rates and more choices for homeowners.
 

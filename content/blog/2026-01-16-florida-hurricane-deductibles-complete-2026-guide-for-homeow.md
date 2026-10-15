@@ -69,7 +69,7 @@ A hurricane deductible applies only to hurricanes. If a storm is downgraded from
 
 ## 2026 Cost Trends and Market Changes
 
-The Florida insurance market is experiencing positive changes heading into 2026. S&P Global recently delivered some welcome news – Florida experienced just a 1% homeowners rate increase in 2024, the smallest jump since 2019. After years of painful double-digit premium hikes that had homeowners reaching for the antacids, this moderation feels like finding water in the desert.
+The Florida insurance market is experiencing positive changes heading into 2026. Citing S&P Global, the [Governor's office reported](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) that Florida had the lowest average homeowners rate increase in the nation in 2024, just one percent. After years of painful double-digit premium hikes that had homeowners reaching for the antacids, this moderation feels like finding water in the desert.
 
 ### Average Costs in 2026
 

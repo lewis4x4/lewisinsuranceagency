@@ -76,7 +76,7 @@ Citizens requires documentation of full roof replacement for homes with tile, sl
 
 ### Private Insurance Companies
 
-Most private carriers follow the state's 15-year rule but may have additional underwriting guidelines. Recent reporting shows Florida leads the U.S. in home insurance nonrenewals, with a 280% increase since 2018, though roof age isn't always the main factor.
+Most private carriers follow the state's 15-year rule but may have additional underwriting guidelines. Nonrenewals have been a concern in Florida, though roof age isn't always the main factor.
 
 ## Wind Mitigation and Premium Savings
 

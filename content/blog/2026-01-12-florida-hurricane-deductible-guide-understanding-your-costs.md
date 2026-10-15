@@ -39,7 +39,7 @@ Florida insurers are required to offer deductible options of $500, 2%, 5%, or 10
 
 ### Key 2026 Changes
 
-The Florida insurance market continues evolving with positive trends. S&P Global recently delivered some welcome news – Florida experienced just a 1% homeowners rate increase in 2024, the smallest jump since 2019. However, Florida homeowners insurance 2025 rates still exceed national averages by 24%.
+The Florida insurance market continues evolving with positive trends. Citing S&P Global, the [Governor's office reported](https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-1-billion-auto-insurance-refunds-result-floridas) that Florida had the lowest average homeowners rate increase in the nation in 2024, just one percent. However, Florida homeowners insurance rates still exceed national averages.
 
 ## Understanding Your Financial Impact
 
