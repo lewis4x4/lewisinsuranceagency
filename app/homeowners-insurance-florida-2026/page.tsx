@@ -589,8 +589,8 @@ export default function HomeownersInsuranceFlorida2026Page() {
                         <Card className="mb-6">
                             <CardContent className="p-6">
                                 <p className="text-lewis-body mb-4">
-                                    Citizens Property Insurance rate changes vary,
-                                    and actual impacts vary significantly by county and policy type:
+                                    Citizens Property Insurance rate changes vary by policy and location.
+                                    Impacts can include:
                                 </p>
                                 <ul className="space-y-2 text-sm text-lewis-body">
                                     <li className="flex items-start gap-2">

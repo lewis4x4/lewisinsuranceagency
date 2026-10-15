@@ -85,7 +85,7 @@ At Lewis Insurance Agency, we're authorized Citizens agents with over 40 years o
 
 ### What to Expect from Citizens Rates
 
-Citizens' 2026 rates will take effect on June 1, 2026, following regulatory review and public hearings. Citizens has recommended significant rate changes for 2026, with the Board of Governors voting to file for an average rate cut of 2.6% for personal lines.
+Citizens' 2026 rates will take effect on June 1, 2026, following regulatory review and public hearings. Citizens rate changes vary by policy and location.
 
 However, rate changes vary significantly by region. While most South Florida customers could see significant rate decreases in 2026, many Central Florida counties including Orange, Osceola, Lake and Brevard will see increases.
 
