@@ -94,7 +94,7 @@ Build an emergency fund to help cover the deductible in case of storm damage. Fi
 If your policy has a 5% hurricane deductible, ask your agent what it would cost to lower it to 2% or 3%. The premium difference varies by home and insurer, so compare it against the out-of-pocket cost you would face after a hurricane loss.
 
 ### Wind Mitigation Credits
-Florida law requires insurers to offer discounts for hurricane-resistant features. Missing credits can mean paying more on the windstorm portion of your premium. Inspection costs vary by inspector. Get a wind mitigation inspection if you haven't, or if you've made improvements.
+Florida law requires insurers to offer discounts for hurricane-resistant features. Missing credits can mean paying more than you need to on the windstorm portion of your premium. Inspection costs vary by inspector. Get a wind mitigation inspection if you haven't, or if you've made improvements.
 
 ## Special Considerations for North Florida
 

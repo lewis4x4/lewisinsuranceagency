@@ -319,7 +319,7 @@ export default function WindMitigationInspectionGuidePage() {
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <CheckCircle2 className="h-4 w-4 text-green-600" />
-                                <span>Pays for itself quickly</span>
+                                <span>Can qualify you for windstorm discounts</span>
                             </div>
                         </div>
 
@@ -572,7 +572,7 @@ export default function WindMitigationInspectionGuidePage() {
                         <Card className="border-lewis-blue/20 bg-lewis-blue/5">
                             <CardContent className="p-6 text-center">
                                 <p className="text-lewis-ink font-medium mb-2">
-                                    Even if your home has minimal features, the inspection often pays for itself.
+                                    Even if your home has minimal features, the inspection can still document features that qualify for discounts.
                                 </p>
                                 <p className="text-lewis-body text-sm">
                                     And you&apos;ll know exactly what upgrades would provide the best ROI if you decide to improve your home&apos;s wind resistance.

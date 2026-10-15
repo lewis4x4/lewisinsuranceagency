@@ -131,7 +131,7 @@ const coverageChecklist = [
         title: "Wind Mitigation Credits",
         icon: Shield,
         what: "Florida law requires insurers to offer discounts for hurricane-resistant features.",
-        warning: "Missing credits can mean paying more on the windstorm portion of your premium. Inspection costs vary by inspector.",
+        warning: "Missing credits can mean paying more than you need to on the windstorm portion of your premium. Inspection costs vary by inspector.",
         action: "Get a wind mitigation inspection if you haven't, or if you've made improvements.",
     },
     {

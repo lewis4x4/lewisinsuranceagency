@@ -48,7 +48,7 @@ Jacksonville carriers pay close attention to roof condition. Many won't write po
 - **4-Point Inspection**: Evaluates roof, electrical, plumbing, and HVAC
 - **Wind Mitigation Inspection**: Documents hurricane-resistant features for potential discounts
 
-Roof replacement can be expensive, but it often pays for itself through reduced premiums and improved insurability.
+Roof replacement can be expensive, but it can improve insurability and may qualify you for premium discounts.
 
 ## Beach and Coastal Properties
 
