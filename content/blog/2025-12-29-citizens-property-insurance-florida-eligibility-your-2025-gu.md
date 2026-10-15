@@ -120,7 +120,7 @@ Before seeking Citizens coverage, understand these key limitations:
 
 ### Assessment Risk
 
-Citizens policyholders are subject to a high assessment charge or Policyholder Surcharge (up to 45% of their premium) if a major storm or event uses up Citizens funds to pay out claims. Florida policyholders who are not insured through Citizens can only be billed up to 2% of their premium for an assessment charge.
+If a major storm or event leaves Citizens with a deficit, Citizens policyholders can be charged a Citizens Policyholder Surcharge of up to 15% of premium, and if a deficit remains, emergency assessments of up to 10% per year that also apply to most private-market policyholders (F.S. 627.351(6)(b)3).
 
 ### Limited Coverage Options
 

@@ -78,7 +78,7 @@ For homes in the North Florida region, including Lake City, insurance premiums a
 
 ### Progressive's Wind Mitigation Credits
 
-Homeowners and dwelling policyholders that have Windstorm or Hail as a defined covered loss on their policy, a policy credit (up to a maximum of 90% inclusive of any Building Code Effectiveness Grading discount) may be available to you. Premium credits are applied from the date of the wind mitigation inspection or to the start of your Progressive Home policy, whichever occurs later.
+Homeowners and dwelling policyholders that have Windstorm or Hail as a defined covered loss on their policy, a policy credit may be available to you. Premium credits are applied from the date of the wind mitigation inspection or to the start of your Progressive Home policy, whichever occurs later.
 
 ### Homes Built After 2002
 
@@ -143,7 +143,7 @@ The Florida Office of Insurance Regulation provides valuable resources for homeo
 ## Frequently Asked Questions
 
 ### How much can I save with wind mitigation features?
-Savings vary by carrier and home features, but many homeowners see the inspection cost recovered within the first year. Some carriers offer up to 90% in combined discounts for well-protected homes.
+Savings vary by carrier and home features, but many homeowners see the inspection cost recovered within the first year.
 
 ### Do I need to upgrade my home to get discounts?
 Not necessarily. Many homes already have qualifying features. The inspection will identify existing wind-resistant elements that may already qualify you for discounts.
