@@ -63,7 +63,7 @@ Florida law requires insurers to provide discounts for homes with wind mitigatio
 
 ### Potential Savings
 
-Homes with hurricane straps, sealed decks, and impact-resistant materials can save 10% to 45% on premiums. That's $300 to $1,350 yearly on a $3,000 policy. Over 25 years, you're looking at $30,000 in savings.
+Homes with hurricane straps, sealed decks, and impact-resistant materials can qualify for discounts on the windstorm portion of the homeowners premium. Savings vary by home, feature, and insurer.
 
 The key benefits of wind mitigation include:
 - Hurricane straps and reinforced connections

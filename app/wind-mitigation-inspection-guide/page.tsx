@@ -155,7 +155,7 @@ const savingsExamples = [
     },
     {
         feature: "Opening protection (all windows/doors)",
-        typicalSavings: "15-45%",
+        typicalSavings: "Varies (wind portion only)",
     },
     {
         feature: "Secondary water resistance",
@@ -201,7 +201,7 @@ const faqs = [
     },
     {
         question: "How much can I save with a wind mitigation inspection?",
-        answer: "Savings vary widely based on your home's features. Homes with all opening protection (impact windows/shutters), hurricane straps, hip roofs, and secondary water resistance can save 20-45% on the wind portion of their premium. Even homes with just a few features can save hundreds annually.",
+        answer: "Savings vary widely based on your home's features. Homes with all opening protection (impact windows/shutters), hurricane straps, hip roofs, and secondary water resistance can qualify for discounts on the wind portion of their homeowners premium. Even homes with just a few features may qualify for savings.",
     },
     {
         question: "How long is a wind mitigation inspection valid?",
