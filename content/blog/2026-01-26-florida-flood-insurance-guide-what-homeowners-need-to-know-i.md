@@ -23,17 +23,17 @@ Senate Bill 2A established Florida as the first state requiring flood insurance 
 
 The Citizens flood insurance requirement follows a specific rollout schedule based on your home's replacement value:
 
-- **January 1, 2025**: Homes with dwelling coverage of $500,000 or more
-- **January 1, 2026**: Properties valued at $400,000 or more must have flood coverage
+- **January 1, 2025**: Homes with dwelling replacement cost of $500,000 or more, for Citizens policies effective on or after January 1, 2025
+- **January 1, 2026**: Homes with dwelling replacement cost of $400,000 or more, for Citizens policies effective on or after January 1, 2026
 - **January 1, 2027**: All Citizens-covered structures will need flood coverage
 
 This requirement applies even if you're not in a designated high-risk flood zone, representing a fundamental shift in how Florida approaches flood protection.
 
 ### Why This Change is Happening
 
-Florida lawmakers passed this legislation in 2023 following lessons learned from recent hurricanes. The goal is protecting homeowners from devastating out-of-pocket expenses when floods strike – and they do strike frequently in Florida.
+Florida lawmakers passed this requirement in the December 2022 special session ([SB 2-A, ch. 2022-271, Laws of Fla.](https://laws.flrules.org/2022/271)). The goal is protecting homeowners from devastating out-of-pocket expenses when floods strike – and they do strike frequently in Florida.
 
-Consider these sobering statistics: Only 13% of Florida's 11 million households have flood insurance, meaning 8 out of 10 households are not protected. Even more concerning, just one inch of flood water can cause more than $25,000 in damage.
+Consider this: just one inch of flood water can cause more than $25,000 in damage.
 
 ## Understanding Florida's Unique Flood Risk
 
@@ -177,13 +177,13 @@ In a 30-year mortgage, a home has a 26% chance of being involved in a flood comp
 
 ### Insurance Market Improvements
 
-There's positive news for Florida homeowners regarding the overall insurance market. Governor DeSantis announced that property insurance premiums are falling significantly, with a statewide average reduction of 8.7% for Citizens Property Insurance policyholders.
+There's positive news for Florida homeowners regarding the overall insurance market. [Governor DeSantis announced](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) a statewide average reduction of 8.7% for Citizens Property Insurance policyholders, beginning at Spring 2026 renewals.
 
-The reduction is primarily due to legal reforms in 2023 that curbed abusive litigation and contractor fraud, allowing 17 new insurers to enter the market, increasing competition and lowering prices for the first time in a decade.
+Reforms passed in 2022 and 2023 aimed to reduce litigation costs, and new insurers have entered the Florida market since.
 
 ### New Map Updates
 
-FEMA has updated select flood maps to better reflect local flood risks. These possible changes to Flood Insurance Rate Maps may affect your property and flood insurance requirements, with an expected effective date of Summer 2026.
+FEMA has updated select flood maps to better reflect local flood risks. These possible changes to Flood Insurance Rate Maps may affect your property and flood insurance requirements.
 
 ## Frequently Asked Questions
 
