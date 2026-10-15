@@ -163,8 +163,37 @@ function restoreMarkdownLinks(content: string, links: string[], marker: string):
     )
 }
 
+// The page already renders the frontmatter title as the single <h1>; a
+// body-level "# Title" otherwise renders as a literal paragraph.
+export function stripLeadingTitleHeading(content: string): string {
+    const lines = content.match(/[^\r\n]*(?:\r\n|\r|\n|$)/g) ?? []
+    const lineContent = (line: string) => line.replace(/(?:\r\n|\r|\n)$/, "")
+    const headingIndex = lines.findIndex((line) => lineContent(line).trim().length > 0)
+
+    if (headingIndex === -1) {
+        return content
+    }
+
+    const heading = lineContent(lines[headingIndex])
+
+    if (!heading.startsWith("# ") || heading.slice(2).trim().length === 0) {
+        return content
+    }
+
+    let contentIndex = headingIndex + 1
+    while (
+        contentIndex < lines.length &&
+        lineContent(lines[contentIndex]).trim().length === 0
+    ) {
+        contentIndex += 1
+    }
+
+    return lines.slice(0, headingIndex).join("") + lines.slice(contentIndex).join("")
+}
+
 // Simple markdown-like formatting
 export function formatContent(content: string): string {
+    content = stripLeadingTitleHeading(content)
     const tokenized = tokenizeMarkdownLinks(content)
     const formatted = tokenized.content
         // Headers
