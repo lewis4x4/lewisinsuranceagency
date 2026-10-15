@@ -90,7 +90,7 @@ The depopulation program allows private insurers to seek approval from state reg
 - The new carrier must provide comparable coverage
 
 **Recent Depopulation Activity:**
-Recent transfers included Slide Insurance Co. assuming 60,186 policies; Manatee Insurance Exchange assuming 50,822; Homeowners Choice Property & Casualty Insurance Co. assuming 19,466; Tailrow Insurance Exchange assuming 19,199; and Mangrove Property Insurance Co. assuming 15,691.
+Several private insurers have assumed Citizens policies through recent depopulation rounds. The number of policies that move depends on which offers are approved and accepted.
 
 ## Wind-Only Policy Options
 
