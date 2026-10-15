@@ -324,8 +324,8 @@ export default function HomeownersInsuranceFlorida2026Page() {
                                     </p>
                                     <p className="text-lewis-body">
                                         After years of double-digit increases, Florida&apos;s property insurance market is stabilizing.
-                                        Several major carriers are filing for rate decreases for the first time since 2015.
-                                        But not everyone will see lower premiums automatically—your rate depends on location,
+                                        Several major carriers are filing for rate decreases.
+                                        But not everyone will see lower premiums automatically. Your rate depends on location,
                                         roof age, claims history, and coverage levels. Now is the time to review your policy.
                                     </p>
                                 </div>
@@ -336,7 +336,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                         <div className="flex flex-wrap justify-center gap-4 mb-8">
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <TrendingDown className="h-4 w-4 text-green-600" />
-                                <span>First rate decreases since 2015</span>
+                                <span>Carriers filing rate decreases</span>
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <Shield className="h-4 w-4 text-green-600" />
