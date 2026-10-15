@@ -59,7 +59,7 @@ If a private carrier's rates are within 20% of Citizens rates, you cannot refuse
 
 ### Upcoming Depopulation Activities
 
-Depopulation will continue in 2026, with the Office of Insurance Regulation approving proposals by nine companies to assume policies in February, March and April. These depopulation proposals will likely result in tens of thousands of policies leaving Citizens over a three-month period, with companies like Slide Insurance assuming up to 100,000 policies.
+Depopulation continues in 2026, with the Office of Insurance Regulation reviewing proposals from private insurers to assume Citizens policies. The number of policies that move depends on which offers are approved and accepted.
 
 ## Who Cannot Get Citizens Insurance
 

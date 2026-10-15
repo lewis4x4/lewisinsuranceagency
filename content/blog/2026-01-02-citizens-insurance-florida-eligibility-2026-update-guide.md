@@ -81,7 +81,7 @@ At Lewis Insurance Agency, we're authorized Citizens agents with over 40 years o
 
 ## The Depopulation Program: What It Means for You
 
-The depopulation program allows private insurers to assume Citizens policies in bulk transfers. The depopulation program allows private insurers to seek approval from state regulators to periodically assume batches of Citizens policies.
+The depopulation program allows private insurers to seek approval from state regulators to periodically assume batches of Citizens policies.
 
 **If You're Selected for Depopulation:**
 - You'll receive notice of the transfer
