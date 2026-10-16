@@ -63,7 +63,7 @@ Consult an Agent: Work with a local agent who understands Florida's roof-age rul
 
 ## Why the Rule Matters
 
-Homeowners no longer have to pay for a "forced" replacement of a functional roof just to keep insurance. This represents massive potential savings for Florida families who maintain their roofs properly.
+Under this rule, an insurer cannot refuse to issue or renew a homeowner's policy solely because of roof age when the roof is less than 15 years old, or when an authorized inspection shows at least 5 years of useful life remaining ([s. 627.7011(5)(b), (c)](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)). That can spare families who maintain their roofs from replacing a functional roof just to keep insurance.
 
 Metal & Tile Advantage: Since metal and tile roofs often last 30–50 years, this law prevents carriers from arbitrarily applying "shingle-life" logic to superior materials.
 
