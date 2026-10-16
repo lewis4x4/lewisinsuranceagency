@@ -11,7 +11,7 @@ imageAlt: "Florida home with a hurricane-resistant roof showing proper installat
 
 # Florida Roof Insurance Requirements: Your 2026 Guide to Coverage and Compliance
 
-Florida homeowners face unique challenges when it comes to roof insurance requirements. With new legislation taking effect and insurance companies adjusting their policies, understanding these requirements is crucial for maintaining your homeowner's coverage. Recent changes to Florida's roof insurance laws have provided more protection for homeowners while establishing clearer guidelines for insurers.
+Florida homeowners face unique challenges when it comes to roof insurance requirements. With insurance companies adjusting their policies, understanding these requirements is crucial for maintaining your homeowner's coverage. Florida's roof-age rules provide protections for homeowners and guidelines for insurers.
 
 ## Understanding Florida's 15-Year Roof Rule
 
@@ -24,13 +24,9 @@ According to Florida Statute 627.7011, insurers cannot deny or nonrenew a homeow
 - If your roof is 15 years or older, you have the right to submit a roof inspection showing at least 5 years of remaining useful life (RUL). If that report is accepted, the insurer must continue coverage
 - This inspection can be conducted by an "authorized inspector," now including licensed roofing contractors under House Bill 1611, effective July 2024
 
-## New Legislative Changes for 2026
+## Status of HB 815 and SB 808 (2026)
 
-Important changes are on the horizon for Florida homeowners. House Bill 815 (2026) will require insurers to differentiate between low-slope & steep-slope roofs in their offer for coverage under certain circumstances and allow property owners to have roof inspection performed on steep-slope roof by authorized inspector before requiring that roof be replaced. The effective date is July 1, 2026.
-
-### Key Provisions of Upcoming Legislation
-
-For a roof that is at least 15 years old, an insurer must differentiate between a low-slope roof with a 2-inch pitch or less and a steep-slope roof with a pitch of more than 2 inches in its offer for coverage under a policy. The roof of the residential structure performed by an authorized inspector indicates that the roof has 5 years or more of useful life remaining.
+[HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ## Current Market Conditions and Statistics
 
@@ -117,12 +113,12 @@ The "five-year certification" process typically costs $200–$400 and involves e
 ### What are wind mitigation discounts?
 Wind mitigation discounts are premium reductions offered to homeowners who install hurricane-resistant features. These can include hurricane straps, impact-resistant materials, and proper roof-to-wall connections.
 
-### When do the new 2026 roof regulations take effect?
-The new legislation will have an effective date of July 1, 2026, bringing additional protections and requirements for both insurers and homeowners.
+### Did Florida pass a new roof-age law in 2026?
+[HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ## Protecting Your Investment
 
-Your roof is one of your home's most important features, especially in Florida's challenging climate. Understanding the current requirements and upcoming changes helps ensure you maintain proper coverage while potentially saving money through available discounts and proper maintenance.
+Your roof is one of your home's most important features, especially in Florida's challenging climate. Understanding the current requirements helps ensure you maintain proper coverage while potentially saving money through available discounts and proper maintenance.
 
 At Lewis Insurance Agency, we've been helping Lake City and North Florida homeowners navigate these complex requirements since 1981. Our experienced agents understand the local market and can help you find coverage that meets both your needs and your budget.
 
