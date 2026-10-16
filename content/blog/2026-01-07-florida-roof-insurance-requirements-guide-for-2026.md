@@ -25,17 +25,9 @@ If your roof is under 15 years old, you're legally protected from insurance comp
 
 Once your roof reaches 15 years old, insurance companies can require an inspection before issuing or renewing your policy. However, they still cannot deny coverage based solely on age if an authorized inspector certifies your roof has at least 5 more years of useful life.
 
-## 2026 Legislative Updates: Senate Bill 808
+## Status of HB 815 and SB 808 (2026)
 
-Florida continues to refine its roof insurance laws. Senate Bill 808, which takes effect July 1, 2026, brings several important changes:
-
-### Expanded Inspector Qualifications
-
-The new law expands who can perform roof inspections to include home inspectors licensed under s. 468.8314, building code inspectors certified under s. 468.607, general, building, or residential contractors licensed under s. 489.111 or roofing contractors, professional engineers licensed under s. 471.015, and professional architects licensed under s. 481.213, along with any other individual or entity recognized by the insurer as possessing the necessary qualifications.
-
-### New Roof Type Distinctions
-
-For roofs that are at least 15 years old, insurers must differentiate between a low-slope roof with a 2-inch pitch or less and a steep-slope roof with a pitch of more than 2 inches in their offer for coverage.
+[HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ## Understanding Roof Age Calculations
 

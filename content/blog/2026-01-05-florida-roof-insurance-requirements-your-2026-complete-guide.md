@@ -33,17 +33,9 @@ Under House Bill 1611, effective July 2024, licensed roofing contractors are now
 
 The expansion of qualified inspectors makes it easier for homeowners to obtain the necessary documentation to maintain their coverage.
 
-## Current Legislative Changes for 2026
+## Status of HB 815 and SB 808 (2026)
 
-Major roofing legislation is currently moving through the Florida Legislature that could significantly impact homeowners. Both Senate Bill 808 and House Bill 815 for 2026 aim to prohibit insurers from refusing to issue or renew property insurance policies solely because of roof age, with an effective date of July 1, 2026.
-
-These bills propose important changes:
-
-- Expanded definition of "authorized inspector" to include roof consultants and observers
-- Requirements for insurers to differentiate between low-slope and steep-slope roofs
-- Mandatory roof inspection opportunities before requiring replacement
-
-For North Florida homeowners, these changes could provide additional protection against non-renewals and more flexibility in maintaining coverage with older roofs.
+[HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ## The 25% Roof Replacement Rule Explained
 

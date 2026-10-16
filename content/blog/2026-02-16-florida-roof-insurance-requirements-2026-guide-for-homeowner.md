@@ -11,7 +11,7 @@ imageAlt: "Florida home with well-maintained roof meeting insurance requirements
 
 # Florida Roof Insurance Requirements: 2026 Guide for Homeowners
 
-As a Florida homeowner, your roof plays a crucial role in determining your homeowners insurance coverage and rates. With new legislation and evolving insurance market conditions, understanding Florida roof insurance requirements has never been more important. This act shall take effect July 1, 2026. Recent changes to state law are creating both opportunities and challenges for homeowners across North Florida and throughout the state.
+As a Florida homeowner, your roof plays a crucial role in determining your homeowners insurance coverage and rates. With evolving insurance market conditions, understanding Florida roof insurance requirements has never been more important. [HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 At Lewis Insurance Agency, we've been helping Florida families navigate the complex insurance landscape since 1981. Our Lake City office has witnessed firsthand how roof-related insurance requirements have evolved, especially following recent legislative changes designed to protect homeowners while maintaining market stability.
 
@@ -29,17 +29,9 @@ The insurer may not refuse to issue or refuse to renew a homeowner's insurance p
 
 This means even older roofs can maintain insurance coverage if they pass professional inspection showing at least five years of remaining useful life.
 
-## New 2026 Legislative Changes
+## Status of HB 815 and SB 808 (2026)
 
-For a roof that is at least 15 years old, an insurer must differentiate between a low-slope roof with a 2-inch pitch or less and a steep-slope roof with a pitch of more than 2 inches in its offer for coverage under a policy. the roof of the residential structure performed by an authorized inspector indicates that the roof has 5 years or more of useful life remaining.
-
-The pending Senate Bill 808 introduces several important changes that will affect Florida homeowners:
-
-### Expanded Inspector Qualifications
-The term "authorized inspector" means an inspector who is approved by the insurer and who is: A home inspector licensed under s. 468.8314; A building code inspector certified under s. 468.607; A general, building, or residential contractor licensed under s. 489.111 or a roofing contractor; A professional engineer licensed under s. 471.015; A professional architect licensed under s. 481.213; Any other individual or entity recognized by the insurer as possessing the necessary qualifications to properly complete a general inspection of a residential structure insured with a homeowner's insurance policy.
-
-### Roof Type Differentiation
-The new law requires insurers to treat low-slope and steep-slope roofs differently when making coverage decisions, recognizing that different roof types have varying lifespans and maintenance requirements.
+[HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ## Current Market Reality: Beyond the Legal Protections
 
@@ -166,7 +158,7 @@ Florida law allows insurers to consider roof age when underwriting or renewing p
 
 ### What qualifies as an authorized inspector in Florida?
 
-Authorized inspectors include licensed home inspectors, certified building code inspectors, licensed contractors, professional engineers, and professional architects. The new 2026 legislation expands these qualifications further.
+Authorized inspectors include licensed home inspectors, certified building code inspectors, licensed contractors, professional engineers, and professional architects. [HB 815](https://www.flsenate.gov/Session/Bill/2026/815) and [SB 808](https://www.flsenate.gov/Session/Bill/2026/808) (2026) died in committee on March 13, 2026, and did not become law. The current roof-age rule is [s. 627.7011(5), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.7011)
 
 ### How is roof age calculated for insurance purposes?
 
