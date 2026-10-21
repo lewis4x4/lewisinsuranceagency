@@ -71,7 +71,7 @@ If you don't currently have flood insurance, start budgeting for it now. [Flood 
 
 ### You May Have Private Market Options Now
 
-Citizens was designed as a last resort—for homeowners who couldn't find coverage in the private market. With 17 new carriers and improving market conditions, you may now qualify for private coverage that wasn't available before.
+Citizens was designed as a last resort—for homeowners who couldn't find coverage in the private market. With [17 new carriers](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) and improving market conditions, you may now qualify for private coverage that wasn't available before.
 
 Private insurers often offer:
 - Broader coverage options

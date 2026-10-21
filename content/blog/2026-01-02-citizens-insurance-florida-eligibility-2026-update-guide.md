@@ -41,7 +41,7 @@ Wind-only policies are available in certain areas of the state when all eligibil
 
 The Citizens depopulation program has been remarkably successful. As of January 2025, Citizens policies in force declined to 395,144, a 50% reduction from the prior year and the lowest level in 14 years, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms).
 
-This dramatic reduction means fewer Florida homeowners are eligible for Citizens coverage as private market options have expanded significantly. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, 17 new insurance companies have entered the Florida market.
+This dramatic reduction means fewer Florida homeowners are eligible for Citizens coverage as private market options have expanded significantly. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) have entered the Florida market.
 
 ### Impact on North Florida Homeowners
 

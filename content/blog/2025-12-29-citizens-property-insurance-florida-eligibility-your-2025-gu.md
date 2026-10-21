@@ -19,7 +19,7 @@ Understanding these eligibility requirements is crucial as the Florida insurance
 
 Citizens Property Insurance Corporation was created in 2002 by the Florida Legislature as a not-for-profit alternative insurer whose public purpose is to provide insurance to property owners who cannot find coverage in the private insurance market. Originally designed to be a temporary solution during market disruptions, Citizens became Florida's largest property insurer when private carriers left the market due to hurricane losses and litigation challenges.
 
-However, recent legislative reforms have helped stabilize the private market. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, 17 new insurance companies have entered the Florida market, creating more competition and options for Florida homeowners.
+However, recent legislative reforms have helped stabilize the private market. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) have entered the Florida market, creating more competition and options for Florida homeowners.
 
 ## Core Eligibility Requirements for 2025
 
@@ -93,7 +93,7 @@ Properties in North Florida typically face lower hurricane risk compared to coas
 
 ### Market Competition
 
-With 17 new insurance companies entering the Florida market, North Florida residents may find more private market options available than in previous years, potentially making Citizens eligibility more restrictive.
+With [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) entering the Florida market, North Florida residents may find more private market options available than in previous years, potentially making Citizens eligibility more restrictive.
 
 ### Wind-Only Considerations
 
