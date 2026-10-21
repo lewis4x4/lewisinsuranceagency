@@ -128,7 +128,7 @@ Living in North Florida offers some advantages when it comes to insurance costs.
 
 Florida's recent legislative reforms have created a more stable insurance environment. Section 627.0629, Florida Statutes, requires all residential property insurers, effective October 1, 2023, to provide information on the insurer's website describing the hurricane mitigation discounts available to policyholders.
 
-These reforms are producing tangible results: Since the enactment of these reforms, 17 new insurance companies have entered Florida, increasing competition. Dozens of homeowners and auto insurers have filed for rate decreases.
+These reforms are producing tangible results: Since the enactment of these reforms, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) have entered Florida, increasing competition. Dozens of homeowners and auto insurers have filed for rate decreases.
 
 ## Working with Lewis Insurance Agency
 

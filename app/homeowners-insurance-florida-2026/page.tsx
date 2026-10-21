@@ -335,7 +335,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <Shield className="h-4 w-4 text-green-600" />
-                                <span>17 new carriers in Florida</span>
+                                <span><a href="https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms" target="_blank" rel="noopener noreferrer" className="underline">17 new carriers in Florida since the reforms</a></span>
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <DollarSign className="h-4 w-4 text-green-600" />

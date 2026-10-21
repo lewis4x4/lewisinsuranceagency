@@ -101,7 +101,7 @@ Expanding eligibility for the My Safe Florida Home program to harden homes can h
 
 ### Shopping with Multiple Carriers
 
-The Florida insurance market is improving dramatically. Since reforms were enacted to reduce frivolous litigation and bolster regulatory oversight, 17 new insurance companies have entered the Florida market. This increased competition means better options for North Florida homeowners.
+The Florida insurance market is improving dramatically. Since reforms were enacted, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) have entered the Florida market. This increased competition means better options for North Florida homeowners.
 
 ## Wind-Only Coverage Options
 
@@ -158,7 +158,7 @@ At Lewis Insurance Agency, we've been helping North Florida families navigate in
 
 ### What happens if I don't qualify for Citizens insurance?
 
-If you don't meet Citizens eligibility requirements, work with an experienced agent to explore private market options. The Florida market has significantly improved, with 17 new companies entering recently.
+If you don't meet Citizens eligibility requirements, work with an experienced agent to explore private market options. The Florida market has significantly improved, with [17 new companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) entering since the enactment of these reforms.
 
 ### Can I choose Citizens even if I have cheaper private options?
 
