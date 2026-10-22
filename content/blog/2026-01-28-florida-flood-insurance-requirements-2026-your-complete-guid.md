@@ -1,6 +1,6 @@
 ---
 title: "Florida Flood Insurance Requirements 2026: Your Complete Guide to NFIP vs Private Coverage"
-description: "Understand Florida's new flood insurance requirements for 2026, including Citizens mandates, NFIP rates, private options, and money-saving strategies for North Florida homeowners."
+description: "Understand Florida's new flood insurance requirements for 2026, including the Florida law flood requirement for Citizens policyholders, NFIP rates, private options, and money-saving strategies for North Florida homeowners."
 date: 2026-01-28
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
@@ -11,7 +11,7 @@ imageAlt: "Florida homeowner reviewing flood insurance options and requirements 
 
 # Florida Flood Insurance Requirements 2026: Your Complete Guide to NFIP vs Private Coverage
 
-Florida homeowners are facing significant changes to flood insurance requirements in 2026, with new mandates from Citizens Property Insurance Corporation and evolving federal programs creating both challenges and opportunities. Citizens policies on homes with a dwelling replacement cost of $400,000 or more need flood coverage for policies effective on or after January 1, 2026.
+Florida homeowners are facing significant changes to flood insurance requirements in 2026, with the Florida law flood requirement for Citizens Property Insurance Corporation policyholders ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) and evolving federal programs creating both challenges and opportunities. Citizens policies on homes with a dwelling replacement cost of $400,000 or more need flood coverage for policies effective on or after January 1, 2026.
 
 Whether you're in the Lake City area of North Florida or anywhere across the Sunshine State, understanding these changes is crucial for protecting your home and your budget. Here's everything you need to know about Florida's flood insurance landscape in 2026.
 
@@ -136,7 +136,7 @@ For more information about flood insurance requirements and current market condi
 ## Frequently Asked Questions
 
 **Q: Do I need flood insurance if I'm not in a high-risk flood zone?**
-A: If you have a Citizens policy, yes. Under the new rules, your flood insurance must cover at least the same dwelling limit as your Citizens policy, regardless of flood zone. Even without Citizens, many flood claims come from areas thought to be low risk.
+A: If you have a Citizens policy, yes for homes with $400,000+ replacement cost (policies effective on or after Jan 1, 2026), and for all other covered homes for policies effective on or after Jan 1, 2027. Wind-excluded and condo unit-owner policies are exempt. Under [s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351), the flood policy must meet, at a minimum, the dwelling coverage available from the NFIP or the requirements of s. 627.715(1)(a)1., 2., and 3., F.S. Even without Citizens, many flood claims come from areas thought to be low risk.
 
 **Q: How much will flood insurance cost me in North Florida?**
 A: Costs vary significantly by location and risk factors. According to recent FEMA data, the median cost for single-family homes with NFIP policies is $776 per year, but North Florida typically sees lower rates than coastal areas.

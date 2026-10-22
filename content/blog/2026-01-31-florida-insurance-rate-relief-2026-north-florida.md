@@ -77,7 +77,7 @@ Private insurers often offer:
 - Broader coverage options
 - Better claims service
 - Replacement cost coverage (vs. actual cash value)
-- No flood insurance mandate (though you should still carry it)
+- No Citizens flood insurance requirement under state law (though you should still carry it)
 
 An independent agent can check whether you have private market options. With many policies moving from Citizens to private insurers, there's a good chance you do.
 
@@ -118,7 +118,7 @@ If you haven't had a [wind mitigation inspection](/blog/wind-mitigation-inspecti
 
 ### 4. Don't Forget Flood Insurance
 
-Whether Citizens requires it or not, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely.
+Whether or not the Citizens flood requirement applies to you, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely.
 
 ### 5. Work with a Local Independent Agent
 
