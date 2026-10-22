@@ -1,6 +1,6 @@
 ---
 title: "Citizens Insurance Florida Eligibility 2026: Complete Guide"
-description: "Understand Citizens Insurance eligibility requirements, new 20% rule, flood insurance mandates, and depopulation impacts for Florida homeowners in 2026."
+description: "Understand Citizens Insurance eligibility requirements, new 20% rule, the Florida law flood requirement, and depopulation impacts for Florida homeowners in 2026."
 date: 2026-02-09
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"

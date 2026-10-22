@@ -91,7 +91,7 @@ This improvement means more options for North Florida homeowners who previously 
 
 ### Flood Coverage Alignment
 
-Citizens is phasing in mandatory flood insurance by Coverage A, while NFIP Risk Rating 2.0 prices by property-specific risk.
+Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) is phasing in a flood insurance requirement for Citizens policyholders by dwelling replacement cost, while NFIP Risk Rating 2.0 prices by property-specific risk.
 
 For our Lake City clients near rivers and flood zones, understanding flood coverage becomes increasingly important, as hurricane deductibles don't apply to flood damage.
 

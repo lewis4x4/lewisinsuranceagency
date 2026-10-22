@@ -77,7 +77,7 @@ Private insurers often offer:
 - Broader coverage options
 - Better claims service
 - Replacement cost coverage (vs. actual cash value)
-- No flood insurance mandate (though you should still carry it)
+- No Citizens flood insurance requirement under state law (though you should still carry it)
 
 An independent agent can check whether you have private market options. With many policies moving from Citizens to private insurers, there's a good chance you do.
 
