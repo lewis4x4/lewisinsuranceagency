@@ -43,7 +43,7 @@ The Florida insurance market continues evolving with positive trends. Citing S&P
 
 ## Understanding Your Financial Impact
 
-In Florida, the typical annual expense for home insurance, which includes hurricane protection, amounts to $4,419 with a 2% hurricane deductible. In certain regions, residents are spending an average of $6,000 per year on coverage.
+Florida home insurance premiums, which include hurricane coverage, vary widely by location, home age, construction, and the hurricane deductible you choose. Ask us for a quote based on your home.
 
 ### Real-World Examples for North Florida
 

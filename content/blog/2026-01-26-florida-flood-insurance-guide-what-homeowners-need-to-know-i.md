@@ -15,19 +15,20 @@ Florida homeowners are facing significant changes in flood insurance requirement
 
 Whether you live in Lake City, North Florida, or anywhere across the Sunshine State, understanding these new flood insurance mandates could save you thousands of dollars and protect your most valuable investment – your home.
 
-## The New Citizens Flood Insurance Mandate: What's Changing
+## Florida Law Flood Requirement for Citizens Policyholders: What's Changing
 
-Senate Bill 2A established Florida as the first state requiring flood insurance for all policyholders of a major insurance carrier. This historic legislation is being implemented in phases, creating new requirements for Citizens Property Insurance customers that many homeowners are still unaware of.
+Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. The requirement is being phased in by home value, and many homeowners are still unaware of it.
 
 ### Key Implementation Timeline
 
 The Citizens flood insurance requirement follows a specific rollout schedule based on your home's replacement value:
 
+- **Since 2023**: Homes in a FEMA high-risk flood zone (special flood hazard area)
 - **January 1, 2025**: Homes with dwelling replacement cost of $500,000 or more, for Citizens policies effective on or after January 1, 2025
 - **January 1, 2026**: Homes with dwelling replacement cost of $400,000 or more, for Citizens policies effective on or after January 1, 2026
-- **January 1, 2027**: All Citizens-covered structures will need flood coverage
+- **January 1, 2027**: All other covered Citizens personal residential homes, for policies effective on or after January 1, 2027
 
-This requirement applies even if you're not in a designated high-risk flood zone, representing a fundamental shift in how Florida approaches flood protection.
+This requirement applies even if you're not in a designated high-risk flood zone. Wind-excluded policies and condo unit-owner policies are exempt.
 
 ### Why This Change is Happening
 
@@ -189,7 +190,7 @@ FEMA has updated select flood maps to better reflect local flood risks. These po
 
 ### Do I need flood insurance if I'm not in a high-risk flood zone?
 
-While federal law only requires flood insurance for high-risk areas with federally-backed mortgages, more than 30% of flood insurance claims come from lower-risk areas. Additionally, if you have Citizens insurance, the new state mandate applies regardless of flood zone.
+While federal law only requires flood insurance for high-risk areas with federally-backed mortgages, more than 30% of flood insurance claims come from lower-risk areas. Additionally, if you have Citizens insurance, the state law requirement (s. 627.351(6)(aa), F.S.) applies regardless of flood zone, except for wind-excluded and condo unit-owner policies.
 
 ### Can I get flood insurance through my regular homeowners policy?
 
