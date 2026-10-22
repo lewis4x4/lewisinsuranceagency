@@ -118,7 +118,7 @@ If you haven't had a [wind mitigation inspection](/blog/wind-mitigation-inspecti
 
 ### 4. Don't Forget Flood Insurance
 
-Whether Citizens requires it or not, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely.
+Whether or not the Citizens flood requirement applies to you, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely.
 
 ### 5. Work with a Local Independent Agent
 
