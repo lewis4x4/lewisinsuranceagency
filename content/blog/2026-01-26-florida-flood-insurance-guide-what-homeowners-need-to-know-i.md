@@ -11,7 +11,7 @@ imageAlt: "Florida homeowner reviewing flood insurance policy documents with ris
 
 # Florida Flood Insurance Guide: What Homeowners Need to Know in 2026
 
-Florida homeowners are facing significant changes in flood insurance requirements that could dramatically impact your wallet and coverage options. With Citizens Property Insurance Corporation requiring all policyholders to have separate flood insurance by 2027, many policies already face this requirement for 2026 renewals.
+Florida homeowners are facing significant changes in flood insurance requirements that could dramatically impact your wallet and coverage options. Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. Homes in a FEMA high-risk flood zone have needed it since 2023, homes with $400,000+ replacement cost since Jan 1, 2026, and all other covered homes need it for policies effective on or after Jan 1, 2027. Wind-excluded policies and condo unit-owner policies are exempt.
 
 Whether you live in Lake City, North Florida, or anywhere across the Sunshine State, understanding these new flood insurance mandates could save you thousands of dollars and protect your most valuable investment – your home.
 

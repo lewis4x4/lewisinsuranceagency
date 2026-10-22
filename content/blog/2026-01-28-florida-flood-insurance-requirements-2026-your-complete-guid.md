@@ -17,7 +17,7 @@ Whether you're in the Lake City area of North Florida or anywhere across the Sun
 
 ## Citizens Insurance Flood Requirements: What's Changed
 
-The most significant change affecting Florida homeowners is Citizens' solvency plan requirement that all its policyholders (regardless of flood zone) must have a separate flood insurance policy by 2027. This requirement is being phased in gradually:
+The most significant change affecting Florida homeowners is a state law requirement. Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. Homes in a FEMA high-risk flood zone have needed it since 2023, homes with $400,000+ replacement cost since Jan 1, 2026, and all other covered homes need it for policies effective on or after Jan 1, 2027. Wind-excluded policies and condo unit-owner policies are exempt. The phase-in looks like this:
 
 **2026 Requirements:**
 - Homes with dwelling replacement cost of $400,000 or more need flood coverage for Citizens policies effective on or after January 1, 2026
