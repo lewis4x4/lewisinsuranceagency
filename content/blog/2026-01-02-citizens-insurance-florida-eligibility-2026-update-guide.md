@@ -49,7 +49,7 @@ For Lake City and North Florida residents, this market improvement brings both o
 
 ## New Flood Insurance Requirements
 
-Citizens has implemented mandatory flood insurance requirements on a phased schedule that directly impacts eligibility:
+Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires Citizens policyholders to carry flood insurance on a phased schedule, which directly impacts eligibility:
 
 **Current Flood Requirements (2026):**
 - Properties valued at $400,000 or more must have flood coverage effective January 1, 2026
