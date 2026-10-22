@@ -125,7 +125,7 @@ The state's goal is clear: continue reducing Citizens' role to minimize assessme
 
 ## Why Professional Guidance Matters
 
-Navigating Citizens eligibility requirements, flood insurance mandates, and the 20% rule requires expert knowledge of Florida insurance regulations. At Lewis Insurance Agency, we've helped thousands of North Florida families secure appropriate coverage since 1981.
+Navigating Citizens eligibility requirements, the Florida law flood requirement for Citizens policyholders, and the 20% rule requires expert knowledge of Florida insurance regulations. At Lewis Insurance Agency, we've helped thousands of North Florida families secure appropriate coverage since 1981.
 
 Our experience with Citizens eligibility rules, combined with relationships with multiple private carriers, allows us to find the best coverage options for your specific situation. We understand the unique challenges facing North Florida homeowners and can guide you through the complex eligibility landscape.
 
