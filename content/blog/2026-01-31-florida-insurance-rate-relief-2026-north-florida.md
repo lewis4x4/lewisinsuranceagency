@@ -63,11 +63,11 @@ If you currently have a Citizens policy, there are several things to understand 
 
 Starting Spring 2026, your renewal premium should reflect the 8.7% average decrease. The exact amount varies by location, home characteristics, and coverage levels—but the trend is finally moving in the right direction.
 
-### The Flood Insurance Requirement Is Coming
+### The Citizens Flood Insurance Requirement
 
-Citizens has announced that **all policyholders must carry separate flood insurance by 2027**, regardless of whether they're in a designated flood zone. This is part of Citizens' solvency planning.
+Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. It phased in by home value, reached homes with $400,000+ replacement cost on Jan 1, 2026, and applies to all remaining covered homes for policies effective on or after Jan 1, 2027. Homes in a FEMA high-risk flood zone have needed it since 2023. Wind-excluded policies and condo unit-owner policies are exempt.
 
-If you don't currently have flood insurance, start budgeting for it now. [Flood insurance](/blog/understanding-flood-insurance-florida) costs vary but typically run $400-$1,500 annually for most North Florida homes.
+If you don't currently have flood insurance, start planning for it now. [Flood insurance](/blog/understanding-flood-insurance-florida) costs vary by home, so ask us for a quote.
 
 ### You May Have Private Market Options Now
 
@@ -118,7 +118,7 @@ If you haven't had a [wind mitigation inspection](/blog/wind-mitigation-inspecti
 
 ### 4. Don't Forget Flood Insurance
 
-Whether Citizens requires it or not, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely. One inch of floodwater causes approximately $25,000 in damage—and 25% of flood claims come from properties outside high-risk zones.
+Whether Citizens requires it or not, every Florida homeowner should consider flood coverage. Standard homeowners policies exclude flood damage completely.
 
 ### 5. Work with a Local Independent Agent
 
