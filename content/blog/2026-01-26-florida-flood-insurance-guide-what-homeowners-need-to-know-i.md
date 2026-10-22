@@ -1,6 +1,6 @@
 ---
 title: "Florida Flood Insurance Guide: What Homeowners Need to Know in 2026"
-description: "Complete guide to Florida flood insurance requirements, costs, and Citizens mandate. Get expert advice from Lewis Insurance Agency on protecting your North Florida home."
+description: "Complete guide to Florida flood insurance requirements, costs, and the Florida law flood requirement for Citizens policyholders. Get expert advice from Lewis Insurance Agency on protecting your North Florida home."
 date: 2026-01-26
 author: "Lewis Insurance Agency"
 category: "florida-homeowners-insurance"
@@ -13,7 +13,7 @@ imageAlt: "Florida homeowner reviewing flood insurance policy documents with ris
 
 Florida homeowners are facing significant changes in flood insurance requirements that could dramatically impact your wallet and coverage options. Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. Homes in a FEMA high-risk flood zone have needed it since 2023, homes with $400,000+ replacement cost since Jan 1, 2026, and all other covered homes need it for policies effective on or after Jan 1, 2027. Wind-excluded policies and condo unit-owner policies are exempt.
 
-Whether you live in Lake City, North Florida, or anywhere across the Sunshine State, understanding these new flood insurance mandates could save you thousands of dollars and protect your most valuable investment – your home.
+Whether you live in Lake City, North Florida, or anywhere across the Sunshine State, understanding Florida's state law flood insurance requirement for Citizens policyholders could save you thousands of dollars and protect your most valuable investment – your home.
 
 ## Florida Law Flood Requirement for Citizens Policyholders: What's Changing
 
@@ -33,8 +33,6 @@ This requirement applies even if you're not in a designated high-risk flood zone
 ### Why This Change is Happening
 
 Florida lawmakers passed this requirement in the December 2022 special session ([SB 2-A, ch. 2022-271, Laws of Fla.](https://laws.flrules.org/2022/271)). The goal is protecting homeowners from devastating out-of-pocket expenses when floods strike – and they do strike frequently in Florida.
-
-Consider this: just one inch of flood water can cause more than $25,000 in damage.
 
 ## Understanding Florida's Unique Flood Risk
 
