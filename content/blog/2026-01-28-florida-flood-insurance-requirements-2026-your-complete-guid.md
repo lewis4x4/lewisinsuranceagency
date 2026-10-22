@@ -136,7 +136,7 @@ For more information about flood insurance requirements and current market condi
 ## Frequently Asked Questions
 
 **Q: Do I need flood insurance if I'm not in a high-risk flood zone?**
-A: If you have a Citizens policy, yes. Under the new rules, your flood insurance must cover at least the same dwelling limit as your Citizens policy, regardless of flood zone. Even without Citizens, approximately 25% of flood claims happen in low-risk areas. It might surprise you to learn that about 25% of flood claims come from areas thought to be low risk.
+A: If you have a Citizens policy, yes. Under the new rules, your flood insurance must cover at least the same dwelling limit as your Citizens policy, regardless of flood zone. Even without Citizens, many flood claims come from areas thought to be low risk.
 
 **Q: How much will flood insurance cost me in North Florida?**
 A: Costs vary significantly by location and risk factors. According to recent FEMA data, the median cost for single-family homes with NFIP policies is $776 per year, but North Florida typically sees lower rates than coastal areas.
