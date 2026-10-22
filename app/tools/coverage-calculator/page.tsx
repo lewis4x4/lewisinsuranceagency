@@ -485,7 +485,7 @@ export default function CoverageCalculatorPage() {
                                         <p className="text-xs text-lewis-body mt-2">
                                             {formData.inFloodZone
                                                 ? "Flood insurance is required for your property."
-                                                : "Even outside flood zones, 25% of claims occur in low-risk areas."
+                                                : "Even outside flood zones, many claims occur in low-risk areas."
                                             }
                                         </p>
                                     </CardContent>

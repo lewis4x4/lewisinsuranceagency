@@ -73,7 +73,7 @@ The Florida insurance market is experiencing positive changes heading into 2026.
 
 ### Average Costs in 2026
 
-The average cost of home insurance in Florida, including coverage for hurricanes, is $4,419 a year with a 2% hurricane deductible. In some areas, Florida homeowners are paying $6,000 on average for home insurance.
+Florida home insurance premiums, which include hurricane coverage, vary widely by location, home age, construction, and the hurricane deductible you choose. Ask us for a quote based on your home.
 
 For North Florida residents, including the Lake City area, costs may be lower than coastal regions due to reduced hurricane exposure, though homeowners in Lake City and surrounding North Florida communities face unique considerations. Our location provides some buffer from coastal hurricane damage, but we're not immune to severe weather.
 

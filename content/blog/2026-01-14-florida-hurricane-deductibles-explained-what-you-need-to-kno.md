@@ -23,7 +23,7 @@ Unlike your standard deductible, which is typically a flat dollar amount like $1
 
 If your home is insured for $400,000 and you have a 5% hurricane deductible, you would be responsible for the first $20,000 of hurricane damage before your insurance coverage begins. For many homeowners in North Florida, this represents a substantial financial commitment that requires careful planning.
 
-In Florida, the typical annual expense for home insurance, which includes hurricane protection, amounts to $4,419 with a 2% hurricane deductible, while the average cost of home insurance in Florida, including coverage for hurricanes, is $4,419 a year with a 2% hurricane deductible.
+Florida home insurance premiums, which include hurricane coverage, vary widely by location, home age, construction, and the hurricane deductible you choose. Ask us for a quote based on your home.
 
 ## Required Deductible Options in Florida
 
@@ -48,7 +48,7 @@ This timing is critical because if hurricane-force winds damaged your roof durin
 
 ## Current Market Trends and Statistics
 
-The Florida insurance market has seen significant changes in recent years. In Florida, the typical annual expense for home insurance, which includes hurricane protection, amounts to $4,419 with a 2% hurricane deductible. In certain regions, residents are spending an average of $6,000 per year on coverage. This figure is over four times the national average.
+The Florida insurance market has seen significant changes in recent years. Florida home insurance premiums, which include hurricane coverage, vary widely by location, home age, construction, and the hurricane deductible you choose. Ask us for a quote based on your home.
 
 For North Florida residents, including those in the Lake City area, premiums may be lower than coastal regions, but hurricane deductibles still apply statewide when conditions are met.
 

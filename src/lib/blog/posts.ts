@@ -416,7 +416,7 @@ The numbers make the case clear:
 - The state has experienced $17+ billion in flood insurance claims since 1978
 - Average flood claim payouts exceed $50,000
 - Just one inch of floodwater causes approximately $25,000 in damage
-- **25% of flood claims come from properties outside high-risk flood zones**
+- **Many flood claims come from properties outside high-risk flood zones**
 
 ### Flooding Happens Outside Flood Zones
 
@@ -484,7 +484,7 @@ Private flood insurers offer alternatives that may provide:
 
 ### Moderate-to-Low Risk Zones
 
-**Zone X**: Less than 1% annual flood risk. No requirement, but still at risk—remember, 25% of claims come from these zones.
+**Zone X**: Less than 1% annual flood risk. No requirement, but still at risk—remember, many claims come from these zones.
 
 ---
 

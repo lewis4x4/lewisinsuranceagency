@@ -113,7 +113,7 @@ const homeownersReview = [
     {
         item: "Flood Insurance",
         what: "Standard homeowners NEVER covers flood. Review your flood zone and consider private flood if NFIP is expensive.",
-        warning: "Even low-risk areas flood—25% of claims come from outside flood zones.",
+        warning: "Even low-risk areas flood—many claims come from outside flood zones.",
     },
     {
         item: "Wind Mitigation Credits",

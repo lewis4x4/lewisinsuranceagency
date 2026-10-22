@@ -17,7 +17,7 @@ Whether you're in the Lake City area of North Florida or anywhere across the Sun
 
 ## Citizens Insurance Flood Requirements: What's Changed
 
-The most significant change affecting Florida homeowners is Citizens' solvency plan requirement that all its policyholders (regardless of flood zone) must have a separate flood insurance policy by 2027. This requirement is being phased in gradually:
+The most significant change affecting Florida homeowners is a state law requirement. Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires most Citizens personal residential policyholders to carry separate flood coverage. Homes in a FEMA high-risk flood zone have needed it since 2023, homes with $400,000+ replacement cost since Jan 1, 2026, and all other covered homes need it for policies effective on or after Jan 1, 2027. Wind-excluded policies and condo unit-owner policies are exempt. The phase-in looks like this:
 
 **2026 Requirements:**
 - Homes with dwelling replacement cost of $400,000 or more need flood coverage for Citizens policies effective on or after January 1, 2026
@@ -92,7 +92,7 @@ Communities can continue earning National Flood Insurance Program rate discounts
 
 North Florida homeowners, including those in the Lake City area, often benefit from lower flood insurance rates compared to coastal regions. Sumter County, in the middle of the state and home to The Villages, has the lowest average rates for flood insurance. This is likely because its inland position protects it from most hurricane flooding.
 
-However, flood risk exists throughout Florida. More than 30% of flood insurance claims come from lower-risk areas. Here's what catches most homeowners off guard: approximately 25% of flood claims happen in low-risk areas.
+However, flood risk exists throughout Florida. Here's what catches most homeowners off guard: many flood claims come from lower-risk areas.
 
 ## What the Market Changes Mean for 2026
 
@@ -136,7 +136,7 @@ For more information about flood insurance requirements and current market condi
 ## Frequently Asked Questions
 
 **Q: Do I need flood insurance if I'm not in a high-risk flood zone?**
-A: If you have a Citizens policy, yes. Under the new rules, your flood insurance must cover at least the same dwelling limit as your Citizens policy, regardless of flood zone. Even without Citizens, approximately 25% of flood claims happen in low-risk areas. It might surprise you to learn that about 25% of flood claims come from areas thought to be low risk.
+A: If you have a Citizens policy, yes. Under the new rules, your flood insurance must cover at least the same dwelling limit as your Citizens policy, regardless of flood zone. Even without Citizens, many flood claims come from areas thought to be low risk.
 
 **Q: How much will flood insurance cost me in North Florida?**
 A: Costs vary significantly by location and risk factors. According to recent FEMA data, the median cost for single-family homes with NFIP policies is $776 per year, but North Florida typically sees lower rates than coastal areas.

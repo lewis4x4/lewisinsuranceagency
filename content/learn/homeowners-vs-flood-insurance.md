@@ -26,7 +26,7 @@ Your homeowners insurance covers wind, fire, theft, and liability. Flood insuran
 | Contents Damaged by Flooding | ✗ Not Covered | ✓ Covered (with contents policy) |
 
 **Why This Matters in Florida:**
-- 25% of flood claims come from low-to-moderate risk zones
+- Many flood claims come from low-to-moderate risk zones
 - Standard homeowners won't pay a dime if your home floods
 - Mortgage lenders require flood insurance in high-risk zones
 - Private flood options often cost less than NFIP with better coverage
