@@ -32,7 +32,7 @@ const pageData: CityServicePageData = {
         },
         {
             title: "Flooding Outside Flood Zones",
-            content: "Approximately 25% of flood claims come from properties outside high-risk flood zones. Orlando's unpredictable afternoon storms can cause flash flooding anywhere, making flood insurance wise even in Zone X.",
+            content: "Many flood claims come from properties outside high-risk flood zones. Orlando's unpredictable afternoon storms can cause flash flooding anywhere, making flood insurance wise even in Zone X.",
         },
         {
             title: "Tropical Storm Protection",

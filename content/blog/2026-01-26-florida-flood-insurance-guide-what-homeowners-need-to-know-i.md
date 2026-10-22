@@ -44,7 +44,7 @@ For North Florida residents, including those in Lake City and surrounding Columb
 
 ### Flooding Can Happen Anywhere
 
-Many homeowners make the dangerous assumption that flood insurance is only necessary for coastal properties or high-risk flood zones. The reality is different: Nearly one-third of NFIP flood insurance claims come from outside high-risk flood areas.
+Many homeowners make the dangerous assumption that flood insurance is only necessary for coastal properties or high-risk flood zones. The reality is different: Nearly one-third of NFIP flood insurance claims come from outside high-risk flood areas, [according to FEMA](https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-risk).
 
 Poor drainage systems, summer storms, melting snow, neighborhood construction, and broken water mains can cause flooding. In North Florida, heavy afternoon thunderstorms and winter weather patterns create additional flood risks that many homeowners overlook.
 
@@ -188,7 +188,7 @@ FEMA has updated select flood maps to better reflect local flood risks. These po
 
 ### Do I need flood insurance if I'm not in a high-risk flood zone?
 
-While federal law only requires flood insurance for high-risk areas with federally-backed mortgages, more than 30% of flood insurance claims come from lower-risk areas. Additionally, if you have Citizens insurance, the state law requirement (s. 627.351(6)(aa), F.S.) applies regardless of flood zone, except for wind-excluded and condo unit-owner policies.
+While federal law only requires flood insurance for high-risk areas with federally-backed mortgages, many flood insurance claims come from lower-risk areas. Additionally, if you have Citizens insurance, the state law requirement (s. 627.351(6)(aa), F.S.) applies regardless of flood zone, except for wind-excluded and condo unit-owner policies.
 
 ### Can I get flood insurance through my regular homeowners policy?
 

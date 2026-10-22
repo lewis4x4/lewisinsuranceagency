@@ -29,9 +29,9 @@ This rule has significant implications for North Florida homeowners, particularl
 
 ## New 2026 Flood Insurance Requirements
 
-Citizens has implemented mandatory flood insurance requirements that directly impact eligibility. Properties over $400,000 require flood coverage as of January 2026, with all properties requiring it by January 2027. These requirements follow a phased implementation schedule that affects different property values at different times.
+Florida law ([s. 627.351(6)(aa), F.S.](https://www.flsenate.gov/Laws/Statutes/2026/627.351)) requires Citizens policyholders to carry flood insurance, which directly impacts eligibility. Properties over $400,000 require flood coverage as of January 2026, with all properties requiring it by January 2027. These requirements follow a phased implementation schedule that affects different property values at different times.
 
-The flood insurance mandate includes specific requirements:
+The statute includes specific requirements:
 - Properties in FEMA special flood hazard areas must have flood coverage at policy issuance
 - All personal lines residential policyholders must have flood coverage in place for policies effective on or after: January 1, 2024, for a structure that has a dwelling replacement cost of $600,000 or more.
 - Properties valued between $400,000 and $500,000 face requirements starting January 1, 2026

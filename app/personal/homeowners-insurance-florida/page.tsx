@@ -89,7 +89,7 @@ const pageData: ServicePageData = {
         },
         {
             question: "Do I need flood insurance if I have homeowners insurance?",
-            answer: "Yes, if you want flood protection. Standard homeowners policies specifically exclude flood damage. Even if you're not in a designated flood zone, we typically recommend flood insurance—about 25% of flood claims come from low-to-moderate risk areas. Flood insurance is a separate policy through the NFIP or private insurers.",
+            answer: "Yes, if you want flood protection. Standard homeowners policies specifically exclude flood damage. Even if you're not in a designated flood zone, we typically recommend flood insurance—many flood claims come from low-to-moderate risk areas. Flood insurance is a separate policy through the NFIP or private insurers.",
         },
         {
             question: "How can I lower my homeowners insurance premium?",

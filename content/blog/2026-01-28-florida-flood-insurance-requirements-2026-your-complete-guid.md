@@ -92,7 +92,7 @@ Communities can continue earning National Flood Insurance Program rate discounts
 
 North Florida homeowners, including those in the Lake City area, often benefit from lower flood insurance rates compared to coastal regions. Sumter County, in the middle of the state and home to The Villages, has the lowest average rates for flood insurance. This is likely because its inland position protects it from most hurricane flooding.
 
-However, flood risk exists throughout Florida. More than 30% of flood insurance claims come from lower-risk areas. Here's what catches most homeowners off guard: approximately 25% of flood claims happen in low-risk areas.
+However, flood risk exists throughout Florida. Here's what catches most homeowners off guard: many flood claims come from lower-risk areas.
 
 ## What the Market Changes Mean for 2026
 

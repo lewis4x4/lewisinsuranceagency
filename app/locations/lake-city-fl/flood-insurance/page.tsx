@@ -36,7 +36,7 @@ const pageData: CityServicePageData = {
         },
         {
             title: "Zone X Doesn't Mean Safe",
-            content: "Approximately 25% of flood claims come from properties outside high-risk flood zones. Being in Zone X (low-to-moderate risk) doesn't mean you can't flood—it means it's less likely, not impossible.",
+            content: "Many flood claims come from properties outside high-risk flood zones. Being in Zone X (low-to-moderate risk) doesn't mean you can't flood—it means it's less likely, not impossible.",
         },
     ],
 

@@ -12,7 +12,7 @@ const pageData: ServicePageData = {
 
     overview: [
         "Florida is one of the most flood-prone states in the nation, and standard homeowners insurance policies specifically exclude flood damage. If your home floods—whether from a hurricane, tropical storm, heavy rainfall, or rising water—you'll need a separate flood insurance policy to be covered.",
-        "Many Florida homeowners are surprised to learn that flood insurance isn't included in their homeowners policy. In fact, about 25% of flood claims come from properties outside designated high-risk flood zones. If it can rain, it can flood—and in Florida, it rains a lot.",
+        "Many Florida homeowners are surprised to learn that flood insurance isn't included in their homeowners policy. In fact, many flood claims come from properties outside designated high-risk flood zones. If it can rain, it can flood—and in Florida, it rains a lot.",
         "There are two main options for flood insurance: the National Flood Insurance Program (NFIP), which is federally backed, and private flood insurance carriers. We can help you compare both options to find the best coverage and rates for your property.",
         "If you have a mortgage on a property in a high-risk flood zone (zones starting with A or V), your lender will require flood insurance. But even if it's not required, we strongly recommend flood coverage for Florida property owners. The average flood claim is over $50,000—damage that would be devastating without coverage.",
     ],
@@ -76,7 +76,7 @@ const pageData: ServicePageData = {
     faqs: [
         {
             question: "Do I need flood insurance if I'm not in a flood zone?",
-            answer: "We strongly recommend it. While you may not be required to have flood insurance if you're in a low-to-moderate risk zone, about 25% of flood claims come from outside high-risk areas. In Florida, heavy rainfall, poor drainage, and storm surge can cause flooding almost anywhere. Rates for low-risk properties are often quite affordable.",
+            answer: "We strongly recommend it. While you may not be required to have flood insurance if you're in a low-to-moderate risk zone, many flood claims come from outside high-risk areas. In Florida, heavy rainfall, poor drainage, and storm surge can cause flooding almost anywhere. Rates for low-risk properties are often quite affordable.",
         },
         {
             question: "How much does flood insurance cost in Florida?",
