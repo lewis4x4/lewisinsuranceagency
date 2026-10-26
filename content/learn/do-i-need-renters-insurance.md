@@ -32,19 +32,6 @@ Yes. Your landlord's insurance covers the building—not your stuff. If there's 
 
 ---
 
-## What Our Clients Say
-
-> "Someone broke into my apartment and stole my laptop, TV, and jewelry. My renters policy from Lewis paid out $4,200. Without it, I would have had to replace everything myself."
-> — **Danielle K., Gainesville**
-
-> "A pipe burst in the unit above me and destroyed my couch, bed, and half my wardrobe. I thought my landlord would cover it—nope. Thankfully, Lewis had set me up with renters insurance months earlier."
-> — **Marcus T., Lake City**
-
-> "My landlord required renters insurance, so I called Lewis. For $18 a month, I got coverage for all my stuff plus liability in case someone trips and falls. No-brainer."
-> — **Ashley R., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida renters protect what they own without breaking the bank. We'll bundle your renters policy with auto insurance for extra savings and make sure you have the right amount of coverage for your lifestyle.
