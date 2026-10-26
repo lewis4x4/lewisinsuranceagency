@@ -26,19 +26,6 @@ A wind mitigation inspection documents how well your home is built to withstand 
 
 ---
 
-## What Our Clients Say
-
-> "I paid $100 for the inspection and my premium dropped $600 a year. Lewis told me to get it done before my renewal—best advice I ever got. That's a 6x return on my money."
-> — **Angela M., Lake City**
-
-> "My house was built in 2008 and I had no idea I was missing out on discounts. The wind mitigation report showed I had hurricane straps and impact-rated garage door. Saved me $1,100 annually."
-> — **David and Lisa K., Gainesville**
-
-> "Lewis connected me with a licensed inspector who came out the same week. Two weeks later, my new policy reflected all the credits. Painless process."
-> — **Raymond T., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida homeowners pay less for coverage they need. We'll review your wind mitigation report, make sure every discount is applied, and even recommend inspectors who know exactly what to look for.

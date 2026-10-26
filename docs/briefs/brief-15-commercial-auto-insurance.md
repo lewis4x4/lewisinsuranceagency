@@ -28,19 +28,6 @@ If you use a vehicle for business—deliveries, client visits, hauling equipment
 
 ---
 
-## What Our Clients Say
-
-> "I thought my personal policy covered my work truck. When I got in an accident making a delivery, they denied the claim. Lewis set me up with commercial auto and I'll never make that mistake again."
-> — **Danny R., Lake City (HVAC Contractor)**
-
-> "My employee hit someone while driving the company van. The lawsuit named me personally. Commercial auto covered everything—defense costs, settlement, all of it."
-> — **Barbara K., Gainesville (Cleaning Service Owner)**
-
-> "Lewis saved me $1,200 a year by bundling my three work trucks under one commercial policy. Better coverage and lower cost than insuring them separately."
-> — **Pete M., Alachua (Landscaper)**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida businesses protect their vehicles and drivers. We'll evaluate how you use your vehicles, identify coverage gaps, and find commercial auto policies from multiple carriers to get you the right protection at the best price.

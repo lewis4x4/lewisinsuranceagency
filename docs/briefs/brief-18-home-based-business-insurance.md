@@ -31,19 +31,6 @@ Probably not. Most homeowners policies exclude or severely limit coverage for bu
 
 ---
 
-## What Our Clients Say
-
-> "A client tripped on my porch steps during a meeting. My homeowners insurance denied the claim because it was a 'business activity.' Lewis got me proper coverage so it won't happen again."
-> — **Christine M., Lake City (Interior Designer)**
-
-> "My photography equipment was stolen—$8,000 worth. Homeowners only covered $2,500 because it was 'business property.' Lewis added an in-home business policy that covers everything now."
-> — **Robert L., Gainesville (Photographer)**
-
-> "I sell handmade jewelry online and had no idea my inventory wasn't covered. Lewis explained my exposure and set me up with a simple policy that protects my products and covers liability."
-> — **Andrea W., High Springs (E-commerce Seller)**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida entrepreneurs protect their home-based businesses without overcomplicating their coverage. We'll evaluate your specific risks and find the most cost-effective way to close the gaps in your homeowners policy.

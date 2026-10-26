@@ -29,19 +29,6 @@ Preparation happens before the storm, not when it's in the Gulf. Review your ins
 
 ---
 
-## What Our Clients Say
-
-> "Lewis called me in May to review my coverage before hurricane season. We discovered my dwelling limit was $60,000 below replacement cost. Fixed it before any storms hit."
-> — **Susan R., Lake City**
-
-> "I had photos of every room on my phone. After the storm, the claims adjuster said it was the easiest claim he'd ever processed. Lewis told me to do that years ago."
-> — **Michael and Janet P., Gainesville**
-
-> "I thought I had flood insurance but it had lapsed. Lewis caught it during my annual review and got me re-enrolled immediately. Two months later, my street flooded."
-> — **Charles W., High Springs**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida families prepare for hurricane season—not just react to it. We conduct annual coverage reviews, verify your policies are active, and make sure you understand exactly what's covered before the first storm forms.

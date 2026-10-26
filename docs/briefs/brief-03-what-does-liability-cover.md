@@ -23,19 +23,6 @@ Liability insurance protects your business when someone claims you caused them h
 
 ---
 
-## What Our Clients Say
-
-> "A customer tripped over a cord in my shop and broke her wrist. Lewis had set me up with general liability, and they handled the whole claim. Without it, I would have had to close my doors."
-> — **Robert C., Lake City**
-
-> "I'm an electrical contractor and a client claimed my work caused a fire. The investigation cleared me, but the legal bills were $12,000. My liability policy covered every penny."
-> — **Anthony J., Alachua**
-
-> "Lewis explained that my home-based business wasn't covered by my homeowners policy. They got me a simple liability policy that protects me if a client ever gets hurt during a meeting at my house."
-> — **Diane F., Gainesville**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've protected North Florida businesses from the lawsuits that can destroy years of hard work. We'll evaluate your specific risks and find the right liability coverage—without selling you more than you need.
