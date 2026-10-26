@@ -34,19 +34,6 @@ A deductible is the amount you pay out of pocket before your insurance kicks in.
 
 ---
 
-## What Our Clients Say
-
-> "I didn't realize my hurricane deductible was 5% until a storm hit. That was $12,000 out of my pocket. Lewis helped me understand the difference and adjust it to something I could handle."
-> — **Patricia G., Lake City**
-
-> "Lewis showed me that raising my standard deductible from $1,000 to $2,500 would save me $380 a year. I put that savings in a separate account for emergencies. Smart move."
-> — **John and Karen P., Gainesville**
-
-> "I thought all deductibles were the same. Lewis explained that my hurricane deductible only applies once per season, no matter how many storms hit. Little details like that matter."
-> — **Amanda L., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida homeowners and drivers understand the real cost of their coverage choices. We'll explain every deductible in plain English and help you find the balance between affordable premiums and manageable out-of-pocket costs.

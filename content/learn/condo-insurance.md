@@ -34,19 +34,6 @@ Your condo association's master policy covers the building structure, but not yo
 
 ---
 
-## What Our Clients Say
-
-> "A pipe burst in my condo and destroyed my floors and kitchen cabinets. The HOA's insurance covered the building, but I was responsible for $18,000 in interior repairs. My HO-6 policy from Lewis covered everything."
-> — **Catherine L., Gainesville**
-
-> "My neighbor's bathtub overflowed and water came through my ceiling. His insurance didn't cover my damage—mine did. Lewis made sure I had the right coverage from day one."
-> — **James H., Lake City**
-
-> "I had no idea I needed loss assessment coverage until Lewis explained that the HOA could charge me thousands if there's a major claim. Added it for less than $50 a year."
-> — **Margaret S., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida condo owners understand where the master policy ends and their responsibility begins. We'll review your HOA's policy, identify the gaps, and build an HO-6 policy that fully protects your investment.

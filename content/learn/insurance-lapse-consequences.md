@@ -31,19 +31,6 @@ Nothing good. A lapse in coverage—even for one day—can cost you more than yo
 
 ---
 
-## What Our Clients Say
-
-> "I missed one payment and didn't realize my auto insurance lapsed. Got pulled over two weeks later—no insurance, suspended license, $500 in fines. Lewis helped me get reinstated, but I learned my lesson the hard way."
-> — **Derek J., Lake City**
-
-> "My homeowners policy lapsed and my mortgage company bought force-placed coverage for $4,800 a year—triple what I was paying. Lewis got me a real policy in 48 hours and I got a refund for the forced coverage."
-> — **Linda M., Gainesville**
-
-> "I forgot to renew my flood insurance before hurricane season. Lewis called me before the expiration date because they track renewals. That one phone call saved me from a disaster."
-> — **Howard and Pam B., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've proactively monitored our clients' policies to prevent costly lapses. We send renewal reminders, offer payment plans, and work with carriers to reinstate coverage quickly if something slips through the cracks.
