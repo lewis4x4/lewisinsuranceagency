@@ -1,6 +1,6 @@
 ---
 title: "Florida Workers Comp Rates: 6.9% Cut Already in Force for 2026. NCCI Proposes Another for 2027."
-description: "OIR already approved a 6.9% Florida workers comp rate decrease for 2026 new and renewal policies. NCCI filed a proposed further cut for 2027 that is not approved yet. What North Florida employers should check at renewal."
+description: "OIR approved a 6.9% Florida workers comp rate cut for 2026. NCCI's proposed 2027 cut is not approved yet. What North Florida employers should check."
 date: 2026-09-07
 updatedAt: 2026-10-28
 author: "Lewis Insurance Agency"
