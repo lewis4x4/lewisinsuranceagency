@@ -2,6 +2,7 @@
 title: "Why Snowbirds Need a Local Florida Agent More Than Ever"
 description: "Florida's complex insurance market requires local expertise. Discover how snowbirds benefit from agents who understand Citizens rate cuts, roof age rules, & seasonal coverage needs."
 date: 2026-02-15
+updatedAt: 2026-10-30
 author: "Lewis Insurance Agency"
 category: "local"
 tags: ["local agent", "florida insurance", "independent agent"]
