@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 
 export const metadata: Metadata = {
-    title: "Contact Lewis Insurance | Free Quote",
+    title: { absolute: "Contact Lewis Insurance | Free Quote" },
     description: "Contact Lewis Insurance for Florida insurance quotes. Call, email, or visit our Lake City office. Free quotes, fast response.",
     alternates: {
         canonical: `https://${siteConfig.domain}/contact`,

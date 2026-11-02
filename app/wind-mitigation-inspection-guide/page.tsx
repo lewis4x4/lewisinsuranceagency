@@ -33,7 +33,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Wind Mitigation Inspection Guide | Lewis Insurance",
+    title: { absolute: "Florida Wind Mitigation Inspection Guide | Lewis Insurance" },
     description: "Learn how a Florida wind mitigation inspection can qualify you for discounts on the windstorm portion of your premium. Savings vary by home and insurer.",
     alternates: {
         canonical: `${baseUrl}/wind-mitigation-inspection-guide`,

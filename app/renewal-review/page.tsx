@@ -32,7 +32,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Insurance Renewal Review in Florida | Lewis Insurance",
+    title: { absolute: "Insurance Renewal Review in Florida | Lewis Insurance" },
     description: "Free insurance renewal review in Florida. Understand rate changes, compare carriers, ensure proper coverage. Home, auto, mobile home.",
     alternates: {
         canonical: `${baseUrl}/renewal-review`,
