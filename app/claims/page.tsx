@@ -12,7 +12,7 @@ import type { Metadata } from "next"
 import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
-    title: "File an Insurance Claim | Lewis Insurance Agency",
+    title: { absolute: "File an Insurance Claim | Lewis Insurance Agency" },
     description: "Need to file an insurance claim in Florida? Lewis Insurance guides you through the claims process step-by-step. We advocate on your behalf with carriers.",
     alternates: {
         canonical: "https://lewisinsurance.com/claims",

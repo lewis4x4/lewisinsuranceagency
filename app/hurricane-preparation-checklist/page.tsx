@@ -33,7 +33,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Hurricane Preparation Checklist | Lewis Insurance",
+    title: { absolute: "Florida Hurricane Preparation Checklist | Lewis Insurance" },
     description: "Complete Florida hurricane prep checklist. Insurance documents, home protection, evacuation planning, and post-storm claims tips.",
     alternates: {
         canonical: `${baseUrl}/hurricane-preparation-checklist`,

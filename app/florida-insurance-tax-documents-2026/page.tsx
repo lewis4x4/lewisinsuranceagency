@@ -38,7 +38,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Insurance Tax Documents 2026: What's Deductible | Lewis Insurance",
+    title: { absolute: "Florida Insurance Tax Documents 2026: What's Deductible | Lewis Insurance" },
     description:
         "Florida homeowners insurance tax documents for 2026. What's deductible, Form 1098 explained, PMI changes, home office deductions. Lake City expert guide.",
     alternates: {

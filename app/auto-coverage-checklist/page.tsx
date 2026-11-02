@@ -29,7 +29,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Florida Auto Insurance Coverage Checklist | Lewis Insurance",
+    title: { absolute: "Florida Auto Insurance Coverage Checklist | Lewis Insurance" },
     description:
         "Review your Florida auto insurance coverage with this checklist. Understand PIP, liability limits, uninsured motorist, comprehensive, and collision options.",
     alternates: {
