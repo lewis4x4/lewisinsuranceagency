@@ -104,10 +104,10 @@ export default function ClientToolsPage() {
                                                     <Icon className="h-6 w-6 text-lewis-blue group-hover:text-white transition-colors" />
                                                 </div>
                                                 <div className="flex-1">
-                                                    <h3 className="text-lg font-semibold text-lewis-ink mb-2 group-hover:text-lewis-blue transition-colors flex items-center gap-2">
+                                                    <h2 className="text-lg leading-7 font-semibold text-lewis-ink mb-2 group-hover:text-lewis-blue transition-colors flex items-center gap-2">
                                                         {tool.title}
                                                         <ArrowRight className="h-4 w-4" />
-                                                    </h3>
+                                                    </h2>
                                                     <p className="text-sm text-lewis-body">{tool.description}</p>
                                                 </div>
                                             </div>
