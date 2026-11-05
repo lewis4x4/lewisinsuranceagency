@@ -622,7 +622,7 @@ export default function LifeInsuranceBeneficiaryGuidePage() {
                                             1
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Contact Your Insurance Company or Agent</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Contact Your Insurance Company or Agent</h3>
                                             <p className="text-lewis-body text-sm">
                                                 Request a beneficiary change form. Some companies allow changes online through your account portal.
                                             </p>
@@ -633,7 +633,7 @@ export default function LifeInsuranceBeneficiaryGuidePage() {
                                             2
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Complete the Form Carefully</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Complete the Form Carefully</h3>
                                             <p className="text-lewis-body text-sm">
                                                 Provide full legal names, dates of birth, Social Security numbers (if requested), relationships, and percentage allocations.
                                             </p>
@@ -644,7 +644,7 @@ export default function LifeInsuranceBeneficiaryGuidePage() {
                                             3
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Sign and Witness</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Sign and Witness</h3>
                                             <p className="text-lewis-body text-sm">
                                                 Most forms require your signature, and some require witnessing or notarization. Follow the instructions exactly.
                                             </p>
@@ -655,7 +655,7 @@ export default function LifeInsuranceBeneficiaryGuidePage() {
                                             4
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Submit and Confirm</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Submit and Confirm</h3>
                                             <p className="text-lewis-body text-sm">
                                                 Submit the form and request written confirmation that the change was processed. Keep copies in a safe place.
                                             </p>

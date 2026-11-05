@@ -221,7 +221,7 @@ export default function WhyLocalAgentPage() {
                                 </Link>
                             </Button>
                             <Button asChild size="lg" variant="outline" className="rounded-full">
-                                <Link href={`tel:${siteConfig.contact.phone.main}`}>
+                                <Link href={`tel:${siteConfig.contact.phone.main.replace(/[^0-9]/g, "")}`}>
                                     <Phone className="mr-2 h-5 w-5" />
                                     Call {siteConfig.contact.phone.main}
                                 </Link>
@@ -492,7 +492,7 @@ export default function WhyLocalAgentPage() {
                                 variant="outline"
                                 className="rounded-full border-white text-white hover:bg-white hover:text-lewis-blue"
                             >
-                                <Link href={`tel:${siteConfig.contact.phone.main}`}>
+                                <Link href={`tel:${siteConfig.contact.phone.main.replace(/[^0-9]/g, "")}`}>
                                     <Phone className="mr-2 h-5 w-5" />
                                     {siteConfig.contact.phone.main}
                                 </Link>

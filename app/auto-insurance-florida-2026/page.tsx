@@ -903,7 +903,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                             1
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Review Your Declarations Page</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Review Your Declarations Page</h3>
                                             <p className="text-lewis-body text-sm">
                                                 Understand what changed. Sometimes coverage adjustments or removed discounts cause
                                                 increases rather than base rate changes.
@@ -915,7 +915,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                             2
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Contact Your Agent</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Contact Your Agent</h3>
                                             <p className="text-lewis-body text-sm">
                                                 There may be discounts you&apos;re missing or coverage adjustments that fit your situation better.
                                             </p>
@@ -926,7 +926,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                             3
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Shop Your Policy</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Shop Your Policy</h3>
                                             <p className="text-lewis-body text-sm">
                                                 An increase from your current insurer doesn&apos;t mean all companies raised rates equally.
                                             </p>
@@ -937,7 +937,7 @@ export default function AutoInsuranceFlorida2026Page() {
                                             4
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-lewis-ink">Consider Telematics</h4>
+                                            <h3 className="text-xl md:text-2xl font-semibold text-lewis-ink">Consider Telematics</h3>
                                             <p className="text-lewis-body text-sm">
                                                 A usage-based program might offset the increase for safe drivers.
                                             </p>
