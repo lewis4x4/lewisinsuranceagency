@@ -103,7 +103,7 @@ export default function LearnPage() {
                                     <Users className="h-6 w-6 text-lewis-blue" />
                                 </div>
                                 <div className="flex-1">
-                                    <h2 className="text-lg font-semibold text-lewis-ink group-hover:text-lewis-blue transition-colors">
+                                    <h2 className="text-lg leading-7 font-semibold text-lewis-ink group-hover:text-lewis-blue transition-colors">
                                         Local Agent vs Direct Insurance
                                     </h2>
                                     <p className="text-sm text-lewis-body">

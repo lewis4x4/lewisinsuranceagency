@@ -207,7 +207,7 @@ export default async function ArticlePage({ params }: Props) {
 
                             {/* Tags */}
                             <div className="mt-8 pt-8 border-t border-lewis-border">
-                                <h2 className="text-sm font-medium text-lewis-ink mb-3">Topics</h2>
+                                <h2 className="text-sm leading-5 font-medium text-lewis-ink mb-3">Topics</h2>
                                 <div className="flex flex-wrap gap-2">
                                     {article.tags.map((tag) => (
                                         <Badge key={tag} variant="secondary">
