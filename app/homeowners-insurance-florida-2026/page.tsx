@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         type: "article",
         images: [
             {
-                url: `${baseUrl}/images/2026_Homeowners_Checklist.jpg`,
+                url: `${baseUrl}/images/og/2026_Homeowners_Checklist-og.jpg`,
                 width: 1200,
                 height: 630,
                 alt: "Florida Homeowners Insurance 2026 Review Checklist",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
         title: "Florida Homeowners Insurance 2026 Review | Lewis Insurance",
         description:
             "Complete 2026 Florida homeowners insurance guide. Rate decreases, coverage checklist, and savings strategies for North Florida homeowners.",
-        images: [`${baseUrl}/images/2026_Homeowners_Checklist.jpg`],
+        images: [`${baseUrl}/images/og/2026_Homeowners_Checklist-og.jpg`],
     },
 }
 
