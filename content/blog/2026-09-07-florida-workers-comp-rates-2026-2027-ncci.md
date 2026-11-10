@@ -1,7 +1,8 @@
 ---
 title: "Florida Workers Comp Rates: 6.9% Cut Already in Force for 2026. NCCI Proposes Another for 2027."
-description: "OIR already approved a 6.9% Florida workers comp rate decrease for 2026 new and renewal policies. NCCI filed a proposed further cut for 2027 that is not approved yet. What North Florida employers should check at renewal."
+description: "OIR approved a 6.9% Florida workers comp rate cut for 2026. NCCI's proposed 2027 cut is not approved yet. What North Florida employers should check."
 date: 2026-09-07
+updatedAt: 2026-10-28
 author: "Lewis Insurance Agency"
 category: "florida-business-insurance"
 tags: ["workers compensation", "NCCI", "FLOIR", "OIR", "Lake City", "commercial insurance", "Florida employers"]
@@ -36,7 +37,7 @@ Your class codes, payroll, experience modification, and credits still decide the
 
 In late August 2026, trade coverage (including Business Insurance on Aug. 24, 2026, plus Orlando Weekly and Insurance Business) reported that NCCI filed a **proposed average 7.4%** Florida workers compensation rate decrease for the voluntary market, aimed at policies effective **Jan. 1, 2027**.
 
-That filing is a **recommendation**. OIR still runs the hearing and Final Order process. As of late September 2026, [OIR's 2026 NCCI public rate hearing page](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) lists a virtual public rate hearing on NCCI's proposed **7.4%** filing, effective **Jan. 1, 2027**, for Tuesday, **Oct. 27, 2026**, at **10 a.m. ET**. No Final Order has issued for 2027 yet. Do not price a 2027 renewal as if **7.4%** is already law.
+That filing is a **recommendation**. OIR still runs the hearing and Final Order process. [OIR](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) held its virtual public rate hearing on NCCI's proposed **7.4%** decrease (effective **Jan. 1, 2027**) on **Oct. 27, 2026**, and the public comment record stays open until **Nov. 10, 2026**, at **5 p.m. ET**. No Final Order has issued for 2027 yet. Do not price a 2027 renewal as if **7.4%** is already law.
 
 ## What to check before your renewal
 
@@ -44,7 +45,7 @@ That filing is a **recommendation**. OIR still runs the hearing and Final Order 
 2. **Class codes and payroll.** Wrong codes or stale payroll estimates can erase a statewide decrease before it shows up on the invoice.
 3. **Experience modification.** Your mod can move premium up or down independent of the statewide filing.
 4. **Credits and schedule rating.** Ask what is already applied and what still needs underwriting support.
-5. **Watch OIR for the 2027 hearing.** [OIR's 2026 NCCI public rate hearing page](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) lists the virtual hearing for **Oct. 27, 2026**, at **10 a.m. ET**. Until a Final Order issues, treat **7.4%** as proposed only.
+5. **Watch OIR for the 2027 Final Order.** [OIR](https://floir.gov/events/national-council-on-compensation-insurance-public-rate-hearing-2026) held the virtual NCCI rate hearing on **Oct. 27, 2026**, and takes written comments at [ratehearings@floir.gov](mailto:ratehearings@floir.gov) until **Nov. 10, 2026**, at **5 p.m. ET**. Until a Final Order issues, treat **7.4%** as proposed only.
 
 ## When to call us
 
