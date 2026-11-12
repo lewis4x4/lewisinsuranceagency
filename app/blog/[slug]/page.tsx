@@ -17,6 +17,15 @@ interface Props {
     params: Promise<{ slug: string }>
 }
 
+function toIsoDate(value: unknown): string | undefined {
+    if (value == null || value === "") return undefined
+    try {
+        return new Date(value as string | number | Date).toISOString()
+    } catch {
+        return undefined
+    }
+}
+
 export async function generateStaticParams() {
     const posts = getAllPosts()
     return posts.map((post) => ({ slug: post.slug }))
@@ -41,8 +50,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description: post.description,
             url: canonicalUrl,
             type: "article",
-            publishedTime: post.publishedAt,
-            modifiedTime: post.updatedAt,
+            publishedTime: toIsoDate(post.publishedAt),
+            modifiedTime: toIsoDate(post.updatedAt || post.publishedAt),
             authors: [post.author.name],
             images: [{
                 url: imageUrl,
