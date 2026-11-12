@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site"
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Home Inventory Checklist | Lewis Insurance",
+    title: { absolute: "Home Inventory Checklist | Lewis Insurance" },
     description: "Create a detailed home inventory room-by-room. Essential for insurance claims and ensuring proper coverage. Free interactive tool for Florida homeowners.",
     alternates: {
         canonical: `${baseUrl}/tools/home-inventory`,

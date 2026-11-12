@@ -9,7 +9,7 @@ import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 
 export const metadata: Metadata = {
-    title: "Insurance Articles & Guides | Lewis Insurance",
+    title: { absolute: "Insurance Articles & Guides | Lewis Insurance" },
     description: "Comprehensive insurance articles and quick-answer guides for Florida homeowners. Expert insights on auto, homeowners, flood, and business insurance from Lewis Insurance Agency.",
     alternates: {
         canonical: `https://${siteConfig.domain}/articles`,

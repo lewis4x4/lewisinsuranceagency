@@ -29,7 +29,7 @@ import { generateFAQSchema, generateBreadcrumbSchema, SchemaScripts } from "@/li
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Local Insurance Agent vs Direct Insurance | Lewis Insurance",
+    title: { absolute: "Local Insurance Agent vs Direct Insurance | Lewis Insurance" },
     description: "Compare Lewis Insurance vs direct/online insurance. Get multi-carrier options, Florida-specific guidance, renewal reviews, and claims advocacy.",
     alternates: {
         canonical: `${baseUrl}/why-local-agent`,

@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site"
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Hurricane Prep Checklist | Lewis Insurance",
+    title: { absolute: "Hurricane Prep Checklist | Lewis Insurance" },
     description: "Comprehensive hurricane preparation checklist for Florida residents. Covers insurance, documents, home protection, and supplies. Be ready for hurricane season.",
     alternates: {
         canonical: `${baseUrl}/tools/hurricane-prep`,

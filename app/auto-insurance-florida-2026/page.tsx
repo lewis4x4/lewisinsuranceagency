@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         type: "article",
         images: [
             {
-                url: `${baseUrl}/images/2026_Auto_Insurance_Review.jpg`,
+                url: `${baseUrl}/images/og/2026_Auto_Insurance_Review-og.jpg`,
                 width: 1200,
                 height: 630,
                 alt: "Auto Insurance in 2026 - What Florida Drivers Need to Know",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
         title: "Auto Insurance in 2026: Florida Driver's Guide | Lewis Insurance",
         description:
             "Complete guide to Florida auto insurance in 2026. Rate trends, current PIP requirements, and strategies to lower your premium.",
-        images: [`${baseUrl}/images/2026_Auto_Insurance_Review.jpg`],
+        images: [`${baseUrl}/images/og/2026_Auto_Insurance_Review-og.jpg`],
     },
 }
 

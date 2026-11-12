@@ -32,19 +32,6 @@ Document everything first, then call your insurance company (or us) to report th
 
 ---
 
-## What Our Clients Say
-
-> "A tree crashed through my roof during the storm. I panicked, but Lewis walked me through exactly what to do. They even called the insurance company with me on the line. Claim was paid in three weeks."
-> — **Jennifer L., Lake City**
-
-> "The adjuster's first offer was $8,000. Lewis helped me document additional damage he missed and we got it up to $19,000. Having someone in my corner made all the difference."
-> — **Michael S., Gainesville**
-
-> "I didn't know my policy covered hotel costs while my house was being repaired. Lewis made sure I got reimbursed for everything. Don't assume you know what's covered—ask your agent."
-> — **Brenda W., Alachua**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've guided North Florida families through the claims process after every major storm. We're here before, during, and after—helping you document damage, communicate with adjusters, and get the settlement you deserve.

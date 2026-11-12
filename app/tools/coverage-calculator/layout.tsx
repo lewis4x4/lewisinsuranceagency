@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site"
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Coverage Needs Calculator | Lewis Insurance",
+    title: { absolute: "Coverage Needs Calculator | Lewis Insurance" },
     description: "Calculate your ideal insurance coverage amounts for homeowners, auto, flood, and umbrella policies. Free interactive tool for Florida residents.",
     alternates: {
         canonical: `${baseUrl}/tools/coverage-calculator`,

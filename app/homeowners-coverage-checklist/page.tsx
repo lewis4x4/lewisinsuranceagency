@@ -29,7 +29,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "FL Homeowners Insurance Checklist | Lewis Insurance",
+    title: { absolute: "FL Homeowners Insurance Checklist | Lewis Insurance" },
     description: "FL homeowners insurance checklist. Review dwelling, hurricane deductibles, flood gaps, wind mitigation. Free coverage review.",
     alternates: {
         canonical: `${baseUrl}/homeowners-coverage-checklist`,

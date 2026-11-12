@@ -36,19 +36,6 @@ If you have assets worth protecting—a home, savings, retirement accounts—umb
 
 ---
 
-## What Our Clients Say
-
-> "My daughter was in an accident that injured three people. Medical bills exceeded $400,000. Our auto policy covered $300,000, but the umbrella policy Lewis recommended covered the rest. It saved our family's future."
-> — **The Martinez Family, Gainesville**
-
-> "Someone's kid broke his arm jumping on our trampoline. The lawsuit asked for $350,000. Between homeowners and umbrella coverage, we didn't pay a dime out of pocket."
-> — **Brian and Kelly S., Lake City**
-
-> "For $22 a month, I have an extra million in protection. Lewis showed me how exposed I was with just my basic policies. Now I sleep better knowing one lawsuit won't take everything I've worked for."
-> — **Thomas R., High Springs**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida families understand that wealth protection isn't just for the wealthy. We'll review your current policies, identify your exposure, and find umbrella coverage that fits your budget.

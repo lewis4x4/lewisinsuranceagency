@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
-    title: "Policy Connected Successfully | Lewis Insurance",
+    title: { absolute: "Policy Connected Successfully | Lewis Insurance" },
     description: "Thank you for connecting your policy with Lewis Insurance. We've received your information and our team will review it shortly to prepare your personalized quote.",
 
     alternates: {

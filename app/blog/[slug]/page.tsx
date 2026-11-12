@@ -12,9 +12,19 @@ import { generateArticleSchema, generateBreadcrumbSchema, SchemaScripts } from "
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 import { blogCanonicalSlugs } from "@/lib/blog/canonicals"
+import { socialImageFor } from "@/lib/social-images"
 
 interface Props {
     params: Promise<{ slug: string }>
+}
+
+function toIsoDate(value: unknown): string | undefined {
+    if (value == null || value === "") return undefined
+    try {
+        return new Date(value as string | number | Date).toISOString()
+    } catch {
+        return undefined
+    }
 }
 
 export async function generateStaticParams() {
@@ -30,7 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const baseUrl = `https://${siteConfig.domain}`
     const canonicalSlug = blogCanonicalSlugs[slug] || slug
     const canonicalUrl = `${baseUrl}/blog/${canonicalSlug}`
-    const imageUrl = new URL(post.image || "/images/og-default.png", baseUrl).toString()
+    const socialImage = socialImageFor(post.image)
+    const imageUrl = new URL(socialImage.url, baseUrl).toString()
 
     return {
         title: post.title,
@@ -41,11 +52,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description: post.description,
             url: canonicalUrl,
             type: "article",
-            publishedTime: post.publishedAt,
-            modifiedTime: post.updatedAt,
+            publishedTime: toIsoDate(post.publishedAt),
+            modifiedTime: toIsoDate(post.updatedAt || post.publishedAt),
             authors: [post.author.name],
             images: [{
                 url: imageUrl,
+                width: socialImage.width,
+                height: socialImage.height,
                 alt: post.imageAlt || post.title,
             }],
         },

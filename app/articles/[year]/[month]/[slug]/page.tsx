@@ -10,6 +10,7 @@ import { getArticleByParams, getAllArticleParams, getRelatedArticles } from "@/l
 import { generateArticleSchema, generateBreadcrumbSchema, SchemaScripts } from "@/lib/schema"
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
+import { socialImageFor } from "@/lib/social-images"
 
 interface Props {
     params: Promise<{ year: string; month: string; slug: string }>
@@ -27,10 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const baseUrl = `https://${siteConfig.domain}`
     const articleUrl = `${baseUrl}/articles/${year}/${month}/${slug}`
-    const socialImageUrl = new URL(
-        article.featuredImage || "/images/og-default.png",
-        baseUrl
-    ).toString()
+    const socialImage = socialImageFor(article.featuredImage)
+    const socialImageUrl = new URL(socialImage.url, baseUrl).toString()
 
     return {
         title: article.title,
@@ -46,6 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: articleUrl,
             images: [{
                 url: socialImageUrl,
+                width: socialImage.width,
+                height: socialImage.height,
                 alt: article.featuredImageAlt || article.title,
             }],
         },

@@ -36,7 +36,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Life Insurance Beneficiary Guide | Lewis Insurance",
+    title: { absolute: "Life Insurance Beneficiary Guide | Lewis Insurance" },
     description:
         "How to choose and update life insurance beneficiaries. Avoid common mistakes that delay payouts or send money to the wrong person.",
     alternates: {
