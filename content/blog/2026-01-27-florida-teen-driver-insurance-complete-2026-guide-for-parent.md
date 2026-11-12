@@ -74,10 +74,7 @@ Where you live and where the vehicle is kept can affect your quote. For Lake Cit
 
 ## Understanding Florida's Insurance Requirements
 
-Florida requires all teen drivers to carry minimum insurance coverage, including:
-
-- $10,000 Personal Injury Protection (PIP)
-- $10,000 Property Damage Liability
+Florida requires the owner or registrant of every registered vehicle to carry at least $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (ss. [627.733](https://www.flsenate.gov/Laws/Statutes/2025/627.733) and [324.022](https://www.flsenate.gov/Laws/Statutes/2025/324.022), Florida Statutes). A teen who drives a household car is usually covered by being listed on the policy for that vehicle; if the teen owns or registers a car, that car needs its own required coverage.
 
 However, these minimums may not provide adequate protection. Coverage limits of 100/300/100 mean $100,000 for one person's injuries, $300,000 for all injuries in a single accident, and $100,000 for property damage.
 

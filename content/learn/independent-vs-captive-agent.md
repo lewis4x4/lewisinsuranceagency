@@ -33,19 +33,6 @@ A captive agent works for one insurance company and can only sell that company's
 
 ---
 
-## What Our Clients Say
-
-> "My old agent worked for one company. When they raised my rate 40%, he said there was nothing he could do. Lewis found me the same coverage for $1,100 less with a different carrier."
-> — **Dorothy A., Lake City**
-
-> "I like having one agent who handles my home, auto, flood, and umbrella—even though they're with three different companies. Lewis puts together the best combination for me."
-> — **Richard and Ellen T., Gainesville**
-
-> "When my insurance company left Florida, my captive agent couldn't help me. Lewis got me covered with a new carrier in two days. That's why independent agents matter."
-> — **Paul M., High Springs**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've been proudly independent—working for our clients, not insurance companies. We represent dozens of carriers and have the flexibility to find you the right coverage at the right price, no matter how the market changes.

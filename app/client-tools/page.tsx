@@ -15,7 +15,7 @@ import { MailtoInfo } from "@/components/MailtoInfo"
 import { siteOpenGraph } from "@/lib/og"
 
 export const metadata: Metadata = {
-    title: "Client Tools & Service Center | Lewis Insurance",
+    title: { absolute: "Client Tools & Service Center | Lewis Insurance" },
     description: "Access your insurance portal, make payments, file claims, and manage your policies online. Lewis Insurance self-service tools for Florida clients.",
     alternates: {
         canonical: "https://lewisinsurance.com/client-tools",

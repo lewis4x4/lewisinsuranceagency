@@ -37,7 +37,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Annual Insurance Review Checklist | Lewis Insurance",
+    title: { absolute: "Annual Insurance Review Checklist | Lewis Insurance" },
     description:
         "Complete annual insurance review checklist. What to check, when to shop, and how to save on home, auto, and life insurance in Florida.",
     alternates: {

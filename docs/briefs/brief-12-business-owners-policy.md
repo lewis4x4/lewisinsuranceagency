@@ -32,19 +32,6 @@ A Business Owners Policy bundles general liability and commercial property insur
 
 ---
 
-## What Our Clients Say
-
-> "I had separate liability and property policies that cost me $4,200 a year. Lewis bundled them into a BOP for $3,400 with better coverage. I don't know why I waited so long."
-> — **Rebecca S., Lake City (Boutique Owner)**
-
-> "My restaurant had a kitchen fire that shut us down for six weeks. The BOP covered the repairs AND my lost income. We would have gone out of business otherwise."
-> — **Carlos and Ana M., Gainesville (Restaurant Owners)**
-
-> "Lewis set up my BOP when I started my accounting practice. When a client sued over a tax mistake, the professional liability add-on covered my legal defense. Worth every penny."
-> — **Gregory T., High Springs (CPA)**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida small businesses simplify their insurance with tailored BOP packages. We'll assess your risks, customize coverage for your industry, and find the best value from multiple carriers.

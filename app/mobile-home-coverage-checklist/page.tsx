@@ -29,7 +29,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "FL Mobile Home Insurance Checklist | Lewis Insurance",
+    title: { absolute: "FL Mobile Home Insurance Checklist | Lewis Insurance" },
     description:
         "Review your Florida mobile home or manufactured home insurance coverage. Understand tie-down requirements, replacement cost options, and hurricane deductibles.",
     alternates: {
