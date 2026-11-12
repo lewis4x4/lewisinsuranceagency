@@ -38,7 +38,7 @@ import {
 const baseUrl = `https://${siteConfig.domain}`
 
 export const metadata: Metadata = {
-    title: "Home Inventory Checklist for Insurance | Lewis Insurance",
+    title: { absolute: "Home Inventory Checklist for Insurance | Lewis Insurance" },
     description:
         "Complete home inventory checklist for insurance claims. Room-by-room guide to document your belongings. Free tips for Florida homeowners.",
     alternates: {

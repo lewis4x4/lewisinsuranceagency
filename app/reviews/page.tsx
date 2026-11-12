@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { MailtoInfo } from "@/components/MailtoInfo"
 
 export const metadata: Metadata = {
-    title: "Client Reviews | Lewis Insurance Agency",
+    title: { absolute: "Client Reviews | Lewis Insurance Agency" },
     description: "Share feedback about your experience with Lewis Insurance Agency or visit our verified Google Business Profile.",
     alternates: {
         canonical: "https://lewisinsurance.com/reviews",
