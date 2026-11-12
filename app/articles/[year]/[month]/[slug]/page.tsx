@@ -16,6 +16,15 @@ interface Props {
     params: Promise<{ year: string; month: string; slug: string }>
 }
 
+function toIsoDate(value: unknown): string | undefined {
+    if (value == null || value === "") return undefined
+    try {
+        return new Date(value as string | number | Date).toISOString()
+    } catch {
+        return undefined
+    }
+}
+
 export async function generateStaticParams() {
     return getAllArticleParams()
 }
@@ -39,8 +48,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: article.title,
             description: article.description,
             type: "article",
-            publishedTime: article.publishedAt,
-            modifiedTime: article.updatedAt,
+            publishedTime: toIsoDate(article.publishedAt),
+            modifiedTime: toIsoDate(article.updatedAt),
             authors: [article.author],
             url: articleUrl,
             images: [{
