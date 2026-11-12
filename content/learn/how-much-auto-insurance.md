@@ -32,19 +32,6 @@ Florida law requires only $10,000 in Personal Injury Protection (PIP) and $10,00
 
 ---
 
-## What Our Clients Say
-
-> "I thought minimum coverage was fine until Lewis explained what would happen if I caused a serious accident. For an extra $40 a month, I have real protection now. Peace of mind is worth it."
-> — **Kevin M., Lake City**
-
-> "My son rear-ended someone and the other driver's medical bills were over $45,000. Thank God Lewis had set us up with proper bodily injury coverage. The state minimum would have ruined us financially."
-> — **Sandra W., High Springs**
-
-> "I got hit by an uninsured driver on I-75. Because Lewis recommended uninsured motorist coverage, my medical bills and car repairs were covered. I'd be out $18,000 otherwise."
-> — **Marcus D., Gainesville**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida drivers understand the gap between legal minimums and real protection. We'll compare rates from multiple carriers to find the right coverage at a price that works for your budget—without leaving you exposed.

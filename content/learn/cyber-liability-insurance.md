@@ -40,19 +40,6 @@ Cyber liability insurance covers your business when hackers steal data, ransomwa
 
 ---
 
-## What Our Clients Say
-
-> "Someone hacked our email and sent fake invoices to our clients. We lost $12,000 before we caught it. Cyber insurance covered the loss and paid for a security audit. Could have been much worse."
-> — **Steven M., Lake City (Accounting Firm)**
-
-> "Ransomware locked all our files and demanded $25,000. The cyber policy Lewis recommended covered the ransom, the IT recovery, and the business income we lost during the three days we were down."
-> — **Laura K., Gainesville (Medical Practice)**
-
-> "I thought cyber insurance was only for big companies. Lewis showed me a policy for $400 a year that covers $100,000 in cyber losses. That's cheap peace of mind."
-> — **Mark D., Alachua (Insurance Agency Owner... kidding, Retail Store Owner)**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've evolved with the risks our clients face—and cyber threats are now at the top of the list. We'll assess your digital exposure and find affordable cyber coverage that protects your business from modern threats.

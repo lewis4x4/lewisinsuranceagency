@@ -30,19 +30,6 @@ Local agents provide personalized service, help with complex needs, and offer mu
 
 ---
 
-## What Our Clients Say
-
-> "After Hurricane Ian damaged my roof, my local agent coordinated with three different adjusters and got me the full replacement cost. I couldn't have navigated that maze alone."
-> — **Maria G., Gainesville**
-
-> "I saved $400 a year going direct online for my auto insurance. For basic coverage with no claims, it's been perfect and so convenient."
-> — **James R., Jacksonville**
-
-> "When Citizens dropped my coverage, my agent found me a new carrier within 24 hours. Worth every penny in commission for that peace of mind."
-> — **Linda K., Lake City**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, Lewis Insurance Agency has guided Florida families through market changes from Hurricane Andrew to today's stabilizing conditions. Our local agents understand Florida's unique risks - from sinkhole coverage in Ocala to wind mitigation discounts in coastal areas. With over 120 rate decrease filings in 2025 alone, we help you navigate the improving market to find the best value from our multiple carrier partnerships.

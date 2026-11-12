@@ -30,19 +30,6 @@ Workers' compensation covers medical bills and lost wages when an employee gets 
 
 ---
 
-## What Our Clients Say
-
-> "One of my crew fell off a ladder and broke his back. Workers' comp covered $87,000 in medical bills and his wages while he recovered. Without it, I would have lost my business and my house."
-> — **Richard M., Lake City (Roofing Contractor)**
-
-> "I didn't think I needed workers' comp with only two employees. Lewis explained Florida's construction rules. Good thing—an inspector showed up two months later."
-> — **Tony S., Gainesville (Electrician)**
-
-> "Lewis found me a workers' comp policy that was $3,000 less than I was paying before. Same coverage, better service. They do an annual audit to make sure I'm never overpaying."
-> — **Michelle D., Alachua (Landscaping Company)**
-
----
-
 ## Why Lewis Insurance Agency
 
 Since 1981, we've helped North Florida business owners stay compliant and protected. We'll assess your workforce, find competitive workers' comp rates from multiple carriers, and handle the annual audits so you can focus on running your business.
