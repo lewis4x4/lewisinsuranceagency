@@ -12,6 +12,7 @@ import { generateArticleSchema, generateBreadcrumbSchema, SchemaScripts } from "
 import { CTABand } from "@/components/sections"
 import { siteConfig } from "@/config/site"
 import { blogCanonicalSlugs } from "@/lib/blog/canonicals"
+import { socialImageFor } from "@/lib/social-images"
 
 interface Props {
     params: Promise<{ slug: string }>
@@ -39,7 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const baseUrl = `https://${siteConfig.domain}`
     const canonicalSlug = blogCanonicalSlugs[slug] || slug
     const canonicalUrl = `${baseUrl}/blog/${canonicalSlug}`
-    const imageUrl = new URL(post.image || "/images/og-default.png", baseUrl).toString()
+    const socialImage = socialImageFor(post.image)
+    const imageUrl = new URL(socialImage.url, baseUrl).toString()
 
     return {
         title: post.title,
@@ -55,6 +57,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             authors: [post.author.name],
             images: [{
                 url: imageUrl,
+                width: socialImage.width,
+                height: socialImage.height,
                 alt: post.imageAlt || post.title,
             }],
         },
