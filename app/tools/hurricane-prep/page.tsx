@@ -309,7 +309,7 @@ export default function HurricanePrepPage() {
                         {emergencyContacts.map((contact) => (
                             <div key={contact.name} className="bg-white rounded-lg p-3 border border-red-100">
                                 <p className="text-sm text-lewis-body">{contact.name}</p>
-                                <a href={`tel:${contact.number}`} className="font-semibold text-red-600 hover:underline">
+                                <a href={`tel:${contact.number.replace(/^1-/, "+1").replace(/-/g, "")}`} className="font-semibold text-red-600 hover:underline">
                                     {contact.number}
                                 </a>
                             </div>
