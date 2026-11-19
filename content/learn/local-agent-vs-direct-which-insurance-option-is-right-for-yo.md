@@ -24,7 +24,7 @@ Local agents provide personalized service, help with complex needs, and offer mu
 
 **Why This Matters in Florida:**
 - While Florida accounts for just 9% of homeowners insurance claims, it generates 79% of all insurance lawsuits
-- 53% of Florida homeowners report more carrier choices available as 20 new insurers have entered Florida's market since the reforms ([OIR, May 2026](https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms))
+- 20 new insurers have entered Florida's market since the reforms ([OIR, May 2026](https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms))
 - With 20.6% of Florida drivers uninsured, expert advice on coverage limits is crucial
 
 ---
