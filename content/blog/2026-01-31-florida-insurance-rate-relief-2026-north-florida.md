@@ -51,7 +51,7 @@ Before the reforms, litigation drove up homeowners insurance costs in Florida. T
 - Litigation between plaintiffs and insurers has dropped dramatically
 - Florida's ranking for "nuclear verdicts" (massive jury awards) fell from 2nd nationally to 10th, according to [Milliman](https://www.milliman.com/en/insight/how-tort-reforms-shaping-insurance-claims-florida-georgia)
 - The Florida property-casualty industry's financial results have improved since the reforms
-- **17 new insurance companies** have entered the Florida market, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms)
+- As of January 2026, **17 new insurance companies** had entered the Florida market since the reforms, according to the [Governor's office](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms); [OIR](https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms) put the count at 20 in May 2026
 
 More competition means better rates and more choices for homeowners.
 
@@ -71,7 +71,7 @@ If you don't currently have flood insurance, start planning for it now. [Flood i
 
 ### You May Have Private Market Options Now
 
-Citizens was designed as a last resort, for homeowners who couldn't find coverage in the private market. With [17 new carriers](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) since the reforms and improving market conditions, you may now qualify for private coverage that wasn't available before.
+Citizens was designed as a last resort, for homeowners who couldn't find coverage in the private market. As of January 2026, [17 new carriers](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) had entered Florida since the reforms; [OIR](https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms) put the count at 20 in May 2026. With improving market conditions, you may now qualify for private coverage that wasn't available before.
 
 Private insurers often offer:
 - Broader coverage options
