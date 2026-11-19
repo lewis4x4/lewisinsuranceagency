@@ -86,9 +86,9 @@ const marketHighlights = [
         detail: "Lowest level in 14 years (Jan 2025)",
     },
     {
-        stat: "17",
-        label: "New carriers",
-        detail: "Entered Florida market",
+        stat: "20",
+        label: "New insurers since reforms",
+        detail: "OIR, May 2026",
     },
 ]
 
@@ -335,7 +335,7 @@ export default function HomeownersInsuranceFlorida2026Page() {
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <Shield className="h-4 w-4 text-green-600" />
-                                <span><a href="https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms" target="_blank" rel="noopener noreferrer" className="underline">17 new carriers in Florida since the reforms</a></span>
+                                <span><a href="https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms" target="_blank" rel="noopener noreferrer" className="underline">20 new insurers have entered Florida's market since the reforms (OIR, May 2026)</a></span>
                             </div>
                             <div className="flex items-center gap-2 text-sm text-lewis-body">
                                 <DollarSign className="h-4 w-4 text-green-600" />

@@ -71,7 +71,7 @@ Metal & Tile Advantage: Since metal and tile roofs often last 30–50 years, thi
 
 In January 2026, [Governor DeSantis announced](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) Citizens rate reductions for policies renewing beginning in Spring 2026.
 
-Since the enactment of these reforms, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) have entered Florida, increasing competition. Dozens of homeowners and auto insurers have filed for rate decreases.
+As of January 2026, [17 new insurance companies](https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-major-insurance-rate-relief-floridas-reforms) had entered Florida since the reforms, increasing competition; [OIR](https://floir.gov/newsroom/archives/item-details/2026/05/20/insurance-commissioner-mike-yaworsky-announces-new-property---casualty-insurers--making-20-companies-entering-the-market-since-historic-legislative-reforms) put the count at 20 in May 2026. Dozens of homeowners and auto insurers have filed for rate decreases.
 
 ## Special Considerations for North Florida Homeowners
 
